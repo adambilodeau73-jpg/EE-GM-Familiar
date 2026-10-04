@@ -39,6 +39,7 @@ const blockStart = anchors.map(i0 => {
 });
 
 const families = [];
+const MISMATCH = [];
 for (let a = 0; a < anchors.length; a++) {
   const i0 = anchors[a];
   // -- heading & variant-name rows --
@@ -56,16 +57,41 @@ for (let a = 0; a < anchors.length; a++) {
   while (i < lines.length && guard++ < 160) {
     const lab = LABELS.includes(lines[i]) ? lines[i] : null;
     if (!lab) { i++; continue; }
-    const vals = [];
+    let vals = [];
     let k = i + 1;
     while (k < lines.length && !LABELS.includes(lines[k]) && vals.length < K + 3 && !(vals.length >= K && isCaps(lines[k]))) { vals.push(lines[k]); k++; }
+    // v0.2.1 (Adam's Kobold catch): Level Adjustment is the TERMINAL label —
+    // its values are short tokens (+N, —) and everything after them is the
+    // entry's prose. Keep up to K LA-shaped lines; hand the rest to the body.
+    if (lab === 'Level Adjustment:') {
+      const laShape = t => t.trim().split(/\s+/).every(x => /^[+\-−–—-]?\d+$|^[—–−-]+$/.test(x));
+      let keep = 0;
+      while (keep < vals.length && keep < K && laShape(vals[keep])) keep++;
+      if (keep === 0 && vals.length) keep = 1;
+      k = i + 1 + keep;
+      vals = vals.slice(0, keep);
+    }
     if (vals.length === K) for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vals[c];
     else if (vals.length > K && vals.length % K === 0) { const per = vals.length / K; for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vals.slice(c * per, (c + 1) * per).join(' '); }
-    else { const vjoin = vals.join(' '); for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vjoin; }
+    else {
+      // v0.2.1 (Adam's Kobold catch): K short values sometimes share ONE
+      // physical line ("+0 +3" for two variants). If the single line splits
+      // into exactly K whitespace tokens, deal them out per variant.
+      const tokens = vals.length === 1 ? vals[0].split(/\s+/) : null;
+      if (tokens && tokens.length === K && K > 1) for (let c = 0; c < K; c++) cols[c][KEY[lab]] = tokens[c];
+      // Fewer value lines than declared variants: the surplus names belong to
+      // a continuation table (the Viper Snakes) — deal what exists, in order;
+      // ghost columns are dropped after the family assembles.
+      else if (vals.length > 1 && vals.length < K) { for (let c = 0; c < vals.length; c++) cols[c][KEY[lab]] = vals[c]; }
+      else { const vjoin = vals.join(' '); for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vjoin; if (K > 1) MISMATCH.push(`${(caps||nameRows[0]||'?')} :: ${lab} :: K=${K} vals=${vals.length} [${vjoin.slice(0,60)}]`); }
+    }
     end = k;
     if (lab === 'Level Adjustment:') { i = k; break; }
     i = k;
   }
+  // Ghost columns (declared names whose table columns live in a continuation
+  // table) carry no statline — drop them; their names return via that table.
+  while (cols.length > 1 && !cols[cols.length - 1].size_type && !cols[cols.length - 1].hit_dice) { cols.pop(); variantNames.pop(); }
   // -- shared prose until the next family's block start --
   const stop = a + 1 < anchors.length ? blockStart[a + 1] : Math.min(lines.length, end + 220);
   const prose = [];
@@ -127,6 +153,10 @@ for (const f of merged) {
 // name ("SKELETON" from Human Warrior/Troll/Advanced Megaraptor Skeleton).
 const ALIAS = { 'TYPES OF ZOMBIES': 'ZOMBIE' };
 const commonTail = (a, b) => {
+  // Parentheticals are epithets, not lineage — strip before comparing
+  // (prevents distinct entries chaining on a shared bracketed suffix).
+  a = a.replace(/\([^)]*\)?/g, ' ').trim();
+  b = b.replace(/\([^)]*\)?/g, ' ').trim();
   const A = a.trim().split(/\s+/), B = b.trim().split(/\s+/);
   const t = [];
   while (A.length && B.length && A[A.length - 1].toLowerCase() === B[B.length - 1].toLowerCase()) { t.unshift(A.pop()); B.pop(); }
@@ -160,6 +190,8 @@ for (const f of merged) {
 const multi = merged.filter(f => f.variants.length > 1);
 const vtotal = merged.reduce((s, f) => s + f.variants.length, 0);
 writeFileSync(out, JSON.stringify({ _meta: { source: 'E&E Foe Folio (flow dump)', extracted: new Date().toISOString().slice(0, 10), families: merged.length, variants: vtotal }, entries: merged }, null, 1));
+console.log(`join-fallback mismatches: ${MISMATCH.length}`);
+for (const m of MISMATCH.slice(0, 40)) console.log('  ⚠', m);
 console.log(`families: ${merged.length} | variants: ${vtotal} | multi-variant families: ${multi.length} | with page: ${merged.filter(f => f.page).length} | with CR: ${merged.filter(f => f.crMin != null).length}`);
 const ae = merged.find(f => f.parent === 'AIR ELEMENTAL');
 console.log('AIR ELEMENTAL variants:', ae?.variants.map(v => `${v.label} [CR ${v.challenge_rating}]`).join(' | '));
