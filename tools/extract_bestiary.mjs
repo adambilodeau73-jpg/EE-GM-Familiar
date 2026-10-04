@@ -6,6 +6,7 @@
 // with the trailing prose (shared family abilities) attached to the parent.
 // Usage: node tools/extract_bestiary.mjs "<FoeFolio.txt>" [data/bestiary.json]
 import { readFileSync, writeFileSync } from 'node:fs';
+import { extractDragons } from './dragons.mjs';
 
 const src = process.argv[2];
 const out = process.argv[3] || 'data/bestiary.json';
@@ -127,23 +128,6 @@ for (const f of families) {
   else merged.push(f);
 }
 
-// ---- derived fields per variant; entry-level rollups ----
-for (const f of merged) {
-  f.page = pageOf.get(f.parent.toUpperCase()) ?? pageOf.get((f.variants[0]?.label || '').toUpperCase()) ?? null;
-  f.template = /\(Template\)/i.test(f.parent);
-  for (const v of f.variants) {
-    const st = v.size_type || '';
-    v.size = (st.match(/^(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)/i) || [null])[0];
-    v.type = (st.match(/(Aberration|Animal|Construct|Dragon|Elemental|Fey|Giant|Humanoid|Magical Beast|Monstrous Humanoid|Ooze|Outsider|Plant|Undead|Vermin)/i) || [null])[0];
-    const cr = (v.challenge_rating || '').match(/^(\d+)(?:\/(\d+))?/);
-    v.cr = cr ? (cr[2] ? Number(cr[1]) / Number(cr[2]) : Number(cr[1])) : null;
-  }
-  f.types = [...new Set(f.variants.map(v => v.type).filter(Boolean))];
-  f.sizes = [...new Set(f.variants.map(v => v.size).filter(Boolean))];
-  f.crMin = Math.min(...f.variants.map(v => v.cr).filter(n => n != null).concat([Infinity]));
-  f.crMax = Math.max(...f.variants.map(v => v.cr).filter(n => n != null).concat([-Infinity]));
-  if (!isFinite(f.crMin)) { f.crMin = null; f.crMax = null; }
-}
 
 // ---- pass 2 (v0.2.0, Adam's sift report): SUFFIX-STEM consolidation.
 // Continuation tables without the comma idiom ("4th-lvl Vivilor" after
@@ -179,6 +163,26 @@ for (const f of merged) {
   } else merged2.push(f);
 }
 merged.length = 0; merged.push(...merged2);
+
+extractDragons({ lines, pageOf, isCaps, merged, MISMATCH });
+
+// ---- derived fields per variant; entry-level rollups ----
+for (const f of merged) {
+  f.page = pageOf.get(f.parent.toUpperCase()) ?? pageOf.get((f.variants[0]?.label || '').toUpperCase()) ?? null;
+  f.template = /\(Template\)/i.test(f.parent);
+  for (const v of f.variants) {
+    const st = v.size_type || '';
+    v.size = (st.match(/^(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)/i) || [null])[0];
+    v.type = (st.match(/(Aberration|Animal|Construct|Dragon|Elemental|Fey|Giant|Humanoid|Magical Beast|Monstrous Humanoid|Ooze|Outsider|Plant|Undead|Vermin)/i) || [null])[0];
+    const cr = (v.challenge_rating || '').match(/^(\d+)(?:\/(\d+))?/);
+    v.cr = cr ? (cr[2] ? Number(cr[1]) / Number(cr[2]) : Number(cr[1])) : null;
+  }
+  f.types = [...new Set(f.variants.map(v => v.type).filter(Boolean))];
+  f.sizes = [...new Set(f.variants.map(v => v.size).filter(Boolean))];
+  f.crMin = Math.min(...f.variants.map(v => v.cr).filter(n => n != null).concat([Infinity]));
+  f.crMax = Math.max(...f.variants.map(v => v.cr).filter(n => n != null).concat([-Infinity]));
+  if (!isFinite(f.crMin)) { f.crMin = null; f.crMax = null; }
+}
 
 // ---- environment facet tokens (v0.2.0: random-encounter search by terrain) ----
 const ENV_TOKENS = [['Underground', /underground|cavern/i], ['Forest', /forest|wood/i], ['Hills', /\bhills?\b/i], ['Mountains', /mountain/i], ['Plains', /plain|savanna|steppe/i], ['Desert', /desert|waste/i], ['Marsh/Swamp', /marsh|swamp|bog/i], ['Aquatic', /aquatic|ocean|sea|lake|river|water(?!\s*elemental)/i], ['Cold', /\bcold\b|arctic|frost|tundra/i], ['Temperate', /temperate/i], ['Warm/Tropical', /\bwarm\b|tropic|jungle/i], ['Urban', /urban|city|settlement/i], ['Planar', /plane of|planar|astral|ethereal|abyss|hell|baator|celestia|limbo|elemental plane|outer plane|heaven/i], ['Space', /space|vacuum|orbit|asteroid/i], ['Any', /\bany\b/i]];
