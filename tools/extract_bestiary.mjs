@@ -1,9 +1,9 @@
 // extract_bestiary.mjs — harvest the Foe Folio bestiary into data/bestiary.json.
-// Reads a FLOW-ORDER text dump of the FF (docx-extracted; the book itself stays
-// private — only the OGL-derived statblock data ships). The FF statblock shape
-// is label-line/value-line pairs anchored by "Size & Type:" and closed by
-// "Level Adjustment:"; prose + COMBAT abilities trail until the next entry.
-// Page numbers come from the book's own ToC lines ("DRIDER219").
+// v2 (2026-10-04, Adam's conflation report): the FF prints multi-tier families
+// as COLUMNAR statblocks — parent heading, then K variant-name rows, then each
+// label carrying exactly K value lines (i-th line → variant i). v1 mashed the
+// columns into one unreadable entry; v2 unweaves them into {name, variants:[]}
+// with the trailing prose (shared family abilities) attached to the parent.
 // Usage: node tools/extract_bestiary.mjs "<FoeFolio.txt>" [data/bestiary.json]
 import { readFileSync, writeFileSync } from 'node:fs';
 
@@ -12,88 +12,111 @@ const out = process.argv[3] || 'data/bestiary.json';
 const text = readFileSync(src, 'utf8').replace(/\r/g, '');
 const lines = text.split('\n').map(l => l.trim()).filter(Boolean);
 
-// ---- 1. ToC page map: "NAME###" runs (the big index at the book's head) ----
+// ---- ToC page map ("DRIDER219") ----
 const pageOf = new Map();
 for (const l of lines) {
-  const m = l.match(/^([A-Z][A-Za-z��'()&,\-\/ .]+?)(\d{1,3})$/);
-  if (m && m[1] === m[1].toUpperCase() === false) continue; // noop guard
+  const m = l.match(/^([A-Z][A-Za-zÀ-ÿ''()&,\-\/ .]+?)(\d{1,3})$/);
   if (m) {
-    const name = m[1].trim();
-    const pg = Number(m[2]);
+    const name = m[1].trim(), pg = Number(m[2]);
     if (pg >= 5 && pg <= 700 && name.length >= 3 && !pageOf.has(name.toUpperCase())) pageOf.set(name.toUpperCase(), pg);
   }
 }
 
-// ---- 2. Statblocks ----
 const LABELS = ['Size & Type:', 'Hit Dice:', 'T/AC System Adj:', 'Initiative / Speed:', 'Touch/Full AC (T/AC):', 'BA / Grapple / Parry:', 'Attack:', 'Full Attack:', 'Space/Reach:', 'Special Attacks:', 'Special Qualities:', 'Saves / Dodge:', 'Attributes:', 'Skills:', 'Feats:', 'Environment:', 'Organization:', 'Challenge Rating:', 'Treasure:', 'Alignment:', 'Advancement:', 'Level Adjustment:'];
 const KEY = Object.fromEntries(LABELS.map(l => [l, l.replace(/[^A-Za-z]+/g, '_').replace(/_+$/, '').toLowerCase()]));
-const isHeading = l => /^[A-Z0-9��'(),\-\/ &.]+$/.test(l) && !/^\d+$/.test(l) && l.length >= 3 && l.length <= 60 && !LABELS.includes(l);
+const isCaps = l => /^[A-Z0-9À-ÿ‘’''(),\-\/ &.]+$/.test(l) && !/^\d+$/.test(l) && l.length >= 3 && l.length <= 60 && !LABELS.includes(l);
+const isNameRow = l => /^[A-Z0-9][A-Za-zÀ-ÿ‘’''0-9 ,.\-()\/]{2,60}$/.test(l) && !LABELS.includes(l) && !/[.:;]$/.test(l);
 
 const anchors = [];
 for (let i = 0; i < lines.length; i++) if (lines[i] === 'Size & Type:') anchors.push(i);
 
-const entries = [];
+// Each anchor's "block start" = where its heading/name rows begin (for prose bounds).
+const blockStart = anchors.map(i0 => {
+  let j = i0 - 1, taken = 0;
+  while (j >= 0 && taken < 9 && isNameRow(lines[j]) && !isCaps(lines[j])) { j--; taken++; }
+  if (j >= 0 && isCaps(lines[j])) j--;
+  return j + 1;
+});
+
+const families = [];
 for (let a = 0; a < anchors.length; a++) {
   const i0 = anchors[a];
-  // heading = nearest preceding all-caps line within 4 lines
-  let name = null;
-  for (let j = i0 - 1; j >= Math.max(0, i0 - 4); j--) {
-    if (isHeading(lines[j])) { name = lines[j]; break; }
-  }
-  const fields = {};
-  let i = i0;
-  let guard = 0;
-  while (i < lines.length && guard++ < 80) {
+  // -- heading & variant-name rows --
+  let j = i0 - 1;
+  const nameRows = [];
+  while (j >= 0 && nameRows.length < 9 && isNameRow(lines[j]) && !isCaps(lines[j])) { nameRows.unshift(lines[j]); j--; }
+  const caps = (j >= 0 && isCaps(lines[j])) ? lines[j] : null;
+  let parent, variantNames;
+  if (nameRows.length >= 2) { parent = caps || nameRows[0]; variantNames = nameRows; }
+  else { parent = caps || nameRows[0] || null; variantNames = [caps || nameRows[0] || 'UNNAMED']; }
+  const K = variantNames.length;
+  // -- unweave labels --
+  const cols = Array.from({ length: K }, () => ({}));
+  let i = i0, guard = 0, end = i0;
+  while (i < lines.length && guard++ < 160) {
     const lab = LABELS.includes(lines[i]) ? lines[i] : null;
     if (!lab) { i++; continue; }
-    // value = following lines until the next label (usually exactly one line)
-    let v = [];
+    const vals = [];
     let k = i + 1;
-    while (k < lines.length && !LABELS.includes(lines[k]) && v.length < 6 && !(v.length && isHeading(lines[k]))) { v.push(lines[k]); k++; }
-    fields[KEY[lab]] = v.join(' ');
+    while (k < lines.length && !LABELS.includes(lines[k]) && vals.length < K + 3 && !(vals.length >= K && isCaps(lines[k]))) { vals.push(lines[k]); k++; }
+    if (vals.length === K) for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vals[c];
+    else if (vals.length > K && vals.length % K === 0) { const per = vals.length / K; for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vals.slice(c * per, (c + 1) * per).join(' '); }
+    else { const vjoin = vals.join(' '); for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vjoin; }
+    end = k;
     if (lab === 'Level Adjustment:') { i = k; break; }
     i = k;
   }
-  // trailing prose/abilities until the next entry's heading (or next anchor)
-  const stop = a + 1 < anchors.length ? anchors[a + 1] - 4 : Math.min(lines.length, i + 200);
+  // -- shared prose until the next family's block start --
+  const stop = a + 1 < anchors.length ? blockStart[a + 1] : Math.min(lines.length, end + 220);
   const prose = [];
-  for (let k = i; k < stop && prose.join(' ').length < 6000; k++) prose.push(lines[k]);
-  // Variant sub-blocks (a second statblock under one heading — size tiers,
-  // elites) inherit the parent heading; mixed-case sub-heads are tried first.
-  if (!name) {
-    for (let j = i0 - 1; j >= Math.max(0, i0 - 3); j--) {
-      const l = lines[j];
-      if (/^[A-Z][A-Za-z��' \-,()\/]{2,50}$/.test(l) && !LABELS.includes(l) && !/[.:;]$/.test(l)) { name = l; break; }
-    }
-  }
-  if (!name && entries.length) name = entries[entries.length - 1].name.replace(/ \(variant \d+\)$/, '') + ` (variant ${(entries[entries.length - 1]._v || 1) + 1})`;
-  const nm = (name || 'UNNAMED').trim();
-  entries.push({
-    _v: (nm.match(/\(variant (\d+)\)/) || [])[1] ? Number(nm.match(/\(variant (\d+)\)/)[1]) : undefined,
-    name: nm,
-    page: pageOf.get(nm.toUpperCase()) ?? null,
-    template: /\(Template\)/i.test(nm),
-    ...fields,
+  for (let k = end; k < stop && prose.join(' ').length < 7000; k++) prose.push(lines[k]);
+  const fam = {
+    parent: (parent || variantNames[0] || 'UNNAMED').trim(),
+    variants: variantNames.map((vn, c) => ({ label: vn.trim(), ...cols[c] })),
     body: prose.join('\n'),
-  });
+  };
+  families.push(fam);
 }
 
-// ---- 3. Derived filters ----
-for (const e of entries) {
-  const st = e.size_type || '';
-  e.size = (st.match(/^(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)/i) || [null])[0];
-  e.type = (st.match(/(Aberration|Animal|Construct|Dragon|Elemental|Fey|Giant|Humanoid|Magical Beast|Monstrous Humanoid|Ooze|Outsider|Plant|Undead|Vermin)/i) || [null])[0];
-  const cr = (e.challenge_rating || '').match(/^(\d+)(?:\/(\d+))?/);
-  e.cr = cr ? (cr[2] ? Number(cr[1]) / Number(cr[2]) : Number(cr[1])) : null;
-  const hd = (e.hit_dice || '').match(/^(\d+)d/);
-  e.hd = hd ? Number(hd[1]) : null;
+// ---- merge consecutive families with the SAME parent or the same comma-stem
+// ("Air Elemental, Huge" continues AIR ELEMENTAL — the second table prints no
+// repeated caps heading; the book's "Name, Tier" idiom IS the family marker) ----
+const stem = s => s.replace(/,.*$/, '').trim().toUpperCase();
+const merged = [];
+for (const f of families) {
+  const prev = merged[merged.length - 1];
+  if (prev && (prev.parent === f.parent || stem(prev.parent) === stem(f.parent))) {
+    prev.variants.push(...f.variants);
+    prev.body = [prev.body, f.body].filter(Boolean).join('\n');
+    if (stem(prev.parent) === prev.parent.toUpperCase() ? false : prev.parent !== stem(prev.parent)) { /* keep caps parent */ }
+    if (!/^[A-Z0-9'',\-()\/ &.]+$/.test(prev.parent) || prev.parent.includes(',')) prev.parent = stem(prev.parent);
+  }
+  else merged.push(f);
 }
 
-const named = entries.filter(e => e.name !== 'UNNAMED');
-const paged = named.filter(e => e.page != null);
-const typed = named.filter(e => e.type != null);
-const crd = named.filter(e => e.cr != null);
-writeFileSync(out, JSON.stringify({ _meta: { source: 'E&E Foe Folio (flow dump)', extracted: new Date().toISOString().slice(0, 10), count: entries.length }, entries }, null, 1));
-console.log(`entries: ${entries.length} | named: ${named.length} | with page: ${paged.length} | with type: ${typed.length} | with CR: ${crd.length}`);
-console.log('unnamed anchors:', entries.length - named.length);
-console.log('sample:', JSON.stringify(entries.find(e => e.name === 'DRIDER'), null, 1)?.slice(0, 500));
+// ---- derived fields per variant; entry-level rollups ----
+for (const f of merged) {
+  f.page = pageOf.get(f.parent.toUpperCase()) ?? pageOf.get((f.variants[0]?.label || '').toUpperCase()) ?? null;
+  f.template = /\(Template\)/i.test(f.parent);
+  for (const v of f.variants) {
+    const st = v.size_type || '';
+    v.size = (st.match(/^(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)/i) || [null])[0];
+    v.type = (st.match(/(Aberration|Animal|Construct|Dragon|Elemental|Fey|Giant|Humanoid|Magical Beast|Monstrous Humanoid|Ooze|Outsider|Plant|Undead|Vermin)/i) || [null])[0];
+    const cr = (v.challenge_rating || '').match(/^(\d+)(?:\/(\d+))?/);
+    v.cr = cr ? (cr[2] ? Number(cr[1]) / Number(cr[2]) : Number(cr[1])) : null;
+  }
+  f.types = [...new Set(f.variants.map(v => v.type).filter(Boolean))];
+  f.sizes = [...new Set(f.variants.map(v => v.size).filter(Boolean))];
+  f.crMin = Math.min(...f.variants.map(v => v.cr).filter(n => n != null).concat([Infinity]));
+  f.crMax = Math.max(...f.variants.map(v => v.cr).filter(n => n != null).concat([-Infinity]));
+  if (!isFinite(f.crMin)) { f.crMin = null; f.crMax = null; }
+}
+
+const multi = merged.filter(f => f.variants.length > 1);
+const vtotal = merged.reduce((s, f) => s + f.variants.length, 0);
+writeFileSync(out, JSON.stringify({ _meta: { source: 'E&E Foe Folio (flow dump)', extracted: new Date().toISOString().slice(0, 10), families: merged.length, variants: vtotal }, entries: merged }, null, 1));
+console.log(`families: ${merged.length} | variants: ${vtotal} | multi-variant families: ${multi.length} | with page: ${merged.filter(f => f.page).length} | with CR: ${merged.filter(f => f.crMin != null).length}`);
+const ae = merged.find(f => f.parent === 'AIR ELEMENTAL');
+console.log('AIR ELEMENTAL variants:', ae?.variants.map(v => `${v.label} [CR ${v.challenge_rating}]`).join(' | '));
+const al = merged.find(f => f.parent === 'ALICORN');
+console.log('ALICORN variants:', al?.variants.map(v => v.label).join(' | '));
