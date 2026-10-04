@@ -69,8 +69,15 @@ for (let a = 0; a < anchors.length; a++) {
   // -- shared prose until the next family's block start --
   const stop = a + 1 < anchors.length ? blockStart[a + 1] : Math.min(lines.length, end + 220);
   const prose = [];
-  for (let k = end; k < stop && prose.join(' ').length < 7000; k++) prose.push(lines[k]);
+  // Stop at any ToC-known caps heading: the NEXT entry's intro prose belongs
+  // to the next entry, not to this body (the Assassin-Vine-answers-for-
+  // Astral-Construct bleed, v0.2.0).
+  for (let k = end; k < stop && prose.join(' ').length < 7000; k++) {
+    if (isCaps(lines[k]) && pageOf.has(lines[k].toUpperCase())) break;
+    prose.push(lines[k]);
+  }
   const fam = {
+    hadCaps: !!caps,
     parent: (parent || variantNames[0] || 'UNNAMED').trim(),
     variants: variantNames.map((vn, c) => ({ label: vn.trim(), ...cols[c] })),
     body: prose.join('\n'),
@@ -110,6 +117,44 @@ for (const f of merged) {
   f.crMin = Math.min(...f.variants.map(v => v.cr).filter(n => n != null).concat([Infinity]));
   f.crMax = Math.max(...f.variants.map(v => v.cr).filter(n => n != null).concat([-Infinity]));
   if (!isFinite(f.crMin)) { f.crMin = null; f.crMax = null; }
+}
+
+// ---- pass 2 (v0.2.0, Adam's sift report): SUFFIX-STEM consolidation.
+// Continuation tables without the comma idiom ("4th-lvl Vivilor" after
+// VIVILOR, the leveled Astral Constructs, the sample Skeletons) share a
+// common TRAILING word run with their neighbors; consecutive families whose
+// parents share a tail merge, and the family takes the shared tail as its
+// name ("SKELETON" from Human Warrior/Troll/Advanced Megaraptor Skeleton).
+const ALIAS = { 'TYPES OF ZOMBIES': 'ZOMBIE' };
+const commonTail = (a, b) => {
+  const A = a.trim().split(/\s+/), B = b.trim().split(/\s+/);
+  const t = [];
+  while (A.length && B.length && A[A.length - 1].toLowerCase() === B[B.length - 1].toLowerCase()) { t.unshift(A.pop()); B.pop(); }
+  return t.join(' ');
+};
+const merged2 = [];
+for (const f of merged) {
+  f.parent = ALIAS[f.parent.toUpperCase()] || f.parent;
+  const prev = merged2[merged2.length - 1];
+  const tail = prev ? commonTail(prev.parent.replace(/,.*$/, ''), f.parent.replace(/,.*$/, '')) : '';
+  // Merge only true CONTINUATIONS: a table with no caps heading of its own
+  // (the sample Skeletons/Zombies/Hydra heads), an ordinal-led caps block
+  // (1ST-LEVEL ASTRAL CONSTRUCT), or an exact parent repeat. Distinct kin
+  // with their own headings (EARTH ELEMENTAL after AIR, the giants) stand.
+  const continuation = !f.hadCaps || /^\d+(st|nd|rd|th)\b/i.test(f.parent) || f.parent.toUpperCase() === (prev ? prev.parent.toUpperCase() : '');
+  if (prev && tail && tail.length >= 4 && continuation) {
+    prev.variants.push(...f.variants);
+    prev.body = [prev.body, f.body].filter(Boolean).join('\n');
+    prev.parent = tail.toUpperCase();
+  } else merged2.push(f);
+}
+merged.length = 0; merged.push(...merged2);
+
+// ---- environment facet tokens (v0.2.0: random-encounter search by terrain) ----
+const ENV_TOKENS = [['Underground', /underground|cavern/i], ['Forest', /forest|wood/i], ['Hills', /\bhills?\b/i], ['Mountains', /mountain/i], ['Plains', /plain|savanna|steppe/i], ['Desert', /desert|waste/i], ['Marsh/Swamp', /marsh|swamp|bog/i], ['Aquatic', /aquatic|ocean|sea|lake|river|water(?!\s*elemental)/i], ['Cold', /\bcold\b|arctic|frost|tundra/i], ['Temperate', /temperate/i], ['Warm/Tropical', /\bwarm\b|tropic|jungle/i], ['Urban', /urban|city|settlement/i], ['Planar', /plane of|planar|astral|ethereal|abyss|hell|baator|celestia|limbo|elemental plane|outer plane|heaven/i], ['Space', /space|vacuum|orbit|asteroid/i], ['Any', /\bany\b/i]];
+for (const f of merged) {
+  const envs = f.variants.map(v => v.environment || '').join(' | ');
+  f.env = ENV_TOKENS.filter(([, re]) => re.test(envs)).map(([t]) => t);
 }
 
 const multi = merged.filter(f => f.variants.length > 1);

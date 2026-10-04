@@ -43,7 +43,7 @@ details.card[open]{border-left-color:var(--gold)}
 <body>
 <header>
   <h1>The Game Master's Familiar</h1>
-  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.1.1 — the Bestiary &amp; the Adjudicator</div>
+  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.2.0 — the Bestiary &amp; the Adjudicator</div>
 </header>
 <nav>
   <button id="tab-bestiary" class="on" onclick="show('bestiary')">🐾 Bestiary</button>
@@ -55,6 +55,7 @@ details.card[open]{border-left-color:var(--gold)}
     <input type="text" id="b-q" placeholder="Search foes — name, ability text, anything…" oninput="renderB()">
     <select id="b-type" onchange="renderB()"><option value="">All types</option></select>
     <select id="b-size" onchange="renderB()"><option value="">All sizes</option></select>
+    <select id="b-env" onchange="renderB()"><option value="">Any environment</option></select>
     <select id="b-cr" onchange="renderB()">
       <option value="">Any CR</option><option value="0-1">CR ≤1</option><option value="2-4">CR 2–4</option><option value="5-8">CR 5–8</option><option value="9-13">CR 9–13</option><option value="14-99">CR 14+</option>
     </select>
@@ -70,7 +71,7 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="a-list"></div>
 </section>
 </main>
-<div class="foot">The Game Master's Familiar v0.1.1 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
+<div class="foot">The Game Master's Familiar v0.2.0 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
 <script>
 const BESTIARY = /*__BESTIARY__*/[];
 // ⚖ THE ADJUDICATOR — seed cards. Every card carries its citation; cards grow
@@ -98,8 +99,9 @@ const ADJUDICATOR = [
 function show(p){
   for(const t of ['bestiary','adjudicator']){document.getElementById('pg-'+t).style.display=t===p?'':'none';document.getElementById('tab-'+t).classList.toggle('on',t===p);}
 }
+const toTitle=s=>String(s??'').toLowerCase().replace(/(^|[\s\-(\/,''])([a-z])/g,(m,p,c)=>p+c.toUpperCase());
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-// v0.1.1 (Adam's conflation report): the data is now FAMILIES with VARIANTS —
+// v0.2.0 (Adam's conflation report): the data is now FAMILIES with VARIANTS —
 // multi-tier entries (Air Elemental Small→Elder, Alicorn Standard/Advanced)
 // carry a variant drop-down; picking one renders that tier's statblock. The
 // book's own columnar layout, restored as a control.
@@ -111,6 +113,8 @@ function initFilters(){
   const sizes=['Fine','Diminutive','Tiny','Small','Medium','Large','Huge','Gargantuan','Colossal'].filter(s=>BESTIARY.some(f=>(f.sizes||[]).includes(s)));
   document.getElementById('b-type').innerHTML='<option value="">All types</option>'+types.map(t=>`<option>${t}</option>`).join('');
   document.getElementById('b-size').innerHTML='<option value="">All sizes</option>'+sizes.map(t=>`<option>${t}</option>`).join('');
+  const envs=[...new Set(BESTIARY.flatMap(f=>f.env||[]))].sort();
+  document.getElementById('b-env').innerHTML='<option value="">Any environment</option>'+envs.map(t=>`<option>${t}</option>`).join('');
 }
 function statHTML(v){return `<div class="statline">${F.map(([k,l])=>v[k]?`<div class="statrow"><b>${l}:</b> ${esc(v[k])}</div>`:'').join('')}</div>`;}
 function pickV(sel,idx){
@@ -120,12 +124,13 @@ function pickV(sel,idx){
 }
 function renderB(){
   const q=document.getElementById('b-q').value.toLowerCase();
-  const ty=document.getElementById('b-type').value, sz=document.getElementById('b-size').value, crb=document.getElementById('b-cr').value;
+  const ty=document.getElementById('b-type').value, sz=document.getElementById('b-size').value, crb=document.getElementById('b-cr').value, env=document.getElementById('b-env').value;
   let [lo,hi]=crb?crb.split('-').map(Number):[null,null];
   const hits=BESTIARY.filter(f=>{
     if((ty||sz||crb)&&!f.variants.some(v=>vMatch(v,ty,sz,lo,hi)))return false;
+    if(env&&!(f.env||[]).includes(env))return false;
     if(q){
-      const hay=(f.parent+' '+f.variants.map(v=>v.label+' '+(v.special_attacks||'')+' '+(v.special_qualities||'')).join(' ')+' '+(f.body||'')).toLowerCase();
+      const hay=(f.parent+' '+f.variants.map(v=>v.label+' '+(v.special_attacks||'')+' '+(v.special_qualities||'')+' '+(v.environment||'')).join(' ')+' '+(f.body||'')).toLowerCase();
       if(!hay.includes(q))return false;
     }
     return true;
@@ -139,7 +144,7 @@ function renderB(){
     const crChip=f.crMin!=null?`<span class="chip cr">CR ${f.crMin===f.crMax?esc(String(f.crMin)):esc(f.crMin+'–'+f.crMax)}</span>`:'';
     const formChip=f.variants.length>1?`<span class="chip" style="color:var(--green);border-color:rgba(109,186,136,.4)">${f.variants.length} forms</span>`:`<span class="chip">${esc(v0.size_type||'')}</span>`;
     const vsel=f.variants.length>1?`<div style="padding:7px 12px 0;"><select onchange="pickV(this,${idx})" style="max-width:100%;">${f.variants.map((v,i)=>`<option value="${i}"${i===sel?' selected':''}>${esc(v.label)}${v.challenge_rating?` — CR ${esc(v.challenge_rating)}`:''}</option>`).join('')}</select></div>`:'';
-    return `<details class="card"><summary><span class="nm">${esc(f.parent)}</span>${formChip}${crChip}${f.page?`<span class="chip pg">FF p.${f.page}</span>`:''}</summary>${vsel}<div id="stat-${idx}">${statHTML(v0)}</div>${f.body?`<div class="body">${esc(f.body)}</div>`:''}</details>`;
+    return `<details class="card"><summary><span class="nm">${esc(toTitle(f.parent))}</span>${formChip}${crChip}${f.page?`<span class="chip pg">FF p.${f.page}</span>`:''}</summary>${vsel}<div id="stat-${idx}">${statHTML(v0)}</div>${f.body?`<div class="body">${esc(f.body)}</div>`:''}</details>`;
   }).join('')+(hits.length>120?`<div class="count" style="padding:8px;">…${hits.length-120} more — narrow the search.</div>`:'');
 }
 function renderA(){
