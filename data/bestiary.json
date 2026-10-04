@@ -2843,7 +2843,13 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Animal",
-     "cr": 0.5
+     "cr": 0.5,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 10 · Fort DC Small · Size 10"
+      }
+     ]
     },
     {
      "label": "Snake, Medium Viper",
@@ -2868,7 +2874,13 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Animal",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 11"
+      }
+     ]
     },
     {
      "label": "Snake, Large Viper",
@@ -2893,7 +2905,13 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Animal",
-     "cr": 2
+     "cr": 2,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 11"
+      }
+     ]
     },
     {
      "label": "Snake, Huge Viper",
@@ -2918,10 +2936,16 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Animal",
-     "cr": 3
+     "cr": 3,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 14"
+      }
+     ]
     }
    ],
-   "body": "Constrictor snakes usually are not aggressive and flee when confronted. They hunt for food but do not attempt to make a meal out of any creature that is too large to constrict.\nCOMBAT\nConstrictor snakes hunt by grabbing prey with their mouths and then squeezing it with their powerful bodies.\nConstrict (Ex): On a successful grapple check, a constrictor snake deals 1d3+4 points of damage.\nImproved Grab (Ex): To use this ability, a constrictor snake must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nGiant constrictor snakes are more aggressive than their smaller cousins, principally because they need a great amount of food to survive.\nThese creatures range widely in size. They are not particularly aggressive, but they will often lash out with a bite attack before attempting to retreat.\nCOMBAT\nViper snakes rely on their venomous bite to kill prey and defend themselves.\nPoison (Ex): A viper snake has a poisonous bite that deals initial and secondary damage of 1d6 Con. The save DC varies by the snake’s size, as shown on the table below. The save DCs are Constitution-based.\nSize\nFort DC\nTiny\n10\nSmall\n10\nMedium\n11\nLarge\n11\nHuge\n14",
+   "body": "Constrictor snakes usually are not aggressive and flee when confronted. They hunt for food but do not attempt to make a meal out of any creature that is too large to constrict.\nCOMBAT\nConstrictor snakes hunt by grabbing prey with their mouths and then squeezing it with their powerful bodies.\nConstrict (Ex): On a successful grapple check, a constrictor snake deals 1d3+4 points of damage.\nImproved Grab (Ex): To use this ability, a constrictor snake must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.\nGiant constrictor snakes are more aggressive than their smaller cousins, principally because they need a great amount of food to survive.\nThese creatures range widely in size. They are not particularly aggressive, but they will often lash out with a bite attack before attempting to retreat.\nCOMBAT\nViper snakes rely on their venomous bite to kill prey and defend themselves.\nPoison (Ex): A viper snake has a poisonous bite that deals initial and secondary damage of 1d6 Con. The save DC varies by the snake’s size, as shown on the table below. The save DCs are Constitution-based.\n[per-form table attached to the forms above]",
    "page": null,
    "template": false,
    "types": [
@@ -5132,7 +5156,8 @@
    ],
    "crMin": 12,
    "crMax": 12,
-   "env": []
+   "env": [],
+   "debris": 2
   },
   {
    "hadCaps": true,
@@ -7673,7 +7698,13 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Elemental",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "Whirlwind",
+       "text": "Height 4 ft. · Weight 1 lb. · Save DC 11 · Damage 1d4 · Height 10–20 ft."
+      }
+     ]
     },
     {
      "label": "Air Elemental, Medium",
@@ -7701,7 +7732,13 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Elemental",
-     "cr": 3
+     "cr": 3,
+     "scaled": [
+      {
+       "title": "Whirlwind",
+       "text": "Height 8 ft. · Weight 2 lb. · Save DC 13 · Damage 1d6+1 · Height 10–30 ft."
+      }
+     ]
     },
     {
      "label": "Air Elemental, Large",
@@ -7729,7 +7766,13 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Elemental",
-     "cr": 5
+     "cr": 5,
+     "scaled": [
+      {
+       "title": "Whirlwind",
+       "text": "Height 16 ft. · Weight 4 lb. · Save DC 16 · Damage 2d6+2 · Height 10–40 ft."
+      }
+     ]
     },
     {
      "label": "Air Elemental, Huge",
@@ -7757,7 +7800,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 7
+     "cr": 7,
+     "scaled": [
+      {
+       "title": "Whirlwind",
+       "text": "Height 32 ft. · Weight 8 lb. · Save DC 22 · Damage 2d8+4 · Height 10–50 ft."
+      }
+     ]
     },
     {
      "label": "Air Elemental, Greater",
@@ -7785,7 +7834,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 9
+     "cr": 9,
+     "scaled": [
+      {
+       "title": "Whirlwind",
+       "text": "Height 36 ft. · Weight 10 lb. · Save DC 25 · Damage 2d8+5 · Height 10–60 ft."
+      }
+     ]
     },
     {
      "label": "Air Elemental, Elder",
@@ -7813,10 +7868,16 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 11
+     "cr": 11,
+     "scaled": [
+      {
+       "title": "Whirlwind",
+       "text": "Height 40 ft. · Weight 12 lb. · Save DC 28 · Damage 2d8+6 · Height 10–60 ft."
+      }
+     ]
     }
    ],
-   "body": "Air elementals speak Auran, though they rarely choose to do so.\nCOMBAT\nTheir rapid speed makes air elementals useful on vast battlefields or in extended aerial combat.\nAir Mastery (Ex): Airborne creatures take a –1 penalty on attack and damage rolls against an air elemental.\nGaseous Form [Ex]: An air elemental is always in gaseous form; it can pass through small holes or narrow openings, even mere cracks.  It cannot enter water or other liquid.\nWhirlwind (Su): The elemental can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 1 round for every 2 HD it has. In this form, the elemental can move through the air or along a surface at its fly speed.\nThe whirlwind is 5 feet wide at the base, up to 30 feet wide at the top, and up to 50 feet tall, depending on the elemental’s size. The elemental controls the exact height, but it must be at least 10 feet.\nThe elemental’s movement while in whirlwind form does not provoke attacks of opportunity, even if the elemental enters the space another creature occupies. Another creature might be caught in the whirlwind if it touches or enters the whirlwind, or if the elemental moves into or through the creature’s space.\nCreatures one or more size categories smaller than the elemental might take damage when caught in the whirlwind (see the table below for details) and may be lifted into the air. An affected creature must succeed on a Reflex save when it comes into contact with the whirlwind or take the indicated damage. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful winds, automatically taking the indicated damage each round. A creature that can fly is allowed a Reflex save each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The DC for saves against the whirlwind’s effects varies with the elemental’s size (see the table). The save DC is Strength based.\nCreatures trapped in the whirlwind cannot move except to go where the elemental carries them or to escape the whirlwind.\nCreatures caught in the whirlwind can otherwise act normally, but they must succeed on a Concentration check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a –4 penalty to Dexterity and a –2 penalty on attack rolls. The elemental can have only as many creatures trapped inside the whirlwind at one time as will fit inside the whirlwind’s volume.\nThe elemental can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be. A summoned elemental always ejects trapped creatures before returning to its home plane.\nIf the whirlwind’s base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the elemental and has a diameter equal to half the whirlwind’s height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.\nThose caught in the cloud must succeed on a Concentration check (DC 15 + spell level) to cast a spell.\nAn elemental in whirlwind form cannot make slam attacks and does not threaten the area around it.\nAir Elemental Sizes\n—––—— Whirlwind ——––—\nElemental\nHeight\nWeight\nSave DC\nDamage\nHeight\nSmall\n4 ft.\n1 lb.\n11\n1d4\n10–20 ft.\nMedium\n8 ft.\n2 lb.\n13\n1d6+1\n10–30 ft.\nLarge\n16 ft.\n4 lb.\n16\n2d6+2\n10–40 ft.\nHuge\n32 ft.\n8 lb.\n22\n2d8+4\n10–50 ft.\nGreater\n36 ft.\n10 lb.\n25\n2d8+5\n10–60 ft.\nElder\n40 ft.\n12 lb.\n28\n2d8+6\n10–60 ft.",
+   "body": "Air elementals speak Auran, though they rarely choose to do so.\nCOMBAT\nTheir rapid speed makes air elementals useful on vast battlefields or in extended aerial combat.\nAir Mastery (Ex): Airborne creatures take a –1 penalty on attack and damage rolls against an air elemental.\nGaseous Form [Ex]: An air elemental is always in gaseous form; it can pass through small holes or narrow openings, even mere cracks.  It cannot enter water or other liquid.\nWhirlwind (Su): The elemental can transform itself into a whirlwind once every 10 minutes and remain in that form for up to 1 round for every 2 HD it has. In this form, the elemental can move through the air or along a surface at its fly speed.\nThe whirlwind is 5 feet wide at the base, up to 30 feet wide at the top, and up to 50 feet tall, depending on the elemental’s size. The elemental controls the exact height, but it must be at least 10 feet.\nThe elemental’s movement while in whirlwind form does not provoke attacks of opportunity, even if the elemental enters the space another creature occupies. Another creature might be caught in the whirlwind if it touches or enters the whirlwind, or if the elemental moves into or through the creature’s space.\nCreatures one or more size categories smaller than the elemental might take damage when caught in the whirlwind (see the table below for details) and may be lifted into the air. An affected creature must succeed on a Reflex save when it comes into contact with the whirlwind or take the indicated damage. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful winds, automatically taking the indicated damage each round. A creature that can fly is allowed a Reflex save each round to escape the whirlwind. The creature still takes damage but can leave if the save is successful. The DC for saves against the whirlwind’s effects varies with the elemental’s size (see the table). The save DC is Strength based.\nCreatures trapped in the whirlwind cannot move except to go where the elemental carries them or to escape the whirlwind.\nCreatures caught in the whirlwind can otherwise act normally, but they must succeed on a Concentration check (DC 15 + spell level) to cast a spell. Creatures caught in the whirlwind take a –4 penalty to Dexterity and a –2 penalty on attack rolls. The elemental can have only as many creatures trapped inside the whirlwind at one time as will fit inside the whirlwind’s volume.\nThe elemental can eject any carried creatures whenever it wishes, depositing them wherever the whirlwind happens to be. A summoned elemental always ejects trapped creatures before returning to its home plane.\nIf the whirlwind’s base touches the ground, it creates a swirling cloud of debris. This cloud is centered on the elemental and has a diameter equal to half the whirlwind’s height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.\nThose caught in the cloud must succeed on a Concentration check (DC 15 + spell level) to cast a spell.\nAn elemental in whirlwind form cannot make slam attacks and does not threaten the area around it.\n[Whirlwind — per-form values attached to each form's statblock above]",
    "page": 222,
    "template": false,
    "types": [
@@ -7864,7 +7925,13 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Elemental",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 4 ft. · Weight 80 lb."
+      }
+     ]
     },
     {
      "label": "Earth Elemental, Medium",
@@ -7892,7 +7959,13 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Elemental",
-     "cr": 3
+     "cr": 3,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 8 ft. · Weight 750 lb."
+      }
+     ]
     },
     {
      "label": "Earth Elemental, Large",
@@ -7920,7 +7993,13 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Elemental",
-     "cr": 5
+     "cr": 5,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 16 ft. · Weight 6,000 lb."
+      }
+     ]
     },
     {
      "label": "Earth Elemental, Huge",
@@ -7948,7 +8027,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 7
+     "cr": 7,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 32 ft. · Weight 48,000 lb."
+      }
+     ]
     },
     {
      "label": "Earth Elemental, Greater",
@@ -7976,7 +8061,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 9
+     "cr": 9,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 36 ft. · Weight 54,000 lb."
+      }
+     ]
     },
     {
      "label": "Earth Elemental, Elder",
@@ -8004,10 +8095,16 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 11
+     "cr": 11,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 40 ft. · Weight 60,000 lb."
+      }
+     ]
     }
    ],
-   "body": "When summoned to the Material Plane, an earth elemental consists of whatever types of dirt, stones, precious metals, and gems it was conjured from, but almost always roughly humanoid in shape.  Earth elementals speak Terran but rarely choose to do so.\nCOMBAT\nThough an earth elemental moves slowly, it is a relentless opponent. It can travel through solid ground or stone as easily as humans walk on the earth’s surface. It cannot swim, however, and must either walk around a body of water or go through the ground under it. An earth elemental can move along the bottom of a body of water but prefers not to.\nEarth Mastery (Ex): An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a –4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)\nAlso, earth mastery allows more powerful earth elementals to ignore a portion of the hardness of whatever they strike. An earth elemental ignores an amount of hardness equal to their damage reduction when making a slam attack.\nPush (Ex): An earth elemental can start a bull rush maneuver without provoking an attack of opportunity. The combat modifiers given in Earth Mastery, above, also apply to the elemental’s opposed Strength checks.\nEarth Glide (Ex): An earth elemental can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A Move Earth spell cast on an area containing a burrowing earth elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.\nEarth Elemental Sizes\nElemental\nHeight\nWeight\nElemental\nHeight\nWeight\nSmall\n4 ft.\n80 lb.\nHuge\n32 ft.\n48,000 lb.\nMedium\n8 ft.\n750 lb.\nGreater\n36 ft.\n54,000 lb.\nLarge\n16 ft.\n6,000 lb.\nElder\n40 ft.\n60,000 lb.",
+   "body": "When summoned to the Material Plane, an earth elemental consists of whatever types of dirt, stones, precious metals, and gems it was conjured from, but almost always roughly humanoid in shape.  Earth elementals speak Terran but rarely choose to do so.\nCOMBAT\nThough an earth elemental moves slowly, it is a relentless opponent. It can travel through solid ground or stone as easily as humans walk on the earth’s surface. It cannot swim, however, and must either walk around a body of water or go through the ground under it. An earth elemental can move along the bottom of a body of water but prefers not to.\nEarth Mastery (Ex): An earth elemental gains a +1 bonus on attack and damage rolls if both it and its foe are touching the ground. If an opponent is airborne or waterborne, the elemental takes a –4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)\nAlso, earth mastery allows more powerful earth elementals to ignore a portion of the hardness of whatever they strike. An earth elemental ignores an amount of hardness equal to their damage reduction when making a slam attack.\nPush (Ex): An earth elemental can start a bull rush maneuver without provoking an attack of opportunity. The combat modifiers given in Earth Mastery, above, also apply to the elemental’s opposed Strength checks.\nEarth Glide (Ex): An earth elemental can glide through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other signs of its presence. A Move Earth spell cast on an area containing a burrowing earth elemental flings the elemental back 30 feet, stunning the creature for 1 round unless it succeeds on a DC 15 Fortitude save.\n[per-form table attached to the forms above]",
    "page": 224,
    "template": false,
    "types": [
@@ -8055,7 +8152,13 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Elemental",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 4 ft. · Weight 1 lb. · Burn Save DC 11"
+      }
+     ]
     },
     {
      "label": "Fire Elemental, Medium",
@@ -8083,7 +8186,13 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Elemental",
-     "cr": 3
+     "cr": 3,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 8 ft. · Weight 2 lb. · Burn Save DC 14"
+      }
+     ]
     },
     {
      "label": "Fire Elemental, Large",
@@ -8111,7 +8220,13 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Elemental",
-     "cr": 5
+     "cr": 5,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 16 ft. · Weight 4 lb. · Burn Save DC 17"
+      }
+     ]
     },
     {
      "label": "Fire Elemental, Huge",
@@ -8139,7 +8254,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 7
+     "cr": 7,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 32 ft. · Weight 8 lb. · Burn Save DC 22"
+      }
+     ]
     },
     {
      "label": "Fire Elemental, Greater",
@@ -8167,7 +8288,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 9
+     "cr": 9,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 36 ft. · Weight 10 lb. · Burn Save DC 24"
+      }
+     ]
     },
     {
      "label": "Fire Elemental, Elder",
@@ -8195,10 +8322,16 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 11
+     "cr": 11,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Height 40 ft. · Weight 12 lb. · Burn Save DC 26"
+      }
+     ]
     }
    ],
-   "body": "A fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassible barrier unless the fire elemental can step or jump over it.  Fire elementals speak Ignan, though they rarely choose to do so.\nCOMBAT\nA fire elemental is a fierce opponent that attacks its enemies directly and savagely. It takes joy in burning the creatures and objects of the Material Plane to ashes.\nBurn (Ex): A fire elemental’s slam attack deals fire damage from the elemental’s flaming body. Those hit by a fire elemental‘s slam attack also must succeed on a Reflex save or catch on fire. The flame burns for 1d4 rounds. The save DC varies with the elemental’s size (see the table below). A burning creature can take a move action to put out the flame. The save DC is Constitution- based.\nCreatures hitting a fire elemental with natural weapons or unarmed attacks take fire damage as though hit by the elemental’s attack, and also catch on fire unless they succeed on a Reflex save.\nFire Elemental Sizes\nElemental\nHeight\nWeight\nBurn Save DC\nSmall\n4 ft.\n1 lb.\n11\nMedium\n8 ft.\n2 lb.\n14\nLarge\n16 ft.\n4 lb.\n17\nHuge\n32 ft.\n8 lb.\n22\nGreater\n36 ft.\n10 lb.\n24\nElder\n40 ft.\n12 lb.\n26\nScorn Earth (Ex): Composed of pure flame, fire elementals don’t walk in the normal sense; instead, they hover along about a foot off the ground like a sourceless bonfire.  The fire elemental glides along, unaffected by difficult terrain.  While travelling at a foot or less off the ground, the elemental can move and run at full speed as normal.\nIf the elemental wishes, it may hover higher than 1 foot off the ground, but then its movement rate is reduced to 10 ft. per round, including moving upward.  Use the rules for Levitate whenever the elemental is forced to engage in combat while hovering more than 1 foot off the ground.",
+   "body": "A fire elemental cannot enter water or any other nonflammable liquid. A body of water is an impassible barrier unless the fire elemental can step or jump over it.  Fire elementals speak Ignan, though they rarely choose to do so.\nCOMBAT\nA fire elemental is a fierce opponent that attacks its enemies directly and savagely. It takes joy in burning the creatures and objects of the Material Plane to ashes.\nBurn (Ex): A fire elemental’s slam attack deals fire damage from the elemental’s flaming body. Those hit by a fire elemental‘s slam attack also must succeed on a Reflex save or catch on fire. The flame burns for 1d4 rounds. The save DC varies with the elemental’s size (see the table below). A burning creature can take a move action to put out the flame. The save DC is Constitution- based.\nCreatures hitting a fire elemental with natural weapons or unarmed attacks take fire damage as though hit by the elemental’s attack, and also catch on fire unless they succeed on a Reflex save.\n[per-form table attached to the forms above]\nScorn Earth (Ex): Composed of pure flame, fire elementals don’t walk in the normal sense; instead, they hover along about a foot off the ground like a sourceless bonfire.  The fire elemental glides along, unaffected by difficult terrain.  While travelling at a foot or less off the ground, the elemental can move and run at full speed as normal.\nIf the elemental wishes, it may hover higher than 1 foot off the ground, but then its movement rate is reduced to 10 ft. per round, including moving upward.  Use the rules for Levitate whenever the elemental is forced to engage in combat while hovering more than 1 foot off the ground.",
    "page": 226,
    "template": false,
    "types": [
@@ -8246,7 +8379,13 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Elemental",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "Vortex",
+       "text": "Height 4 ft. · Weight 34 lb. · Save DC 13 · Damage 1d4+2 · Height 10–20 ft."
+      }
+     ]
     },
     {
      "label": "Water Elemental, Medium",
@@ -8274,7 +8413,13 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Elemental",
-     "cr": 3
+     "cr": 3,
+     "scaled": [
+      {
+       "title": "Vortex",
+       "text": "Height 8 ft. · Weight 280 lb. · Save DC 15 · Damage 1d6+3 · Height 10–30 ft."
+      }
+     ]
     },
     {
      "label": "Water Elemental, Large",
@@ -8302,7 +8447,13 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Elemental",
-     "cr": 5
+     "cr": 5,
+     "scaled": [
+      {
+       "title": "Vortex",
+       "text": "Height 16 ft. · Weight 2,250 lb. · Save DC 19 · Damage 2d6+5 · Height 10–40 ft."
+      }
+     ]
     },
     {
      "label": "Water Elemental, Huge",
@@ -8330,7 +8481,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 7
+     "cr": 7,
+     "scaled": [
+      {
+       "title": "Vortex",
+       "text": "Height 32 ft. · Weight 18,000 lb. · Save DC 25 · Damage 2d8+7 · Height 10–50 ft."
+      }
+     ]
     },
     {
      "label": "Water Elemental, Greater",
@@ -8358,7 +8515,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 9
+     "cr": 9,
+     "scaled": [
+      {
+       "title": "Vortex",
+       "text": "Height 36 ft. · Weight 21,000 lb. · Save DC 28 · Damage 2d8+8 · Height 10–60 ft."
+      }
+     ]
     },
     {
      "label": "Water Elemental, Elder",
@@ -8386,10 +8549,16 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Elemental",
-     "cr": 11
+     "cr": 11,
+     "scaled": [
+      {
+       "title": "Vortex",
+       "text": "Height 40 ft. · Weight 24,000 lb. · Save DC 31 · Damage 2d8+9 · Height 10–60 ft. · Height ELF (Template)"
+      }
+     ]
     }
    ],
-   "body": "Appearing as little more than a standing wave of water, constantly rolling over onto and back up into itself, a water elemental can’t venture more than 180 feet from the body of water from which it was conjured.  Water elementals speak Aquan but rarely choose to do so.\nCOMBAT\nA water elemental prefers to fight in a large body of water where it can disappear beneath the waves and suddenly swell up behind its opponents.\nWater Mastery (Ex): A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a –4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)\nA water elemental can be a serious threat to a ship that crosses its path. An elemental can easily overturn small craft (5 feet of length per Hit Die of the elemental) and stop larger vessels (10 feet long per HD). Even large ships (20 feet long per HD) can be slowed to half speed.\nDrench (Ex): The elemental’s touch puts out torches, campfires, exposed lanterns, and other open flames of nonmagical origin if these are of Large size or smaller. The creature can dispel magical fire it touches as Dispel Magic & Psionics (caster level equals elemental’s HD).\nFluid Form (Ex): With a body composed purely of water, a water elemental can pass through small holes, even mere cracks.  It also cannot be grappled against its will, enjoying the equivalent of Freedom of Movement.\nVortex (Su): The elemental can transform itself into a whirlpool once every 10 minutes, provided it is underwater, and remain in that form for up to 1 round for every 2 HD it has. In vortex form, the elemental can move through the water or along the bottom at its swim speed. The vortex is 5 feet wide at the base, up to 30 feet wide at the top, and 10 feet or more tall, depending on the elemental’s size. The elemental controls the exact height, but it must be at least 10 feet.\nThe elemental’s movement while in vortex form does not provoke attacks of opportunity, even if the elemental enters the space another creature occupies. Another creature might be caught in the vortex if it touches or enters the vortex, or if the elemental moves into or through the creature’s space.\nCreatures one or more size categories smaller than the elemental might take damage when caught in the vortex (see the table below for details) and may be swept up by it. An affected creature must succeed on a Reflex save when it comes into contact with the vortex or take the indicated damage. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful currents, automatically taking damage each round. An affected creature is allowed a Reflex save each round to escape the vortex. The creature still takes damage, but can leave if the save is successful. The DC for saves against the vortex’s effects varies with the elemental’s size. The save DC is Strength-based.\nCreatures trapped in the vortex cannot move except to go where the elemental carries them or to escape the whirlwind. Creatures caught in the whirlwind can otherwise act normally, but must make a Concentration check (DC 10 + spell level) to cast a spell. Creatures caught in the whirlwind take a –4 penalty to Dexterity and a –2 penalty on attack rolls. The elemental can have only as many creatures trapped inside the vortex at one time as will fit inside the vortex’s volume.\nThe elemental can eject any carried creatures whenever it wishes, depositing them wherever the vortex happens to be. A summoned elemental always ejects trapped creatures before returning to its home plane.\nIf the vortex’s base touches the bottom, it creates a swirling cloud of debris. This cloud is centered on the elemental and has a diameter equal to half the vortex’s height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.\nThose caught in the cloud must make a Concentration check (DC 15 + spell level) to cast a spell.\nAn elemental in vortex form cannot make slam attacks and does not threaten the area around it.\nSkills: A water elemental has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\nWater Elemental Sizes\n––—––—— Vortex ——––––—\nElemental\nHeight\nWeight\nSave DC\nDamage\nHeight\nSmall\n4 ft.\n34 lb.\n13\n1d4+2\n10–20 ft.\nMedium\n8 ft.\n280 lb.\n15\n1d6+3\n10–30 ft.\nLarge\n16 ft.\n2,250 lb.\n19\n2d6+5\n10–40 ft.\nHuge\n32 ft.\n18,000 lb.\n25\n2d8+7\n10–50 ft.\nGreater\n36 ft.\n21,000 lb.\n28\n2d8+8\n10–60 ft.\nElder\n40 ft.\n24,000 lb.\n31\n2d8+9\n10–60 ft.\nELF (Template)\nThere are many offshoots of the “classic” elven race.  Given below are some alternatives for your scenario.\nHalf-Elf\nHalf-elves are not truly an elf subrace, but they are often mistaken for elves. Half-elves usually inherit a good blend of their parents’ physical characteristics.\nHalf-Elf Traits (Ex): Half-elves possess the following racial traits.\n—Medium size.\n—A half-elf ’s base land speed is 30 feet.\n—Immunity to Sleep spells and similar magical effects, and a +2 racial bonus on saving throws against enchantment spells or effects.\n—Low-light vision.\n— +1 racial bonus on Listen, Search, and Spot checks. A half-elf does not have the elf ’s ability to notice secret doors simply by passing near them.\n— +2 racial bonus on Diplomacy and Gather Information checks: Half-elves get along naturally with all people. This bonus may not apply in situations or settings where half-elves are viewed with distrust.\n—Elven Blood: For all effects related to race, a half-elf is considered an elf. Half-elves, for example, are just as vulnerable to special effects that affect elves as their elf ancestors are, and they can use magic items that are only usable by elves.\n—Automatic Languages: Common, Elven. Bonus Languages: Any (other than secret languages, such as Druidic).\n—Favored Class: Any. When determining whether a multiclass half-elf takes an experience point penalty for multiclassing, their highest-level class does not count.\nAquatic Elf\nAlso called sea elves, these creatures are water-breathing cousins to land-dwelling elves.\nAquatic elves fight underwater with tridents, spears, and nets.\nAquatic Elf Traits (Ex): These traits are in addition to the high elf traits, except where noted.\n— +2 Dexterity, –2 Intelligence. These adjustments replace the high elf ’s ability score adjustments.\n—An aquatic elf has the aquatic subtype.\n—An aquatic elf has a swim speed of 40 feet.\n—Gills: Aquatic elves can survive out of the water for 1 hour per point of Constitution (after that, refer to the suffocation rules).\n—Superior Low-Light Vision: Aquatic elves can see four times as far as a human in starlight, moonlight, torchlight, and similar conditions of low illumination. This trait replaces the high elf ’s low-light vision.",
+   "body": "Appearing as little more than a standing wave of water, constantly rolling over onto and back up into itself, a water elemental can’t venture more than 180 feet from the body of water from which it was conjured.  Water elementals speak Aquan but rarely choose to do so.\nCOMBAT\nA water elemental prefers to fight in a large body of water where it can disappear beneath the waves and suddenly swell up behind its opponents.\nWater Mastery (Ex): A water elemental gains a +1 bonus on attack and damage rolls if both it and its opponent are touching water. If the opponent or the elemental is touching the ground, the elemental takes a –4 penalty on attack and damage rolls. (These modifiers are not included in the statistics block.)\nA water elemental can be a serious threat to a ship that crosses its path. An elemental can easily overturn small craft (5 feet of length per Hit Die of the elemental) and stop larger vessels (10 feet long per HD). Even large ships (20 feet long per HD) can be slowed to half speed.\nDrench (Ex): The elemental’s touch puts out torches, campfires, exposed lanterns, and other open flames of nonmagical origin if these are of Large size or smaller. The creature can dispel magical fire it touches as Dispel Magic & Psionics (caster level equals elemental’s HD).\nFluid Form (Ex): With a body composed purely of water, a water elemental can pass through small holes, even mere cracks.  It also cannot be grappled against its will, enjoying the equivalent of Freedom of Movement.\nVortex (Su): The elemental can transform itself into a whirlpool once every 10 minutes, provided it is underwater, and remain in that form for up to 1 round for every 2 HD it has. In vortex form, the elemental can move through the water or along the bottom at its swim speed. The vortex is 5 feet wide at the base, up to 30 feet wide at the top, and 10 feet or more tall, depending on the elemental’s size. The elemental controls the exact height, but it must be at least 10 feet.\nThe elemental’s movement while in vortex form does not provoke attacks of opportunity, even if the elemental enters the space another creature occupies. Another creature might be caught in the vortex if it touches or enters the vortex, or if the elemental moves into or through the creature’s space.\nCreatures one or more size categories smaller than the elemental might take damage when caught in the vortex (see the table below for details) and may be swept up by it. An affected creature must succeed on a Reflex save when it comes into contact with the vortex or take the indicated damage. It must also succeed on a second Reflex save or be picked up bodily and held suspended in the powerful currents, automatically taking damage each round. An affected creature is allowed a Reflex save each round to escape the vortex. The creature still takes damage, but can leave if the save is successful. The DC for saves against the vortex’s effects varies with the elemental’s size. The save DC is Strength-based.\nCreatures trapped in the vortex cannot move except to go where the elemental carries them or to escape the whirlwind. Creatures caught in the whirlwind can otherwise act normally, but must make a Concentration check (DC 10 + spell level) to cast a spell. Creatures caught in the whirlwind take a –4 penalty to Dexterity and a –2 penalty on attack rolls. The elemental can have only as many creatures trapped inside the vortex at one time as will fit inside the vortex’s volume.\nThe elemental can eject any carried creatures whenever it wishes, depositing them wherever the vortex happens to be. A summoned elemental always ejects trapped creatures before returning to its home plane.\nIf the vortex’s base touches the bottom, it creates a swirling cloud of debris. This cloud is centered on the elemental and has a diameter equal to half the vortex’s height. The cloud obscures all vision, including darkvision, beyond 5 feet. Creatures 5 feet away have concealment, while those farther away have total concealment.\nThose caught in the cloud must make a Concentration check (DC 15 + spell level) to cast a spell.\nAn elemental in vortex form cannot make slam attacks and does not threaten the area around it.\nSkills: A water elemental has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.\n[Vortex — per-form values attached to each form's statblock above]\nThere are many offshoots of the “classic” elven race.  Given below are some alternatives for your scenario.\nHalf-Elf\nHalf-elves are not truly an elf subrace, but they are often mistaken for elves. Half-elves usually inherit a good blend of their parents’ physical characteristics.\nHalf-Elf Traits (Ex): Half-elves possess the following racial traits.\n—Medium size.\n—A half-elf ’s base land speed is 30 feet.\n—Immunity to Sleep spells and similar magical effects, and a +2 racial bonus on saving throws against enchantment spells or effects.\n—Low-light vision.\n— +1 racial bonus on Listen, Search, and Spot checks. A half-elf does not have the elf ’s ability to notice secret doors simply by passing near them.\n— +2 racial bonus on Diplomacy and Gather Information checks: Half-elves get along naturally with all people. This bonus may not apply in situations or settings where half-elves are viewed with distrust.\n—Elven Blood: For all effects related to race, a half-elf is considered an elf. Half-elves, for example, are just as vulnerable to special effects that affect elves as their elf ancestors are, and they can use magic items that are only usable by elves.\n—Automatic Languages: Common, Elven. Bonus Languages: Any (other than secret languages, such as Druidic).\n—Favored Class: Any. When determining whether a multiclass half-elf takes an experience point penalty for multiclassing, their highest-level class does not count.\nAquatic Elf\nAlso called sea elves, these creatures are water-breathing cousins to land-dwelling elves.\nAquatic elves fight underwater with tridents, spears, and nets.\nAquatic Elf Traits (Ex): These traits are in addition to the high elf traits, except where noted.\n— +2 Dexterity, –2 Intelligence. These adjustments replace the high elf ’s ability score adjustments.\n—An aquatic elf has the aquatic subtype.\n—An aquatic elf has a swim speed of 40 feet.\n—Gills: Aquatic elves can survive out of the water for 1 hour per point of Constitution (after that, refer to the suffocation rules).\n—Superior Low-Light Vision: Aquatic elves can see four times as far as a human in starlight, moonlight, torchlight, and similar conditions of low illumination. This trait replaces the high elf ’s low-light vision.",
    "page": 228,
    "template": false,
    "types": [
@@ -8697,7 +8866,8 @@
    "env": [
     "Hills",
     "Cold"
-   ]
+   ],
+   "debris": 3
   },
   {
    "hadCaps": false,
@@ -9036,7 +9206,8 @@
    "crMax": 4,
    "env": [
     "Urban"
-   ]
+   ],
+   "debris": 1
   },
   {
    "hadCaps": true,
@@ -13689,7 +13860,8 @@
    "crMax": 3,
    "env": [
     "Planar"
-   ]
+   ],
+   "debris": 1
   },
   {
    "hadCaps": true,
@@ -16103,7 +16275,8 @@
    "crMax": 7,
    "env": [
     "Underground"
-   ]
+   ],
+   "debris": 1
   },
   {
    "hadCaps": true,
@@ -17612,7 +17785,8 @@
    "env": [
     "Marsh/Swamp",
     "Warm/Tropical"
-   ]
+   ],
+   "debris": 3
   },
   {
    "hadCaps": false,
@@ -19678,7 +19852,8 @@
    "crMax": 35,
    "env": [
     "Any"
-   ]
+   ],
+   "debris": 3
   },
   {
    "hadCaps": true,
@@ -20570,7 +20745,13 @@
      "level_adjustment": "—",
      "size": "Tiny",
      "type": "Vermin",
-     "cr": 0.125
+     "cr": 0.125,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 10 · Fort DC 1 Dex"
+      }
+     ]
     },
     {
      "label": "Monstrous Centipede, Small",
@@ -20594,7 +20775,13 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Vermin",
-     "cr": 0.25
+     "cr": 0.25,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 10 · Fort DC 1d2 Dex · Damage Gargantuan · Size 17 · Fort DC 1d8 Dex"
+      }
+     ]
     },
     {
      "label": "Monstrous Centipede, Medium",
@@ -20618,7 +20805,13 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Vermin",
-     "cr": 0.5
+     "cr": 0.5,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 10 · Fort DC 1d3 Dex · Damage Colossal · Size 23 · Fort DC 2d6 Dex"
+      }
+     ]
     },
     {
      "label": "Monstrous Centipede, Large",
@@ -20642,7 +20835,13 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Vermin",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 11 · Fort DC 1d4 Dex"
+      }
+     ]
     },
     {
      "label": "Monstrous Centipede, Huge",
@@ -20666,10 +20865,16 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Vermin",
-     "cr": 2
+     "cr": 2,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 14 · Fort DC 1d6 Dex"
+      }
+     ]
     }
    ],
-   "body": "Monstrous Centipede, Gargantuan\nMonstrous Centipede, Colossal\nGargantuan Vermin\nColossal Vermin\nHit Dice:\n12d8+12 (66 hp)\n24d8+24 (132 hp)\nT/AC System Adj:\nHardness 10/2d; +50 HP\nHardness 15/3d; +80 HP\nInitiative / Speed:\n+2; 40 ft. (8 hexes), climb 40 ft.\n+1; 40 ft. (8 hexes), climb 40 ft.\nTouch/Full AC (T/AC):\n8/18 (–4 size, +2 Dex, +10 natural), flat-footed 16\n4/20 (–8 size, +2 Dex, +16 natural), flat-footed 18\nBA / Grapple:\n+9/+35\n+18/+50\nAttack:\nBite +11 melee (2d8+9 plus poison)\nBite +18 melee (4d6+12 plus poison)\nFull Attack:\nBite +11 melee (2d8+9 plus poison)\nBite +18 melee (4d6+12 plus poison)\nSpace/Reach:\n20 ft. (4-polyhex) /15 ft. (3 hexes)\n30 ft. (5-polyhex) /20 ft. (4 hexes)\nSpecial Attacks:\nFeed, poison\nFeed, poison\nSpecial Qualities:\nDarkvision 60 ft., vermin traits\nDarkvision 60 ft., vermin traits\nSaves:\nFort +9, Ref +6, Will +4\nFort +15, Ref +9, Will +8\nAttributes:\nStr 23, Dex 15, Con 12, Int —, Wis 10, Cha 2\nStr 27, Dex 13, Con 12, Int —, Wis 10, Cha 2\nSkills:\nClimb +14, Hide –2, Spot +4\nClimb +16, Hide –7, Spot +4\nFeats:\n—\n—\nEnvironment:\nUnderground\nUnderground\nOrganization:\nSolitary\nSolitary\nChallenge Rating:\n6\n9\nAdvancement:\n17–23 HD (Gargantuan)\n25–48 HD (Colossal)\nLevel Adjustment:\n—\n—\nMonstrous centipedes tend to attack anything that resembles food, biting with their jaws and injecting their poison.\nCOMBAT\nFeed (Ex): A monstrous centipede deals automatic bite damage (including the need for a poison save) with a successful pin (i.e. a successful grapple check after already having the target grappled), and automatically hits with the bite attack each round it maintains the pin.\nPoison (Ex): A monstrous centipede has a poisonous bite. The details vary by the centipede’s size, as shown on the table below. The save DCs are Constitution-based. The indicated damage is both initial and secondary damage.\nSize\nFort DC\nDamage\nSize\nFort DC\nDamage\nTiny\n10\n1 Dex\nHuge\n14\n1d6 Dex\nSmall\n10\n1d2 Dex\nGargantuan\n17\n1d8 Dex\nMedium\n10\n1d3 Dex\nColossal\n23\n2d6 Dex\nLarge\n11\n1d4 Dex\nSkills: Monstrous centipedes have a +4 racial bonus on Spot checks, and a +8 racial bonus grapple checks, Climb, and Hide checks. They can use either their Strength or Dexterity modifier for Climb checks, whichever is higher. Monstrous scorpions can take 10 on Climb checks, even if threatened or distracted.",
+   "body": "Monstrous Centipede, Gargantuan\nMonstrous Centipede, Colossal\nGargantuan Vermin\nColossal Vermin\nHit Dice:\n12d8+12 (66 hp)\n24d8+24 (132 hp)\nT/AC System Adj:\nHardness 10/2d; +50 HP\nHardness 15/3d; +80 HP\nInitiative / Speed:\n+2; 40 ft. (8 hexes), climb 40 ft.\n+1; 40 ft. (8 hexes), climb 40 ft.\nTouch/Full AC (T/AC):\n8/18 (–4 size, +2 Dex, +10 natural), flat-footed 16\n4/20 (–8 size, +2 Dex, +16 natural), flat-footed 18\nBA / Grapple:\n+9/+35\n+18/+50\nAttack:\nBite +11 melee (2d8+9 plus poison)\nBite +18 melee (4d6+12 plus poison)\nFull Attack:\nBite +11 melee (2d8+9 plus poison)\nBite +18 melee (4d6+12 plus poison)\nSpace/Reach:\n20 ft. (4-polyhex) /15 ft. (3 hexes)\n30 ft. (5-polyhex) /20 ft. (4 hexes)\nSpecial Attacks:\nFeed, poison\nFeed, poison\nSpecial Qualities:\nDarkvision 60 ft., vermin traits\nDarkvision 60 ft., vermin traits\nSaves:\nFort +9, Ref +6, Will +4\nFort +15, Ref +9, Will +8\nAttributes:\nStr 23, Dex 15, Con 12, Int —, Wis 10, Cha 2\nStr 27, Dex 13, Con 12, Int —, Wis 10, Cha 2\nSkills:\nClimb +14, Hide –2, Spot +4\nClimb +16, Hide –7, Spot +4\nFeats:\n—\n—\nEnvironment:\nUnderground\nUnderground\nOrganization:\nSolitary\nSolitary\nChallenge Rating:\n6\n9\nAdvancement:\n17–23 HD (Gargantuan)\n25–48 HD (Colossal)\nLevel Adjustment:\n—\n—\nMonstrous centipedes tend to attack anything that resembles food, biting with their jaws and injecting their poison.\nCOMBAT\nFeed (Ex): A monstrous centipede deals automatic bite damage (including the need for a poison save) with a successful pin (i.e. a successful grapple check after already having the target grappled), and automatically hits with the bite attack each round it maintains the pin.\nPoison (Ex): A monstrous centipede has a poisonous bite. The details vary by the centipede’s size, as shown on the table below. The save DCs are Constitution-based. The indicated damage is both initial and secondary damage.\n[per-form table attached to the forms above]\nSkills: Monstrous centipedes have a +4 racial bonus on Spot checks, and a +8 racial bonus grapple checks, Climb, and Hide checks. They can use either their Strength or Dexterity modifier for Climb checks, whichever is higher. Monstrous scorpions can take 10 on Climb checks, even if threatened or distracted.",
    "page": 490,
    "template": false,
    "types": [
@@ -20686,7 +20891,8 @@
    "crMax": 2,
    "env": [
     "Underground"
-   ]
+   ],
+   "debris": 2
   },
   {
    "hadCaps": true,
@@ -20714,7 +20920,13 @@
      "level_adjustment": "—",
      "size": "Tiny",
      "type": "Vermin",
-     "cr": 0.25
+     "cr": 0.25,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 12 · Fort DC 1 Con"
+      }
+     ]
     },
     {
      "label": "Monstrous Scorpion, Small",
@@ -20738,7 +20950,13 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Vermin",
-     "cr": 0.5
+     "cr": 0.5,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 12 · Fort DC 1d2 Con"
+      }
+     ]
     },
     {
      "label": "Monstrous Scorpion, Medium",
@@ -20762,7 +20980,13 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Vermin",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 13 · Fort DC 1d3 Con"
+      }
+     ]
     },
     {
      "label": "Monstrous Scorpion, Large",
@@ -20787,7 +21011,13 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Vermin",
-     "cr": 3
+     "cr": 3,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 14 · Fort DC 1d4 Con"
+      }
+     ]
     },
     {
      "label": "Monstrous Scorpion, Huge",
@@ -20812,7 +21042,13 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Vermin",
-     "cr": 7
+     "cr": 7,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 18 · Fort DC 1d6 Con"
+      }
+     ]
     },
     {
      "label": "Monstrous Scorpion, Gargantuan",
@@ -20837,7 +21073,13 @@
      "level_adjustment": "—",
      "size": "Gargantuan",
      "type": "Vermin",
-     "cr": 10
+     "cr": 10,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 23 · Fort DC 1d8 Con"
+      }
+     ]
     },
     {
      "label": "Monstrous Scorpion, Colossal",
@@ -20862,10 +21104,16 @@
      "level_adjustment": "—",
      "size": "Colossal",
      "type": "Vermin",
-     "cr": 12
+     "cr": 12,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 33 · Fort DC 1d10 Con"
+      }
+     ]
     }
    ],
-   "body": "Monstrous scorpions are likely to attack any creature that approaches, and they usually charge when attacking prey.\nCOMBAT\nConstrict (Ex): A monstrous scorpion deals automatic claw damage on a successful grapple check.\nImproved Grab (Ex): To use this ability, a monstrous scorpion must hit with a claw attack. A monstrous scorpion can use either its Strength modifier or Dexterity modifier for grapple checks, whichever is better.\nPoison (Ex): A monstrous scorpion has a poisonous sting. The details vary by the scorpion’s size, as follows. The save DCs are Constitution- based. The indicated damage is initial and secondary damage.\nSize\nFort DC\nDamage\nSize\nFort DC\nDamage\nTiny\n12\n1 Con\nHuge\n18\n1d6 Con\nSmall\n12\n1d2 Con\nGargantuan\n23\n1d8 Con\nMedium\n13\n1d3 Con\nColossal\n33\n1d10 Con\nLarge\n14\n1d4 Con\nSkills: A monstrous scorpion has a +4 racial bonus on Climb, Hide, and Spot checks.",
+   "body": "Monstrous scorpions are likely to attack any creature that approaches, and they usually charge when attacking prey.\nCOMBAT\nConstrict (Ex): A monstrous scorpion deals automatic claw damage on a successful grapple check.\nImproved Grab (Ex): To use this ability, a monstrous scorpion must hit with a claw attack. A monstrous scorpion can use either its Strength modifier or Dexterity modifier for grapple checks, whichever is better.\nPoison (Ex): A monstrous scorpion has a poisonous sting. The details vary by the scorpion’s size, as follows. The save DCs are Constitution- based. The indicated damage is initial and secondary damage.\n[per-form table attached to the forms above]\nSkills: A monstrous scorpion has a +4 racial bonus on Climb, Hide, and Spot checks.",
    "page": 492,
    "template": false,
    "types": [
@@ -20914,7 +21162,17 @@
      "level_adjustment": "—",
      "size": "Tiny",
      "type": "Vermin",
-     "cr": 0.25
+     "cr": 0.25,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 10 · Fort DC 1d2 Str"
+      },
+      {
+       "title": "By form",
+       "text": "Size 10 · Escape Artist DC 14 · Break DC 2"
+      }
+     ]
     },
     {
      "label": "Monstrous Spider, Small",
@@ -20939,7 +21197,17 @@
      "level_adjustment": "—",
      "size": "Small",
      "type": "Vermin",
-     "cr": 0.5
+     "cr": 0.5,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 10 · Fort DC 1d3 Str"
+      },
+      {
+       "title": "By form",
+       "text": "Size 10 · Escape Artist DC 14 · Break DC 4"
+      }
+     ]
     },
     {
      "label": "Monstrous Spider, Medium",
@@ -20964,7 +21232,17 @@
      "level_adjustment": "—",
      "size": "Medium",
      "type": "Vermin",
-     "cr": 1
+     "cr": 1,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 12 · Fort DC 1d4 Str"
+      },
+      {
+       "title": "By form",
+       "text": "Size 12 · Escape Artist DC 16 · Break DC 6"
+      }
+     ]
     },
     {
      "label": "Monstrous Spider, Large",
@@ -20989,7 +21267,17 @@
      "level_adjustment": "—",
      "size": "Large",
      "type": "Vermin",
-     "cr": 2
+     "cr": 2,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 13 · Fort DC 1d6 Str"
+      },
+      {
+       "title": "By form",
+       "text": "Size 13 · Escape Artist DC 17 · Break DC 12"
+      }
+     ]
     },
     {
      "label": "Monstrous Spider, Huge",
@@ -21014,7 +21302,17 @@
      "level_adjustment": "—",
      "size": "Huge",
      "type": "Vermin",
-     "cr": 5
+     "cr": 5,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 16 · Fort DC 1d8 Str"
+      },
+      {
+       "title": "By form",
+       "text": "Size 16 · Escape Artist DC 20 · Break DC 14"
+      }
+     ]
     },
     {
      "label": "Monstrous Spider, Gargantuan",
@@ -21039,7 +21337,17 @@
      "level_adjustment": "—",
      "size": "Gargantuan",
      "type": "Vermin",
-     "cr": 8
+     "cr": 8,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 20 · Fort DC 2d6 Str"
+      },
+      {
+       "title": "By form",
+       "text": "Size 20 · Escape Artist DC 24 · Break DC 16"
+      }
+     ]
     },
     {
      "label": "Monstrous Spider, Colossal",
@@ -21064,10 +21372,20 @@
      "level_adjustment": "—",
      "size": "Colossal",
      "type": "Vermin",
-     "cr": 11
+     "cr": 11,
+     "scaled": [
+      {
+       "title": "By form",
+       "text": "Size 28 · Fort DC 2d8 Str"
+      },
+      {
+       "title": "By form",
+       "text": "Size 28 · Escape Artist DC 32 · Break DC 18"
+      }
+     ]
     }
    ],
-   "body": "All monstrous spiders are aggressive predators that use their poisonous bites to subdue or kill prey.\nMonstrous spiders come in two general types: hunters and web-spinners. Hunters rove about, while web-spinners usually attempt to trap prey. Hunting spiders can spin webs to use as lairs, but they cannot use their webs as weapons the way web-spinners can. A hunting spider has a base land speed 10 feet faster than the figures given in the statistics blocks.\nCOMBAT\nPoison (Ex): A monstrous spider has a poisonous bite. The details vary by the spider’s size, as shown on the table below. The save DCs are Constitution-based. The indicated damage is initial and secondary damage.\nSize\nFort DC\nDamage\nSize\nFort DC\nDamage\nTiny\n10\n1d2 Str\nHuge\n16\n1d8 Str\nSmall\n10\n1d3 Str\nGargantuan\n20\n2d6 Str\nMedium\n12\n1d4 Str\nColossal\n28\n2d8 Str\nLarge\n13\n1d6 Str\nWeb (Ex): Both types of monstrous spiders often wait in their webs or in trees, then lower themselves silently on silk strands and leap onto prey passing beneath. A single strand is strong enough to support the spider and one creature of the same size. Web-spinners can throw a web eight times per day. This is similar to an attack with a net but has a maximum range of 50 feet, with a range increment of 10 feet, and is effective against targets up to one size category larger than the spider. An entangled creature can escape with a successful Escape Artist check or burst it with a Strength check. Both are standard actions whose DCs are given in the table below. The check DCs are Constitution-based, and the Strength check DC includes a +4 racial bonus.\nWeb-spinners often create sheets of sticky webbing from 5 to 60 feet space, depending on the size of the spider. They usually position these sheets to snare flying creatures but can also try to trap prey on the ground. Approaching creatures must succeed on a DC 20 Spot check to notice a web; otherwise they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing gain a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-foot section has the hit points given on the table, and sheet webs have damage reduction 5/—.\nA monstrous spider can move across its own web at its climb speed and can pinpoint the location of any creature touching its web.\nSize\nEscape Artist DC\nBreak DC\nHit Points\nTiny\n10\n14\n2\nSmall\n10\n14\n4\nMedium\n12\n16\n6\nLarge\n13\n17\n12\nHuge\n16\n20\n14\nGargantuan\n20\n24\n16\nColossal\n28\n32\n18\nTremorsense (Ex): A monstrous spider can detect and pinpoint any creature or object within 60 feet in contact with the ground, or within any range in contact with the spider’s webs.\nSkills: Monstrous spiders have a +4 racial bonus on Hide and Spot checks and a +8 racial bonus on Climb checks. A monstrous spider can always choose to take 10 on Climb checks, even if rushed or threatened. Monstrous spiders use either their Strength or Dexterity modifier for Climb checks, whichever is higher. *Hunting spiders have a +10 racial bonus on Jump checks and a +8 racial bonus on Spot checks. Web-spinning spiders have a +8 racial bonus on Hide and Move Silently checks when using their webs.",
+   "body": "All monstrous spiders are aggressive predators that use their poisonous bites to subdue or kill prey.\nMonstrous spiders come in two general types: hunters and web-spinners. Hunters rove about, while web-spinners usually attempt to trap prey. Hunting spiders can spin webs to use as lairs, but they cannot use their webs as weapons the way web-spinners can. A hunting spider has a base land speed 10 feet faster than the figures given in the statistics blocks.\nCOMBAT\nPoison (Ex): A monstrous spider has a poisonous bite. The details vary by the spider’s size, as shown on the table below. The save DCs are Constitution-based. The indicated damage is initial and secondary damage.\n[per-form table attached to the forms above]\nWeb (Ex): Both types of monstrous spiders often wait in their webs or in trees, then lower themselves silently on silk strands and leap onto prey passing beneath. A single strand is strong enough to support the spider and one creature of the same size. Web-spinners can throw a web eight times per day. This is similar to an attack with a net but has a maximum range of 50 feet, with a range increment of 10 feet, and is effective against targets up to one size category larger than the spider. An entangled creature can escape with a successful Escape Artist check or burst it with a Strength check. Both are standard actions whose DCs are given in the table below. The check DCs are Constitution-based, and the Strength check DC includes a +4 racial bonus.\nWeb-spinners often create sheets of sticky webbing from 5 to 60 feet space, depending on the size of the spider. They usually position these sheets to snare flying creatures but can also try to trap prey on the ground. Approaching creatures must succeed on a DC 20 Spot check to notice a web; otherwise they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing gain a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-foot section has the hit points given on the table, and sheet webs have damage reduction 5/—.\nA monstrous spider can move across its own web at its climb speed and can pinpoint the location of any creature touching its web.\n[per-form table attached to the forms above]\nTremorsense (Ex): A monstrous spider can detect and pinpoint any creature or object within 60 feet in contact with the ground, or within any range in contact with the spider’s webs.\nSkills: Monstrous spiders have a +4 racial bonus on Hide and Spot checks and a +8 racial bonus on Climb checks. A monstrous spider can always choose to take 10 on Climb checks, even if rushed or threatened. Monstrous spiders use either their Strength or Dexterity modifier for Climb checks, whichever is higher. *Hunting spiders have a +10 racial bonus on Jump checks and a +8 racial bonus on Spot checks. Web-spinning spiders have a +8 racial bonus on Hide and Move Silently checks when using their webs.",
    "page": 494,
    "template": false,
    "types": [

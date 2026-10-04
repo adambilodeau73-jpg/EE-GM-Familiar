@@ -187,6 +187,74 @@ for (const f of merged) {
   f.env = ENV_TOKENS.filter(([, re]) => re.test(envs)).map(([t]) => t);
 }
 
+// ---- v0.2.2 (Adam's Whirlwind report): SIZE-SCALED SUB-TABLE DISENTANGLER.
+// The FF prints per-form ability tables (the elementals' Whirlwind) that the
+// flow dump renders as runs of 1-3-token lines. Where a debris run's rows
+// anchor on tokens matching this family's variant labels, zip the row's
+// cells with the column headers, attach the result to the matching variant,
+// and strip the debris from the body. Unclaimed debris runs are FLAGGED
+// (f.debris) — the triage list for the long tail.
+const short = l => l.split(/\s+/).length <= 3;
+const BANNER = /^[—–—–\- ]*([A-Za-z''\/ ]{3,40}?)[—–—–\- ]*$/;
+for (const f of merged) {
+  if (!f.body) continue;
+  const lines = f.body.split('\n');
+  // per-variant anchor tokens: the label minus the family-stem words
+  const stemWords = new Set(f.parent.toLowerCase().split(/[\s,]+/));
+  const anchorsOf = f.variants.map(v => {
+    const toks = v.label.replace(/[(),]/g, ' ').split(/\s+/).filter(w => w && !stemWords.has(w.toLowerCase()));
+    return (toks.join(' ') || v.label).toLowerCase();
+  });
+  const matchVariant = line => {
+    const t = line.trim().toLowerCase();
+    let best = -1;
+    anchorsOf.forEach((a, i) => { if (a && (t === a || a.startsWith(t) || t === a.split(' ')[0]) && t.length >= 3) { if (best < 0) best = i; } });
+    return best;
+  };
+  const keep = [];
+  let i = 0, claimed = 0, debris = 0;
+  while (i < lines.length) {
+    if (!short(lines[i])) { keep.push(lines[i]); i++; continue; }
+    let j = i; while (j < lines.length && short(lines[j])) j++;
+    const run = lines.slice(i, j);
+    if (run.length < 6) { keep.push(...run); i = j; continue; }
+    // find the first variant-anchored row inside the run
+    let first = run.findIndex(l => matchVariant(l) >= 0);
+    if (first < 1) { debris++; f.debris = (f.debris || 0) + 1; keep.push(...run); i = j; continue; }
+    // title: the dashed banner line ("—— Whirlwind ——"); headers: the
+    // pre-anchor lines minus banners and minus the anchor-column header
+    // (which names the family stem, e.g. "Elemental").
+    const isBanner = l => /[—–\-]{2,}/.test(l) && /[A-Za-z]/.test(l);
+    let title = '';
+    for (let k2 = first - 1; k2 >= 0; k2--) if (isBanner(run[k2])) { title = run[k2].replace(/[—–\-]+/g, ' ').trim(); break; }
+    const headers = run.slice(0, first).map(l => l.trim())
+      .filter(l => !isBanner(l))
+      .filter(l => !l.split(/\s+/).some(w => stemWords.has(w.toLowerCase().replace(/[^a-z']/g, ''))));
+    // rows: anchor line + cells until the next anchor
+    const rows = [];
+    for (let k2 = first; k2 < run.length; k2++) {
+      const vi = matchVariant(run[k2]);
+      if (vi >= 0) rows.push({ vi, cells: [] });
+      else if (rows.length) rows[rows.length - 1].cells.push(run[k2].trim());
+    }
+    const hdr = headers; // the anchor-column header was dropped by the stem filter
+    let attached = 0;
+    for (const r of rows) {
+      if (!r.cells.length) continue;
+      const pairs = r.cells.map((c, ci) => (hdr[ci % hdr.length] ? `${hdr[ci % hdr.length]} ${c}` : c));
+      const v = f.variants[r.vi];
+      if (v) { v.scaled = v.scaled || []; v.scaled.push({ title: title || 'By form', text: pairs.join(' · ') }); attached++; }
+    }
+    if (attached >= 2) { claimed++; keep.push(title ? `[${title} — per-form values attached to each form's statblock above]` : '[per-form table attached to the forms above]'); }
+    else { f.debris = (f.debris || 0) + 1; keep.push(...run); }
+    i = j;
+  }
+  if (claimed) f.body = keep.join('\n');
+}
+const flagged = merged.filter(f => f.debris);
+console.log(`sub-tables disentangled in ${merged.filter(f => f.variants.some(v => v.scaled)).length} families | debris-flagged: ${flagged.length}`);
+console.log('  flagged:', flagged.slice(0, 25).map(f => `${f.parent}(${f.debris})`).join(' · '));
+
 const multi = merged.filter(f => f.variants.length > 1);
 const vtotal = merged.reduce((s, f) => s + f.variants.length, 0);
 writeFileSync(out, JSON.stringify({ _meta: { source: 'E&E Foe Folio (flow dump)', extracted: new Date().toISOString().slice(0, 10), families: merged.length, variants: vtotal }, entries: merged }, null, 1));
