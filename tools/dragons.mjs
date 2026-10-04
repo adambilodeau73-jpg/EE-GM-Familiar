@@ -74,7 +74,15 @@ export function extractDragons({ lines, pageOf, isCaps, merged, MISMATCH }) {
           const hm = m2[1].match(/(\d+)d12(?:\+(\d+))?/);
           const avg = Math.floor(Number(hm[1]) * 6.5 + (Number(hm[2]) || 0));
           v.hit_dice = `${m2[1]} (${avg} hp)`;
-          if (m2[2]) v.t_ac_system_adj = 'Natural Hardness ' + m2[2].slice(1, -1);
+          if (m2[2]) {
+            // The age tables omit the bonus HP that Natural Hardness grants
+            // (Adam's rule via the Pseudodragon exemplar: +5 HP per point of
+            // the leading hardness number — 4 → +20 HP). The corpus keeps
+            // this on the T/AC line, never inside the HD average.
+            const hard = m2[2].slice(1, -1);
+            const lead = parseInt(hard, 10);
+            v.t_ac_system_adj = `Natural Hardness ${hard}` + (Number.isFinite(lead) ? `; +${lead * 5} HP` : '');
+          }
         }
         const after = m2 ? row.slice(row.indexOf(m2[0]) + m2[0].length) : row;
         const toks = after.trim().split(/\s+/);
