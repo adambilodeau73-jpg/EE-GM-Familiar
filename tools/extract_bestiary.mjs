@@ -25,11 +25,35 @@ for (const l of lines) {
 
 const LABELS = ['Size & Type:', 'Hit Dice:', 'T/AC System Adj:', 'Initiative / Speed:', 'Touch/Full AC (T/AC):', 'BA / Grapple / Parry:', 'Attack:', 'Full Attack:', 'Space/Reach:', 'Special Attacks:', 'Special Qualities:', 'Saves / Dodge:', 'Attributes:', 'Skills:', 'Feats:', 'Environment:', 'Organization:', 'Challenge Rating:', 'Treasure:', 'Alignment:', 'Advancement:', 'Level Adjustment:'];
 const KEY = Object.fromEntries(LABELS.map(l => [l, l.replace(/[^A-Za-z]+/g, '_').replace(/_+$/, '').toLowerCase()]));
-const isCaps = l => /^[A-Z0-9À-ÿ‘’''(),\-\/ &.]+$/.test(l) && !/^\d+$/.test(l) && l.length >= 3 && l.length <= 60 && !LABELS.includes(l);
-const isNameRow = l => /^[A-Z0-9][A-Za-zÀ-ÿ‘’''0-9 ,.\-()\/]{2,60}$/.test(l) && !LABELS.includes(l) && !/[.:;]$/.test(l);
+// v0.5.0 closeout: the flow spells some labels differently — continuation
+// tables print "BA / Grapple:" and "Saves:" (the Monstrous vermin), RAVID
+// reverses its size label, and ~16 label lines drop their colon entirely
+// ("Environment" bare — the Aboleth/Archon/Barghest/fiend Feats spills).
+KEY['BA / Grapple:'] = KEY['BA / Grapple / Parry:'];
+KEY['Saves:'] = KEY['Saves / Dodge:'];
+KEY['Type & Size:'] = KEY['Size & Type:'];
+LABELS.push('BA / Grapple:', 'Saves:', 'Type & Size:');
+const BARE = new Map(LABELS.map(l => [l.replace(/:$/, ''), l]));
+const labelAt = l => LABELS.includes(l) ? l : (BARE.get(l) || null);
+// v0.5.0: smart double quotes admitted (the “NUYU” DOPPELGANGER ROBOT heading).
+const isCaps = l => /^[A-Z0-9À-ÿ‘’''“”(),\-\/ &.]+$/.test(l) && !/^\d+$/.test(l) && l.length >= 3 && l.length <= 60 && !LABELS.includes(l);
+const isNameRow = l => /^[A-Z0-9“][A-Za-zÀ-ÿ‘’''“”0-9 ,.\-()\/]{2,60}$/.test(l) && !LABELS.includes(l) && !/[.:;]$/.test(l);
 
+// v0.5.0: anchors accept the size label's misspellings (RAVID's "Type &
+// Size:", SPECTRE's colonless "Size & Type") — and ORPHAN "Hit Dice:" lines
+// whose block lost its size label entirely (Dust Mephit, Giant Wasp, the
+// Gargantuan/Colossal Centipede continuation); vehicle statblocks (Crew:/
+// Length / Weight:) are not bestiary and are excluded.
+const SIZE_ANCHORS = new Set(['Size & Type:', 'Type & Size:', 'Size & Type', 'Type & Size']);
 const anchors = [];
-for (let i = 0; i < lines.length; i++) if (lines[i] === 'Size & Type:') anchors.push(i);
+for (let i = 0; i < lines.length; i++) {
+  if (SIZE_ANCHORS.has(lines[i])) { anchors.push(i); continue; }
+  if (lines[i] === 'Hit Dice:') {
+    let orphan = true;
+    for (let b = Math.max(0, i - 14); b < i; b++) if (SIZE_ANCHORS.has(lines[b]) || lines[b] === 'Crew:' || lines[b] === 'Length / Weight:') { orphan = false; break; }
+    if (orphan) anchors.push(i);
+  }
+}
 
 // Each anchor's "block start" = where its heading/name rows begin (for prose bounds).
 const blockStart = anchors.map(i0 => {
@@ -47,7 +71,26 @@ for (let a = 0; a < anchors.length; a++) {
   let j = i0 - 1;
   const nameRows = [];
   while (j >= 0 && nameRows.length < 9 && isNameRow(lines[j]) && !isCaps(lines[j])) { nameRows.unshift(lines[j]); j--; }
-  const caps = (j >= 0 && isCaps(lines[j])) ? lines[j] : null;
+  let caps = (j >= 0 && isCaps(lines[j])) ? lines[j] : null;
+  // v0.5.0: an ORPHAN anchor ("Hit Dice:" with no size label) carries its
+  // size values between the name rows and the anchor — peel them off the
+  // name scan (Dust Mephit "Small Outsider…", the Centipede continuation).
+  let sizeVals = null;
+  if (lines[i0] === 'Hit Dice:') {
+    const SIZEW = /^(Fine|Diminutive|Tiny|Small|Medium(-size)?|Large|Huge|Gargantuan|Colossal)\b/;
+    sizeVals = [];
+    while (nameRows.length && SIZEW.test(nameRows[nameRows.length - 1])) sizeVals.unshift(nameRows.pop());
+    if (!sizeVals.length) sizeVals = null;
+  }
+  // v0.5.0: with no caps heading, a ToC-known first "name row" IS the heading
+  // (GNOME, Deep — previously duplicated itself as a phantom variant), and a
+  // declared sub-head is a title row, not a variant (Viper Snake — which must
+  // stay heading-less so the suffix-stem pass still folds it into SNAKE).
+  const SUBHEADS = new Set(['Viper Snake']);
+  if (!caps && nameRows.length >= 2) {
+    if (pageOf.has(nameRows[0].toUpperCase())) caps = nameRows.shift();
+    else if (SUBHEADS.has(nameRows[0])) nameRows.shift();
+  }
   let parent, variantNames;
   if (nameRows.length >= 2) { parent = caps || nameRows[0]; variantNames = nameRows; }
   else { parent = caps || nameRows[0] || null; variantNames = [caps || nameRows[0] || 'UNNAMED']; }
@@ -56,11 +99,17 @@ for (let a = 0; a < anchors.length; a++) {
   const cols = Array.from({ length: K }, () => ({}));
   let i = i0, guard = 0, end = i0;
   while (i < lines.length && guard++ < 160) {
-    const lab = LABELS.includes(lines[i]) ? lines[i] : null;
+    const lab = labelAt(lines[i]);
     if (!lab) { i++; continue; }
     let vals = [];
     let k = i + 1;
-    while (k < lines.length && !LABELS.includes(lines[k]) && vals.length < K + 3 && !(vals.length >= K && isCaps(lines[k]))) { vals.push(lines[k]); k++; }
+    while (k < lines.length && !labelAt(lines[k]) && vals.length < K + 3 && !(vals.length >= K && isCaps(lines[k]))) {
+      // v0.5.0: a line opening with '(' continues the previous value — the
+      // wrapped parenthetical variants ("(Lacedon: Any aquatic)").
+      if (lines[k].startsWith('(') && vals.length) vals[vals.length - 1] += ' ' + lines[k];
+      else vals.push(lines[k]);
+      k++;
+    }
     // v0.2.1 (Adam's Kobold catch): Level Adjustment is the TERMINAL label —
     // its values are short tokens (+N, —) and everything after them is the
     // entry's prose. Keep up to K LA-shaped lines; hand the rest to the body.
@@ -84,12 +133,16 @@ for (let a = 0; a < anchors.length; a++) {
       // a continuation table (the Viper Snakes) — deal what exists, in order;
       // ghost columns are dropped after the family assembles.
       else if (vals.length > 1 && vals.length < K) { for (let c = 0; c < vals.length; c++) cols[c][KEY[lab]] = vals[c]; }
-      else { const vjoin = vals.join(' '); for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vjoin; if (K > 1) MISMATCH.push(`${(caps||nameRows[0]||'?')} :: ${lab} :: K=${K} vals=${vals.length} [${vjoin.slice(0,60)}]`); }
+      else { const vjoin = vals.join(' '); for (let c = 0; c < K; c++) cols[c][KEY[lab]] = vjoin; if (K > 1 && vals.length !== 1) MISMATCH.push(`${(caps||nameRows[0]||'?')} :: ${lab} :: K=${K} vals=${vals.length} [${vjoin.slice(0,60)}]`); }
+      // vals === 1 with K > 1 is the lycanthropes' SHARED-line idiom (one
+      // Feats/Organization line serving all three forms) — correct, not noise.
     }
     end = k;
     if (lab === 'Level Adjustment:') { i = k; break; }
     i = k;
   }
+  // v0.5.0: orphan-anchored blocks take their peeled size values here.
+  if (sizeVals) for (let c = 0; c < K && c < sizeVals.length; c++) if (!cols[c].size_type) cols[c].size_type = sizeVals[c];
   // Ghost columns (declared names whose table columns live in a continuation
   // table) carry no statline — drop them; their names return via that table.
   while (cols.length > 1 && !cols[cols.length - 1].size_type && !cols[cols.length - 1].hit_dice) { cols.pop(); variantNames.pop(); }
@@ -100,8 +153,15 @@ for (let a = 0; a < anchors.length; a++) {
   // to the next entry, not to this body (the Assassin-Vine-answers-for-
   // Astral-Construct bleed, v0.2.0).
   for (let k = end; k < stop && prose.join(' ').length < 7000; k++) {
-    if (isCaps(lines[k]) && pageOf.has(lines[k].toUpperCase())) break;
-    prose.push(lines[k]);
+    // v0.5.0: ALSO stop at ToC-known "(Template)" headings — their lowercase
+    // suffix defeated isCaps, bleeding template tables into the preceding
+    // creature's body (Leonal, Ettin, Stygilor, Magmin, Phasm, Shocker
+    // Lizard — the whole debris long tail). Kept NARROW: a bare table header
+    // like "Elemental" is ToC-known too, and must not truncate a body
+    // (creature headings are already bounded by the next block start).
+    const t = lines[k];
+    if (pageOf.has(t.toUpperCase()) && (isCaps(t) || /\(Template\)/i.test(t))) break;
+    prose.push(t);
   }
   const fam = {
     hadCaps: !!caps,
@@ -110,6 +170,14 @@ for (let a = 0; a < anchors.length; a++) {
     body: prose.join('\n'),
   };
   families.push(fam);
+}
+
+// v0.5.0: the book's "how to read a statblock" explainer contains the
+// literal anchor label — documentation, not a creature.
+{
+  const SIZEW0 = /^(Fine|Diminutive|Tiny|Small|Medium|Large|Huge|Gargantuan|Colossal)/i;
+  const drop = families.findIndex(f => f.parent === 'UNNAMED' && !SIZEW0.test(f.variants[0].size_type || ''));
+  if (drop >= 0) families.splice(drop, 1);
 }
 
 // ---- merge consecutive families with the SAME parent or the same comma-stem
@@ -255,6 +323,34 @@ for (const f of merged) {
   }
   if (claimed) f.body = keep.join('\n');
 }
+// v0.5.0: the Nuclear Toxyderm reprints the RADIATION RULES as two flow-
+// shredded tables — exposure-scaled, not variant-scaled, so the disentangler
+// rightly declines them. Reflow them into readable colon-led rows instead.
+for (const f of merged) {
+  const b = f.body ? f.body.split('\n') : [];
+  const i0 = b.indexOf('Table: Radiation Exposure');
+  if (i0 < 0) continue;
+  const SEV = new Set(['mild', 'low', 'moderate', 'high', 'severe']);
+  const out2 = b.slice(0, i0);
+  out2.push('Table: Radiation Exposure — severity by time of exposure (1 round / 1 min / 10 min / 1 hour / 1 day)');
+  let i = i0 + 8; // past the title + seven header lines
+  while (i < b.length && b[i] !== 'Table: Radiation Sickness') {
+    const t = b[i];
+    if (/:$/.test(t)) { out2.push(t); i++; continue; } // section line
+    const cells = b.slice(i + 1, i + 6);
+    if (cells.length === 5 && cells.every(c => SEV.has(c))) { out2.push(`${t}: ${cells.join(' / ')}`); i += 6; }
+    else { out2.push(t); i++; }
+  }
+  if (b[i] === 'Table: Radiation Sickness') {
+    out2.push('Table: Radiation Sickness — Fort save DC and damage by degree of exposure');
+    i += 4; // title + 'Degree of Exposure' + 'Fort Save DC' + 'Damage'
+    while (i + 2 < b.length && /^(Mild|Low|Moderate|High|Severe)$/.test(b[i])) { out2.push(`${b[i]}: Fort DC ${b[i + 1]} — ${b[i + 2]}`); i += 3; }
+  }
+  out2.push(...b.slice(i));
+  f.body = out2.join('\n');
+  delete f.debris;
+}
+
 const flagged = merged.filter(f => f.debris);
 console.log(`sub-tables disentangled in ${merged.filter(f => f.variants.some(v => v.scaled)).length} families | debris-flagged: ${flagged.length}`);
 console.log('  flagged:', flagged.slice(0, 25).map(f => `${f.parent}(${f.debris})`).join(' · '));
