@@ -33,6 +33,18 @@ KEY['BA / Grapple:'] = KEY['BA / Grapple / Parry:'];
 KEY['Saves:'] = KEY['Saves / Dodge:'];
 KEY['Type & Size:'] = KEY['Size & Type:'];
 LABELS.push('BA / Grapple:', 'Saves:', 'Type & Size:');
+// v0.5.1: the Chapter II robots carry commerce + chassis labels of their own.
+KEY['Frame / Armor:'] = 'frame_armor';
+KEY['Locomotion:'] = 'locomotion';
+KEY['Manipulators:'] = 'manipulators';
+KEY['Accessories:'] = 'accessories';
+KEY['Purchase DC (Restrict.):'] = 'purchase_dc';
+KEY['Purchase DC:'] = 'purchase_dc';
+KEY['Restriction (DC Mod.):'] = 'restriction';
+LABELS.push('Frame / Armor:', 'Locomotion:', 'Manipulators:', 'Accessories:', 'Purchase DC (Restrict.):', 'Purchase DC:', 'Restriction (DC Mod.):');
+// Short-valued terminal-zone labels (like Level Adjustment): keep only
+// value-shaped lines, hand trailing prose to the body.
+const SHORT_LABELS = new Set(['Purchase DC (Restrict.):', 'Purchase DC:', 'Restriction (DC Mod.):']);
 const BARE = new Map(LABELS.map(l => [l.replace(/:$/, ''), l]));
 const labelAt = l => LABELS.includes(l) ? l : (BARE.get(l) || null);
 // v0.5.0: smart double quotes admitted (the “NUYU” DOPPELGANGER ROBOT heading).
@@ -97,13 +109,22 @@ for (let a = 0; a < anchors.length; a++) {
   const K = variantNames.length;
   // -- unweave labels --
   const cols = Array.from({ length: K }, () => ({}));
+  // v0.5.1: HARD BOUND at the next block's start — a statblock that never
+  // prints "Level Adjustment:" (the robots) used to keep scanning and read
+  // the NEXT entry's labels over its own (all three robots wore Ape's
+  // Purchase DC).
+  const bound = a + 1 < anchors.length ? blockStart[a + 1] : lines.length;
   let i = i0, guard = 0, end = i0;
-  while (i < lines.length && guard++ < 160) {
+  while (i < bound && guard++ < 160) {
+    // v0.5.1: a chapter heading ends the statblock zone unconditionally —
+    // Chapter III's mecha tables reuse "Purchase DC:" and were overwriting
+    // Nuyu's own commerce lines.
+    if (/^Chapter [IVX]+\b/.test(lines[i])) break;
     const lab = labelAt(lines[i]);
     if (!lab) { i++; continue; }
     let vals = [];
     let k = i + 1;
-    while (k < lines.length && !labelAt(lines[k]) && vals.length < K + 3 && !(vals.length >= K && isCaps(lines[k]))) {
+    while (k < bound && !labelAt(lines[k]) && vals.length < K + 3 && !(vals.length >= K && isCaps(lines[k]))) {
       // v0.5.0: a line opening with '(' continues the previous value — the
       // wrapped parenthetical variants ("(Lacedon: Any aquatic)").
       if (lines[k].startsWith('(') && vals.length) vals[vals.length - 1] += ' ' + lines[k];
@@ -117,6 +138,15 @@ for (let a = 0; a < anchors.length; a++) {
       const laShape = t => t.trim().split(/\s+/).every(x => /^[+\-−–—-]?\d+$|^[—–−-]+$/.test(x));
       let keep = 0;
       while (keep < vals.length && keep < K && laShape(vals[keep])) keep++;
+      if (keep === 0 && vals.length) keep = 1;
+      k = i + 1 + keep;
+      vals = vals.slice(0, keep);
+    }
+    // v0.5.1: the robots' commerce labels sit at block end with prose after —
+    // keep only short value-shaped lines ("27 (Licensed; +1)", "Military (+3)").
+    if (SHORT_LABELS.has(lab)) {
+      let keep = 0;
+      while (keep < vals.length && keep < K && vals[keep].length <= 40) keep++;
       if (keep === 0 && vals.length) keep = 1;
       k = i + 1 + keep;
       vals = vals.slice(0, keep);
@@ -161,6 +191,7 @@ for (let a = 0; a < anchors.length; a++) {
     // (creature headings are already bounded by the next block start).
     const t = lines[k];
     if (pageOf.has(t.toUpperCase()) && (isCaps(t) || /\(Template\)/i.test(t))) break;
+    if (/^Chapter [IVX]+\b/.test(t)) break; // chapter boundary ends any body
     prose.push(t);
   }
   const fam = {
@@ -232,11 +263,32 @@ for (const f of merged) {
 }
 merged.length = 0; merged.push(...merged2);
 
+// v0.5.1 (Adam's OCD alert): the three quoted-heading robots regroup under
+// one ROBOT family, nicknames preserved as parentheticals, Adam's spellings.
+{
+  const ROBOT_NAMES = {
+    '“APE” ARMED POLICE ESCORT ROBOT (TS 6)': "Robot, Armed Police Escort ('Ape')",
+    '“NUYU” DOPPELGANGER ROBOT (TS 7)': "Robot, Doppelganger ('Nuyu')",
+    '“SPOT” SECURITY BIOMORPH ROBOT (TS 6)': "Robot, Security Biomorph ('Spot')",
+  };
+  const bots = merged.filter(f => ROBOT_NAMES[f.parent]);
+  if (bots.length) {
+    const fam = { hadCaps: true, parent: 'ROBOT', variants: [], body: '', page: 573 };
+    for (const f of bots) {
+      for (const v of f.variants) { v.label = ROBOT_NAMES[f.parent]; fam.variants.push(v); }
+      if (f.body) fam.body += (fam.body ? '\n' : '') + `[${ROBOT_NAMES[f.parent]}]\n` + f.body;
+    }
+    fam.variants.sort((a, b) => a.label.localeCompare(b.label));
+    merged.splice(merged.indexOf(bots[0]), 0, fam);
+    for (const f of bots) merged.splice(merged.indexOf(f), 1);
+  }
+}
+
 extractDragons({ lines, pageOf, isCaps, merged, MISMATCH });
 
 // ---- derived fields per variant; entry-level rollups ----
 for (const f of merged) {
-  f.page = pageOf.get(f.parent.toUpperCase()) ?? pageOf.get((f.variants[0]?.label || '').toUpperCase()) ?? null;
+  f.page = f.page ?? pageOf.get(f.parent.toUpperCase()) ?? pageOf.get((f.variants[0]?.label || '').toUpperCase()) ?? null;
   f.template = /\(Template\)/i.test(f.parent);
   for (const v of f.variants) {
     const st = v.size_type || '';

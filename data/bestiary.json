@@ -2,7 +2,7 @@
  "_meta": {
   "source": "E&E Foe Folio (flow dump)",
   "extracted": "2026-10-04",
-  "families": 393,
+  "families": 391,
   "variants": 739
  },
  "entries": [
@@ -23081,10 +23081,38 @@
   },
   {
    "hadCaps": true,
-   "parent": "“SPOT” SECURITY BIOMORPH ROBOT (TS 6)",
+   "parent": "ROBOT",
    "variants": [
     {
-     "label": "“SPOT” SECURITY BIOMORPH ROBOT (TS 6)",
+     "label": "Robot, Armed Police Escort ('Ape')",
+     "size_type": "Large Construct (Biodroid, Tech)",
+     "hit_dice": "6d10+20 (55 hp)",
+     "t_ac_system_adj": "Hardness 10/2d; +80 HP",
+     "initiative_speed": "+0; 40 ft. (8 hexes)",
+     "touch_full_ac_t_ac": "9/17 (-1 size, +8 integrated duralloy armor), flat-footed 17",
+     "ba_grapple_parry": "+4/+13/+9",
+     "attack": "Stun baton +9 (1d4+5 nonlethal electricity, Fort save DC equals damage dealt or be stunned 1d4 rounds), or assault rifle +4 ranged (2d8 ballistic), or laser pistol +4 ranged (2d8 laser), or concussion grenade launcher +4 ranged (4d6 nonlethal concussion to 15’ radius)",
+     "full_attack": "Stun baton +9 (1d4+5 nonlethal electricity, Fort save DC equals damage dealt or be stunned 1d4 rounds), or assault rifle +4 ranged (2d8 ballistic), or laser pistol +4 ranged (2d8 laser), or concussion grenade launcher +4 ranged (4d6 nonlethal concussion to 15’ radius)",
+     "space_reach": "10 ft. (2-polyhex) /10 ft. (2 hexes)",
+     "special_attacks": "Concussion grenades, stun baton",
+     "special_qualities": "Class V sensor system, magnetic feet",
+     "saves_dodge": "Fort +2, Ref +2, Will +3, Dodge +1",
+     "attributes": "Str 20, Dex 11, Con —, Int 10, Wis 12, Cha 5",
+     "skills": "Climb +9, Hide –4, Listen +11, Search +4, Spot +13",
+     "feats": "Exotic Firearms Proficiency (grenade launchers), Personal Firearms Proficiency",
+     "frame_armor": "Large Biodroid / Duralloy Armor",
+     "locomotion": "Legs (2, speed-enhanced)",
+     "manipulators": "Hands (2)",
+     "accessories": "Dexterity upgrade (+2), feat progits (Exotic Firearms Proficiency [grenade launchers], Personal Firearms Proficiency), magnetic feet, skill progits (Climb [4 ranks], Language [Common and any one other], Listen [4 ranks], Search [4 ranks], Spot [4 ranks]), weapon mounts (2; laser pistol and grenade launcher), Wisdom upgrade (+2), vocalizer",
+     "challenge_rating": "6",
+     "purchase_dc": "34",
+     "restriction": "Military (+3)",
+     "size": "Large",
+     "type": "Construct",
+     "cr": 6
+    },
+    {
+     "label": "Robot, Doppelganger ('Nuyu')",
      "size_type": "Medium Construct (Bioreplica, Tech)",
      "hit_dice": "1d10+10 (16 hp)",
      "t_ac_system_adj": "Hardness (2)",
@@ -23099,104 +23127,58 @@
      "saves_dodge": "Fort +0, Ref +0, Will +0, Dodge +0",
      "attributes": "Str 12, Dex 11, Con —, Int 10, Wis 10, Cha 12",
      "skills": "Bluff +5, Computer Use +4, Diplomacy +5, Disable Device +4, Disguise +5, Drive +4, Gather Information +5, Hide +4, Knowledge (current events) +4, Listen +6, Move Silently +4, Repair +4, Search +2, Sense Motive +4, Sleight of Hand +4, Spot +6, Survival +4",
-     "feats": "Personal Firearms Proficiency Frame / Armor: Medium Bioreplica / No Integrated Armor Locomotion:",
-     "challenge_rating": "1 Purchase DC: 32 Restriction (DC Mod.):",
+     "feats": "Personal Firearms Proficiency",
+     "frame_armor": "Medium Bioreplica / No Integrated Armor",
+     "locomotion": "Legs (2, speed-enhanced)",
+     "manipulators": "Advanced Hands (2)",
+     "accessories": "Charisma upgrade (+2), feat progit (Personal Firearms Proficiency), integrated communication system, language chips (Common, one other language of choice), self-destruct system, self-repair unit, skill net (Bluff 4 ranks, Diplomacy 4 ranks, Disguise 4 ranks, Gather Information 4 ranks), skill net (Computer Use 4 ranks, Disable Device 4 ranks, Knowledge [current events] 4 ranks, Repair), skill net (Drive 4 ranks, Hide 4 ranks, Move Silently 4 ranks, Sleight of Hand 4 ranks), skill net (Listen 4 ranks, Sense Motive 4 ranks, Spot 4 ranks, Survival 4 ranks), vocalizer",
+     "challenge_rating": "1",
+     "purchase_dc": "32",
+     "restriction": "Restricted (+2)",
      "size": "Medium",
      "type": "Construct",
      "cr": 1
-    }
-   ],
-   "body": "",
-   "page": null,
-   "template": false,
-   "types": [
-    "Construct"
-   ],
-   "sizes": [
-    "Medium"
-   ],
-   "crMin": 1,
-   "crMax": 1,
-   "env": []
-  },
-  {
-   "hadCaps": true,
-   "parent": "“APE” ARMED POLICE ESCORT ROBOT (TS 6)",
-   "variants": [
+    },
     {
-     "label": "“APE” ARMED POLICE ESCORT ROBOT (TS 6)",
-     "size_type": "Medium Construct (Bioreplica, Tech)",
+     "label": "Robot, Security Biomorph ('Spot')",
+     "size_type": "Medium Construct (Biomorph, Tech)",
      "hit_dice": "1d10+10 (16 hp)",
-     "t_ac_system_adj": "Hardness (2)",
+     "t_ac_system_adj": "Hardness 5/1d; +45 HP",
      "initiative_speed": "+0; 30 ft. (6 hexes)",
-     "touch_full_ac_t_ac": "10/10, flat-footed 10",
-     "ba_grapple_parry": "+0/+1/+1",
-     "attack": "Advanced hand +1 (1d3+1 nonlethal), or by weapon",
-     "full_attack": "Advanced hand +1 (1d3+1 nonlethal), or by weapon",
+     "touch_full_ac_t_ac": "11/17 (+1 Dex, +6 integrated resilium armor), flat-footed 16",
+     "ba_grapple_parry": "+0/+2/+2",
+     "attack": "Bite +2 melee (1d4+2)",
+     "full_attack": "Bite +2 melee (1d4+2)",
      "space_reach": "5 ft. (1 hex) /5 ft. (1 hex)",
      "special_attacks": "—",
-     "special_qualities": "Class VII sensor system, darkvision 120’, lifelike appearance",
-     "saves_dodge": "Fort +0, Ref +0, Will +0, Dodge +0",
-     "attributes": "Str 12, Dex 11, Con —, Int 10, Wis 10, Cha 12",
-     "skills": "Bluff +5, Computer Use +4, Diplomacy +5, Disable Device +4, Disguise +5, Drive +4, Gather Information +5, Hide +4, Knowledge (current events) +4, Listen +6, Move Silently +4, Repair +4, Search +2, Sense Motive +4, Sleight of Hand +4, Spot +6, Survival +4",
-     "feats": "Personal Firearms Proficiency Frame / Armor: Medium Bioreplica / No Integrated Armor Locomotion:",
-     "challenge_rating": "1 Purchase DC: 32 Restriction (DC Mod.):",
+     "special_qualities": "Class IV sensor system",
+     "saves_dodge": "Fort +0, Ref +1, Will +0, Dodge —",
+     "attributes": "Str 14, Dex 12, Con —, Int —, Wis 10, Cha 1",
+     "skills": "Hide +5, Jump +6, Listen +6, Move Silently +5, Spot +6",
+     "feats": "—",
+     "frame_armor": "Medium Biomorph / Resilium Armor",
+     "locomotion": "Multiple Legs (4)",
+     "manipulators": "Jaws",
+     "accessories": "Dexterity upgrade (+2), skill progits (Hide [4 ranks], Jump [4 ranks], Listen [4 ranks], Move Silently [4 ranks], Spot [4 ranks], vocalizer",
+     "challenge_rating": "1",
+     "purchase_dc": "27 (Licensed; +1)",
      "size": "Medium",
      "type": "Construct",
      "cr": 1
     }
    ],
-   "body": "",
-   "page": null,
+   "body": "[Robot, Security Biomorph ('Spot')]\nThis robot looks like a man-sized, mechanical guard dog with four powerful legs, wicked jaws, and resilium armor covering its body. It growls and barks at intruders with the aid of a vocalizer, or it can speak to warn them if programmed with a language. An expendable sentry of the elite in a typical Tech Scale 6 society, “Spot” functions as a robotic watchdog and can only be mistaken for an actual dog at distances of 100 feet or more.\n[Robot, Armed Police Escort ('Ape')]\nThe Armed Police Escort (APE) robot is designed to help police deal with civil disobedience and unrest in the urban jungle. This robot resembles a hulking, apelike man with thick arms and legs, clad head-to-toe in interlocking duralloy plates. The robot’s hands can be used for grappling or carrying items, usually carrying an OICW assault rifle and a stun baton (given above, but other equipment can be issued). In addition, it has a mini-grenade launcher (with a compartment for concussion grenades) mounted in its left forearm and a laser pistol mounted in its right forearm. The APE robot cannot use its mounted weapons if it is grappling.\n[Robot, Doppelganger ('Nuyu')]\nEach doppelganger robot is modeled after a specific person. “Nuyu” bioreplicas are often used as doubles for politicians and movie stars during high-risk public appearances. Government agencies also use them as spies and infiltrators. A “Nuyu” is usually programmed with enough knowledge of its biological counterpart to maintain the charade for a period of a few hours or days.  If a Nuyu needs one or more higher stats in order to better approximate an original being’s exceptional capabilities, then increase the cost accordingly.",
+   "page": 573,
    "template": false,
    "types": [
     "Construct"
    ],
    "sizes": [
+    "Large",
     "Medium"
    ],
    "crMin": 1,
-   "crMax": 1,
-   "env": []
-  },
-  {
-   "hadCaps": true,
-   "parent": "“NUYU” DOPPELGANGER ROBOT (TS 7)",
-   "variants": [
-    {
-     "label": "“NUYU” DOPPELGANGER ROBOT (TS 7)",
-     "size_type": "Medium Construct (Bioreplica, Tech)",
-     "hit_dice": "1d10+10 (16 hp)",
-     "t_ac_system_adj": "Hardness (2)",
-     "initiative_speed": "+0; 30 ft. (6 hexes)",
-     "touch_full_ac_t_ac": "10/10, flat-footed 10",
-     "ba_grapple_parry": "+0/+1/+1",
-     "attack": "Advanced hand +1 (1d3+1 nonlethal), or by weapon",
-     "full_attack": "Advanced hand +1 (1d3+1 nonlethal), or by weapon",
-     "space_reach": "5 ft. (1 hex) /5 ft. (1 hex)",
-     "special_attacks": "—",
-     "special_qualities": "Class VII sensor system, darkvision 120’, lifelike appearance",
-     "saves_dodge": "Fort +0, Ref +0, Will +0, Dodge +0",
-     "attributes": "Str 12, Dex 11, Con —, Int 10, Wis 10, Cha 12",
-     "skills": "Bluff +5, Computer Use +4, Diplomacy +5, Disable Device +4, Disguise +5, Drive +4, Gather Information +5, Hide +4, Knowledge (current events) +4, Listen +6, Move Silently +4, Repair +4, Search +2, Sense Motive +4, Sleight of Hand +4, Spot +6, Survival +4",
-     "feats": "Personal Firearms Proficiency Frame / Armor: Medium Bioreplica / No Integrated Armor Locomotion:",
-     "challenge_rating": "1 Purchase DC: 32 Restriction (DC Mod.):",
-     "size": "Medium",
-     "type": "Construct",
-     "cr": 1
-    }
-   ],
-   "body": "Restricted (+2)\nEach doppelganger robot is modeled after a specific person. “Nuyu” bioreplicas are often used as doubles for politicians and movie stars during high-risk public appearances. Government agencies also use them as spies and infiltrators. A “Nuyu” is usually programmed with enough knowledge of its biological counterpart to maintain the charade for a period of a few hours or days.  If a Nuyu needs one or more higher stats in order to better approximate an original being’s exceptional capabilities, then increase the cost accordingly.\nChapter III: Mecha and Power Armor\nMecha and Power Armor\nMecha technology can be found in societies of TS 6 or higher.  Similarly, power armor is a staple of the battlefield in such futuristic scenarios.  A mecha is a legged all-terrain vehicle, meant to carry one or more pilots and crew.  A power armor is a mecha the same size as its pilot.  All mecha are considered Tech Constructs.",
-   "page": null,
-   "template": false,
-   "types": [
-    "Construct"
-   ],
-   "sizes": [
-    "Medium"
-   ],
-   "crMin": 1,
-   "crMax": 1,
+   "crMax": 6,
    "env": []
   },
   {

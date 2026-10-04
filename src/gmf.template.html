@@ -48,7 +48,7 @@ details.card[open]{border-left-color:var(--gold)}
 <body>
 <header>
   <h1>The Game Master's Familiar</h1>
-  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.5.0 — the Bestiary &amp; the Adjudicator</div>
+  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.5.1 — the Bestiary &amp; the Adjudicator</div>
 </header>
 <nav>
   <button id="tab-bestiary" class="on" onclick="show('bestiary')">🐾 Bestiary</button>
@@ -76,7 +76,7 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="a-list"></div>
 </section>
 </main>
-<div class="foot">The Game Master's Familiar v0.5.0 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
+<div class="foot">The Game Master's Familiar v0.5.1 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
 <script>
 const BESTIARY = /*__BESTIARY__*/[];
 const REFS = /*__REFS__*/{spells:[],feats:[],skills:[]};
@@ -137,7 +137,7 @@ function refify(escText,ci){
 // multi-tier entries (Air Elemental Small→Elder, Alicorn Standard/Advanced)
 // carry a variant drop-down; picking one renders that tier's statblock. The
 // book's own columnar layout, restored as a control.
-const F=[['size_type','Size & Type'],['hit_dice','Hit Dice'],['t_ac_system_adj','T/AC System Adj'],['initiative_speed','Init / Speed'],['touch_full_ac_t_ac','Touch/Full AC'],['ba_grapple_parry','BA / Grapple / Parry'],['attack','Attack'],['full_attack','Full Attack'],['space_reach','Space / Reach'],['special_attacks','Special Attacks'],['special_qualities','Special Qualities'],['saves_dodge','Saves / Dodge'],['attributes','Attributes'],['skills','Skills'],['feats','Feats'],['environment','Environment'],['organization','Organization'],['treasure','Treasure'],['alignment','Alignment'],['advancement','Advancement'],['level_adjustment','Level Adj']];
+const F=[['size_type','Size & Type'],['hit_dice','Hit Dice'],['t_ac_system_adj','T/AC System Adj'],['initiative_speed','Init / Speed'],['touch_full_ac_t_ac','Touch/Full AC'],['ba_grapple_parry','BA / Grapple / Parry'],['attack','Attack'],['full_attack','Full Attack'],['space_reach','Space / Reach'],['special_attacks','Special Attacks'],['special_qualities','Special Qualities'],['saves_dodge','Saves / Dodge'],['attributes','Attributes'],['skills','Skills'],['feats','Feats'],['environment','Environment'],['organization','Organization'],['treasure','Treasure'],['alignment','Alignment'],['advancement','Advancement'],['level_adjustment','Level Adj'],['frame_armor','Frame / Armor'],['locomotion','Locomotion'],['manipulators','Manipulators'],['accessories','Accessories'],['purchase_dc','Purchase DC'],['restriction','Restriction']];
 let VIEW=[]; // families in current render order
 const vMatch=(v,ty,sz,lo,hi)=>(!ty||v.type===ty)&&(!sz||v.size===sz)&&(lo==null||(v.cr!=null&&v.cr>=lo&&v.cr<=hi));
 function initFilters(){
@@ -150,9 +150,10 @@ function initFilters(){
 }
 function bodyHTML(body){
   // v0.3.1 (Adam's readability pass): half-line paragraph spacing; ability
-  // titles (1-3 words + optional parenthetical, colon-led) bolded to catch
-  // the eye; standalone short ALL-CAPS lines (COMBAT) as mini-headers.
-  const TITLE=/^([A-Z][\w’'\-]*(?:[ \/][A-Za-z’'\-\[\]]+){0,2}\s*(?:\([^)]{1,24}\))?):\s*/;
+  // titles (up to 5 words + optional parenthetical, colon-led — v0.5.1, Adam's
+  // Marut catch: "Fist of Thunder and Lightning:" outran the old 3-word cap)
+  // bolded to catch the eye; short ALL-CAPS lines (COMBAT) as mini-headers.
+  const TITLE=/^([A-Z][\w’'\-]*(?:[ \/][A-Za-z’'\-\[\]]+){0,4}\s*(?:\([^)]{1,24}\))?):\s*/;
   return body.split('\n').map(line=>{
     const t=line.trim(); if(!t)return '';
     if(/^\[.*\]$/.test(t))return `<p class="bnote">${esc(t)}</p>`;
