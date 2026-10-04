@@ -22845,7 +22845,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "4d12+19",
+     "hit_dice": "4d12+19 (45 hp)",
      "t_ac_system_adj": "Natural Hardness 3",
      "attributes": "Str 11, Dex 10, Con 13, Int 8, Wis 11, Cha 8",
      "ba_grapple_parry": "+4/-4/+4",
@@ -22869,7 +22869,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "7d12+37",
+     "hit_dice": "7d12+37 (82 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 8, Wis 11, Cha 8",
      "ba_grapple_parry": "+7/+4/+8",
@@ -22893,7 +22893,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "10d12+65",
+     "hit_dice": "10d12+65 (130 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+10/+12/+12",
@@ -22917,7 +22917,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "13d12+86",
+     "hit_dice": "13d12+86 (170 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+13/+16/+16",
@@ -22941,7 +22941,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "16d12+123",
+     "hit_dice": "16d12+123 (227 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 19, Dex 10, Con 17, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+16/+24/+20",
@@ -22965,7 +22965,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "19d12+166",
+     "hit_dice": "19d12+166 (289 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+19/+29/+25",
@@ -22989,7 +22989,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "22d12+215",
+     "hit_dice": "22d12+215 (358 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+22/+38/+30",
@@ -23013,7 +23013,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "25d12+245",
+     "hit_dice": "25d12+245 (407 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+25/+42/+34",
@@ -23037,7 +23037,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "28d12+303",
+     "hit_dice": "28d12+303 (485 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+28/+46/+38",
@@ -23061,7 +23061,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "31d12+336",
+     "hit_dice": "31d12+336 (537 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+31/+50/+42",
@@ -23085,7 +23085,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "34d12+403",
+     "hit_dice": "34d12+403 (624 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+34/+58/+46",
@@ -23109,7 +23109,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "37d12+476",
+     "hit_dice": "37d12+476 (716 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+37/+62/+50",
@@ -23159,7 +23159,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "6d12+31",
+     "hit_dice": "6d12+31 (70 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+6/+3/+7",
@@ -23183,7 +23183,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "9d12+58",
+     "hit_dice": "9d12+58 (116 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+9/+11/+11",
@@ -23207,7 +23207,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "12d12+79",
+     "hit_dice": "12d12+79 (157 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+12/+15/+15",
@@ -23231,7 +23231,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "15d12+115",
+     "hit_dice": "15d12+115 (212 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+15/+23/+19",
@@ -23255,7 +23255,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "18d12+157",
+     "hit_dice": "18d12+157 (274 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+18/+28/+24",
@@ -23279,7 +23279,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "21d12+205",
+     "hit_dice": "21d12+205 (341 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+21/+37/+29",
@@ -23303,7 +23303,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "24d12+235",
+     "hit_dice": "24d12+235 (391 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+24/+41/+33",
@@ -23327,7 +23327,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "27d12+292",
+     "hit_dice": "27d12+292 (467 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+27/+45/+37",
@@ -23351,7 +23351,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "30d12+325",
+     "hit_dice": "30d12+325 (520 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+30/+49/+41",
@@ -23375,7 +23375,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "33d12+391",
+     "hit_dice": "33d12+391 (605 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+33/+57/+45",
@@ -23399,7 +23399,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "36d12+463",
+     "hit_dice": "36d12+463 (697 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+36/+61/+49",
@@ -23423,7 +23423,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "39d12+502",
+     "hit_dice": "39d12+502 (755 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 39, Dex 10, Con 27, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+39/+65/+53",
@@ -23474,7 +23474,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "5d12+25",
+     "hit_dice": "5d12+25 (57 hp)",
      "t_ac_system_adj": "Natural Hardness 4",
      "attributes": "Str 13, Dex 10, Con 13, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+5/+2/+6",
@@ -23497,7 +23497,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "8d12+51",
+     "hit_dice": "8d12+51 (103 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+8/+10/+10",
@@ -23520,7 +23520,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "11d12+72",
+     "hit_dice": "11d12+72 (143 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+11/+14/+14",
@@ -23543,7 +23543,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "14d12+107",
+     "hit_dice": "14d12+107 (198 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+14/+22/+18",
@@ -23566,7 +23566,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "17d12+148",
+     "hit_dice": "17d12+148 (258 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+17/+27/+23",
@@ -23589,7 +23589,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "20d12+195",
+     "hit_dice": "20d12+195 (325 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 27, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+20/+36/+28",
@@ -23612,7 +23612,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "23d12+225",
+     "hit_dice": "23d12+225 (374 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+23/+40/+32",
@@ -23635,7 +23635,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "26d12+281",
+     "hit_dice": "26d12+281 (450 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+26/+44/+36",
@@ -23658,7 +23658,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "29d12+314",
+     "hit_dice": "29d12+314 (502 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+29/+48/+40",
@@ -23681,7 +23681,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "32d12+379",
+     "hit_dice": "32d12+379 (587 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+32/+56/+44",
@@ -23704,7 +23704,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "35d12+450",
+     "hit_dice": "35d12+450 (677 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+35/+60/+48",
@@ -23727,7 +23727,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "38d12+489",
+     "hit_dice": "38d12+489 (736 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 39, Dex 10, Con 27, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+38/+64/+52",
@@ -23775,7 +23775,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "7d12+44",
+     "hit_dice": "7d12+44 (89 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 17, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+7/+10/+10",
@@ -23798,7 +23798,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "10d12+75",
+     "hit_dice": "10d12+75 (140 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 21, Dex 10, Con 17, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+10/+19/+15",
@@ -23821,7 +23821,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "13d12+99",
+     "hit_dice": "13d12+99 (183 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 25, Dex 10, Con 17, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+13/+24/+20",
@@ -23844,7 +23844,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "16d12+139",
+     "hit_dice": "16d12+139 (243 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 29, Dex 10, Con 19, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+16/+29/+25",
@@ -23867,7 +23867,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "19d12+185",
+     "hit_dice": "19d12+185 (308 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 31, Dex 10, Con 21, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+19/+37/+29",
@@ -23890,7 +23890,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "22d12+215",
+     "hit_dice": "22d12+215 (358 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 33, Dex 10, Con 21, Int 16, Wis 19, Cha 16",
      "ba_grapple_parry": "+22/+41/+33",
@@ -23913,7 +23913,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "25d12+270",
+     "hit_dice": "25d12+270 (432 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+25/+44/+36",
@@ -23936,7 +23936,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "28d12+331",
+     "hit_dice": "28d12+331 (513 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+28/+52/+40",
@@ -23959,7 +23959,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "31d12+398",
+     "hit_dice": "31d12+398 (599 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+31/+56/+44",
@@ -23982,7 +23982,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "34d12+471",
+     "hit_dice": "34d12+471 (692 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 39, Dex 10, Con 29, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+34/+60/+48",
@@ -24005,7 +24005,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "37d12+550",
+     "hit_dice": "37d12+550 (790 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 41, Dex 10, Con 31, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+37/+64/+52",
@@ -24028,7 +24028,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "40d12+595",
+     "hit_dice": "40d12+595 (855 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 45, Dex 10, Con 31, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+40/+73/+57",
@@ -24076,7 +24076,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "3d12+13",
+     "hit_dice": "3d12+13 (32 hp)",
      "t_ac_system_adj": "Natural Hardness 2",
      "attributes": "Str 11, Dex 10, Con 13, Int 6, Wis 11, Cha 6",
      "ba_grapple_parry": "+3/-5/+3",
@@ -24099,7 +24099,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "6d12+31",
+     "hit_dice": "6d12+31 (70 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 6, Wis 11, Cha 8",
      "ba_grapple_parry": "+6/+3/+9",
@@ -24122,7 +24122,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "9d12+58",
+     "hit_dice": "9d12+58 (116 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 6, Wis 11, Cha 10",
      "ba_grapple_parry": "+9/+11/+11",
@@ -24145,7 +24145,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "12d12+77",
+     "hit_dice": "12d12+77 (155 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 8, Wis 11, Cha 10",
      "ba_grapple_parry": "+12/+15/+15",
@@ -24168,7 +24168,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "15d12+115",
+     "hit_dice": "15d12+115 (212 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 8, Wis 11, Cha 12",
      "ba_grapple_parry": "+15/+23/+19",
@@ -24191,7 +24191,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "18d12+157",
+     "hit_dice": "18d12+157 (274 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 10, Wis 11, Cha 12",
      "ba_grapple_parry": "+18/+28/+24",
@@ -24214,7 +24214,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "21d12+205",
+     "hit_dice": "21d12+205 (341 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+21/+37/+29",
@@ -24237,7 +24237,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "24d12+235",
+     "hit_dice": "24d12+235 (391 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 12, Wis 13, Cha 14",
      "ba_grapple_parry": "+24/+41/+33",
@@ -24260,7 +24260,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "27d12+292",
+     "hit_dice": "27d12+292 (467 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+27/+45/+37",
@@ -24283,7 +24283,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "30d12+325",
+     "hit_dice": "30d12+325 (520 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 14, Wis 15, Cha 16",
      "ba_grapple_parry": "+30/+49/+41",
@@ -24306,7 +24306,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "33d12+391",
+     "hit_dice": "33d12+391 (605 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 14, Wis 15, Cha 16",
      "ba_grapple_parry": "+33/+57/+45",
@@ -24329,7 +24329,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "36d12+463",
+     "hit_dice": "36d12+463 (697 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+36/+61/+49",
@@ -24376,7 +24376,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "7d12+44",
+     "hit_dice": "7d12+44 (89 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 17, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+7/+10/+10",
@@ -24399,7 +24399,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "10d12+75",
+     "hit_dice": "10d12+75 (140 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 21, Dex 10, Con 17, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+10/+19/+15",
@@ -24422,7 +24422,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "13d12+99",
+     "hit_dice": "13d12+99 (183 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 25, Dex 10, Con 17, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+13/+24/+20",
@@ -24445,7 +24445,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "16d12+139",
+     "hit_dice": "16d12+139 (243 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 29, Dex 10, Con 19, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+16/+29/+25",
@@ -24468,7 +24468,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "19d12+185",
+     "hit_dice": "19d12+185 (308 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 31, Dex 10, Con 21, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+19/+37/+29",
@@ -24491,7 +24491,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "22d12+215",
+     "hit_dice": "22d12+215 (358 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 33, Dex 10, Con 21, Int 16, Wis 19, Cha 16",
      "ba_grapple_parry": "+22/+41/+33",
@@ -24514,7 +24514,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "25d12+270",
+     "hit_dice": "25d12+270 (432 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+25/+44/+36",
@@ -24537,7 +24537,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "28d12+331",
+     "hit_dice": "28d12+331 (513 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+28/+52/+40",
@@ -24560,7 +24560,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "31d12+398",
+     "hit_dice": "31d12+398 (599 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+31/+56/+44",
@@ -24583,7 +24583,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "34d12+471",
+     "hit_dice": "34d12+471 (692 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 39, Dex 10, Con 29, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+34/+60/+48",
@@ -24606,7 +24606,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "37d12+550",
+     "hit_dice": "37d12+550 (790 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 41, Dex 10, Con 31, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+37/+64/+52",
@@ -24629,7 +24629,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "40d12+595",
+     "hit_dice": "40d12+595 (855 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 45, Dex 10, Con 31, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+40/+73/+57",
@@ -24676,7 +24676,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "5d12+25",
+     "hit_dice": "5d12+25 (57 hp)",
      "t_ac_system_adj": "Natural Hardness 4",
      "attributes": "Str 13, Dex 10, Con 13, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+5/+2/+6",
@@ -24698,7 +24698,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "8d12+51",
+     "hit_dice": "8d12+51 (103 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+8/+10/+10",
@@ -24720,7 +24720,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "11d12+72",
+     "hit_dice": "11d12+72 (143 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+11/+14/+14",
@@ -24742,7 +24742,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "14d12+107",
+     "hit_dice": "14d12+107 (198 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+14/+22/+18",
@@ -24764,7 +24764,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "17d12+148",
+     "hit_dice": "17d12+148 (258 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+17/+27/+23",
@@ -24786,7 +24786,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "20d12+195",
+     "hit_dice": "20d12+195 (325 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 27, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+20/+36/+28",
@@ -24808,7 +24808,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "23d12+225",
+     "hit_dice": "23d12+225 (374 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+23/+40/+32",
@@ -24830,7 +24830,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "26d12+281",
+     "hit_dice": "26d12+281 (450 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+26/+44/+36",
@@ -24852,7 +24852,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "29d12+314",
+     "hit_dice": "29d12+314 (502 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+29/+48/+40",
@@ -24874,7 +24874,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "32d12+379",
+     "hit_dice": "32d12+379 (587 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+32/+56/+44",
@@ -24896,7 +24896,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "35d12+450",
+     "hit_dice": "35d12+450 (677 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+35/+60/+48",
@@ -24918,7 +24918,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "38d12+489",
+     "hit_dice": "38d12+489 (736 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 39, Dex 10, Con 27, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+38/+64/+52",
@@ -24964,7 +24964,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "3d12+13",
+     "hit_dice": "3d12+13 (32 hp)",
      "t_ac_system_adj": "Natural Hardness 2",
      "attributes": "Str 11, Dex 10, Con 13, Int 6, Wis 11, Cha 10",
      "ba_grapple_parry": "+3/-5/+3",
@@ -24986,7 +24986,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "6d12+31",
+     "hit_dice": "6d12+31 (70 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 8, Wis 12, Cha 12",
      "ba_grapple_parry": "+6/+3/+9",
@@ -25008,7 +25008,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "9d12+58",
+     "hit_dice": "9d12+58 (116 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 10, Wis 12, Cha 12",
      "ba_grapple_parry": "+9/+11/+11",
@@ -25030,7 +25030,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "12d12+77",
+     "hit_dice": "12d12+77 (155 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 10, Wis 14, Cha 14",
      "ba_grapple_parry": "+12/+15/+15",
@@ -25052,7 +25052,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "15d12+115",
+     "hit_dice": "15d12+115 (212 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 12, Wis 14, Cha 16",
      "ba_grapple_parry": "+15/+23/+19",
@@ -25074,7 +25074,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "18d12+157",
+     "hit_dice": "18d12+157 (274 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 12, Wis 16, Cha 16",
      "ba_grapple_parry": "+18/+28/+24",
@@ -25096,7 +25096,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "21d12+205",
+     "hit_dice": "21d12+205 (341 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 14, Wis 16, Cha 18",
      "ba_grapple_parry": "+21/+37/+29",
@@ -25118,7 +25118,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "24d12+235",
+     "hit_dice": "24d12+235 (391 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 16, Wis 18, Cha 20",
      "ba_grapple_parry": "+24/+41/+33",
@@ -25140,7 +25140,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "27d12+292",
+     "hit_dice": "27d12+292 (467 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 16, Wis 18, Cha 20",
      "ba_grapple_parry": "+27/+45/+37",
@@ -25162,7 +25162,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "30d12+325",
+     "hit_dice": "30d12+325 (520 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 20, Cha 22",
      "ba_grapple_parry": "+30/+49/+41",
@@ -25184,7 +25184,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "33d12+391",
+     "hit_dice": "33d12+391 (605 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 20, Cha 22",
      "ba_grapple_parry": "+33/+57/+45",
@@ -25206,7 +25206,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "36d12+463",
+     "hit_dice": "36d12+463 (697 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 22, Wis 22, Cha 24",
      "ba_grapple_parry": "+36/+61/+49",
@@ -25254,7 +25254,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "6d12+31",
+     "hit_dice": "6d12+31 (70 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+6/+3/+7",
@@ -25277,7 +25277,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "9d12+58",
+     "hit_dice": "9d12+58 (116 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+9/+11/+11",
@@ -25300,7 +25300,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "12d12+79",
+     "hit_dice": "12d12+79 (157 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+12/+15/+15",
@@ -25323,7 +25323,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "15d12+115",
+     "hit_dice": "15d12+115 (212 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+15/+23/+19",
@@ -25346,7 +25346,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "18d12+157",
+     "hit_dice": "18d12+157 (274 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+18/+28/+24",
@@ -25369,7 +25369,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "21d12+205",
+     "hit_dice": "21d12+205 (341 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+21/+37/+29",
@@ -25392,7 +25392,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "24d12+235",
+     "hit_dice": "24d12+235 (391 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+24/+41/+33",
@@ -25415,7 +25415,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "27d12+292",
+     "hit_dice": "27d12+292 (467 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+27/+45/+37",
@@ -25438,7 +25438,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "30d12+325",
+     "hit_dice": "30d12+325 (520 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+30/+49/+41",
@@ -25461,7 +25461,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "33d12+391",
+     "hit_dice": "33d12+391 (605 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+33/+57/+45",
@@ -25484,7 +25484,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "36d12+463",
+     "hit_dice": "36d12+463 (697 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+36/+61/+49",
@@ -25507,7 +25507,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "39d12+502",
+     "hit_dice": "39d12+502 (755 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 39, Dex 10, Con 27, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+39/+65/+53",
@@ -25555,7 +25555,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "6d12+31",
+     "hit_dice": "6d12+31 (70 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+6/+3/+7",
@@ -25579,7 +25579,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "9d12+58",
+     "hit_dice": "9d12+58 (116 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 10, Wis 11, Cha 12",
      "ba_grapple_parry": "+9/+11/+11",
@@ -25603,7 +25603,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "12d12+79",
+     "hit_dice": "12d12+79 (157 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+12/+15/+15",
@@ -25627,7 +25627,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "15d12+115",
+     "hit_dice": "15d12+115 (212 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+15/+23/+19",
@@ -25651,7 +25651,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "18d12+157",
+     "hit_dice": "18d12+157 (274 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 14, Wis 15, Cha 16",
      "ba_grapple_parry": "+18/+28/+24",
@@ -25675,7 +25675,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "21d12+205",
+     "hit_dice": "21d12+205 (341 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+21/+37/+29",
@@ -25699,7 +25699,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "24d12+235",
+     "hit_dice": "24d12+235 (391 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 16, Wis 17, Cha 18",
      "ba_grapple_parry": "+24/+41/+33",
@@ -25723,7 +25723,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "27d12+292",
+     "hit_dice": "27d12+292 (467 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 18, Wis 19, Cha 20",
      "ba_grapple_parry": "+27/+45/+37",
@@ -25747,7 +25747,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "30d12+325",
+     "hit_dice": "30d12+325 (520 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 19, Cha 20",
      "ba_grapple_parry": "+30/+49/+41",
@@ -25771,7 +25771,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "33d12+391",
+     "hit_dice": "33d12+391 (605 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 21, Cha 22",
      "ba_grapple_parry": "+33/+57/+45",
@@ -25795,7 +25795,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "36d12+463",
+     "hit_dice": "36d12+463 (697 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 22, Wis 21, Cha 24",
      "ba_grapple_parry": "+36/+61/+49",
@@ -25819,7 +25819,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "39d12+502",
+     "hit_dice": "39d12+502 (755 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 39, Dex 10, Con 27, Int 24, Wis 23, Cha 26",
      "ba_grapple_parry": "+39/+65/+53",
@@ -25868,7 +25868,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "4d12+19",
+     "hit_dice": "4d12+19 (45 hp)",
      "t_ac_system_adj": "Natural Hardness 3",
      "attributes": "Str 11, Dex 10, Con 13, Int 8, Wis 11, Cha 8",
      "ba_grapple_parry": "+4/-4/+4",
@@ -25892,7 +25892,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "7d12+37",
+     "hit_dice": "7d12+37 (82 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 8, Wis 11, Cha 8",
      "ba_grapple_parry": "+7/+4/+8",
@@ -25916,7 +25916,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "10d12+65",
+     "hit_dice": "10d12+65 (130 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+10/+12/+12",
@@ -25940,7 +25940,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "13d12+86",
+     "hit_dice": "13d12+86 (170 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+13/+16/+16",
@@ -25964,7 +25964,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "16d12+123",
+     "hit_dice": "16d12+123 (227 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 19, Dex 10, Con 17, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+16/+24/+20",
@@ -25988,7 +25988,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "19d12+166",
+     "hit_dice": "19d12+166 (289 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+19/+29/+25",
@@ -26012,7 +26012,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "22d12+215",
+     "hit_dice": "22d12+215 (358 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+22/+38/+30",
@@ -26036,7 +26036,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "25d12+245",
+     "hit_dice": "25d12+245 (407 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+25/+42/+34",
@@ -26060,7 +26060,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "28d12+303",
+     "hit_dice": "28d12+303 (485 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+28/+46/+38",
@@ -26084,7 +26084,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "31d12+336",
+     "hit_dice": "31d12+336 (537 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+31/+50/+42",
@@ -26108,7 +26108,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "34d12+403",
+     "hit_dice": "34d12+403 (624 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+34/+58/+46",
@@ -26132,7 +26132,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "37d12+476",
+     "hit_dice": "37d12+476 (716 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+37/+62/+50",
@@ -26179,7 +26179,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "4d12+19",
+     "hit_dice": "4d12+19 (45 hp)",
      "t_ac_system_adj": "Natural Hardness 3",
      "attributes": "Str 11, Dex 10, Con 13, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+4/-4/+4",
@@ -26202,7 +26202,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "7d12+37",
+     "hit_dice": "7d12+37 (82 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 10, Wis 11, Cha 10",
      "ba_grapple_parry": "+7/+4/+8",
@@ -26225,7 +26225,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "10d12+65",
+     "hit_dice": "10d12+65 (130 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+10/+12/+12",
@@ -26248,7 +26248,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "13d12+86",
+     "hit_dice": "13d12+86 (170 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+13/+16/+16",
@@ -26271,7 +26271,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "16d12+123",
+     "hit_dice": "16d12+123 (227 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 19, Dex 10, Con 17, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+16/+24/+20",
@@ -26295,7 +26295,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "19d12+166",
+     "hit_dice": "19d12+166 (289 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+19/+29/+25",
@@ -26319,7 +26319,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "22d12+215",
+     "hit_dice": "22d12+215 (358 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+22/+38/+30",
@@ -26343,7 +26343,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "25d12+145",
+     "hit_dice": "25d12+145 (307 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+25/+42/+34",
@@ -26367,7 +26367,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "28d12+303",
+     "hit_dice": "28d12+303 (485 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+28/+46/+38",
@@ -26391,7 +26391,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "31d12+336",
+     "hit_dice": "31d12+336 (537 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+31/+50/+42",
@@ -26415,7 +26415,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "34d12+403",
+     "hit_dice": "34d12+403 (624 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+34/+58/+46",
@@ -26439,7 +26439,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "37d12+476",
+     "hit_dice": "37d12+476 (716 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+37/+62/+50",
@@ -26489,7 +26489,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "6d12+31",
+     "hit_dice": "6d12+31 (70 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+6/+3/+7",
@@ -26512,7 +26512,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "9d12+58",
+     "hit_dice": "9d12+58 (116 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+9/+11/+11",
@@ -26535,7 +26535,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "12d12+79",
+     "hit_dice": "12d12+79 (157 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+12/+15/+15",
@@ -26558,7 +26558,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "15d12+115",
+     "hit_dice": "15d12+115 (212 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 19, Dex 10, Con 17, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+15/+23/+19",
@@ -26581,7 +26581,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "18d12+157",
+     "hit_dice": "18d12+157 (274 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+18/+28/+24",
@@ -26604,7 +26604,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "21d12+205",
+     "hit_dice": "21d12+205 (341 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+21/+37/+29",
@@ -26627,7 +26627,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "24d12+235",
+     "hit_dice": "24d12+235 (391 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+24/+41/+33",
@@ -26650,7 +26650,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "27d12+292",
+     "hit_dice": "27d12+292 (467 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+27/+45/+37",
@@ -26673,7 +26673,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "30d12+325",
+     "hit_dice": "30d12+325 (520 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+30/+49/+41",
@@ -26696,7 +26696,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "33d12+391",
+     "hit_dice": "33d12+391 (605 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+33/+57/+45",
@@ -26719,7 +26719,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "36d12+463",
+     "hit_dice": "36d12+463 (697 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+36/+61/+49",
@@ -26742,7 +26742,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "39d12+502",
+     "hit_dice": "39d12+502 (755 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 39, Dex 10, Con 27, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+39/+65/+53",
@@ -26790,7 +26790,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "5d12+25",
+     "hit_dice": "5d12+25 (57 hp)",
      "t_ac_system_adj": "Natural Hardness 4",
      "attributes": "Str 11, Dex 10, Con 13, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+5/-3/+5",
@@ -26813,7 +26813,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "8d12+43",
+     "hit_dice": "8d12+43 (95 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 12, Wis 13, Cha 12",
      "ba_grapple_parry": "+8/+5/+9",
@@ -26836,7 +26836,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "11d12+72",
+     "hit_dice": "11d12+72 (143 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 15, Dex 10, Con 15, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+11/+13/+13",
@@ -26859,7 +26859,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "14d12+93",
+     "hit_dice": "14d12+93 (184 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+14/+17/+17",
@@ -26882,7 +26882,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "17d12+131",
+     "hit_dice": "17d12+131 (241 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 19, Dex 10, Con 17, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+17/+25/+21",
@@ -26905,7 +26905,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "20d12+175",
+     "hit_dice": "20d12+175 (305 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+20/+30/+26",
@@ -26928,7 +26928,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "23d12+225",
+     "hit_dice": "23d12+225 (374 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+23/+39/+31",
@@ -26951,7 +26951,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "26d12+255",
+     "hit_dice": "26d12+255 (424 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+26/+43/+35",
@@ -26974,7 +26974,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "29d12+314",
+     "hit_dice": "29d12+314 (502 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+29/+47/+39",
@@ -26997,7 +26997,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "32d12+347",
+     "hit_dice": "32d12+347 (555 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+32/+51/+43",
@@ -27020,7 +27020,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "35d12+415",
+     "hit_dice": "35d12+415 (642 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+35/+59/+47",
@@ -27043,7 +27043,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "38d12+489",
+     "hit_dice": "38d12+489 (736 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 37, Dex 10, Con 27, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+38/+63/+51",
@@ -27092,7 +27092,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "8d12+51",
+     "hit_dice": "8d12+51 (103 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 17, Dex 10, Con 15, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+8/+11/+11",
@@ -27115,7 +27115,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "11d12+83",
+     "hit_dice": "11d12+83 (154 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 21, Dex 10, Con 17, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+11/+20/+16",
@@ -27138,7 +27138,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "14d12+107",
+     "hit_dice": "14d12+107 (198 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 25, Dex 10, Con 17, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+14/+25/+21",
@@ -27161,7 +27161,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "17d12+148",
+     "hit_dice": "17d12+148 (258 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 29, Dex 10, Con 19, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+17/+30/+26",
@@ -27184,7 +27184,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "20d12+195",
+     "hit_dice": "20d12+195 (325 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 31, Dex 10, Con 21, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+20/+38/+30",
@@ -27207,7 +27207,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "23d12+225",
+     "hit_dice": "23d12+225 (374 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 33, Dex 10, Con 21, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+23/+42/+34",
@@ -27230,7 +27230,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "26d12+281",
+     "hit_dice": "26d12+281 (450 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 35, Dex 10, Con 23, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+26/+46/+38",
@@ -27253,7 +27253,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "29d12+343",
+     "hit_dice": "29d12+343 (531 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 39, Dex 10, Con 25, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+29/+55/+43",
@@ -27276,7 +27276,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "32d12+411",
+     "hit_dice": "32d12+411 (619 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 41, Dex 10, Con 27, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+32/+59/+47",
@@ -27299,7 +27299,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "35d12+485",
+     "hit_dice": "35d12+485 (712 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 43, Dex 10, Con 29, Int 28, Wis 29, Cha 28",
      "ba_grapple_parry": "+35/+63/+51",
@@ -27322,7 +27322,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "38d12+565",
+     "hit_dice": "38d12+565 (812 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 45, Dex 10, Con 31, Int 30, Wis 31, Cha 30",
      "ba_grapple_parry": "+38/+71/+55",
@@ -27345,7 +27345,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "41d12+651",
+     "hit_dice": "41d12+651 (917 hp)",
      "t_ac_system_adj": "Natural Hardness 40/8d/2D",
      "attributes": "Str 47, Dex 10, Con 33, Int 32, Wis 33, Cha 32",
      "ba_grapple_parry": "+41/+75/+59",
@@ -27393,7 +27393,7 @@
    "variants": [
     {
      "label": "Wyrmling",
-     "hit_dice": "7d12+37",
+     "hit_dice": "7d12+37 (82 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 13, Dex 10, Con 13, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+7/+4/+8",
@@ -27416,7 +27416,7 @@
     },
     {
      "label": "Very young",
-     "hit_dice": "10d12+65",
+     "hit_dice": "10d12+65 (130 hp)",
      "t_ac_system_adj": "Natural Hardness 5/1d",
      "attributes": "Str 15, Dex 10, Con 15, Int 14, Wis 15, Cha 14",
      "ba_grapple_parry": "+10/+12/+12",
@@ -27439,7 +27439,7 @@
     },
     {
      "label": "Young",
-     "hit_dice": "13d12+86",
+     "hit_dice": "13d12+86 (170 hp)",
      "t_ac_system_adj": "Natural Hardness 10/2d",
      "attributes": "Str 17, Dex 10, Con 15, Int 16, Wis 17, Cha 16",
      "ba_grapple_parry": "+13/+16/+16",
@@ -27462,7 +27462,7 @@
     },
     {
      "label": "Juvenile",
-     "hit_dice": "16d12+123",
+     "hit_dice": "16d12+123 (227 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 19, Dex 10, Con 17, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+16/+24/+20",
@@ -27485,7 +27485,7 @@
     },
     {
      "label": "Young adult",
-     "hit_dice": "19d12+166",
+     "hit_dice": "19d12+166 (289 hp)",
      "t_ac_system_adj": "Natural Hardness 15/3d",
      "attributes": "Str 23, Dex 10, Con 19, Int 18, Wis 19, Cha 18",
      "ba_grapple_parry": "+19/+29/+25",
@@ -27508,7 +27508,7 @@
     },
     {
      "label": "Adult",
-     "hit_dice": "22d12+215",
+     "hit_dice": "22d12+215 (358 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 27, Dex 10, Con 21, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+22/+38/+30",
@@ -27531,7 +27531,7 @@
     },
     {
      "label": "Mature adult",
-     "hit_dice": "25d12+245",
+     "hit_dice": "25d12+245 (407 hp)",
      "t_ac_system_adj": "Natural Hardness 20/4d/1D",
      "attributes": "Str 29, Dex 10, Con 21, Int 20, Wis 21, Cha 20",
      "ba_grapple_parry": "+25/+42/+34",
@@ -27554,7 +27554,7 @@
     },
     {
      "label": "Old",
-     "hit_dice": "28d12+303",
+     "hit_dice": "28d12+303 (485 hp)",
      "t_ac_system_adj": "Natural Hardness 25/5d/1D",
      "attributes": "Str 31, Dex 10, Con 23, Int 22, Wis 23, Cha 22",
      "ba_grapple_parry": "+28/+46/+38",
@@ -27577,7 +27577,7 @@
     },
     {
      "label": "Very old",
-     "hit_dice": "31d12+336",
+     "hit_dice": "31d12+336 (537 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 33, Dex 10, Con 23, Int 24, Wis 25, Cha 24",
      "ba_grapple_parry": "+31/+50/+42",
@@ -27600,7 +27600,7 @@
     },
     {
      "label": "Ancient",
-     "hit_dice": "34d12+391",
+     "hit_dice": "34d12+391 (612 hp)",
      "t_ac_system_adj": "Natural Hardness 30/6d/1D",
      "attributes": "Str 35, Dex 10, Con 25, Int 26, Wis 27, Cha 26",
      "ba_grapple_parry": "+34/+58/+46",
@@ -27623,7 +27623,7 @@
     },
     {
      "label": "Wyrm",
-     "hit_dice": "37d12+513",
+     "hit_dice": "37d12+513 (753 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 39, Dex 10, Con 29, Int 28, Wis 29, Cha 28",
      "ba_grapple_parry": "+37/+63/+51",
@@ -27646,7 +27646,7 @@
     },
     {
      "label": "Great wyrm",
-     "hit_dice": "40d12+595",
+     "hit_dice": "40d12+595 (855 hp)",
      "t_ac_system_adj": "Natural Hardness 35/7d/1D",
      "attributes": "Str 43, Dex 10, Con 31, Int 30, Wis 31, Cha 30",
      "ba_grapple_parry": "+40/+72/+56",

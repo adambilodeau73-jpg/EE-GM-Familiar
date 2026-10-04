@@ -69,7 +69,13 @@ export function extractDragons({ lines, pageOf, isCaps, merged, MISMATCH }) {
         const v = { label: DRAGON_AGES[a] };
         let m2 = row.match(/\b([TSMLHGC])\b/); const size = m2 ? m2[1] : null;
         m2 = row.match(/(\d+d12(?:\+\d+)?)\s*(\[[^\]]*\])?/);
-        if (m2) { v.hit_dice = m2[1]; if (m2[2]) v.t_ac_system_adj = 'Natural Hardness ' + m2[2].slice(1, -1); }
+        if (m2) {
+          // Average HP for the GM-on-the-go: Nd12 averages 6.5 per die, floor.
+          const hm = m2[1].match(/(\d+)d12(?:\+(\d+))?/);
+          const avg = Math.floor(Number(hm[1]) * 6.5 + (Number(hm[2]) || 0));
+          v.hit_dice = `${m2[1]} (${avg} hp)`;
+          if (m2[2]) v.t_ac_system_adj = 'Natural Hardness ' + m2[2].slice(1, -1);
+        }
         const after = m2 ? row.slice(row.indexOf(m2[0]) + m2[0].length) : row;
         const toks = after.trim().split(/\s+/);
         const ints = []; const pairs = []; const singles = []; let breath = null, fp = null;

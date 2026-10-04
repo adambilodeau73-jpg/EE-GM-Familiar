@@ -36,6 +36,7 @@ details.card[open]{border-left-color:var(--gold)}
 .body p b{color:var(--gold)}
 .body .bhead{margin:.6em 0 .35em;font-variant:small-caps;letter-spacing:.08em;color:var(--gold);font-weight:bold;font-size:12px}
 .body .bnote{opacity:.6;font-style:italic}
+.rf{border-bottom:1px dotted rgba(200,151,30,.55);cursor:help}
 .rule-card .body{border-top:none}
 .cite{font-size:10px;color:var(--blue)}
 .tag{font-size:10px;color:var(--purple)}
@@ -47,7 +48,7 @@ details.card[open]{border-left-color:var(--gold)}
 <body>
 <header>
   <h1>The Game Master's Familiar</h1>
-  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.3.1 — the Bestiary &amp; the Adjudicator</div>
+  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.4.0 — the Bestiary &amp; the Adjudicator</div>
 </header>
 <nav>
   <button id="tab-bestiary" class="on" onclick="show('bestiary')">🐾 Bestiary</button>
@@ -75,9 +76,10 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="a-list"></div>
 </section>
 </main>
-<div class="foot">The Game Master's Familiar v0.3.1 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
+<div class="foot">The Game Master's Familiar v0.4.0 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
 <script>
 const BESTIARY = /*__BESTIARY__*/[];
+const REFS = /*__REFS__*/{spells:[],feats:[],skills:[]};
 // ⚖ THE ADJUDICATOR — seed cards. Every card carries its citation; cards grow
 // with the rulings ledger the same way the CG's oracle does.
 const ADJUDICATOR = [
@@ -106,6 +108,26 @@ function show(p){
 const fmtCR=n=>n==null?null:(n<1?(Math.round(n*2)/2||0.5):Math.round(n));
 const toTitle=s=>String(s??'').toLowerCase().replace(/(^|[\s\-(\/,''])([a-z])/g,(m,p,c)=>p+c.toUpperCase());
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// v0.4.0: the HOVER LAYER — spell/power, feat, and skill names harvested from
+// the Character Generator (one truth, two tools; tools/harvest_cg.mjs). The
+// statline list fields (SA/SQ/Feats/Skills) match case-insensitively — they
+// are name lists; body prose only honors as-printed capitalization, so common
+// words (fear, light, jump) stay quiet in running sentences. Skills carry key
+// ability + scenario requirement only — the CG holds no skill prose to lift.
+const REFMAP=new Map();
+for(const s of REFS.spells)REFMAP.set(esc(s.n).toLowerCase(),(s.l?s.l+'\n\n':'')+s.d);
+for(const f of REFS.feats){const k=esc(f.n).toLowerCase();if(!REFMAP.has(k))REFMAP.set(k,'Feat.'+(f.pre?' Prerequisite: '+f.pre+'.':'')+'\n\n'+f.d);}
+for(const s of REFS.skills){const k=esc(s.n).toLowerCase();if(!REFMAP.has(k))REFMAP.set(k,'Skill ('+s.k+')'+(s.req?' — requires '+s.req:''));}
+const rxEsc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const REF_RX=REFMAP.size?new RegExp('(?<![\\w’\'])('+[...REFMAP.keys()].sort((a,b)=>b.length-a.length).map(rxEsc).join('|')+')(?![\\w’\'])','gi'):null;
+function refify(escText,ci){
+  if(!REF_RX)return escText;
+  return escText.replace(REF_RX,m=>{
+    if(!ci&&!/^[A-Z]/.test(m))return m;
+    const tip=REFMAP.get(m.toLowerCase());
+    return tip?`<span class="rf" title="${esc(tip).replace(/\n/g,'&#10;')}">${m}</span>`:m;
+  });
+}
 // v0.3.1 (Adam's conflation report): the data is now FAMILIES with VARIANTS —
 // multi-tier entries (Air Elemental Small→Elder, Alicorn Standard/Advanced)
 // carry a variant drop-down; picking one renders that tier's statblock. The
@@ -131,11 +153,12 @@ function bodyHTML(body){
     if(/^\[.*\]$/.test(t))return `<p class="bnote">${esc(t)}</p>`;
     if(/^[A-Z][A-Z \/&''’-]{3,30}$/.test(t)&&t.split(/\s+/).length<=4)return `<div class="bhead">${esc(t)}</div>`;
     const m=t.match(TITLE);
-    if(m)return `<p><b>${esc(m[1])}:</b> ${esc(t.slice(m[0].length))}</p>`;
-    return `<p>${esc(t)}</p>`;
+    if(m)return `<p><b>${esc(m[1])}:</b> ${refify(esc(t.slice(m[0].length)),false)}</p>`;
+    return `<p>${refify(esc(t),false)}</p>`;
   }).join('');
 }
-function statHTML(v){const scaled=(v.scaled||[]).map(s2=>`<div class="statrow"><b>${esc(s2.title)}:</b> ${esc(s2.text)}</div>`).join('');return `<div class="statline">${F.map(([k,l])=>v[k]?`<div class="statrow"><b>${l}:</b> ${esc(v[k])}</div>`:'').join('')}${scaled}</div>`;}
+const RFIELDS={special_attacks:1,special_qualities:1,feats:1,skills:1};
+function statHTML(v){const scaled=(v.scaled||[]).map(s2=>`<div class="statrow"><b>${esc(s2.title)}:</b> ${refify(esc(s2.text),true)}</div>`).join('');return `<div class="statline">${F.map(([k,l])=>v[k]?`<div class="statrow"><b>${l}:</b> ${RFIELDS[k]?refify(esc(v[k]),true):esc(v[k])}</div>`:'').join('')}${scaled}</div>`;}
 function pickV(sel,idx){
   const f=VIEW[idx];
   const box=document.getElementById('stat-'+idx);
