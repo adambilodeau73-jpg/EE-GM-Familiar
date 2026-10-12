@@ -1,0 +1,142 @@
+# CR AUDIT — Phase B: the descriptive benchmarks (generated 2026-10-12)
+
+Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, saves 688, offense 704). Method: per-CR percentile bands; outliers scored by robust within-band z (median/IQR, log-space for HP and damage), defense = mean z(effHP, fullAC), offense = mean z(bestAtk, routine), overall = their mean. Bands with n < 5 are reported but not scored.
+
+## The benchmark table (median [p25–p75])
+
+| CR | n | eff HP | full AC | touch AC | best atk | routine dmg | Fort/Ref/Will |
+|---|---|---|---|---|---|---|---|
+| 0.16666666666666666 | 2 | 12.5 [8.3–16.8] | 13 [13–13] | 12 [11.5–12.5] | 2.5 [1.8–3.3] | 1.8 [1.6–1.9] | 3/4/0.5 |
+| 0.25 | 2 | 17.5 [15.8–19.3] | 15 [14–16] | 13 [12–14] | 5 [5–5] | 2.5 [2.5–2.5] | 3/4.5/1 |
+| 0.3333333333333333 | 7 | 11 [9.5–15] | 15 [15–15.5] | 12 [11.5–14] | 2 [1.5–3] | 3.5 [2.5–4] | 2/4/2 |
+| 0.5 | 22 | 12.5 [5.3–23.8] | 15 [13–16] | 12 [11–13] | 3 [2–4] | 4.5 [3.5–5.4] | 3/4/1 |
+| 1 | 52 | 25.5 [21–35.3] | 15 [14–16] | 12 [10–13] | 3 [2–4] | 5 [2.5–7.5] | 3/3.5/1 |
+| 2 | 57 | 38 [28–50] | 16 [14–17] | 12 [11–13] | 5 [4–6] | 7.8 [5.5–11.4] | 4/5/3 |
+| 3 | 82 | 49 [36.3–66.3] | 16 [15–18] | 12 [11–13] | 6 [4–7] | 9 [5.5–17.6] | 5/4/4 |
+| 4 | 51 | 82 [61–105] | 17 [15–18] | 10 [10–11] | 9 [6–10] | 16.8 [8.8–23] | 6/5/5 |
+| 5 | 61 | 88 [75–118] | 17.5 [15–19] | 10 [10–11] | 10 [8–12] | 18.5 [13–28.4] | 8/6/5 |
+| 6 | 31 | 100 [92.5–130] | 18 [17–20] | 10 [9–12] | 11 [10–13] | 25.8 [19.9–33.1] | 8/7/6 |
+| 7 | 56 | 129.5 [88.5–186.5] | 19 [16.8–21] | 10 [8.8–12] | 13 [10–16] | 25.5 [14.6–37.3] | 9/7/7 |
+| 8 | 35 | 147 [103.5–186.5] | 20 [18–22.5] | 10 [9–11.5] | 15 [12–17] | 21.5 [14.1–34] | 10/8/8 |
+| 9 | 34 | 204.5 [143.8–241.5] | 22.5 [20–24.8] | 9.5 [9–11] | 18 [14.3–20] | 36 [24–46.1] | 12/9/9 |
+| 10 | 26 | 187.5 [134–293.8] | 22 [19–24] | 9 [8–10] | 19 [14–22.8] | 35 [16.3–48.1] | 12/8.5/9 |
+| 11 | 31 | 240 [192.5–300.5] | 25 [23–26] | 9 [9–14] | 21 [17.5–24.5] | 40 [28.5–68.8] | 14.5/10/10.5 |
+| 12 | 16 | 282.5 [204.5–351.8] | 24 [17.8–27] | 8 [5.5–9] | 22 [20–25] | 35.5 [30.6–60.3] | 15/10/8.5 |
+| 13 | 16 | 264 [201–368.8] | 26.5 [25.8–27] | 9 [8–10.3] | 23 [20–26] | 44 [22.5–64.5] | 15/11/13 |
+| 14 | 14 | 236 [181.8–395] | 27.5 [25.5–29] | 9 [8–13.8] | 24 [21–27] | 48 [31–54] | 16.5/12/14 |
+| 15 | 12 | 441 [396–458] | 29 [28–29.5] | 8 [8–8] | 27 [26.3–28.8] | 74 [54.9–90] | 17.5/12/16.5 |
+| 16 | 14 | 457.5 [272.3–474] | 30.5 [30–32] | 8 [8–12.3] | 29.5 [25–31.8] | 66.3 [50–81] | 18/13/16 |
+| 17 | 8 | 351.5 [261.3–491] | 31 [29–32.5] | 9 [8–13.3] | 30.5 [24–31.3] | 89 [46–138.1] | 19/14/17 |
+| 18 | 13 | 553 [507–592] | 33 [32–35] | 8 [8–8] | 34 [32–36] | 83.5 [69.3–97.8] | 21/14/19 |
+| 19 | 12 | 618.5 [592–655.5] | 35.5 [34–37.3] | 8 [8–8] | 37 [35–39.3] | — | 22/16/20 |
+| 20 | 14 | 638 [596.5–676.5] | 36 [34.3–37.8] | 8 [6–8] | 36.5 [35.3–39.8] | 109.8 [106.9–112.1] | 23/17/21 |
+| 21 | 12 | 737 [666.5–750.5] | 37 [36–38] | 6 [6–7] | 40 [39–40.3] | 205 [205–205] | 25/17/23 |
+| 22 | 9 | 769 [755–827] | 38.5 [38–40] | 6 [6–6] | 43 [41–44] | — | 26/18/25 |
+| 23 | 10 | 842 [769.5–872] | 39.5 [39–41] | 6 [6–6] | 44 [42.3–45] | 256.5 [256.5–256.5] | 28/19/25.5 |
+| 24 | 8 | 911 [872–937.3] | 42 [41–42.3] | 6 [6–6] | 47.5 [46.5–48] | — | 29/20/27 |
+| 25 | 5 | 930 [930–930] | 44 [43–44] | 6 [6–6] | 49 [47–49] | — | 29/21/29 |
+| 26 | 5 | 1030 [930–1030] | 41 [41–41] | 2 [2–6] | 49 [49–49] | 152 [152–152] | 32/22/30 |
+| 27 | 1 | 1117 [1117–1117] | 42 [42–42] | 2 [2–2] | 51 [51–51] | — | 33/22/33 |
+
+## The outlier docket — HOT (over-statted for their CR: candidates for a CR raise or a deliberate-terror note)
+
+| foe | CR | overall z | def z | off z | eff HP | AC | routine |
+|---|---|---|---|---|---|---|---|
+| TARRASQUE (p.458) | 20 | 3.6 | 1.1 | 6.2 | 1008 | 36 | 112.5 |
+| WHITE DRAGON — Great wyrm (p.196) | 21 | 2.1 | 0.8 | 3.3 | 872 | null | 98 |
+| BLUE DRAGON — Young (p.191) | 6 | 2 | 2.1 | 1.8 | 207 | 21 | 23.5 |
+| WHITE DRAGON — Juvenile (p.196) | 6 | 1.9 | 2.1 | 1.8 | 205 | 21 | 23.5 |
+| ASTRAL CONSTRUCT — 4TH-LEVEL ASTRAL CONSTRUCT (p.111) | 3 | 1.6 | 2.1 | 1.1 | 97 | 22 | 13.5 |
+| WHITE DRAGON — Old (p.196) | 15 | 1.5 | 0.9 | 2.2 | 491 | 31 | 68 |
+| WHITE DRAGON — Ancient (p.196) | 18 | 1.5 | 1.4 | 1.7 | 670 | 37 | 75 |
+| ETOILE (p.235) | 2 | 1.5 | 2 | 0.9 | 56 | 23 | 10.5 |
+| GREEN DRAGON — Young (p.193) | 5 | 1.5 | 1.6 | 1.4 | 193 | 20 | 23.5 |
+| EMERALD DRAGON — Young (p.200) | 5 | 1.5 | 1.6 | 1.4 | 193 | 20 | 23.5 |
+| BLACK DRAGON — Great wyrm (p.190) | 22 | 1.4 | 1.5 | 1.4 | 891 | 42 | 98 |
+| GEAR GOLEM (p.285) | 7 | 1.4 | 2.3 | 0.6 | 229 | 30 | 27 |
+| MONSTROUS SCORPION — Monstrous Scorpion, Colossal (p.492) | 12 | 1.4 | 0.7 | 2.1 | 425 | 26 | 57 |
+| FLESHRAKER (Knife Fiend) — Knife Fiend (p.240) | 3 | 1.4 | 2.2 | 0.5 | 71 | 24 | 7 |
+| ASTRAL CONSTRUCT — 2ND-LEVEL ASTRAL CONSTRUCT (p.111) | 1 | 1.4 | 2.1 | 0.6 | 61 | 18 | 7.5 |
+| BLACK DRAGON — Wyrm (p.190) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
+| TOPAZ DRAGON — Wyrm (p.207) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
+| ASTRAL CONSTRUCT — 9TH-LEVEL ASTRAL CONSTRUCT (p.111) | 10 | 1.3 | 1.8 | 0.9 | 269 | 33 | 46 |
+| ASTRAL CONSTRUCT — 3RD-LEVEL ASTRAL CONSTRUCT (p.111) | 2 | 1.3 | 1.7 | 0.9 | 76 | 20 | 10.5 |
+| XORN — Minor Xorn (p.509) | 3 | 1.3 | 2.2 | 0.5 | 82 | 23 | 20 |
+
+## The outlier docket — COLD (under-statted: candidates for a CR cut or an ability-tax explanation)
+
+| foe | CR | overall z | def z | off z | eff HP | AC | routine |
+|---|---|---|---|---|---|---|---|
+| ANGEL — ANGEL, SOLAR (p.53) | 23 | -3.9 | -3.3 | -4.4 | 314 | 37 | 256.5 |
+| ALICORN — Advanced Alicorn Champion of Good (p.50) | 16 | -3.1 | -4.2 | -2 | 198 | 21 | 22 |
+| SATANIC ICHOR — Satanic Ichor (p.423) | 4 | -3 | -3 | -3 | 21 | 11 | 1.5 |
+| MONGOLIAN DEATH WORM (p.369) | 8 | -2.9 | -2.3 | -3.4 | 32 | 16 | 1.5 |
+| NUCLEAR TOXYDERM — Nuclear Toxyderm (p.470) | 20 | -2.8 | -4.2 | -1.3 | 380 | 21 | 112 |
+| GRAY OOZE (p.391) | 4 | -2.7 | -3.9 | -1.5 | 31 | 5 | 8 |
+| MUMMY — Mummy Lord, 10th-Level Cleric (p.372) | 15 | -2.6 | -1.4 | -3.8 | 147 | 33 | 15.5 |
+| ELOHIM (p.232) | 8 | -2.6 | -1.6 | -3.6 | 72 | 15 | 0 |
+| WHISPERER IN THE DARK (p.500) | 12 | -2.6 | -2.4 | -2.7 | 71 | 14 | 28 |
+| UNBODIED (p.477) | 5 | -2.6 | -2.8 | -2.3 | 22 | 13 | 3.5 |
+| MONTAUK MONSTER — Montauk Monster (p.370) | 11 | -2.5 | -4 | -1.1 | 87 | 14 | 35 |
+| VARGOUILLE (p.485) | 2 | -2.5 | -3.3 | -1.7 | 5 | 12 | 2.5 |
+| PIXIE (p.447) | 4 | -2.4 | -2.9 | -2 | 8 | 17 | 2.5 |
+| SEWER SLUDGE — Sewer Sludge (p.427) | 5 | -2.4 | -2.6 | -2.2 | 36 | 10 | 4.5 |
+| ABOLETH — Aboleth Mage, 10th-Level Wizard (p.48) | 17 | -2.4 | -2.5 | -2.3 | 212 | 21 | 50 |
+| Sidhe, Dreamghast — Sidhe, Faun (p.null) | 4 | -2.2 | -2.1 | -2.3 | 27 | 14 | 3.5 |
+| SHADOW — Greater Shadow (p.428) | 8 | -2.1 | -1.8 | -2.4 | 58 | 15 | 4.5 |
+| TOXIC SLUDGE — Toxic Sludge (p.467) | 7 | -2.1 | -2.6 | -1.6 | 60 | 7 | 10 |
+| CALLER IN DARKNESS (p.129) | 9 | -2.1 | -2.6 | -1.6 | 71 | 14 | 28 |
+| GELATINOUS CUBE (p.390) | 3 | -2 | -2.8 | -1.3 | 54 | 3 | 7 |
+
+**Reading the docket:** a COLD foe whose body is weak for its CR usually carries its price in abilities the statline cannot show (the synergy problem) — the docket is therefore also a ranked list of WHERE the ability multipliers live, which is exactly the Phase C feature-engineering queue. A HOT foe with no compensating ability tax is a genuine mis-rating candidate.
+
+## Dragon age-ladder self-consistency (16 internal CR ladders)
+
+- ⚠ BRASS DRAGON: effHP falls 458→407 at CR 15→17 (Mature adult→Old)
+
+## Ability-tag census (n ≥ 5 — the Phase C feature seed and the "valuable abilities" vocabulary)
+
+| tag | n | mean CR |
+|---|---|---|
+| darkvision 60 ft. | 327 | 6.3 |
+| low-light vision | 190 | 5.5 |
+| scent | 137 | 4.9 |
+| frightful presence | 114 | 18.4 |
+| improved grab | 86 | 6.8 |
+| spell-like abilities | 78 | 8.9 |
+| alternate form | 75 | 11.5 |
+| immunity to fire | 74 | 12 |
+| poison | 55 | 5.6 |
+| immunity to acid | 51 | 12.4 |
+| elemental traits | 39 | 7.5 |
+| undead traits | 38 | 6 |
+| vulnerability to cold | 36 | 8.9 |
+| construct traits | 31 | 7.1 |
+| breath weapon | 31 | 8.5 |
+| vermin traits | 30 | 3.9 |
+| immunity to cold | 29 | 9.1 |
+| spells | 26 | 11 |
+| telepathy 100 ft. | 26 | 10.2 |
+| immunity to electricity | 24 | 10.8 |
+| tremorsense 60 ft. | 23 | 6.2 |
+| immunities | 19 | 7.2 |
+| water breathing | 19 | 11.3 |
+| damage reduction 10/silver | 17 | 6.1 |
+| pounce | 16 | 6.5 |
+| damage reduction 5/magic | 16 | 4 |
+| damage reduction 10/magic | 16 | 7.6 |
+| speak with animals | 16 | 11.7 |
+| immunity to poison | 15 | 6.9 |
+| psi-like abilities | 15 | 5.4 |
+| fear aura | 14 | 8.2 |
+| damage reduction 5/bludgeoning | 14 | 4.4 |
+| fast healing 2 | 14 | 3.4 |
+| curse of lycanthropy | 14 | 6.3 |
+| immunity to acid and cold | 14 | 13.9 |
+| vulnerability to fire | 13 | 7.1 |
+| sr 21 | 13 | 14.2 |
+| sr 25 | 13 | 19.2 |
+| tongues | 12 | 12 |
+| ooze traits | 12 | 7.1 |
+
+(173 tags total at n ≥ 5; full set in data/metrics.json rows. A tag whose bearers' mean CR runs far above the corpus mean while their BODIES score cold is a high-value ability — the first crude synergy signal, formalized in Phase C.)
