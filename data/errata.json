@@ -10,10 +10,10 @@
    "why": "Stone-Golem-class body (18 HD, 229 effHP, AC 30) plus magic immunity; golem doctrine prices immunity upward."
   },
   "HILL GIANT DIRE WEREBOAR#2": {
-   "cr": 13,
+   "cr": 14,
    "was": 11,
    "ruled": "2026-10-12",
-   "why": "Template stack under-charged: Fort +20, DR 10/silver, ferocity, +29/104.5-avg iterative routine deletes a CR-11 PC per round."
+   "why": "Template stack under-charged: Fort +20, DR 10/silver, ferocity, +29/104.5-avg iterative routine deletes a CR-11 PC per round. PLUS the blanket MD errata (+1: 3 forcing attacks)."
   },
   "VIVILOR#7": {
    "cr": 13,
@@ -28,10 +28,10 @@
    "why": "As the 8th-level rung: CR-14 body (287 effHP, AC 31, DR 15/magic), free-roaming."
   },
   "KRAKEN#0": {
-   "cr": 13,
+   "cr": 14,
    "was": 12,
    "ruled": "2026-10-12",
-   "why": "Heaviest honest routine in its band (119 avg behind +28, grab-and-constrict); its aquatic terrain favors IT, so no counter-lane discount."
+   "why": "Heaviest honest routine in its band (119 avg behind +28, grab-and-constrict); its aquatic terrain favors IT, so no counter-lane discount. PLUS the blanket MD errata (+1: 3 forcing attacks)."
   },
   "PSEUDODRAGON#0": {
    "cr": 3,
@@ -124,10 +124,10 @@
    "why": "The Flesh Harrower's body alone outruns CR 2; the controller note carries the real doctrine."
   },
   "ATHACH#0": {
-   "cr": 10,
+   "cr": 11,
    "was": 8,
    "ruled": "2026-10-12",
-   "why": "The one that got away in batch 1: 173 effHP, three-armed ~55-avg poison routine - the classic maul behind a friendly '8'. Model 10.7."
+   "why": "The one that got away in batch 1: 173 effHP, three-armed ~55-avg poison routine - the classic maul behind a friendly '8'. Model 10.7. PLUS the blanket MD errata (+1: 3 forcing attacks)."
   },
   "VIVILOR#5": {
    "cr": 9,
@@ -158,6 +158,306 @@
    "was": 12,
    "ruled": "2026-10-12",
    "why": "The MD ruling: 4 forcing attacks/rd (avg ~21), at-level 1.75 PCs dead / 50% HP toll - +2 per the constant."
+  },
+  "ANGEL#2": {
+   "cr": 25,
+   "was": 23,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 5 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "TRUMPET ARCHON#0": {
+   "cr": 15,
+   "was": 14,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "GHAELE#0": {
+   "cr": 14,
+   "was": 13,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "CRAWFORDSVILLE MONSTER#0": {
+   "cr": 10,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "DELVER#0": {
+   "cr": 10,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "GLABREZU#0": {
+   "cr": 14,
+   "was": 13,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "HORNED DEVIL (CORNUGON)#0": {
+   "cr": 18,
+   "was": 16,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "PIT FIEND#0": {
+   "cr": 21,
+   "was": 20,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "EARTH ELEMENTAL#3": {
+   "cr": 8,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "EARTH ELEMENTAL#4": {
+   "cr": 10,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "EARTH ELEMENTAL#5": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "FIRE ELEMENTAL#3": {
+   "cr": 8,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "FIRE ELEMENTAL#4": {
+   "cr": 10,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "FIRE ELEMENTAL#5": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "WATER ELEMENTAL#3": {
+   "cr": 8,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "WATER ELEMENTAL#4": {
+   "cr": 10,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "WATER ELEMENTAL#5": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "CLOUD GIANT#0": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "FIRE GIANT#0": {
+   "cr": 11,
+   "was": 10,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "FROST GIANT#0": {
+   "cr": 10,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "FROST GIANT#1": {
+   "cr": 19,
+   "was": 17,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "HILL GIANT#0": {
+   "cr": 8,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "STONE GIANT#0": {
+   "cr": 9,
+   "was": 8,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "STORM GIANT#0": {
+   "cr": 14,
+   "was": 13,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "CHEMICAL GOLEM#0": {
+   "cr": 11,
+   "was": 10,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "CLAY GOLEM#0": {
+   "cr": 11,
+   "was": 10,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "IRON GOLEM#0": {
+   "cr": 14,
+   "was": 13,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "STONE GOLEM#0": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "STONE GOLEM#1": {
+   "cr": 17,
+   "was": 16,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "WEREWOLF LORD#2": {
+   "cr": 15,
+   "was": 14,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "HILL GIANT DIRE WEREBOAR#0": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "MONTAUK MONSTER#1": {
+   "cr": 15,
+   "was": 14,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "NIGHTMARE#1": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "NIGHTCRAWLER#0": {
+   "cr": 19,
+   "was": 18,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "NIGHTWALKER#0": {
+   "cr": 17,
+   "was": 16,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "OGRE#1": {
+   "cr": 8,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "PSI-KILLER#0": {
+   "cr": 13,
+   "was": 12,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "SALAMANDER#2": {
+   "cr": 12,
+   "was": 10,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "SKELETON#7": {
+   "cr": 8,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "SKELETON#8": {
+   "cr": 9,
+   "was": 8,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 2 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "TITAN#0": {
+   "cr": 23,
+   "was": 21,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 5 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "CHEMICAL TOXYDERM#0": {
+   "cr": 17,
+   "was": 15,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "CHEMICAL TOXYDERM#1": {
+   "cr": 28,
+   "was": 26,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "GARBAGE TOXYDERM#0": {
+   "cr": 12,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 3 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +1 per the gaveled constant."
+  },
+  "NUCLEAR TOXYDERM#0": {
+   "cr": 22,
+   "was": 20,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "RED DRAGON#11": {
+   "cr": 28,
+   "was": 26,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "AMETHYST DRAGON#11": {
+   "cr": 28,
+   "was": 26,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "GOLD DRAGON#10": {
+   "cr": 27,
+   "was": 25,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
+  },
+  "GOLD DRAGON#11": {
+   "cr": 30,
+   "was": 27,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 6 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +3 per the gaveled constant."
+  },
+  "SILVER DRAGON#11": {
+   "cr": 28,
+   "was": 26,
+   "ruled": "2026-10-12",
+   "why": "Blanket MD errata (Adam, 2026-10-12): 4 effectively-100% MD-forcing attacks/round (avg >= 18 vs Fort DC 15 + 1/5 over Con) - +2 per the gaveled constant."
   }
  }
 }
