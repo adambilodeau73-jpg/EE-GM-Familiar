@@ -11,11 +11,11 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | 0.3333333333333333 | 7 | 11 [9.5–15] | 15 [15–15.5] | 12 [11.5–14] | 2 [1.5–3] | 3.5 [2.5–4.3] | 2/4/2 |
 | 0.5 | 22 | 12.5 [5.3–23.8] | 15 [13–16] | 12 [11–13] | 3 [2–4] | 4.5 [3.5–5.4] | 3/4/1 |
 | 1 | 51 | 25 [21–35] | 15 [14–16] | 12 [10–13] | 3 [2–4] | 5 [3.5–7.5] | 3/3/1 |
-| 2 | 57 | 38 [28–50] | 16 [14–17] | 12 [11–13] | 5 [4–6] | 7.5 [4.6–11.5] | 4/5/3 |
-| 3 | 83 | 49 [35.5–65.5] | 16 [15–18] | 12 [11–13] | 6 [4–7] | 9 [5.3–17.3] | 5/4/4 |
+| 2 | 55 | 38 [27.5–48] | 16 [14–17] | 12 [11–13] | 5 [4–6] | 7.5 [4.5–11.5] | 4/4.5/3 |
+| 3 | 85 | 49 [36–64] | 16 [15–18] | 12 [11–13] | 6 [4–7] | 9 [5.5–16.5] | 5/4.5/4 |
 | 4 | 51 | 82 [61–105] | 17 [15–18] | 10 [10–11] | 9 [6–10] | 15.3 [8.8–22.6] | 6/5/5 |
-| 5 | 54 | 84 [75–112.3] | 17 [15–19] | 11 [10–11] | 10 [8–11] | 17 [12.4–28.1] | 8/6/5 |
-| 6 | 33 | 106 [93–133] | 18 [17–20] | 10 [9–12] | 11 [10–13] | 24.8 [18.6–32] | 8/7/6 |
+| 5 | 53 | 83 [75–113] | 17 [15–19] | 11 [10–11.3] | 10 [8–11] | 17 [11.8–27.5] | 8/6/5 |
+| 6 | 34 | 103 [92.3–131] | 18.5 [17–20] | 10 [9–12] | 11 [10–13] | 25.5 [19.3–32.5] | 8/7/6 |
 | 7 | 58 | 131 [90.8–165] | 18.5 [17–21] | 10 [9–12] | 13 [10–15.8] | 25 [15–38] | 9/7/7 |
 | 8 | 34 | 143.5 [101.8–183.3] | 20 [18–22] | 10 [9–11.8] | 15 [12–17] | 19 [14.5–34] | 10/8/8 |
 | 9 | 35 | 212 [145.5–233.5] | 22 [20–24.5] | 9 [9–11] | 18 [14.5–20] | 33 [24–46.1] | 12/9/9 |
@@ -44,23 +44,23 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 |---|---|---|---|---|---|---|---|
 | TARRASQUE (p.458) | 20 | 3.6 | 1.1 | 6.2 | 1008 | 36 | 112.5 |
 | WHITE DRAGON — Great wyrm (p.196) | 21 | 2.1 | 0.8 | 3.3 | 872 | null | 98 |
-| BLUE DRAGON — Young (p.191) | 6 | 1.9 | 1.9 | 1.8 | 207 | 21 | 23.5 |
-| WHITE DRAGON — Juvenile (p.196) | 6 | 1.9 | 1.9 | 1.8 | 205 | 21 | 23.5 |
 | MONSTROUS SCORPION — Monstrous Scorpion, Colossal (p.492) | 12 | 1.9 | 0.5 | 3.2 | 425 | 26 | 57 |
-| ASTRAL CONSTRUCT — 4TH-LEVEL ASTRAL CONSTRUCT (p.111) | 3 | 1.6 | 2.1 | 1.1 | 97 | 22 | 13.5 |
+| BLUE DRAGON — Young (p.191) | 6 | 1.9 | 1.9 | 1.8 | 207 | 21 | 23.5 |
+| WHITE DRAGON — Juvenile (p.196) | 6 | 1.8 | 1.9 | 1.8 | 205 | 21 | 23.5 |
+| ASTRAL CONSTRUCT — 4TH-LEVEL ASTRAL CONSTRUCT (p.111) | 3 | 1.7 | 2.2 | 1.1 | 97 | 22 | 13.5 |
 | WHITE DRAGON — Old (p.196) | 15 | 1.5 | 0.9 | 2.2 | 491 | 31 | 68 |
 | WHITE DRAGON — Ancient (p.196) | 18 | 1.5 | 1.4 | 1.7 | 670 | 37 | 75 |
 | ETOILE (p.235) | 2 | 1.5 | 2 | 0.9 | 56 | 23 | 10.5 |
 | ASTRAL CONSTRUCT — 9TH-LEVEL ASTRAL CONSTRUCT (p.111) | 10 | 1.4 | 1.8 | 1.1 | 269 | 33 | 46 |
 | BLACK DRAGON — Great wyrm (p.190) | 22 | 1.4 | 1.5 | 1.4 | 891 | 42 | 98 |
 | ASTRAL CONSTRUCT — 2ND-LEVEL ASTRAL CONSTRUCT (p.111) | 1 | 1.4 | 2.2 | 0.7 | 61 | 18 | 7.5 |
-| ASTRAL CONSTRUCT — 5TH-LEVEL ASTRAL CONSTRUCT (p.111) | 5 | 1.4 | 1.8 | 1.1 | 133 | 23 | 27 |
+| ASTRAL CONSTRUCT — 5TH-LEVEL ASTRAL CONSTRUCT (p.111) | 5 | 1.4 | 1.8 | 1 | 133 | 23 | 27 |
 | XORN — Elder Xorn (p.509) | 8 | 1.4 | 1.3 | 1.5 | 210 | 25 | 44.5 |
 | FLESHRAKER (Knife Fiend) — Knife Fiend (p.240) | 3 | 1.4 | 2.2 | 0.5 | 71 | 24 | 7 |
 | BLACK DRAGON — Wyrm (p.190) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
 | TOPAZ DRAGON — Wyrm (p.207) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
+| XORN — Minor Xorn (p.509) | 3 | 1.3 | 2.2 | 0.5 | 82 | 23 | 20 |
 | ASTRAL CONSTRUCT — 3RD-LEVEL ASTRAL CONSTRUCT (p.111) | 2 | 1.3 | 1.7 | 0.9 | 76 | 20 | 10.5 |
-| XORN — Minor Xorn (p.509) | 3 | 1.3 | 2.1 | 0.5 | 82 | 23 | 20 |
 | ASTRAL CONSTRUCT — 7TH-LEVEL ASTRAL CONSTRUCT (p.111) | 8 | 1.3 | 1.5 | 1.1 | 186 | 27 | 33 |
 
 ## The outlier docket — COLD (under-statted: candidates for a CR cut or an ability-tax explanation)
@@ -74,13 +74,13 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | NUCLEAR TOXYDERM — Nuclear Toxyderm (p.470) | 20 | -2.8 | -4.2 | -1.3 | 380 | 21 | 112 |
 | WHISPERER IN THE DARK (p.500) | 12 | -2.8 | -2.5 | -3 | 71 | 14 | 28 |
 | GRAY OOZE (p.391) | 4 | -2.7 | -3.9 | -1.5 | 31 | 5 | 8 |
-| UNBODIED (p.477) | 5 | -2.7 | -2.9 | -2.4 | 22 | 13 | 3.5 |
+| UNBODIED (p.477) | 5 | -2.6 | -2.9 | -2.4 | 22 | 13 | 3.5 |
 | MUMMY — Mummy Lord, 10th-Level Cleric (p.372) | 15 | -2.6 | -1.4 | -3.8 | 147 | 33 | 15.5 |
 | ELOHIM (p.232) | 8 | -2.6 | -1.6 | -3.5 | 72 | 15 | 0 |
 | MONTAUK MONSTER — Montauk Monster (p.370) | 11 | -2.5 | -4 | -1.1 | 87 | 14 | 35 |
 | SEWER SLUDGE — Sewer Sludge (p.427) | 5 | -2.5 | -2.6 | -2.4 | 36 | 10 | 4.5 |
+| VARGOUILLE (p.485) | 2 | -2.4 | -3.4 | -1.5 | 5 | 12 | 2.5 |
 | ABOLETH — Aboleth Mage, 10th-Level Wizard (p.48) | 17 | -2.4 | -2.5 | -2.3 | 212 | 21 | 50 |
-| VARGOUILLE (p.485) | 2 | -2.4 | -3.3 | -1.5 | 5 | 12 | 2.5 |
 | PIXIE (p.447) | 4 | -2.3 | -2.9 | -1.7 | 8 | 17 | 3.5 |
 | TOXIC SLUDGE — Toxic Sludge (p.467) | 7 | -2.2 | -2.8 | -1.6 | 60 | 7 | 10 |
 | JUMPING JACK (Blood Fiend) — Jumping Jack, 9th-Level Fast Villain (p.243) | 11 | -2.2 | -1.6 | -2.8 | 80 | 25 | 9 |
@@ -127,7 +127,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | damage reduction 10/magic | 16 | 7.6 |
 | speak with animals | 16 | 11.7 |
 | immunity to poison | 15 | 6.9 |
-| psi-like abilities | 15 | 5.4 |
+| psi-like abilities | 15 | 5.5 |
 | fear aura | 14 | 8.2 |
 | damage reduction 5/bludgeoning | 14 | 4.4 |
 | fast healing 2 | 14 | 3.4 |

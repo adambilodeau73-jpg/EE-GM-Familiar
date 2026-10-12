@@ -104,6 +104,24 @@
    "was": 5,
    "ruled": "2026-10-12",
    "why": "The vivilor ladder amendment extended one rung (Adam: 'Massive Damage makes the world a more dangerous place for everybody') - keeps the re-rated ladder monotone."
+  },
+  "ACHAIERAI#0": {
+   "cr": 6,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "SR 19 at CR 5 locks out ~65% of a 6th-level caster's spells (Adam: 'yikes'); black cloud madness on a 38-avg routine."
+  },
+  "DIRE BAT#0": {
+   "cr": 3,
+   "was": 2,
+   "ruled": "2026-10-12",
+   "why": "AC 20 / 55 effHP at CR 2 - the classic hot CR 2; cheap honesty, no lore at stake."
+  },
+  "PUPPETEER#1": {
+   "cr": 3,
+   "was": 2,
+   "ruled": "2026-10-12",
+   "why": "The Flesh Harrower's body alone outruns CR 2; the controller note carries the real doctrine."
   }
  }
 }

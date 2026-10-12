@@ -146,11 +146,19 @@ for (const f of fit) {
     ...f.r.sa.filter(t => !ti.has(t) || (!known.has(t) && Math.abs(w[ti.get(t)]) < 0.05)),
     ...f.r.sq.filter(t => !ti.has(t) || (!known.has(t) && Math.abs(w[ti.get(t)]) < 0.05)),
   ].filter((t, i, a) => a.indexOf(t) === i).slice(0, 4);
+  // SYNTHETIC NOTABLES (Adam, 2026-10-12, the Alicorn ruling): a body
+  // component towering over the printed CR is itself a trick worth naming
+  // at a glance - Exceptional Saves, Magic Resistant, Fortress AC.
+  const notable = [];
+  if (f.b.svCR != null && f.b.svCR - f.r.cr >= 4) notable.push('Exceptional Saves');
+  if (f.b.srCR != null && f.b.srCR - f.r.cr >= 4) notable.push(`Magic Resistant (SR ${f.r.srValue})`);
+  if (f.b.acCR != null && f.b.acCR - f.r.cr >= 5) notable.push('Fortress AC');
   calc[`${f.r.fam}#${f.r.vi}`] = {
     printed: f.r.cr, body: r1(f.b.body), def: f.b.defCR, off: f.b.offCR,
     hpCR: f.b.hpCR, acCR: f.b.acCR, svCR: f.b.svCR, srCR: f.b.srCR, atkCR: f.b.atkCR, dmgCR: f.b.dmgCR, dcCR: f.b.dcCR,
     abil: r1(abil), contribs: contribs.slice(0, 6), unpriced, pred: r1(pred), resid: r1(resid),
     derived: !!f.r.derivedRoutine,
+    ...(notable.length ? { notable } : {}),
     ...(f.r.mdHits ? { mdHits: f.r.mdHits, maxHit: f.r.maxHitAvg } : {}),
     ...(f.r.crWas != null ? { was: f.r.crWas } : {}),
     ...(NOTES[`${f.r.fam}#${f.r.vi}`] ? { note: NOTES[`${f.r.fam}#${f.r.vi}`] } : {}),
