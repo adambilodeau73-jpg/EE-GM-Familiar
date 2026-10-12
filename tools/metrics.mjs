@@ -144,6 +144,12 @@ for (const fam of B.entries) {
       attacks: dAtk?.attacks ?? [],
       speeds, attrs,
       sa: tags(v.special_attacks), sq: tags(v.special_qualities),
+      // E&E MASSIVE DAMAGE pressure (Adam, 2026-10-12): MDT = the target's
+      // current Con (HH), Fort DC 15. A typical adventurer Con is ~14, so
+      // every attack in the routine averaging >=14 on a single connect
+      // forces a Massive Damage check. mdHits = such attacks per round.
+      maxHitAvg: dAtk ? Math.round(Math.max(...dAtk.attacks.map(a => a.avg)) * 10) / 10 : null,
+      mdHits: dAtk ? dAtk.attacks.filter(a => a.avg >= 14).reduce((t, a) => t + a.n, 0) : null,
       // PF1's benchmark lesson (2026-10-12): the primary ability DC is a
       // first-class offense number — harvest the highest DC printed anywhere
       // in the special-attack/quality lines.

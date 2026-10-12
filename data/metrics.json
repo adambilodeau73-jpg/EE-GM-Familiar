@@ -75,6 +75,8 @@
     "darkvision 60 ft.",
     "mucus cloud"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -136,6 +138,8 @@
     "mucus cloud",
     "summon familiar"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -199,6 +203,8 @@
     "will +7",
     "dodge +6*"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -269,6 +275,8 @@
     "scent",
     "wild empathy"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 19,
    "template": false
   },
@@ -340,6 +348,8 @@
     "spell resistance 20",
     "wild empathy"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -399,6 +409,8 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -465,6 +477,8 @@
     "tongues",
     "uncanny dodge"
    ],
+   "maxHitAvg": 16.5,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -531,6 +545,8 @@
     "spell resistance 30",
     "tongues"
    ],
+   "maxHitAvg": 23.5,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -597,6 +613,8 @@
     "spell resistance 32",
     "tongues"
    ],
+   "maxHitAvg": 28.5,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -658,6 +676,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -714,6 +734,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -767,6 +789,8 @@
    "sq": [
     "blindsense 40 ft."
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -827,6 +851,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -882,6 +908,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 16.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -944,6 +972,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1000,6 +1030,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1055,6 +1087,8 @@
    "sq": [
     "keen scent"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -1117,6 +1151,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1173,6 +1209,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1228,6 +1266,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 14.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -1289,6 +1329,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1348,6 +1390,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1402,6 +1446,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1458,6 +1504,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1516,6 +1564,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1576,6 +1626,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1637,6 +1689,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1692,6 +1746,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1747,6 +1803,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1800,6 +1858,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1861,6 +1921,8 @@
     "scent",
     "sprint"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1917,6 +1979,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1973,6 +2037,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -2026,6 +2092,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2079,6 +2147,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2132,6 +2202,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2185,6 +2257,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2245,6 +2319,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -2298,6 +2374,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2345,6 +2423,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -2392,6 +2472,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -2450,6 +2532,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2503,6 +2587,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2558,6 +2644,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2620,6 +2708,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2682,6 +2772,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2735,6 +2827,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2781,6 +2875,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -2834,6 +2930,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2887,6 +2985,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2949,6 +3049,8 @@
     "jet",
     "low-light vision"
    ],
+   "maxHitAvg": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3012,6 +3114,8 @@
     "jet",
     "low-light vision"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3065,6 +3169,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3112,6 +3218,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -3165,6 +3273,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3219,6 +3329,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3273,6 +3385,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -3326,6 +3440,8 @@
     "blindsense",
     "keen scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3379,6 +3495,8 @@
     "blindsense",
     "keen scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3432,6 +3550,8 @@
     "blindsense",
     "keen scent"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -3489,6 +3609,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 6,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3546,6 +3668,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 14.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -3602,6 +3726,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3658,6 +3784,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3714,6 +3842,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3770,6 +3900,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3826,6 +3958,8 @@
     "jet",
     "low-light vision"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3888,6 +4022,8 @@
     "jet",
     "low-light vision"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3950,6 +4086,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4004,6 +4142,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "maxHitAvg": 22.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -4063,6 +4203,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -4117,6 +4259,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -4172,6 +4316,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4229,6 +4375,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4285,6 +4433,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4341,6 +4491,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4397,6 +4549,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4453,6 +4607,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -4509,6 +4665,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -4565,6 +4723,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -4623,6 +4783,8 @@
     "low-light vision",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 16.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -4682,6 +4844,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4742,6 +4906,8 @@
     "teleport",
     "tongues"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4810,6 +4976,8 @@
     "teleport",
     "tongues"
    ],
+   "maxHitAvg": 10,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4882,6 +5050,8 @@
     "teleport",
     "tongues"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -4946,6 +5116,8 @@
     "teleport",
     "tongues"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -5004,6 +5176,8 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "maxHitAvg": 7,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5062,6 +5236,8 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5120,6 +5296,8 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -5181,6 +5359,8 @@
     "plant traits",
     "resistance to cold 10 and fire 10"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5236,6 +5416,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5290,6 +5472,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5345,6 +5529,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5400,6 +5586,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5456,6 +5644,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5512,6 +5702,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "maxHitAvg": 15.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -5568,6 +5760,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "maxHitAvg": 16.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -5624,6 +5818,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "maxHitAvg": 18.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -5680,6 +5876,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "maxHitAvg": 23,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -5744,6 +5942,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 18.5,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -5801,6 +6001,8 @@
     "spell resistance 13",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5864,6 +6066,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5927,6 +6131,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5982,6 +6188,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6041,6 +6249,8 @@
     "low-light vision",
     "spell resistance 23"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -6104,6 +6314,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -6171,6 +6383,8 @@
     "elemental traits",
     "smoke form"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6227,6 +6441,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6286,6 +6502,8 @@
     "undead traits",
     "vulnerability to sunlight"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6344,6 +6562,8 @@
     "power conversion",
     "scent"
    ],
+   "maxHitAvg": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6398,6 +6618,8 @@
     "powerful build",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6461,6 +6683,8 @@
     "scent",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -6520,6 +6744,8 @@
     "unnatural aura",
     "vulnerability to sunlight"
    ],
+   "maxHitAvg": 7,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6576,6 +6802,8 @@
     "mesmerizing gaze",
     "scent"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -6641,6 +6869,8 @@
     "spell resistance 25",
     "true seeing"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6705,6 +6935,8 @@
     "spell resistance 17",
     "tongues"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6769,6 +7001,8 @@
     "resistance to cold 10 and fire 10 spell resistance 28",
     "tongues"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -6841,6 +7075,8 @@
     "spell resistance 28",
     "tongues"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6898,6 +7134,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6954,6 +7192,8 @@
     "immunity to critical hits and transformation",
     "spell resistance 15"
    ],
+   "maxHitAvg": 4,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7013,6 +7253,8 @@
     "locate killer",
     "undead"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -7085,6 +7327,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7142,6 +7386,8 @@
     "darkvision 60 ft.",
     "quickness"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7201,6 +7447,8 @@
     "darkvision 60 ft.",
     "immunity to poison"
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7263,6 +7511,8 @@
     "darkvision 60 ft.",
     "shadow shift"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7319,6 +7569,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7380,6 +7632,8 @@
     "ethereal jaunt",
     "telepathy 90 ft."
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7440,6 +7694,8 @@
     "ooze traits",
     "sonic/concussion vulnerability"
    ],
+   "maxHitAvg": 19.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -7498,6 +7754,8 @@
     "immunity to fire and cold",
     "resistance to electricity 15"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7555,6 +7813,8 @@
    "sq": [
     "blindsight 90 ft."
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7613,6 +7873,8 @@
     "stone shape",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 18.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -7682,6 +7944,8 @@
     "spell resistance 14",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7755,6 +8019,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -7821,6 +8087,8 @@
     "scent",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -7894,6 +8162,8 @@
     "will +10",
     "dodge +6"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -7960,6 +8230,8 @@
     "and fire 10",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8034,6 +8306,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -8103,6 +8377,8 @@
     "spell resistance 19",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 15,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -8177,6 +8453,8 @@
     "spell resistance 25",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 18,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -8247,6 +8525,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -8313,6 +8593,8 @@
     "immunity to poison",
     "resistance to fire 10"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8382,6 +8664,8 @@
     "fast healing 5",
     "low-light vision"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -8447,6 +8731,8 @@
     "telepathy 100 ft.",
     "tongues"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8523,6 +8809,8 @@
     "spell resistance 17",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8583,6 +8871,8 @@
     "repairable",
     "darkvision 120 ft."
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8641,6 +8931,8 @@
     "spell resistance 15",
     "vulnerability to sunlight"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8697,6 +8989,8 @@
     "immunities",
     "protection from sonics"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8762,6 +9056,8 @@
     "spell-like abilities",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 15,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -8825,6 +9121,8 @@
     "spell resistance 17",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8898,6 +9196,8 @@
     "spell resistance 21",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8957,6 +9257,8 @@
     "regeneration 2",
     "spell resistance 18"
    ],
+   "maxHitAvg": 7,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9021,6 +9323,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9088,6 +9392,8 @@
     "spell resistance 19",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9164,6 +9470,8 @@
     "spell resistance 28",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 22,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -9238,6 +9546,8 @@
     "spell resistance 25",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 16,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -9299,6 +9609,8 @@
     "immunity to poison",
     "resistance to fire 5"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9357,6 +9669,8 @@
     "mindless",
     "see in darkness"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9438,6 +9752,8 @@
     "spell resistance 32",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 22,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -9497,6 +9813,8 @@
     "spell resistance 21",
     "undead traits"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9554,6 +9872,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9619,6 +9939,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9673,6 +9995,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -9738,6 +10062,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -9794,6 +10120,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 24,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -9850,6 +10178,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 23.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -9905,6 +10235,8 @@
     "change shape",
     "immunity to sleep and charm effects"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9972,6 +10304,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 22,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -10035,6 +10369,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10098,6 +10434,8 @@
     "darkvision 60 ft.",
     "spell resistance 17"
    ],
+   "maxHitAvg": 10,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10154,6 +10492,8 @@
     "tree dependent",
     "wild empathy"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10213,6 +10553,8 @@
     "low-light vision",
     "evasion"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10270,6 +10612,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10327,6 +10671,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10385,6 +10731,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10443,6 +10791,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10501,6 +10851,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -10559,6 +10911,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -10616,6 +10970,8 @@
     "earth glide",
     "elemental traits"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10673,6 +11029,8 @@
     "earth glide",
     "elemental traits"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10731,6 +11089,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -10789,6 +11149,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -10847,6 +11209,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -10905,6 +11269,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 22,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -10963,6 +11329,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11021,6 +11389,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11080,6 +11450,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11139,6 +11511,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 22,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11198,6 +11572,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 23,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11257,6 +11633,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 24,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11316,6 +11694,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11375,6 +11755,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11435,6 +11817,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11495,6 +11879,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11555,6 +11941,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11615,6 +12003,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -11678,6 +12068,8 @@
     "flame sword",
     "telepathy"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -11732,6 +12124,8 @@
     "detect magic",
     "ethereal jaunt"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11785,6 +12179,8 @@
     "darkvision 60 ft.",
     "ethereal jaunt"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11845,6 +12241,8 @@
     "mechanical healing",
     "telepathy"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11906,6 +12304,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11959,6 +12359,8 @@
     "low-light vision",
     "superior two-weapon fighting"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12018,6 +12420,8 @@
     "immunity to slashing and piercing weapons",
     "silent visage"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12080,6 +12484,8 @@
     "silent visage",
     "uncanny dodge"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12142,6 +12548,8 @@
     "indestructible body",
     "telepathy"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12199,6 +12607,8 @@
     "immunity to fire and poison",
     "prodigious leap"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -12261,6 +12671,8 @@
     "increased speed",
     "prodigious leap"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -12328,6 +12740,8 @@
     "telepathy",
     "web cocoon"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12387,6 +12801,8 @@
     "telepathy",
     "whistle"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12452,6 +12868,8 @@
     "invisibility",
     "telepathy"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 15,
    "template": false
   },
@@ -12512,6 +12930,8 @@
     "gaseous",
     "immune to electricity and fire"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12572,6 +12992,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12632,6 +13054,8 @@
     "fire 10",
     "and sonic 10"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12703,6 +13127,8 @@
     "and sonic 10",
     "spell resistance 18"
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12772,6 +13198,8 @@
     "spell resistance 21",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12845,6 +13273,8 @@
     "spell resistance 30",
     "telepathy"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -12906,6 +13336,8 @@
     "low-light vision",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 25.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -12955,6 +13387,8 @@
     "low-light vision",
     "plant traits"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -13010,6 +13444,8 @@
     "low-light vision",
     "plant traits"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13075,6 +13511,8 @@
     "darkvision 60 ft.",
     "freeze"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13135,6 +13573,8 @@
     "plane shift",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13196,6 +13636,8 @@
     "telepathy 100 ft.",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -13256,6 +13698,8 @@
     "resistance to fire 10",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13318,6 +13762,8 @@
     "undead traits",
     "+2 turn resistance"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13381,6 +13827,8 @@
     "undead traits",
     "+2 turn resistance"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13439,6 +13887,8 @@
     "rock catching",
     "scent"
    ],
+   "maxHitAvg": 32,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -13496,6 +13946,8 @@
     "rock catching",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 25.5,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -13553,6 +14005,8 @@
     "rock catching",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 23.5,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -13619,6 +14073,8 @@
     "rock catching",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 32,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -13674,6 +14130,8 @@
     "low-light vision",
     "rock catching"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -13730,6 +14188,8 @@
     "low-light vision",
     "rock catching"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -13789,6 +14249,8 @@
     "rock catching",
     "water breathing"
    ],
+   "maxHitAvg": 35,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -13856,6 +14318,8 @@
     "damage reduction 5/bludgeoning",
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13918,6 +14382,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13970,6 +14436,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14026,6 +14494,8 @@
     "svirfneblin traits",
     "spell resistance 12"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14078,6 +14548,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14132,6 +14604,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14191,6 +14665,8 @@
     "immunity to magic",
     "rupture"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -14251,6 +14727,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -14309,6 +14787,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -14368,6 +14848,8 @@
     "darkvision 60 ft.",
     "magic immunity"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14426,6 +14908,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "maxHitAvg": 22,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -14484,6 +14968,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -14542,6 +15028,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "maxHitAvg": 31,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -14599,6 +15087,8 @@
     "lowlight vision",
     "scent"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14661,6 +15151,8 @@
     "power resistance 20",
     "scent"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -14718,6 +15210,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14780,6 +15274,8 @@
     "rage",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14844,6 +15340,8 @@
     "rage",
     "scent"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14899,6 +15397,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14962,6 +15462,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15016,6 +15518,8 @@
     "immunities",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15080,6 +15584,8 @@
     "darkvision 60 ft.",
     "spell resistance 19"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15138,6 +15644,8 @@
     "darkvision 90 ft.",
     "spell resistance 18"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15195,6 +15703,8 @@
     "amphibious",
     "spell resistance 14"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15251,6 +15761,8 @@
     "giant’s stature",
     "low-light vision"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15311,6 +15823,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15366,6 +15880,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15424,6 +15940,8 @@
     "scent",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15482,6 +16000,8 @@
     "scent",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 23.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -15542,6 +16062,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15600,6 +16122,8 @@
     "fast healing 3",
     "low-light vision"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15655,6 +16179,8 @@
     "darkvision 60 ft. incorporeal",
     "repairable"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15715,6 +16241,8 @@
     "repairable",
     "skill programming"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15775,6 +16303,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -15832,6 +16362,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15889,6 +16421,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15946,6 +16480,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16003,6 +16539,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16060,6 +16598,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16117,6 +16657,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16174,6 +16716,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16231,6 +16775,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 12,
    "dcMax": null,
    "template": false
   },
@@ -16292,6 +16838,8 @@
     "low-light vision",
     "spell resistance 22"
    ],
+   "maxHitAvg": 17.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -16352,6 +16900,8 @@
     "low-light vision",
     "spell resistance 25"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16412,6 +16962,8 @@
     "low-light vision",
     "spell resistance 20"
    ],
+   "maxHitAvg": 15.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -16472,6 +17024,8 @@
     "resistance to electricity 15",
     "vulnerability to protection from evil"
    ],
+   "maxHitAvg": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16528,6 +17082,8 @@
     "natural invisibility",
     "improved tracking"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16584,6 +17140,8 @@
     "rending claws",
     "spider climb"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16635,6 +17193,8 @@
     "immunity to one energy type",
     "powerful build"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -16643,7 +17203,8 @@
    "vi": 0,
    "label": "KRAKEN",
    "page": 325,
-   "cr": 12,
+   "cr": 13,
+   "crWas": 12,
    "size": "Gargantuan",
    "type": "Magical Beast",
    "drValue": null,
@@ -16704,6 +17265,8 @@
     "low-light vision",
     "spell-like abilities"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -16765,6 +17328,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16826,6 +17391,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16886,6 +17453,8 @@
     "magic circle against evil",
     "spell-like abilities"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16961,6 +17530,8 @@
     "spell-like abilities",
     "spell resistance 15"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17018,6 +17589,8 @@
     "all-around vision",
     "vermin traits"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17083,6 +17656,8 @@
     "immunity to poison",
     "resistance to fire 10"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17146,6 +17721,8 @@
     "easy breathing",
     "light sensitivity"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17205,6 +17782,8 @@
     "fast healing 1",
     "garbage growth"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17264,6 +17843,8 @@
     "fast healing 1",
     "garbage growth"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17321,6 +17902,8 @@
    "sq": [
     "hold breath"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17371,6 +17954,8 @@
    },
    "sa": [],
    "sq": [],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17426,6 +18011,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17490,6 +18077,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17553,6 +18142,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17609,6 +18200,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17668,6 +18261,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17732,6 +18327,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17787,6 +18384,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17847,6 +18446,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17906,6 +18507,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -17961,6 +18564,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18027,6 +18632,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18090,6 +18697,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18145,6 +18754,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18204,6 +18815,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18267,6 +18880,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18322,6 +18937,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18381,6 +18998,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 23,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -18444,6 +19063,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 24,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -18503,6 +19124,8 @@
     "rock catching",
     "scent"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -18562,6 +19185,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 26.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -18627,6 +19252,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 31,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -18681,6 +19308,8 @@
    "sq": [
     "outburst"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18741,6 +19370,8 @@
     "melt weapons",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18798,6 +19429,8 @@
     "fire vulnerability",
     "wavesense"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18855,6 +19488,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18909,6 +19544,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -18969,6 +19606,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19028,6 +19667,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "maxHitAvg": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19087,6 +19728,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "maxHitAvg": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19147,6 +19790,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19208,6 +19853,8 @@
     "fast healing 2",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19269,6 +19916,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19330,6 +19979,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19390,6 +20041,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "maxHitAvg": 4,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19449,6 +20102,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19510,6 +20165,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19570,6 +20227,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "maxHitAvg": 4,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19624,6 +20283,8 @@
     "amphibious",
     "low-light vision"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19681,6 +20342,8 @@
     "immunity to acid",
     "mimic shape"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19742,6 +20405,8 @@
     "natural cunning",
     "scent"
    ],
+   "maxHitAvg": 16.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -19804,6 +20469,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -19863,6 +20530,8 @@
     "low-light vision",
     "tremorsense"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -19925,6 +20594,8 @@
     "immunities",
     "invisibility"
    ],
+   "maxHitAvg": 17.5,
+   "mdHits": 2,
    "dcMax": 15,
    "template": false
   },
@@ -19987,6 +20658,8 @@
     "immunities",
     "invisibility"
    ],
+   "maxHitAvg": 24,
+   "mdHits": 2,
    "dcMax": 24,
    "template": false
   },
@@ -20042,6 +20715,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20100,6 +20775,8 @@
     "undead traits",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20161,6 +20838,8 @@
     "undead traits",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 15.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -20225,6 +20904,8 @@
     "immunity to poison",
     "resistance to charm"
    ],
+   "maxHitAvg": 7,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20281,6 +20962,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -20337,6 +21020,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20393,6 +21078,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20452,6 +21139,8 @@
     "damage reduction 5/–",
     "power resistance 25"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -20513,6 +21202,8 @@
     "and fear",
     "spell resistance 25"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20572,6 +21263,8 @@
     "selective invisibility",
     "vulnerability"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20635,6 +21328,8 @@
     "darkvision 60 ft.",
     "etherealness"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20698,6 +21393,8 @@
     "darkvision 60 ft.",
     "etherealness"
    ],
+   "maxHitAvg": 19.5,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -20770,6 +21467,8 @@
     "tremorsense 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 35,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -20834,6 +21533,8 @@
     "telepathy 100 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 23,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -20898,6 +21599,8 @@
     "telepathy 100 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 24,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -20959,6 +21662,8 @@
     "unearthly grace",
     "wild empathy"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21012,6 +21717,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -21069,6 +21776,8 @@
     "trap sense +1",
     "uncanny dodge"
    ],
+   "maxHitAvg": 22,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -21127,6 +21836,8 @@
     "regeneration 5",
     "spell resistance 19"
    ],
+   "maxHitAvg": 17.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -21186,6 +21897,8 @@
     "split",
     "ooze traits"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -21245,6 +21958,8 @@
     "split",
     "ooze traits"
    ],
+   "maxHitAvg": 33,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -21304,6 +22019,8 @@
     "ooze traits",
     "transparent"
    ],
+   "maxHitAvg": 7,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21363,6 +22080,8 @@
     "ooze traits",
     "transparent"
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21422,6 +22141,8 @@
     "split",
     "ooze traits"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21475,6 +22196,8 @@
     "darkvision 60 ft.",
     "light sensitivity"
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21532,6 +22255,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21590,6 +22315,8 @@
    "sq": [
     "superior lowlight vision"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21649,6 +22376,8 @@
    "sq": [
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21710,6 +22439,8 @@
     "scent",
     "spell-like abilities"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21764,6 +22495,8 @@
     "plant traits",
     "greater invisibility"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21821,6 +22554,8 @@
     "ethereal jaunt",
     "low-light vision"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21878,6 +22613,8 @@
     "telepathy 100 ft.",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21942,6 +22679,8 @@
     "resistance to cold 10",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21999,6 +22738,8 @@
     "cold 5",
     "and electricity 5"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22056,6 +22797,8 @@
     "electricity 5",
     "and fire 5"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22117,6 +22860,8 @@
     "spell-like abilities",
     "tongues"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22177,6 +22922,8 @@
     "spell resistance 19",
     "telepathy 60 ft."
    ],
+   "maxHitAvg": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22235,6 +22982,8 @@
     "immunity to psionics",
     "lowlight vision"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -22295,6 +23044,8 @@
     "blindsight 60 ft.",
     "telepathy 20 ft."
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22358,6 +23109,8 @@
    "sq": [
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 21,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -22421,6 +23174,8 @@
     "darkvision 60 ft.",
     "spell resistance 27"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22481,6 +23236,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22544,6 +23301,8 @@
     "flight",
     "immunity to fire"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22603,6 +23362,8 @@
     "low-light vision",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 21,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -22661,6 +23422,8 @@
    "sq": [
     "low-light vision"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -22716,6 +23479,8 @@
     "darkvision",
     "scent"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22782,6 +23547,8 @@
     "speak with sharks",
     "water dependent"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22845,6 +23612,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22909,6 +23678,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -22974,6 +23745,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -23027,6 +23800,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23087,6 +23862,8 @@
     "ooze traits",
     "telepathy"
    ],
+   "maxHitAvg": 1.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23147,6 +23924,8 @@
     "ooze traits",
     "telepathy"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23202,6 +23981,8 @@
     "damage reduction 5/cold iron",
     "low-light vision"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23265,6 +24046,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23321,6 +24104,8 @@
     "hazy outline",
     "low-light vision"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -23377,6 +24162,8 @@
     "hazy outline",
     "low-light vision"
    ],
+   "maxHitAvg": 30,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -23437,6 +24224,8 @@
     "ooze traits",
     "stench"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23497,6 +24286,8 @@
     "ooze traits",
     "stench"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23553,6 +24344,8 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23609,6 +24402,8 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23666,6 +24461,8 @@
     "shadow blend",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23726,6 +24523,8 @@
     "plant traits",
     "resistance to fire 10"
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23785,6 +24584,8 @@
     "shield other",
     "spell storing"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23845,6 +24646,8 @@
     "immunity to electricity",
     "low-light vision"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23913,6 +24716,8 @@
     "immunities",
     "low-light vision"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23969,6 +24774,8 @@
     "immunities",
     "low-light vision"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24024,6 +24831,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24079,6 +24888,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24139,6 +24950,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24199,6 +25012,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24269,6 +25084,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24325,6 +25142,8 @@
     "immunity to cold",
     "superior twoweapon"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24390,6 +25209,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -24446,6 +25267,8 @@
     "oversize weapon",
     "undead traits"
    ],
+   "maxHitAvg": 32,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -24516,6 +25339,8 @@
     "immunity to cold and fire",
     "undead traits"
    ],
+   "maxHitAvg": 22,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -24572,6 +25397,8 @@
     "skin regrowth",
     "undead traits"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -24628,6 +25455,8 @@
     "skin regrowth",
     "undead traits"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": 15,
    "template": false
   },
@@ -24689,6 +25518,8 @@
     "darkvision 60 ft.",
     "amphibious"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24750,6 +25581,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24809,6 +25642,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24867,6 +25702,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24931,6 +25768,8 @@
     "lowlight vision",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -24991,6 +25830,8 @@
     "water breathing",
     "wild empathy"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -25050,6 +25891,8 @@
     "low-light vision",
     "spell resistance 15"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -25132,6 +25975,8 @@
     "regeneration 5",
     "split"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": 10,
    "template": false
   },
@@ -25214,6 +26059,8 @@
     "regeneration 5",
     "split"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": 11,
    "template": false
   },
@@ -25296,6 +26143,8 @@
     "regeneration 5",
     "split"
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -25378,6 +26227,8 @@
     "regeneration 5",
     "split"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 1,
    "dcMax": 17,
    "template": false
   },
@@ -25460,6 +26311,8 @@
     "regeneration 5",
     "split"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 1,
    "dcMax": 23,
    "template": false
   },
@@ -25516,6 +26369,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -25570,6 +26425,8 @@
     "low-light vision",
     "swarm traits"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -25624,6 +26481,8 @@
     "tremorsense 30 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -25681,6 +26540,8 @@
     "low-light vision",
     "swarm traits"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -25733,6 +26594,8 @@
     "swarm traits",
     "vermin traits"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -25787,6 +26650,8 @@
     "scent",
     "swarm traits"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -25840,6 +26705,8 @@
     "tremorsense 30 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -25922,6 +26789,8 @@
     "scent",
     "spell resistance 32"
    ],
+   "maxHitAvg": 35,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -25988,6 +26857,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -26051,6 +26922,8 @@
     "plant traits",
     "regeneration 10"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -26111,6 +26984,8 @@
     "tremorsense 60 ft.",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 13.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -26167,6 +27042,8 @@
     "darkvision 60 ft.",
     "ethereal jaunt"
    ],
+   "maxHitAvg": 0,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -26224,6 +27101,8 @@
     "ethereal jaunt",
     "power resistance 21"
    ],
+   "maxHitAvg": 22.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -26287,6 +27166,8 @@
     "immunities",
     "low-light vision"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 1,
    "dcMax": 23,
    "template": false
   },
@@ -26344,6 +27225,8 @@
     "darkvision 60 ft.",
     "spell resistance 32"
    ],
+   "maxHitAvg": 41,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -26408,6 +27291,8 @@
     "immunity to acid and cold",
     "resistance to"
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -26472,6 +27357,8 @@
     "immunity to acid and cold",
     "electricity 10 and fire 10"
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -26536,6 +27423,8 @@
     "resistance to electricity 10 and fire 10 immunity to acid and cold",
     "resistance to electricity 10 and fire 10"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -26596,6 +27485,8 @@
     "immunities",
     "ooze traits"
    ],
+   "maxHitAvg": 10,
+   "mdHits": 0,
    "dcMax": 15,
    "template": false
   },
@@ -26656,6 +27547,8 @@
     "immunities",
     "ooze traits"
    ],
+   "maxHitAvg": 21.5,
+   "mdHits": 4,
    "dcMax": 26,
    "template": false
   },
@@ -26713,6 +27606,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 30,
+   "mdHits": 4,
    "dcMax": 27,
    "template": false
   },
@@ -26770,6 +27665,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 38,
+   "mdHits": 4,
    "dcMax": 49,
    "template": false
   },
@@ -26827,6 +27724,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 3,
    "dcMax": 24,
    "template": false
   },
@@ -26884,6 +27783,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 4,
    "dcMax": 49,
    "template": false
   },
@@ -26942,6 +27843,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 4,
    "dcMax": 32,
    "template": false
   },
@@ -27001,6 +27904,8 @@
     "plant traits",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -27056,6 +27961,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27110,6 +28017,8 @@
    "sq": [
     "darkvision 90 ft."
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27172,6 +28081,8 @@
     "regeneration 5",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27238,6 +28149,8 @@
     "scent",
     "wild empathy"
    ],
+   "maxHitAvg": 15,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -27290,6 +28203,8 @@
     "plant traits",
     "resistance to cold 10 and fire 10"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -27347,6 +28262,8 @@
     "incorporeal traits",
     "telepathy 100 ft."
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27412,6 +28329,8 @@
     "scent",
     "wild empathy"
    ],
+   "maxHitAvg": 12.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27486,6 +28405,8 @@
     "spell resistance 20",
     "wild empathy"
    ],
+   "maxHitAvg": 14.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -27549,6 +28470,8 @@
     "rage",
     "scent"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27612,6 +28535,8 @@
     "spider climb",
     "undead traits"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27668,6 +28593,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27724,6 +28651,8 @@
     "scent",
     "vermin traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27781,6 +28710,8 @@
     "scent",
     "vermin traits"
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27836,6 +28767,8 @@
     "scent",
     "vermin traits"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27892,6 +28825,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -27947,6 +28882,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28000,6 +28937,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28055,6 +28994,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 23,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -28116,6 +29057,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28172,6 +29115,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28229,6 +29174,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28286,6 +29233,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 5.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28343,6 +29292,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28400,6 +29351,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -28457,6 +29410,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -28515,6 +29470,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28573,6 +29530,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28636,6 +29595,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28699,6 +29660,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 10.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28762,6 +29725,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -28825,6 +29790,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -28883,6 +29850,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28941,6 +29910,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28999,6 +29970,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29057,6 +30030,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29115,6 +30090,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -29173,6 +30150,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "maxHitAvg": 29,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -29227,6 +30206,8 @@
     "outsider traits",
     "one choice from vivilor menu a"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29281,6 +30262,8 @@
     "outsider traits",
     "one choice from vivilor menu a"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29335,6 +30318,8 @@
     "outsider traits",
     "one choice from vivilor menu b"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29390,6 +30375,8 @@
     "outsider traits",
     "one choice from vivilor menu b"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29445,6 +30432,8 @@
     "outsider traits",
     "one choice from vivilor menu a and one choice from vivilor menu b"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29500,6 +30489,8 @@
     "outsider traits",
     "one choice from vivilor menu c"
    ],
+   "maxHitAvg": 9.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29555,6 +30546,8 @@
     "outsider traits",
     "one choice from vivilor menu a and one choice from vivilor menu c"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -29563,7 +30556,8 @@
    "vi": 7,
    "label": "8th-lvl Vivilor",
    "page": 497,
-   "cr": 10,
+   "cr": 13,
+   "crWas": 10,
    "size": "Huge",
    "type": "Outsider",
    "drValue": 15,
@@ -29610,6 +30604,8 @@
     "outsider traits",
     "one choice from vivilor menu b and one choice from vivilor menu c"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -29618,7 +30614,8 @@
    "vi": 8,
    "label": "9th-lvl Vivilor",
    "page": 497,
-   "cr": 11,
+   "cr": 14,
+   "crWas": 11,
    "size": "Huge",
    "type": "Outsider",
    "drValue": 15,
@@ -29665,6 +30662,8 @@
     "outsider traits",
     "two choices from vivilor menu c"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 5,
    "dcMax": null,
    "template": false
   },
@@ -29724,6 +30723,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "maxHitAvg": 7,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29780,6 +30781,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29834,6 +30837,8 @@
     "immunity to magic",
     "natural invisibility"
    ],
+   "maxHitAvg": 9,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29894,6 +30899,8 @@
     "scent",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -29950,6 +30957,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30010,6 +31019,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "maxHitAvg": 6,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30070,6 +31081,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "maxHitAvg": 11.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30144,6 +31157,8 @@
     "low-light vision",
     "scent"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30197,6 +31212,8 @@
     "burst",
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30255,6 +31272,8 @@
     "planewalk",
     "spell resistance 21"
    ],
+   "maxHitAvg": 8,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30319,6 +31338,8 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30383,6 +31404,8 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -30447,6 +31470,8 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "maxHitAvg": 25,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -30506,6 +31531,8 @@
     "flight",
     "scent"
    ],
+   "maxHitAvg": 8.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30562,6 +31589,8 @@
     "cold subtype",
     "darkvision 60 ft."
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30625,6 +31654,8 @@
     "immunities",
     "vulnerability to sonic damage"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -30683,6 +31714,8 @@
     "power resistance 17",
     "siphon fluids"
    ],
+   "maxHitAvg": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30738,6 +31771,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 3.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30793,6 +31828,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30848,6 +31885,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30903,6 +31942,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30958,6 +31999,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -31013,6 +32056,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 17.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -31069,6 +32114,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -31124,6 +32171,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "maxHitAvg": 14.5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -31180,6 +32229,8 @@
     "class v sensor system",
     "magnetic feet"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -31228,6 +32279,8 @@
     "darkvision 120’",
     "lifelike appearance"
    ],
+   "maxHitAvg": null,
+   "mdHits": null,
    "dcMax": null,
    "template": false
   },
@@ -31280,6 +32333,8 @@
    "sq": [
     "class iv sensor system"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -31347,6 +32402,8 @@
     "immunity to acid",
     "water breathing"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -31414,6 +32471,8 @@
     "immunity to acid",
     "water breathing"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -31481,6 +32540,8 @@
     "immunity to acid",
     "water breathing"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -31548,6 +32609,8 @@
     "immunity to acid",
     "water breathing; darkness"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -31622,6 +32685,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; caster level 2nd",
     "sr 17"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 21,
    "template": false
   },
@@ -31696,6 +32761,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; caster level 4th",
     "sr 18"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -31770,6 +32837,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; caster level 6th",
     "sr 21"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -31844,6 +32913,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; caster level 8th",
     "sr 22"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -31918,6 +32989,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; caster level 10th",
     "sr 23"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 30,
    "template": false
   },
@@ -31992,6 +33065,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; caster level 12th",
     "sr 25"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -32066,6 +33141,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 14th",
     "sr 26"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 34,
    "template": false
   },
@@ -32140,6 +33217,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; dr 20/magic; [ignore 20/4d/1d hard.]; charm reptiles; caster level 16th",
     "sr 28"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -32205,6 +33284,8 @@
    "sq": [
     "immunity to electricity"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -32270,6 +33351,8 @@
    "sq": [
     "immunity to electricity"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 16,
    "template": false
   },
@@ -32335,6 +33418,8 @@
    "sq": [
     "immunity to electricity"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -32405,6 +33490,8 @@
    "sq": [
     "immunity to electricity; sound imitation; caster level 2nd"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 20,
    "template": false
   },
@@ -32477,6 +33564,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; caster level 4th",
     "sr 19"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -32549,6 +33638,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; caster level 6th",
     "sr 21"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 25,
    "template": false
   },
@@ -32621,6 +33712,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; caster level 8th",
     "sr 22"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -32693,6 +33786,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; caster level 10th",
     "sr 24"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 29,
    "template": false
   },
@@ -32765,6 +33860,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; caster level 12th",
     "sr 25"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -32837,6 +33934,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; caster level 14th",
     "sr 27"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -32909,6 +34008,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 16th",
     "sr 29"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -32981,6 +34082,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; dr 20/magic; [ignore 20/4d/1d hard.]; mirage arcana; caster level 18th",
     "sr 31"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 37,
    "template": false
   },
@@ -33046,6 +34149,8 @@
    "sq": [
     "immunity to acid"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -33111,6 +34216,8 @@
    "sq": [
     "immunity to acid"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 16,
    "template": false
   },
@@ -33176,6 +34283,8 @@
    "sq": [
     "immunity to acid"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -33246,6 +34355,8 @@
    "sq": [
     "immunity to acid; fascinate; caster level 1st"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 20,
    "template": false
   },
@@ -33318,6 +34429,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; caster level 3rd",
     "sr 19"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 22,
    "template": false
   },
@@ -33390,6 +34503,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; caster level 5th",
     "sr 21"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 25,
    "template": false
   },
@@ -33462,6 +34577,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; caster level 7th",
     "sr 22"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -33534,6 +34651,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; caster level 9th",
     "sr 24"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 29,
    "template": false
   },
@@ -33606,6 +34725,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; caster level 11th",
     "sr 25"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 30,
    "template": false
   },
@@ -33678,6 +34799,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; caster level 13th",
     "sr 27"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -33750,6 +34873,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 15th",
     "sr 28"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 35,
    "template": false
   },
@@ -33822,6 +34947,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; dr 20/magic; [ignore 20/4d/1d hard.]; command plants; caster level 17th",
     "sr 30"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 37,
    "template": false
   },
@@ -33888,6 +35015,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 15,
    "template": false
   },
@@ -33959,6 +35088,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -34030,6 +35161,8 @@
     "immunity to fire",
     "vulnerability to cold; caster level 1st"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": 19,
    "template": false
   },
@@ -34101,6 +35234,8 @@
     "immunity to fire",
     "vulnerability to cold; locate object; caster level 3rd"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": 22,
    "template": false
   },
@@ -34174,6 +35309,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 24,
    "template": false
   },
@@ -34247,6 +35384,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; caster level 7th",
     "sr 21"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -34320,6 +35459,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 28,
    "template": false
   },
@@ -34393,6 +35534,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; caster level 11th",
     "sr 24"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 31,
    "template": false
   },
@@ -34466,6 +35609,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -34539,6 +35684,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; caster level 15th",
     "sr 28"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 36,
    "template": false
   },
@@ -34612,6 +35759,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "maxHitAvg": 29,
+   "mdHits": 6,
    "dcMax": 38,
    "template": false
   },
@@ -34685,6 +35834,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; dr 20/magic; [ignore 20/4d/1d hard.]; discern location; caster level 19th",
     "sr 32"
    ],
+   "maxHitAvg": 35,
+   "mdHits": 6,
    "dcMax": 40,
    "template": false
   },
@@ -34754,6 +35905,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": 12,
    "template": false
   },
@@ -34823,6 +35976,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -34892,6 +36047,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 16,
    "template": false
   },
@@ -34961,6 +36118,8 @@
     "immunity to cold",
     "vulnerability to fire; fog cloud"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -35037,6 +36196,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; caster level 1st",
     "sr 16"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 20,
    "template": false
   },
@@ -35113,6 +36274,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; caster level 3rd",
     "sr 18"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -35189,6 +36352,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; caster level 5th",
     "sr 20"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 25,
    "template": false
   },
@@ -35265,6 +36430,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; caster level 7th",
     "sr 21"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -35341,6 +36508,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; caster level 9th",
     "sr 23"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 29,
    "template": false
   },
@@ -35417,6 +36586,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; caster level 11th",
     "sr 24"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -35493,6 +36664,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 13th",
     "sr 25"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -35563,6 +36736,8 @@
     "immunity to cold",
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -35631,6 +36806,8 @@
     "immunity to acid",
     "metacreativity discipline"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 15,
    "template": false
   },
@@ -35704,6 +36881,8 @@
     "immunity to acid",
     "metacreativity discipline"
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -35777,6 +36956,8 @@
     "immunity to acid",
     "metacreativity discipline; caster level 1st"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": 19,
    "template": false
   },
@@ -35850,6 +37031,8 @@
     "immunity to acid",
     "metacreativity discipline; minor creation; caster level 3rd"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": 22,
    "template": false
   },
@@ -35925,6 +37108,8 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 24,
    "template": false
   },
@@ -36000,6 +37185,8 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; caster level 7th",
     "sr 21"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -36075,6 +37262,8 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 28,
    "template": false
   },
@@ -36151,6 +37340,8 @@
     "greater; caster level 11th",
     "sr 24"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 31,
    "template": false
   },
@@ -36227,6 +37418,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -36303,6 +37496,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; caster level 15th",
     "sr 28"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 36,
    "template": false
   },
@@ -36379,6 +37574,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "maxHitAvg": 29,
+   "mdHits": 6,
    "dcMax": 38,
    "template": false
   },
@@ -36455,6 +37652,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; dr 20/magic; [ignore 20/4d/1d hard.]; crystallize; caster level 19th",
     "sr 32"
    ],
+   "maxHitAvg": 35,
+   "mdHits": 6,
    "dcMax": 40,
    "template": false
   },
@@ -36520,6 +37719,8 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -36585,6 +37786,8 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -36650,6 +37853,8 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -36720,6 +37925,8 @@
     "know direction & location",
     "psychoportation discipline; detect teleportation; caster level 1st"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -36791,6 +37998,8 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; caster level 3rd",
     "sr 19"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -36862,6 +38071,8 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; dimension door; caster level 5th",
     "sr 21"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -36933,6 +38144,8 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; dimension door; dr 10/magic; [ignore 10/2d hardness]; caster level 7th",
     "sr 22"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -37005,6 +38218,8 @@
     "2nd ectoplasmic breath weapon ; caster level 9th",
     "sr 24"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -37077,6 +38292,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; caster level 11th",
     "sr 25"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -37149,6 +38366,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; caster level 13th",
     "sr 27"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -37221,6 +38440,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 15th",
     "sr 28"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -37293,6 +38514,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; dr 20/magic; [ignore 20/4d/1d hard.]; time regression; caster level 17th",
     "sr 30"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": null,
    "template": false
   },
@@ -37359,6 +38582,8 @@
     "sense link",
     "telepathy discipline"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -37425,6 +38650,8 @@
     "sense link",
     "telepathy discipline"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -37491,6 +38718,8 @@
     "sense link",
     "telepathy discipline"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -37557,6 +38786,8 @@
     "sense link",
     "telepathy discipline; mindlink"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -37629,6 +38860,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; caster level 1st",
     "sr 19"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -37701,6 +38934,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; caster level 3rd",
     "sr 21"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -37773,6 +39008,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; caster level 5th",
     "sr 22"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -37845,6 +39082,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; caster level 7th",
     "sr 24"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -37917,6 +39156,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; caster level 9th",
     "sr 25"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -37989,6 +39230,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; caster level 11th",
     "sr 27"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -38061,6 +39304,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 13th",
     "sr 28"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -38133,6 +39378,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; dr 20/magic; [ignore 20/4d/1d hard.]; brain spider; caster level 15th",
     "sr 30"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -38200,6 +39447,8 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -38267,6 +39516,8 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 16,
    "template": false
   },
@@ -38334,6 +39585,8 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -38406,6 +39659,8 @@
     "psychokinesis discipline",
     "quickened recovery; 2nd breath weapon"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 20,
    "template": false
   },
@@ -38480,6 +39735,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]",
     "sr 19"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -38554,6 +39811,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; caster level 2nd",
     "sr 21"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 25,
    "template": false
   },
@@ -38628,6 +39887,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; caster level 4th",
     "sr 22"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -38702,6 +39963,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; caster level 6th",
     "sr 24"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 29,
    "template": false
   },
@@ -38776,6 +40039,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; caster level 8th",
     "sr 25"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -38850,6 +40115,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; caster level 10th",
     "sr 27"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -38924,6 +40191,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 12th",
     "sr 29"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -38998,6 +40267,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; dr 20/magic; [ignore 20/4d/1d hard.]; 4th breath weapon; caster level 14th",
     "sr 31"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 37,
    "template": false
   },
@@ -39065,6 +40336,8 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -39132,6 +40405,8 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 16,
    "template": false
   },
@@ -39199,6 +40474,8 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -39271,6 +40548,8 @@
     "clairsentience discipline",
     "; immunity to scrying; combat precognition; caster level 2nd"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 20,
    "template": false
   },
@@ -39345,6 +40624,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; caster level 4th",
     "sr 19"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -39419,6 +40700,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; caster level 6th",
     "sr 21"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 25,
    "template": false
   },
@@ -39493,6 +40776,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; caster level 8th",
     "sr 22"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -39567,6 +40852,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; caster level 10th",
     "sr 24"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 29,
    "template": false
   },
@@ -39641,6 +40928,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; caster level 12th",
     "sr 25"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -39715,6 +41004,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; caster level 14th",
     "sr 27"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -39789,6 +41080,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 16th",
     "sr 29"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -39863,6 +41156,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; dr 20/magic; [ignore 20/4d/1d hard.]; hypercognition; caster level 18th",
     "sr 31"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 37,
    "template": false
   },
@@ -39932,6 +41227,8 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -40001,6 +41298,8 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -40070,6 +41369,8 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -40139,6 +41440,8 @@
     "psychometabolism discipline",
     "synesthete; animal affinity"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -40215,6 +41518,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; caster level 2nd",
     "sr 17"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 21,
    "template": false
   },
@@ -40291,6 +41596,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; caster level 4th",
     "sr 18"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -40367,6 +41674,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; caster level 6th",
     "sr 21"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -40443,6 +41752,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; caster level 8th",
     "sr 22"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -40519,6 +41830,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; caster level 10th",
     "sr 23"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 30,
    "template": false
   },
@@ -40595,6 +41908,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; caster level 12th",
     "sr 25"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -40671,6 +41986,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 14th",
     "sr 26"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 34,
    "template": false
   },
@@ -40741,6 +42058,8 @@
     "psychometabolism discipline",
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -40809,6 +42128,8 @@
     "speak with animals",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -40877,6 +42198,8 @@
     "speak with animals",
     "vulnerability to cold"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -40945,6 +42268,8 @@
     "speak with animals",
     "vulnerability to cold; caster level 1st"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -41013,6 +42338,8 @@
     "speak with animals",
     "vulnerability to cold; endure elements; caster level 3rd"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -41088,6 +42415,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 18"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 21,
    "template": false
   },
@@ -41163,6 +42492,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; caster level 7th",
     "sr 20"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -41238,6 +42569,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 22"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -41313,6 +42646,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; caster level 11th",
     "sr 24"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -41388,6 +42723,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 25"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 30,
    "template": false
   },
@@ -41463,6 +42800,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; caster level 15th",
     "sr 27"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -41538,6 +42877,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 28"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 34,
    "template": false
   },
@@ -41613,6 +42954,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; summon djinni; caster level 19th",
     "sr 30"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -41681,6 +43024,8 @@
     "water breathing",
     "speak with animals"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -41749,6 +43094,8 @@
     "water breathing",
     "speak with animals"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 16,
    "template": false
   },
@@ -41817,6 +43164,8 @@
     "water breathing",
     "speak with animals; alternate form; caster level 1st"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -41890,6 +43239,8 @@
     "water breathing",
     "speak with animals; alternate form; caster level 3rd"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 20,
    "template": false
   },
@@ -41965,6 +43316,8 @@
     "speak with animals; alternate form; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 20"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -42041,6 +43394,8 @@
     "fog cloud; caster level 7th",
     "sr 22"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 25,
    "template": false
   },
@@ -42117,6 +43472,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -42193,6 +43550,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; caster level 11th",
     "sr 25"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 29,
    "template": false
   },
@@ -42269,6 +43628,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -42345,6 +43706,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; caster level 15th",
     "sr 28"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 33,
    "template": false
   },
@@ -42421,6 +43784,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 29"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 36,
    "template": false
   },
@@ -42497,6 +43862,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; dr 20/magic; [ignore 20/4d/1d hard.]; control weather; caster level 19th",
     "sr 31"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 37,
    "template": false
   },
@@ -42563,6 +43930,8 @@
     "immunity to acid",
     "spider climb"
    ],
+   "maxHitAvg": 2.5,
+   "mdHits": 0,
    "dcMax": 13,
    "template": false
   },
@@ -42629,6 +43998,8 @@
     "immunity to acid",
     "spider climb"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 15,
    "template": false
   },
@@ -42695,6 +44066,8 @@
     "immunity to acid",
     "spider climb; caster level 1st"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -42761,6 +44134,8 @@
     "immunity to acid",
     "spider climb; caster level 3rd"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 19,
    "template": false
   },
@@ -42834,6 +44209,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 21,
    "template": false
   },
@@ -42907,6 +44284,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; caster level 7th",
     "sr 21"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 24,
    "template": false
   },
@@ -42980,6 +44359,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -43053,6 +44434,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; caster level 11th",
     "sr 25"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 28,
    "template": false
   },
@@ -43126,6 +44509,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 30,
    "template": false
   },
@@ -43199,6 +44584,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; caster level 15th",
     "sr 28"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 32,
    "template": false
   },
@@ -43272,6 +44659,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 29"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 34,
    "template": false
   },
@@ -43345,6 +44734,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; dr 20/magic; [ignore 20/4d/1d hard.]; move earth; caster level 19th",
     "sr 31"
    ],
+   "maxHitAvg": 27,
+   "mdHits": 4,
    "dcMax": 37,
    "template": false
   },
@@ -43414,6 +44805,8 @@
     "vulnerability to cold",
     "water breathing"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 16,
    "template": false
   },
@@ -43488,6 +44881,8 @@
     "vulnerability to cold",
     "water breathing"
    ],
+   "maxHitAvg": 12,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -43562,6 +44957,8 @@
     "vulnerability to cold",
     "water breathing; caster level 1st"
    ],
+   "maxHitAvg": 14,
+   "mdHits": 1,
    "dcMax": 20,
    "template": false
   },
@@ -43636,6 +45033,8 @@
     "vulnerability to cold",
     "water breathing; bless; caster level 3rd"
    ],
+   "maxHitAvg": 16,
+   "mdHits": 1,
    "dcMax": 22,
    "template": false
   },
@@ -43712,6 +45111,8 @@
     "water breathing; bless; dr 5/magic; caster level 5th",
     "sr 21"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 25,
    "template": false
   },
@@ -43788,6 +45189,8 @@
     "water breathing; bless; dr 5/magic; luck bonus; caster level 7th",
     "sr 23"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -43864,6 +45267,8 @@
     "water breathing; bless; dr 5/magic; luck bonus; dr 10/magic; caster level 9th",
     "sr 25"
    ],
+   "maxHitAvg": 21,
+   "mdHits": 1,
    "dcMax": 29,
    "template": false
   },
@@ -43940,6 +45345,8 @@
     "detect gems; caster level 11th",
     "sr 27"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 31,
    "template": false
   },
@@ -44016,6 +45423,8 @@
     "detect gems; dr 15/magic; caster level 13th",
     "sr 28"
    ],
+   "maxHitAvg": 29,
+   "mdHits": 6,
    "dcMax": 34,
    "template": false
   },
@@ -44092,6 +45501,8 @@
     "detect gems; dr 15/magic; sunburst; caster level 15th",
     "sr 30"
    ],
+   "maxHitAvg": 30,
+   "mdHits": 6,
    "dcMax": 36,
    "template": false
   },
@@ -44168,6 +45579,8 @@
     "detect gems; dr 15/magic; sunburst; dr 20/magic; caster level 17th",
     "sr 31"
    ],
+   "maxHitAvg": 35,
+   "mdHits": 6,
    "dcMax": 39,
    "template": false
   },
@@ -44244,6 +45657,8 @@
     "detect gems; dr 15/magic; sunburst; dr 20/magic; foresight; caster level 19th",
     "sr 33"
    ],
+   "maxHitAvg": 36,
+   "mdHits": 6,
    "dcMax": 41,
    "template": false
   },
@@ -44312,6 +45727,8 @@
     "cloudwalking",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 4.5,
+   "mdHits": 0,
    "dcMax": 14,
    "template": false
   },
@@ -44380,6 +45797,8 @@
     "cloudwalking",
     "vulnerability to fire"
    ],
+   "maxHitAvg": 6.5,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -44448,6 +45867,8 @@
     "cloudwalking",
     "vulnerability to fire; caster level 1st"
    ],
+   "maxHitAvg": 7.5,
+   "mdHits": 0,
    "dcMax": 18,
    "template": false
   },
@@ -44521,6 +45942,8 @@
     "cloudwalking",
     "vulnerability to fire; feather fall; caster level 3rd"
    ],
+   "maxHitAvg": 11,
+   "mdHits": 0,
    "dcMax": 21,
    "template": false
   },
@@ -44596,6 +46019,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 20"
    ],
+   "maxHitAvg": 13,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -44671,6 +46096,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; caster level 7th",
     "sr 22"
    ],
+   "maxHitAvg": 17,
+   "mdHits": 1,
    "dcMax": 26,
    "template": false
   },
@@ -44746,6 +46173,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 24"
    ],
+   "maxHitAvg": 18,
+   "mdHits": 1,
    "dcMax": 27,
    "template": false
   },
@@ -44821,6 +46250,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; caster level 11th",
     "sr 26"
    ],
+   "maxHitAvg": 19,
+   "mdHits": 1,
    "dcMax": 30,
    "template": false
   },
@@ -44896,6 +46327,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 27"
    ],
+   "maxHitAvg": 20,
+   "mdHits": 1,
    "dcMax": 32,
    "template": false
   },
@@ -44971,6 +46404,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; caster level 15th",
     "sr 29"
    ],
+   "maxHitAvg": 26,
+   "mdHits": 4,
    "dcMax": 35,
    "template": false
   },
@@ -45046,6 +46481,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "maxHitAvg": 28,
+   "mdHits": 6,
    "dcMax": 37,
    "template": false
   },
@@ -45121,6 +46558,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; reverse gravity; caster level 19th",
     "sr 32"
    ],
+   "maxHitAvg": 34,
+   "mdHits": 6,
    "dcMax": 40,
    "template": false
   }

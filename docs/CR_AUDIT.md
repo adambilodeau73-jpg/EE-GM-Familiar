@@ -19,11 +19,11 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | 7 | 55 | 129 [87–174.5] | 19 [16.5–21] | 10 [9–12] | 13 [10–16] | 25 [15–38] | 9/7/7 |
 | 8 | 35 | 147 [103.5–186.5] | 20 [18–22.5] | 10 [9–11.5] | 15 [12–17] | 19 [14.5–34] | 10/8/8 |
 | 9 | 34 | 204.5 [143.8–241.5] | 22.5 [20–24.8] | 9.5 [9–11] | 18 [14.3–20] | 33 [24–46.1] | 12/9/9 |
-| 10 | 27 | 197 [140–285.5] | 22.5 [19.3–24] | 9 [8–9.8] | 19 [14–22.5] | 30 [17–46] | 12/8/9 |
-| 11 | 30 | 242 [191.8–301.8] | 25 [23–26] | 9 [9–14] | 21 [17–24] | 40 [28.3–55.6] | 14/10/10 |
-| 12 | 16 | 282.5 [204.5–351.8] | 24 [17.8–27] | 8 [5.5–9] | 22 [20–25] | 34.5 [30.6–45.8] | 15/10/8.5 |
-| 13 | 17 | 259 [203–364] | 26.5 [25.8–27] | 9 [8–10.3] | 23 [20–26] | 53.5 [23.3–69.8] | 15/11/13 |
-| 14 | 14 | 236 [181.8–395] | 27.5 [25.5–29] | 9 [8–13.8] | 24 [21–27] | 40.5 [31–49.5] | 16.5/12/14 |
+| 10 | 26 | 187.5 [134–293.8] | 22 [19–24] | 9 [8–10] | 18.5 [14–22.8] | 28.5 [16.3–46] | 11.5/7.5/8.5 |
+| 11 | 29 | 240 [191–303] | 25 [22.8–26] | 9 [9–14] | 21 [17–24] | 40 [28–51.5] | 14/10/10 |
+| 12 | 15 | 275 [202–349] | 26 [17.5–27] | 8 [6–9] | 21 [20–24.5] | 34 [29.8–39.5] | 15/9/8 |
+| 13 | 19 | 259 [220–362] | 26.5 [25.3–27] | 8.5 [8–10] | 23 [20–26] | 63.8 [24.8–86.1] | 16/11/13 |
+| 14 | 15 | 238 [186.5–390] | 28 [26–29] | 9 [8–13.5] | 23 [21–27] | 44.3 [31.5–52.9] | 17/12/13 |
 | 15 | 12 | 441 [396–458] | 29 [28–29.5] | 8 [8–8] | 27 [26.3–28.8] | 41.8 [11.6–81] | 17.5/12/16.5 |
 | 16 | 14 | 457.5 [272.3–474] | 30.5 [30–32] | 8 [8–12.3] | 29.5 [25–31.8] | 66.3 [50–70.5] | 18/13/16 |
 | 17 | 8 | 351.5 [261.3–491] | 31 [29–32.5] | 9 [8–13.3] | 30.5 [24–31.3] | 89 [46–130.3] | 19/14/17 |
@@ -46,22 +46,22 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | WHITE DRAGON — Great wyrm (p.196) | 21 | 2.1 | 0.8 | 3.3 | 872 | null | 98 |
 | BLUE DRAGON — Young (p.191) | 6 | 2 | 2.1 | 1.8 | 207 | 21 | 23.5 |
 | WHITE DRAGON — Juvenile (p.196) | 6 | 1.9 | 2.1 | 1.8 | 205 | 21 | 23.5 |
+| MONSTROUS SCORPION — Monstrous Scorpion, Colossal (p.492) | 12 | 1.9 | 0.5 | 3.2 | 425 | 26 | 57 |
 | ASTRAL CONSTRUCT — 4TH-LEVEL ASTRAL CONSTRUCT (p.111) | 3 | 1.6 | 2.1 | 1.1 | 97 | 22 | 13.5 |
-| MONSTROUS SCORPION — Monstrous Scorpion, Colossal (p.492) | 12 | 1.6 | 0.7 | 2.5 | 425 | 26 | 57 |
 | WHITE DRAGON — Old (p.196) | 15 | 1.5 | 0.9 | 2.2 | 491 | 31 | 68 |
 | WHITE DRAGON — Ancient (p.196) | 18 | 1.5 | 1.4 | 1.7 | 670 | 37 | 75 |
 | ETOILE (p.235) | 2 | 1.5 | 2 | 0.9 | 56 | 23 | 10.5 |
 | GREEN DRAGON — Young (p.193) | 5 | 1.5 | 1.6 | 1.4 | 193 | 20 | 23.5 |
 | EMERALD DRAGON — Young (p.200) | 5 | 1.5 | 1.6 | 1.4 | 193 | 20 | 23.5 |
-| KRAKEN (p.325) | 12 | 1.5 | 0 | 2.9 | 360 | 20 | 119 |
 | BLACK DRAGON — Great wyrm (p.190) | 22 | 1.4 | 1.5 | 1.4 | 891 | 42 | 98 |
-| ASTRAL CONSTRUCT — 2ND-LEVEL ASTRAL CONSTRUCT (p.111) | 1 | 1.4 | 2.1 | 0.7 | 61 | 18 | 7.5 |
 | ASTRAL CONSTRUCT — 9TH-LEVEL ASTRAL CONSTRUCT (p.111) | 10 | 1.4 | 1.8 | 1 | 269 | 33 | 46 |
+| ASTRAL CONSTRUCT — 2ND-LEVEL ASTRAL CONSTRUCT (p.111) | 1 | 1.4 | 2.1 | 0.7 | 61 | 18 | 7.5 |
 | FLESHRAKER (Knife Fiend) — Knife Fiend (p.240) | 3 | 1.4 | 2.2 | 0.5 | 71 | 24 | 7 |
 | BLACK DRAGON — Wyrm (p.190) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
 | TOPAZ DRAGON — Wyrm (p.207) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
 | XORN — Elder Xorn (p.509) | 8 | 1.3 | 1.2 | 1.5 | 210 | 25 | 44.5 |
 | XORN — Minor Xorn (p.509) | 3 | 1.3 | 2.2 | 0.5 | 82 | 23 | 20 |
+| ASTRAL CONSTRUCT — 3RD-LEVEL ASTRAL CONSTRUCT (p.111) | 2 | 1.3 | 1.7 | 0.9 | 76 | 20 | 10.5 |
 
 ## The outlier docket — COLD (under-statted: candidates for a CR cut or an ability-tax explanation)
 
@@ -72,21 +72,21 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | SATANIC ICHOR — Satanic Ichor (p.423) | 4 | -3 | -3 | -3 | 21 | 11 | 1.5 |
 | MONGOLIAN DEATH WORM (p.369) | 8 | -2.9 | -2.3 | -3.4 | 32 | 16 | 1.5 |
 | NUCLEAR TOXYDERM — Nuclear Toxyderm (p.470) | 20 | -2.8 | -4.2 | -1.3 | 380 | 21 | 112 |
+| WHISPERER IN THE DARK (p.500) | 12 | -2.8 | -2.5 | -3 | 71 | 14 | 28 |
 | GRAY OOZE (p.391) | 4 | -2.7 | -3.9 | -1.5 | 31 | 5 | 8 |
-| WHISPERER IN THE DARK (p.500) | 12 | -2.6 | -2.4 | -2.8 | 71 | 14 | 28 |
 | MUMMY — Mummy Lord, 10th-Level Cleric (p.372) | 15 | -2.6 | -1.4 | -3.8 | 147 | 33 | 15.5 |
 | ELOHIM (p.232) | 8 | -2.6 | -1.6 | -3.5 | 72 | 15 | 0 |
-| MONTAUK MONSTER — Montauk Monster (p.370) | 11 | -2.5 | -4 | -1.1 | 87 | 14 | 35 |
 | UNBODIED (p.477) | 5 | -2.5 | -2.8 | -2.2 | 22 | 13 | 3.5 |
+| MONTAUK MONSTER — Montauk Monster (p.370) | 11 | -2.4 | -3.8 | -1.1 | 87 | 14 | 35 |
 | ABOLETH — Aboleth Mage, 10th-Level Wizard (p.48) | 17 | -2.4 | -2.5 | -2.3 | 212 | 21 | 50 |
 | SEWER SLUDGE — Sewer Sludge (p.427) | 5 | -2.4 | -2.6 | -2.2 | 36 | 10 | 4.5 |
 | VARGOUILLE (p.485) | 2 | -2.4 | -3.3 | -1.5 | 5 | 12 | 2.5 |
 | PIXIE (p.447) | 4 | -2.3 | -2.9 | -1.7 | 8 | 17 | 3.5 |
-| JUMPING JACK (Blood Fiend) — Jumping Jack, 9th-Level Fast Villain (p.243) | 11 | -2.1 | -1.6 | -2.6 | 80 | 25 | 9 |
+| JUMPING JACK (Blood Fiend) — Jumping Jack, 9th-Level Fast Villain (p.243) | 11 | -2.2 | -1.6 | -2.8 | 80 | 25 | 9 |
 | Sidhe, Dreamghast — Sidhe, Faun (p.null) | 4 | -2.1 | -2.1 | -2.2 | 27 | 14 | 3.5 |
 | SHADOW — Greater Shadow (p.428) | 8 | -2.1 | -1.8 | -2.4 | 58 | 15 | 4.5 |
 | NYMPH (p.385) | 7 | -2.1 | -1.7 | -2.5 | 27 | 18 | 2.5 |
-| SATANIC ICHOR — Satanic Ichor, Advanced (p.423) | 10 | -2.1 | -2.4 | -1.7 | 90 | 11 | 7.5 |
+| TOXIC SLUDGE — Toxic Sludge (p.467) | 7 | -2.1 | -2.5 | -1.6 | 60 | 7 | 10 |
 
 **Reading the docket:** a COLD foe whose body is weak for its CR usually carries its price in abilities the statline cannot show (the synergy problem) — the docket is therefore also a ranked list of WHERE the ability multipliers live, which is exactly the Phase C feature-engineering queue. A HOT foe with no compensating ability tax is a genuine mis-rating candidate.
 
@@ -98,11 +98,11 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 
 | tag | n | mean CR |
 |---|---|---|
-| darkvision 60 ft. | 327 | 6.3 |
+| darkvision 60 ft. | 327 | 6.4 |
 | low-light vision | 190 | 5.5 |
 | scent | 137 | 4.9 |
 | frightful presence | 114 | 18.4 |
-| improved grab | 86 | 6.8 |
+| improved grab | 86 | 6.9 |
 | spell-like abilities | 78 | 8.9 |
 | alternate form | 75 | 11.5 |
 | immunity to fire | 74 | 12 |

@@ -3,7 +3,35 @@
   "note": "Adam's CR re-rates from the hot-45 review (2026-10-12). Applied over the Foe Folio print by metrics.mjs (model) and build.mjs (display); FF letters banked on the TODO. 'was' preserves the print."
  },
  "cr": {
-  "GEAR GOLEM#0": { "cr": 10, "was": 7, "ruled": "2026-10-12", "why": "Stone-Golem-class body (18 HD, 229 effHP, AC 30) plus magic immunity; golem doctrine prices immunity upward." },
-  "HILL GIANT DIRE WEREBOAR#2": { "cr": 13, "was": 11, "ruled": "2026-10-12", "why": "Template stack under-charged: Fort +20, DR 10/silver, ferocity, +29/104.5-avg iterative routine deletes a CR-11 PC per round." }
+  "GEAR GOLEM#0": {
+   "cr": 10,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Stone-Golem-class body (18 HD, 229 effHP, AC 30) plus magic immunity; golem doctrine prices immunity upward."
+  },
+  "HILL GIANT DIRE WEREBOAR#2": {
+   "cr": 13,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "Template stack under-charged: Fort +20, DR 10/silver, ferocity, +29/104.5-avg iterative routine deletes a CR-11 PC per round."
+  },
+  "VIVILOR#7": {
+   "cr": 13,
+   "was": 10,
+   "ruled": "2026-10-12",
+   "why": "Free-roaming unique-but-average fiend (Adam): the menu offense rides a CR-13 body (253 effHP, AC 28, DR 15/magic); the servitor discount does not apply."
+  },
+  "VIVILOR#8": {
+   "cr": 14,
+   "was": 11,
+   "ruled": "2026-10-12",
+   "why": "As the 8th-level rung: CR-14 body (287 effHP, AC 31, DR 15/magic), free-roaming."
+  },
+  "KRAKEN#0": {
+   "cr": 13,
+   "was": 12,
+   "ruled": "2026-10-12",
+   "why": "Heaviest honest routine in its band (119 avg behind +28, grab-and-constrict); its aquatic terrain favors IT, so no counter-lane discount."
+  }
  }
 }
