@@ -541,11 +541,11 @@
    "ref": 18,
    "will": 20,
    "bestAtk": 35,
-   "routineAvg": 256.5,
+   "routineAvg": 142.5,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 9,
+     "n": 5,
      "bonus": 35,
      "avg": 28.5
     }
@@ -1825,13 +1825,13 @@
    "ref": 4,
    "will": 2,
    "bestAtk": 6,
-   "routineAvg": 10.5,
+   "routineAvg": 12.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 6,
-     "avg": 10.5
+     "avg": 12.5
     }
    ],
    "speeds": {
@@ -2137,7 +2137,7 @@
    "ref": 7,
    "will": 6,
    "bestAtk": 16,
-   "routineAvg": 65,
+   "routineAvg": 41,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -2149,11 +2149,6 @@
      "n": 2,
      "bonus": 11,
      "avg": 12
-    },
-    {
-     "n": 1,
-     "bonus": 16,
-     "avg": 24
     }
    ],
    "speeds": {
@@ -4607,19 +4602,9 @@
    "ref": 5,
    "will": 6,
    "bestAtk": 8,
-   "routineAvg": 35.5,
+   "routineAvg": 25.5,
    "derivedRoutine": false,
    "attacks": [
-    {
-     "n": 1,
-     "bonus": 8,
-     "avg": 6.5
-    },
-    {
-     "n": 1,
-     "bonus": 3,
-     "avg": 3.5
-    },
     {
      "n": 2,
      "bonus": 8,
@@ -4683,7 +4668,7 @@
    "ref": 11,
    "will": 13,
    "bestAtk": 25,
-   "routineAvg": 84.5,
+   "routineAvg": 70.5,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -4695,16 +4680,6 @@
      "n": 1,
      "bonus": 17,
      "avg": 6.5
-    },
-    {
-     "n": 1,
-     "bonus": 22,
-     "avg": 9.5
-    },
-    {
-     "n": 1,
-     "bonus": 17,
-     "avg": 4.5
     }
    ],
    "speeds": {
@@ -4936,14 +4911,14 @@
    "fort": 12,
    "ref": 14,
    "will": 10,
-   "bestAtk": 19,
-   "routineAvg": 9,
+   "bestAtk": 20,
+   "routineAvg": 16,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
-     "bonus": 19,
-     "avg": 9
+     "bonus": 20,
+     "avg": 16
     }
    ],
    "speeds": {
@@ -5533,7 +5508,7 @@
    "ref": 5,
    "will": 10,
    "bestAtk": 12,
-   "routineAvg": 134.5,
+   "routineAvg": 97.5,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -5550,16 +5525,6 @@
      "n": 1,
      "bonus": 12,
      "avg": 13
-    },
-    {
-     "n": 1,
-     "bonus": 5,
-     "avg": 15
-    },
-    {
-     "n": 2,
-     "bonus": 5,
-     "avg": 11
     }
    ],
    "speeds": {
@@ -6409,13 +6374,13 @@
    "ref": 11,
    "will": 8,
    "bestAtk": 13,
-   "routineAvg": 18,
+   "routineAvg": 22,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 2,
      "bonus": 13,
-     "avg": 9
+     "avg": 11
     }
    ],
    "speeds": {
@@ -6472,11 +6437,11 @@
    "ref": 9,
    "will": 7,
    "bestAtk": 11,
-   "routineAvg": 22.5,
+   "routineAvg": 15,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 3,
+     "n": 2,
      "bonus": 11,
      "avg": 7.5
     }
@@ -6678,11 +6643,6 @@
      "n": 2,
      "bonus": 3,
      "avg": 5.5
-    },
-    {
-     "n": 1,
-     "bonus": 5,
-     "avg": 0
     }
    ],
    "speeds": {
@@ -6837,23 +6797,23 @@
    "ref": 7,
    "will": 6,
    "bestAtk": 12,
-   "routineAvg": 11,
+   "routineAvg": 39,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 12,
-     "avg": 0
+     "avg": 11
     },
     {
      "n": 1,
      "bonus": 12,
-     "avg": 0
+     "avg": 8.5
     },
     {
      "n": 1,
      "bonus": 12,
-     "avg": 0
+     "avg": 8.5
     },
     {
      "n": 2,
@@ -7484,7 +7444,7 @@
    "ref": 19,
    "will": 19,
    "bestAtk": 31,
-   "routineAvg": 107.5,
+   "routineAvg": 95,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -7496,11 +7456,6 @@
      "n": 2,
      "bonus": 30,
      "avg": 10
-    },
-    {
-     "n": 1,
-     "bonus": 31,
-     "avg": 12.5
     }
    ],
    "speeds": {
@@ -7572,11 +7527,6 @@
      "n": 2,
      "bonus": 14,
      "avg": 9
-    },
-    {
-     "n": 1,
-     "bonus": 11,
-     "avg": 0
     }
    ],
    "speeds": {
@@ -7903,7 +7853,7 @@
    "ref": null,
    "will": null,
    "bestAtk": 25,
-   "routineAvg": 168.5,
+   "routineAvg": 137,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -7915,16 +7865,6 @@
      "n": 5,
      "bonus": 25,
      "avg": 11
-    },
-    {
-     "n": 1,
-     "bonus": 22,
-     "avg": 18
-    },
-    {
-     "n": 1,
-     "bonus": 24,
-     "avg": 13.5
     },
     {
      "n": 1,
@@ -8378,14 +8318,14 @@
    "fort": 2,
    "ref": 5,
    "will": 6,
-   "bestAtk": 4,
-   "routineAvg": 2.5,
+   "bestAtk": 6,
+   "routineAvg": 3.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
-     "bonus": 4,
-     "avg": 2.5
+     "bonus": 6,
+     "avg": 3.5
     }
    ],
    "speeds": {
@@ -8741,11 +8681,11 @@
    "ref": 11,
    "will": 10,
    "bestAtk": 14,
-   "routineAvg": 28.5,
+   "routineAvg": 19,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 3,
+     "n": 2,
      "bonus": 14,
      "avg": 9.5
     }
@@ -8868,7 +8808,7 @@
    "ref": 16,
    "will": 15,
    "bestAtk": 25,
-   "routineAvg": 143,
+   "routineAvg": 114,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -8880,16 +8820,6 @@
      "n": 1,
      "bonus": 22,
      "avg": 14
-    },
-    {
-     "n": 1,
-     "bonus": 22,
-     "avg": 12
-    },
-    {
-     "n": 1,
-     "bonus": 24,
-     "avg": 17
     },
     {
      "n": 1,
@@ -8952,28 +8882,13 @@
    "ref": 14,
    "will": 15,
    "bestAtk": 20,
-   "routineAvg": 106.5,
+   "routineAvg": 71.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 3,
      "bonus": 20,
      "avg": 16
-    },
-    {
-     "n": 1,
-     "bonus": 14,
-     "avg": 10
-    },
-    {
-     "n": 1,
-     "bonus": 14,
-     "avg": 13.5
-    },
-    {
-     "n": 1,
-     "bonus": 19,
-     "avg": 11.5
     },
     {
      "n": 1,
@@ -9809,8 +9724,8 @@
    "fort": 5,
    "ref": 4,
    "will": 8,
-   "bestAtk": 5,
-   "routineAvg": 28,
+   "bestAtk": 3,
+   "routineAvg": 23.5,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -9822,11 +9737,6 @@
      "n": 1,
      "bonus": 1,
      "avg": 3.5
-    },
-    {
-     "n": 1,
-     "bonus": 5,
-     "avg": 4.5
     }
    ],
    "speeds": {
@@ -9875,14 +9785,14 @@
    "fort": 3,
    "ref": 8,
    "will": 6,
-   "bestAtk": 6,
-   "routineAvg": 2.5,
+   "bestAtk": 7,
+   "routineAvg": 4.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
-     "bonus": 6,
-     "avg": 2.5
+     "bonus": 7,
+     "avg": 4.5
     }
    ],
    "speeds": {
@@ -11790,13 +11700,13 @@
    "ref": 4,
    "will": 6,
    "bestAtk": 5,
-   "routineAvg": 5.5,
+   "routineAvg": 7,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 1,
+     "n": 2,
      "bonus": 5,
-     "avg": 5.5
+     "avg": 3.5
     }
    ],
    "speeds": {
@@ -11905,11 +11815,11 @@
    "ref": 11,
    "will": 6,
    "bestAtk": 9,
-   "routineAvg": 13.5,
+   "routineAvg": 9,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 3,
+     "n": 2,
      "bonus": 9,
      "avg": 4.5
     }
@@ -12460,19 +12370,9 @@
    "ref": 12,
    "will": 11,
    "bestAtk": 15,
-   "routineAvg": 40.5,
+   "routineAvg": 22.5,
    "derivedRoutine": false,
    "attacks": [
-    {
-     "n": 1,
-     "bonus": 15,
-     "avg": 9
-    },
-    {
-     "n": 1,
-     "bonus": 13,
-     "avg": 9
-    },
     {
      "n": 3,
      "bonus": 15,
@@ -12880,11 +12780,11 @@
    "ref": 7,
    "will": 7,
    "bestAtk": 9,
-   "routineAvg": 22.5,
+   "routineAvg": 15,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 3,
+     "n": 2,
      "bonus": 9,
      "avg": 7.5
     }
@@ -13396,11 +13296,11 @@
    "ref": 8,
    "will": 13,
    "bestAtk": 26,
-   "routineAvg": 175,
+   "routineAvg": 105,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 5,
+     "n": 3,
      "bonus": 26,
      "avg": 35
     }
@@ -13627,14 +13527,14 @@
    "fort": 5,
    "ref": 3,
    "will": 2,
-   "bestAtk": 2,
-   "routineAvg": 2.5,
+   "bestAtk": 3,
+   "routineAvg": 3.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
-     "bonus": 2,
-     "avg": 2.5
+     "bonus": 3,
+     "avg": 3.5
     }
    ],
    "speeds": {
@@ -13732,13 +13632,13 @@
    "ref": 0,
    "will": 2,
    "bestAtk": 0,
-   "routineAvg": 2.5,
+   "routineAvg": 3.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 0,
-     "avg": 2.5
+     "avg": 3.5
     }
    ],
    "speeds": {
@@ -14294,18 +14194,13 @@
    "ref": 7,
    "will": 4,
    "bestAtk": 15,
-   "routineAvg": 26,
+   "routineAvg": 13,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 15,
      "avg": 13
-    },
-    {
-     "n": 2,
-     "bonus": 10,
-     "avg": 6.5
     }
    ],
    "speeds": {
@@ -14926,14 +14821,14 @@
    "fort": 11,
    "ref": 14,
    "will": 11,
-   "bestAtk": 21,
-   "routineAvg": 0,
+   "bestAtk": 15,
+   "routineAvg": 6,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 3,
-     "bonus": 21,
-     "avg": 0
+     "n": 2,
+     "bonus": 15,
+     "avg": 3
     }
    ],
    "speeds": {
@@ -15815,11 +15710,11 @@
    "ref": 7,
    "will": 7,
    "bestAtk": 11,
-   "routineAvg": 70,
+   "routineAvg": 35,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 4,
+     "n": 2,
      "bonus": 11,
      "avg": 17.5
     }
@@ -15874,13 +15769,13 @@
    "ref": 6,
    "will": 8,
    "bestAtk": 22,
-   "routineAvg": 80,
+   "routineAvg": 0,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 2,
      "bonus": 22,
-     "avg": 40
+     "avg": 0
     }
    ],
    "speeds": {
@@ -16331,14 +16226,9 @@
    "ref": 8,
    "will": 7,
    "bestAtk": 12,
-   "routineAvg": 26.5,
+   "routineAvg": 24,
    "derivedRoutine": false,
    "attacks": [
-    {
-     "n": 1,
-     "bonus": 12,
-     "avg": 2.5
-    },
     {
      "n": 2,
      "bonus": 12,
@@ -16819,7 +16709,7 @@
    "ref": 3,
    "will": 0,
    "bestAtk": 2,
-   "routineAvg": 21,
+   "routineAvg": 9.5,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -16831,21 +16721,6 @@
      "n": 1,
      "bonus": 0,
      "avg": 2.5
-    },
-    {
-     "n": 1,
-     "bonus": 2,
-     "avg": 4.5
-    },
-    {
-     "n": 1,
-     "bonus": 0,
-     "avg": 2.5
-    },
-    {
-     "n": 1,
-     "bonus": 1,
-     "avg": 4.5
     }
    ],
    "speeds": {
@@ -16937,11 +16812,11 @@
    "ref": 5,
    "will": 4,
    "bestAtk": 6,
-   "routineAvg": 22.5,
+   "routineAvg": 15,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 3,
+     "n": 2,
      "bonus": 6,
      "avg": 7.5
     }
@@ -17052,23 +16927,13 @@
    "ref": 6,
    "will": 4,
    "bestAtk": 13,
-   "routineAvg": 40,
+   "routineAvg": 33.5,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 1,
+     "n": 2,
      "bonus": 13,
      "avg": 12.5
-    },
-    {
-     "n": 1,
-     "bonus": 9,
-     "avg": 10.5
-    },
-    {
-     "n": 1,
-     "bonus": 11,
-     "avg": 8.5
     },
     {
      "n": 1,
@@ -17234,21 +17099,11 @@
    "ref": 3,
    "will": 3,
    "bestAtk": 6,
-   "routineAvg": 23,
+   "routineAvg": 15.5,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 1,
-     "bonus": 6,
-     "avg": 8.5
-    },
-    {
-     "n": 1,
-     "bonus": 1,
-     "avg": 4.5
-    },
-    {
-     "n": 1,
+     "n": 2,
      "bonus": 6,
      "avg": 5.5
     },
@@ -17417,14 +17272,9 @@
    "ref": 5,
    "will": 4,
    "bestAtk": 4,
-   "routineAvg": 9,
+   "routineAvg": 4.5,
    "derivedRoutine": false,
    "attacks": [
-    {
-     "n": 1,
-     "bonus": 4,
-     "avg": 4.5
-    },
     {
      "n": 1,
      "bonus": 4,
@@ -17479,11 +17329,11 @@
    "ref": 5,
    "will": 4,
    "bestAtk": 6,
-   "routineAvg": 19.5,
+   "routineAvg": 13,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 3,
+     "n": 2,
      "bonus": 6,
      "avg": 6.5
     }
@@ -17828,11 +17678,11 @@
    "ref": 12,
    "will": 13,
    "bestAtk": 21,
-   "routineAvg": 67.5,
+   "routineAvg": 40.5,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 5,
+     "n": 3,
      "bonus": 21,
      "avg": 13.5
     }
@@ -17938,19 +17788,9 @@
    "ref": 12,
    "will": 11,
    "bestAtk": 27,
-   "routineAvg": 125,
+   "routineAvg": 84,
    "derivedRoutine": false,
    "attacks": [
-    {
-     "n": 2,
-     "bonus": 24,
-     "avg": 14.5
-    },
-    {
-     "n": 1,
-     "bonus": 20,
-     "avg": 12
-    },
     {
      "n": 3,
      "bonus": 27,
@@ -18123,23 +17963,13 @@
    "ref": 8,
    "will": 12,
    "bestAtk": 29,
-   "routineAvg": 134.5,
+   "routineAvg": 104.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 3,
      "bonus": 29,
      "avg": 31
-    },
-    {
-     "n": 1,
-     "bonus": 23,
-     "avg": 11.5
-    },
-    {
-     "n": 1,
-     "bonus": 28,
-     "avg": 18.5
     },
     {
      "n": 1,
@@ -18247,13 +18077,13 @@
    "ref": 3,
    "will": 0,
    "bestAtk": 4,
-   "routineAvg": 4.5,
+   "routineAvg": 5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 4,
-     "avg": 4.5
+     "avg": 5
     }
    ],
    "speeds": {
@@ -18359,22 +18189,12 @@
    "fort": 9,
    "ref": 7,
    "will": 3,
-   "bestAtk": 10,
-   "routineAvg": 33,
+   "bestAtk": 8,
+   "routineAvg": 39,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 2,
-     "bonus": 10,
-     "avg": 10
-    },
-    {
-     "n": 1,
-     "bonus": 8,
-     "avg": 6.5
-    },
-    {
-     "n": 1,
+     "n": 6,
      "bonus": 8,
      "avg": 6.5
     }
@@ -18477,14 +18297,9 @@
    "ref": 7,
    "will": 6,
    "bestAtk": 8,
-   "routineAvg": 14.5,
+   "routineAvg": 7.5,
    "derivedRoutine": false,
    "attacks": [
-    {
-     "n": 2,
-     "bonus": 8,
-     "avg": 3.5
-    },
     {
      "n": 2,
      "bonus": 8,
@@ -21946,16 +21761,6 @@
      "n": 1,
      "bonus": 2,
      "avg": 2.5
-    },
-    {
-     "n": 1,
-     "bonus": 4,
-     "avg": 0
-    },
-    {
-     "n": 1,
-     "bonus": 2,
-     "avg": 0
     }
    ],
    "speeds": {
@@ -22171,21 +21976,11 @@
    "ref": 4,
    "will": 4,
    "bestAtk": 4,
-   "routineAvg": 24.5,
+   "routineAvg": 12.5,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 1,
-     "bonus": 4,
-     "avg": 7.5
-    },
-    {
-     "n": 1,
-     "bonus": 2,
-     "avg": 3.5
-    },
-    {
-     "n": 1,
+     "n": 2,
      "bonus": 4,
      "avg": 4.5
     },
@@ -22193,11 +21988,6 @@
      "n": 1,
      "bonus": 2,
      "avg": 3.5
-    },
-    {
-     "n": 1,
-     "bonus": 3,
-     "avg": 5.5
     }
    ],
    "speeds": {
@@ -22602,18 +22392,13 @@
    "fort": 2,
    "ref": 5,
    "will": 5,
-   "bestAtk": 3,
-   "routineAvg": 7,
+   "bestAtk": 2,
+   "routineAvg": 3.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 2,
-     "avg": 3.5
-    },
-    {
-     "n": 1,
-     "bonus": 3,
      "avg": 3.5
     }
    ],
@@ -23402,13 +23187,13 @@
    "ref": 1,
    "will": 2,
    "bestAtk": 1,
-   "routineAvg": 4.5,
+   "routineAvg": 7,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 1,
+     "n": 2,
      "bonus": 1,
-     "avg": 4.5
+     "avg": 3.5
     }
    ],
    "speeds": {
@@ -24332,13 +24117,13 @@
    "ref": 5,
    "will": 3,
    "bestAtk": 4,
-   "routineAvg": 2.5,
+   "routineAvg": 3.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 4,
-     "avg": 2.5
+     "avg": 3.5
     }
    ],
    "speeds": {
@@ -24390,13 +24175,13 @@
    "ref": 6,
    "will": 4,
    "bestAtk": 5,
-   "routineAvg": 2.5,
+   "routineAvg": 3.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 5,
-     "avg": 2.5
+     "avg": 3.5
     }
    ],
    "speeds": {
@@ -26389,23 +26174,13 @@
    "ref": null,
    "will": null,
    "bestAtk": 1,
-   "routineAvg": 9.5,
+   "routineAvg": 5,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 1,
-     "bonus": 1,
-     "avg": 3.5
-    },
-    {
-     "n": 1,
+     "n": 2,
      "bonus": 1,
      "avg": 2.5
-    },
-    {
-     "n": 1,
-     "bonus": 1,
-     "avg": 3.5
     }
    ],
    "speeds": {
@@ -26511,19 +26286,9 @@
    "ref": 8,
    "will": 8,
    "bestAtk": 17,
-   "routineAvg": 90.5,
+   "routineAvg": 51.5,
    "derivedRoutine": false,
    "attacks": [
-    {
-     "n": 2,
-     "bonus": 16,
-     "avg": 10.5
-    },
-    {
-     "n": 1,
-     "bonus": 11,
-     "avg": 6.5
-    },
     {
      "n": 3,
      "bonus": 17,
@@ -26533,11 +26298,6 @@
      "n": 1,
      "bonus": 12,
      "avg": 6.5
-    },
-    {
-     "n": 1,
-     "bonus": 10,
-     "avg": 11.5
     }
    ],
    "speeds": {
@@ -29396,13 +29156,13 @@
    "ref": 1,
    "will": 1,
    "bestAtk": 2,
-   "routineAvg": 3.5,
+   "routineAvg": 4.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 2,
-     "avg": 3.5
+     "avg": 4.5
     }
    ],
    "speeds": {
@@ -29447,28 +29207,13 @@
    "ref": 7,
    "will": 5,
    "bestAtk": 5,
-   "routineAvg": 39.5,
+   "routineAvg": 32,
    "derivedRoutine": false,
    "attacks": [
     {
-     "n": 2,
-     "bonus": 5,
-     "avg": 10
-    },
-    {
-     "n": 2,
-     "bonus": 5,
-     "avg": 3.5
-    },
-    {
-     "n": 1,
+     "n": 4,
      "bonus": 5,
      "avg": 8
-    },
-    {
-     "n": 1,
-     "bonus": 4,
-     "avg": 4.5
     }
    ],
    "speeds": {
@@ -29815,7 +29560,7 @@
    "ref": 10,
    "will": 5,
    "bestAtk": 15,
-   "routineAvg": 46,
+   "routineAvg": 25,
    "derivedRoutine": false,
    "attacks": [
     {
@@ -29827,11 +29572,6 @@
      "n": 2,
      "bonus": 13,
      "avg": 5.5
-    },
-    {
-     "n": 1,
-     "bonus": 12,
-     "avg": 21
     }
    ],
    "speeds": {
@@ -30309,13 +30049,13 @@
    "ref": 5,
    "will": 12,
    "bestAtk": 16,
-   "routineAvg": 14,
+   "routineAvg": 14.5,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 16,
-     "avg": 14
+     "avg": 14.5
     }
    ],
    "speeds": {
@@ -30362,13 +30102,13 @@
    "ref": 2,
    "will": 3,
    "bestAtk": 4,
-   "routineAvg": 10,
+   "routineAvg": 14,
    "derivedRoutine": false,
    "attacks": [
     {
      "n": 1,
      "bonus": 4,
-     "avg": 10
+     "avg": 14
     }
    ],
    "speeds": {

@@ -32,22 +32,32 @@ const crNum = (s) => {
  * attacks [{n, bonus, avg}] + routine totals. The leading count defaults 1. */
 function parseFullAttack(s) {
   if (!s) return null;
-  const out = [];
-  // Split on " and " / "; " clause joins, then read each "N name +B type (damage)" clause.
-  for (const clause of String(s).split(/\s+and\s+|;\s+/i)) {
-    const m = clause.match(/^(?:(\d+)\s+)?.*?([+−-]\d+)(?:\/[+−-]\d+)*\s+(?:melee|ranged|touch)/i);
-    const dmg = clause.match(/\(([^)]*)\)/);
-    if (!m) continue;
-    const bonus = parseInt(m[2].replace('−', '-'), 10);
-    const iteratives = (clause.match(/\/[+−-]\d+/g) ?? []).length;
-    out.push({ n: (m[1] ? +m[1] : 1) + iteratives, bonus, avg: dmg ? avgDamage(dmg[1]) : 0 });
+  // ALTERNATIVE ROUTINES first ("Greatclub …; or 2 claws …"): a foe uses ONE
+  // branch per round — take the best branch, never the sum (the 2026-10-12
+  // hot-44 review caught the summing bug inflating every or-statted bruiser).
+  let best = null;
+  for (const routine of String(s).split(/;?\s+or\s+/i)) {
+    const out = [];
+    // Within a branch, " and " / ", and " join simultaneous clauses:
+    // read each "N name +B[/+B2/…] type (damage)" clause; iteratives count as
+    // attacks at full damage (the PF1 all-attacks-hit convention).
+    for (const clause of routine.split(/,?\s+and\s+/i)) {
+      const m = clause.match(/^(?:(\d+)\s+)?.*?([+−-]\d+)(?:\/[+−-]\d+)*\s+(?:melee|ranged|touch)/i);
+      const dmg = clause.match(/\(([^)]*)\)/);
+      if (!m) continue;
+      const bonus = parseInt(m[2].replace('−', '-'), 10);
+      const iteratives = (clause.match(/\/[+−-]\d+/g) ?? []).length;
+      out.push({ n: (m[1] ? +m[1] : 1) + iteratives, bonus, avg: dmg ? avgDamage(dmg[1]) : 0 });
+    }
+    if (!out.length) continue;
+    const cand = {
+      attacks: out,
+      bestAtk: Math.max(...out.map(a => a.bonus)),
+      routineAvg: out.reduce((t, a) => t + a.n * a.avg, 0),
+    };
+    if (!best || cand.routineAvg > best.routineAvg) best = cand;
   }
-  if (!out.length) return null;
-  return {
-    attacks: out,
-    bestAtk: Math.max(...out.map(a => a.bonus)),
-    routineAvg: out.reduce((s, a) => s + a.n * a.avg, 0),
-  };
+  return best;
 }
 
 /** Comma-split an SA/SQ line into lowercase tags, parentheticals stripped. */
