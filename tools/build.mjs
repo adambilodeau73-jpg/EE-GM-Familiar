@@ -23,4 +23,5 @@ const refPayload = JSON.stringify({ spells: refs.spells, feats: refs.feats, skil
 const calcPayload = JSON.stringify({ meta: crcalc._meta, calc: crcalc.calc });
 const out = tpl.replace('/*__BESTIARY__*/[]', payload).replace('/*__REFS__*/{spells:[],feats:[],skills:[]}', refPayload).replace('/*__CRCALC__*/{meta:{},calc:{}}', calcPayload);
 writeFileSync('gmf.html', out);
+writeFileSync('index.html', out); // the bare domain serves the Familiar too (deploy nicety, 2026-10-12)
 console.log(`gmf.html built: ${(out.length/1024/1024).toFixed(2)} MB, ${data.entries.length} foes, ${refs.spells.length + refs.feats.length + refs.skills.length} refs embedded`);
