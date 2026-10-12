@@ -43,7 +43,7 @@ function invert(pts, v) {
   const slope = v1 > v0 ? (c1 - c0) / (v1 - v0) : 0;
   return Math.min(c1 + 6, c1 + slope * (v - v1));
 }
-const C = { hp: curve('effHP'), ac: curve('fullAC'), atk: curve('bestAtk'), dmg: curve('routineAvg') };
+const C = { hp: curve('effHP'), ac: curve('fullAC'), atk: curve('bestAtk'), dmg: curve('routineAvg'), dc: curve('dcMax') };
 const r1 = (x) => x == null ? null : Math.round(x * 10) / 10;
 
 function bodyOf(r) {
@@ -51,12 +51,15 @@ function bodyOf(r) {
   const acCR = invert(C.ac, r.fullAC);
   const atkCR = invert(C.atk, r.bestAtk);
   const dmgCR = invert(C.dmg, r.routineAvg);
+  // PF1's benchmark lesson: the primary ability DC is a first-class offense
+  // number — the save-or-suffer channel the attack/damage pair cannot see.
+  const dcCR = invert(C.dc, r.dcMax);
   const def = [hpCR, acCR].filter(x => x != null);
-  const off = [atkCR, dmgCR].filter(x => x != null);
+  const off = [atkCR, dmgCR, dcCR].filter(x => x != null);
   if (!def.length || !off.length) return null;
   const defCR = def.reduce((a, b) => a + b) / def.length;
   const offCR = off.reduce((a, b) => a + b) / off.length;
-  return { hpCR: r1(hpCR), acCR: r1(acCR), atkCR: r1(atkCR), dmgCR: r1(dmgCR), defCR: r1(defCR), offCR: r1(offCR), body: (defCR + offCR) / 2 };
+  return { hpCR: r1(hpCR), acCR: r1(acCR), atkCR: r1(atkCR), dmgCR: r1(dmgCR), dcCR: r1(dcCR), defCR: r1(defCR), offCR: r1(offCR), body: (defCR + offCR) / 2 };
 }
 
 // ---- Stage 2: ridge regression of (printed − body) on ability tags ----
@@ -119,10 +122,18 @@ for (const f of fit) {
   const pred = f.b.body + abil + intercept;
   const resid = f.r.cr - pred;
   se += resid * resid; ae += Math.abs(resid); seBody += f.y * f.y;
+  // Adam (2026-10-12): "trusts its tricks" is not enough — name the tricks.
+  // The unpriced tags (below the n≥8 corpus floor, so the model holds no
+  // weight for them) are the residual's prime suspects: list them, SA first.
+  const known = new Set(contribs.map(c => c.t));
+  const unpriced = [
+    ...f.r.sa.filter(t => !ti.has(t) || (!known.has(t) && Math.abs(w[ti.get(t)]) < 0.05)),
+    ...f.r.sq.filter(t => !ti.has(t) || (!known.has(t) && Math.abs(w[ti.get(t)]) < 0.05)),
+  ].filter((t, i, a) => a.indexOf(t) === i).slice(0, 4);
   calc[`${f.r.fam}#${f.r.vi}`] = {
     printed: f.r.cr, body: r1(f.b.body), def: f.b.defCR, off: f.b.offCR,
-    hpCR: f.b.hpCR, acCR: f.b.acCR, atkCR: f.b.atkCR, dmgCR: f.b.dmgCR,
-    abil: r1(abil), contribs: contribs.slice(0, 6), pred: r1(pred), resid: r1(resid),
+    hpCR: f.b.hpCR, acCR: f.b.acCR, atkCR: f.b.atkCR, dmgCR: f.b.dmgCR, dcCR: f.b.dcCR,
+    abil: r1(abil), contribs: contribs.slice(0, 6), unpriced, pred: r1(pred), resid: r1(resid),
     derived: !!f.r.derivedRoutine,
   };
   f.pred = pred; f.resid = resid;

@@ -28,6 +28,7 @@ const METRICS = {
   // the benchmarks and the offense score — their uniformity poisons the bands
   // they dominate; dragon offense is scored on the PRINTED melee bonus alone.
   routineAvg: { get: r => r.derivedRoutine ? null : r.routineAvg, log: true },
+  dcMax: { get: r => r.dcMax, log: false },
   fort: { get: r => r.fort, log: false },
   ref: { get: r => r.ref, log: false },
   will: { get: r => r.will, log: false },

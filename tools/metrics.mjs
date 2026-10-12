@@ -126,6 +126,10 @@ for (const fam of B.entries) {
       attacks: dAtk?.attacks ?? [],
       speeds, attrs,
       sa: tags(v.special_attacks), sq: tags(v.special_qualities),
+      // PF1's benchmark lesson (2026-10-12): the primary ability DC is a
+      // first-class offense number — harvest the highest DC printed anywhere
+      // in the special-attack/quality lines.
+      dcMax: Math.max(0, ...[...String(v.special_attacks ?? '').matchAll(/DC\s+(\d+)/gi), ...String(v.special_qualities ?? '').matchAll(/DC\s+(\d+)/gi)].map(m => +m[1])) || null,
       template: !!fam.template,
     });
   }

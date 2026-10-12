@@ -73,6 +73,7 @@
     "darkvision 60 ft.",
     "mucus cloud"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -131,6 +132,7 @@
     "mucus cloud",
     "summon familiar"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -191,6 +193,7 @@
     "will +7",
     "dodge +6*"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -258,6 +261,7 @@
     "scent",
     "wild empathy"
    ],
+   "dcMax": 19,
    "template": false
   },
   {
@@ -326,6 +330,7 @@
     "spell resistance 20",
     "wild empathy"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -382,6 +387,7 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -445,6 +451,7 @@
     "tongues",
     "uncanny dodge"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -508,6 +515,7 @@
     "spell resistance 30",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -571,6 +579,7 @@
     "spell resistance 32",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -629,6 +638,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -682,6 +692,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -732,6 +743,7 @@
    "sq": [
     "blindsense 40 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -789,6 +801,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -841,6 +854,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -900,6 +914,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -953,6 +968,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1005,6 +1021,7 @@
    "sq": [
     "keen scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1064,6 +1081,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1117,6 +1135,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1169,6 +1188,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1227,6 +1247,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1283,6 +1304,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1334,6 +1356,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1387,6 +1410,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1442,6 +1466,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1499,6 +1524,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1557,6 +1583,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1609,6 +1636,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1661,6 +1689,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1711,6 +1740,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1769,6 +1799,7 @@
     "scent",
     "sprint"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1822,6 +1853,7 @@
     "hold breath",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1875,6 +1907,7 @@
     "hold breath",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1925,6 +1958,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -1975,6 +2009,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2025,6 +2060,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2075,6 +2111,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2137,6 +2174,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2187,6 +2225,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2231,6 +2270,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2275,6 +2315,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2330,6 +2371,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2380,6 +2422,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2432,6 +2475,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2491,6 +2535,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2550,6 +2595,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2600,6 +2646,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2643,6 +2690,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2693,6 +2741,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2743,6 +2792,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2802,6 +2852,7 @@
     "jet",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2862,6 +2913,7 @@
     "jet",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2912,6 +2964,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -2956,6 +3009,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3006,6 +3060,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3057,6 +3112,7 @@
     "hold breath",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3108,6 +3164,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3158,6 +3215,7 @@
     "blindsense",
     "keen scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3208,6 +3266,7 @@
     "blindsense",
     "keen scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3258,6 +3317,7 @@
     "blindsense",
     "keen scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3312,6 +3372,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3366,6 +3427,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3419,6 +3481,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3472,6 +3535,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3525,6 +3589,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3578,6 +3643,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3631,6 +3697,7 @@
     "jet",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3690,6 +3757,7 @@
     "jet",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3749,6 +3817,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3800,6 +3869,7 @@
     "hold breath",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3856,6 +3926,7 @@
     "hold breath",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3907,6 +3978,7 @@
     "hold breath",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -3959,6 +4031,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4013,6 +4086,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4066,6 +4140,7 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4119,6 +4194,7 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4172,6 +4248,7 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4225,6 +4302,7 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4278,6 +4356,7 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4331,6 +4410,7 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4386,6 +4466,7 @@
     "low-light vision",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4442,6 +4523,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4499,6 +4581,7 @@
     "teleport",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4574,6 +4657,7 @@
     "teleport",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4653,6 +4737,7 @@
     "teleport",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4714,6 +4799,7 @@
     "teleport",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4769,6 +4855,7 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4824,6 +4911,7 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4879,6 +4967,7 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4937,6 +5026,7 @@
     "plant traits",
     "resistance to cold 10 and fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -4989,6 +5079,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5040,6 +5131,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5092,6 +5184,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5144,6 +5237,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5197,6 +5291,7 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5250,6 +5345,7 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5303,6 +5399,7 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5356,6 +5453,7 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5409,6 +5507,7 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5480,6 +5579,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5534,6 +5634,7 @@
     "spell resistance 13",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5594,6 +5695,7 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5654,6 +5756,7 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5706,6 +5809,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5762,6 +5866,7 @@
     "low-light vision",
     "spell resistance 23"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5822,6 +5927,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5886,6 +5992,7 @@
     "elemental traits",
     "smoke form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5939,6 +6046,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -5995,6 +6103,7 @@
     "undead traits",
     "vulnerability to sunlight"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6050,6 +6159,7 @@
     "power conversion",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6101,6 +6211,7 @@
     "powerful build",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6161,6 +6272,7 @@
     "scent",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6217,6 +6329,7 @@
     "unnatural aura",
     "vulnerability to sunlight"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6270,6 +6383,7 @@
     "mesmerizing gaze",
     "scent"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -6332,6 +6446,7 @@
     "spell resistance 25",
     "true seeing"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6393,6 +6508,7 @@
     "spell resistance 17",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6454,6 +6570,7 @@
     "resistance to cold 10 and fire 10 spell resistance 28",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6523,6 +6640,7 @@
     "spell resistance 28",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6582,6 +6700,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6635,6 +6754,7 @@
     "immunity to critical hits and transformation",
     "spell resistance 15"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6691,6 +6811,7 @@
     "locate killer",
     "undead"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -6760,6 +6881,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6814,6 +6936,7 @@
     "darkvision 60 ft.",
     "quickness"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6870,6 +6993,7 @@
     "darkvision 60 ft.",
     "immunity to poison"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6929,6 +7053,7 @@
     "darkvision 60 ft.",
     "shadow shift"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -6982,6 +7107,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7040,6 +7166,7 @@
     "ethereal jaunt",
     "telepathy 90 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7097,6 +7224,7 @@
     "ooze traits",
     "sonic/concussion vulnerability"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7152,6 +7280,7 @@
     "immunity to fire and cold",
     "resistance to electricity 15"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7206,6 +7335,7 @@
    "sq": [
     "blindsight 90 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7261,6 +7391,7 @@
     "stone shape",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7327,6 +7458,7 @@
     "spell resistance 14",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7402,6 +7534,7 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7470,6 +7603,7 @@
     "scent",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7540,6 +7674,7 @@
     "will +10",
     "dodge +6"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7603,6 +7738,7 @@
     "and fire 10",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7674,6 +7810,7 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7740,6 +7877,7 @@
     "spell resistance 19",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7821,6 +7959,7 @@
     "spell resistance 25",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7888,6 +8027,7 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -7951,6 +8091,7 @@
     "immunity to poison",
     "resistance to fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8017,6 +8158,7 @@
     "fast healing 5",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8079,6 +8221,7 @@
     "telepathy 100 ft.",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8152,6 +8295,7 @@
     "spell resistance 17",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8209,6 +8353,7 @@
     "repairable",
     "darkvision 120 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8264,6 +8409,7 @@
     "spell resistance 15",
     "vulnerability to sunlight"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8317,6 +8463,7 @@
     "immunities",
     "protection from sonics"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8379,6 +8526,7 @@
     "spell-like abilities",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8439,6 +8587,7 @@
     "spell resistance 17",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8509,6 +8658,7 @@
     "spell resistance 21",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8565,6 +8715,7 @@
     "regeneration 2",
     "spell resistance 18"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8626,6 +8777,7 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8690,6 +8842,7 @@
     "spell resistance 19",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8773,6 +8926,7 @@
     "spell resistance 28",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8859,6 +9013,7 @@
     "spell resistance 25",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8917,6 +9072,7 @@
     "immunity to poison",
     "resistance to fire 5"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -8972,6 +9128,7 @@
     "mindless",
     "see in darkness"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9050,6 +9207,7 @@
     "spell resistance 32",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9106,6 +9264,7 @@
     "spell resistance 21",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9160,6 +9319,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9222,6 +9382,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9273,6 +9434,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9335,6 +9497,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9388,6 +9551,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9441,6 +9605,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9493,6 +9658,7 @@
     "change shape",
     "immunity to sleep and charm effects"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9557,6 +9723,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9617,6 +9784,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9682,6 +9850,7 @@
     "darkvision 60 ft.",
     "spell resistance 17"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9735,6 +9904,7 @@
     "tree dependent",
     "wild empathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9791,6 +9961,7 @@
     "low-light vision",
     "evasion"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9845,6 +10016,7 @@
     "elemental traits",
     "gaseous form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9899,6 +10071,7 @@
     "elemental traits",
     "gaseous form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -9954,6 +10127,7 @@
     "elemental traits",
     "gaseous form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10009,6 +10183,7 @@
     "elemental traits",
     "gaseous form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10064,6 +10239,7 @@
     "elemental traits",
     "gaseous form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10119,6 +10295,7 @@
     "elemental traits",
     "gaseous form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10173,6 +10350,7 @@
     "earth glide",
     "elemental traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10227,6 +10405,7 @@
     "earth glide",
     "elemental traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10282,6 +10461,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10337,6 +10517,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10392,6 +10573,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10447,6 +10629,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10502,6 +10685,7 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10557,6 +10741,7 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10613,6 +10798,7 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10669,6 +10855,7 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10725,6 +10912,7 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10781,6 +10969,7 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10837,6 +11026,7 @@
     "elemental traits",
     "fluid form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10893,6 +11083,7 @@
     "elemental traits",
     "fluid form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -10950,6 +11141,7 @@
     "elemental traits",
     "fluid form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11007,6 +11199,7 @@
     "elemental traits",
     "fluid form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11064,6 +11257,7 @@
     "elemental traits",
     "fluid form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11121,6 +11315,7 @@
     "elemental traits",
     "fluid form"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11181,6 +11376,7 @@
     "flame sword",
     "telepathy"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -11232,6 +11428,7 @@
     "detect magic",
     "ethereal jaunt"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11282,6 +11479,7 @@
     "darkvision 60 ft.",
     "ethereal jaunt"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11339,6 +11537,7 @@
     "mechanical healing",
     "telepathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11397,6 +11596,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11447,6 +11647,7 @@
     "low-light vision",
     "superior two-weapon fighting"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11503,6 +11704,7 @@
     "immunity to slashing and piercing weapons",
     "silent visage"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11562,6 +11764,7 @@
     "silent visage",
     "uncanny dodge"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11621,6 +11824,7 @@
     "indestructible body",
     "telepathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11675,6 +11879,7 @@
     "immunity to fire and poison",
     "prodigious leap"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -11734,6 +11939,7 @@
     "increased speed",
     "prodigious leap"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -11798,6 +12004,7 @@
     "telepathy",
     "web cocoon"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11854,6 +12061,7 @@
     "telepathy",
     "whistle"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -11916,6 +12124,7 @@
     "invisibility",
     "telepathy"
    ],
+   "dcMax": 15,
    "template": false
   },
   {
@@ -11973,6 +12182,7 @@
     "gaseous",
     "immune to electricity and fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12030,6 +12240,7 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12087,6 +12298,7 @@
     "fire 10",
     "and sonic 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12155,6 +12367,7 @@
     "and sonic 10",
     "spell resistance 18"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12221,6 +12434,7 @@
     "spell resistance 21",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12301,6 +12515,7 @@
     "spell resistance 30",
     "telepathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12359,6 +12574,7 @@
     "low-light vision",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12405,6 +12621,7 @@
     "low-light vision",
     "plant traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12457,6 +12674,7 @@
     "low-light vision",
     "plant traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12519,6 +12737,7 @@
     "darkvision 60 ft.",
     "freeze"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12576,6 +12795,7 @@
     "plane shift",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12634,6 +12854,7 @@
     "telepathy 100 ft.",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12691,6 +12912,7 @@
     "resistance to fire 10",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12750,6 +12972,7 @@
     "undead traits",
     "+2 turn resistance"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12810,6 +13033,7 @@
     "undead traits",
     "+2 turn resistance"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12865,6 +13089,7 @@
     "rock catching",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12919,6 +13144,7 @@
     "rock catching",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -12973,6 +13199,7 @@
     "rock catching",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13036,6 +13263,7 @@
     "rock catching",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13088,6 +13316,7 @@
     "low-light vision",
     "rock catching"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13141,6 +13370,7 @@
     "low-light vision",
     "rock catching"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13197,6 +13427,7 @@
     "rock catching",
     "water breathing"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13261,6 +13492,7 @@
     "damage reduction 5/bludgeoning",
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13320,6 +13552,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13369,6 +13602,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13422,6 +13656,7 @@
     "svirfneblin traits",
     "spell resistance 12"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13471,6 +13706,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13522,6 +13758,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13578,6 +13815,7 @@
     "immunity to magic",
     "rupture"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13635,6 +13873,7 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13690,6 +13929,7 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13745,6 +13985,7 @@
     "darkvision 60 ft.",
     "magic immunity"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13800,6 +14041,7 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13855,6 +14097,7 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13910,6 +14153,7 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -13964,6 +14208,7 @@
     "lowlight vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14023,6 +14268,7 @@
     "power resistance 20",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14082,6 +14328,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14141,6 +14388,7 @@
     "rage",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14202,6 +14450,7 @@
     "rage",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14254,6 +14503,7 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14314,6 +14564,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14365,6 +14616,7 @@
     "immunities",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14426,6 +14678,7 @@
     "darkvision 60 ft.",
     "spell resistance 19"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14481,6 +14734,7 @@
     "darkvision 90 ft.",
     "spell resistance 18"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14535,6 +14789,7 @@
     "amphibious",
     "spell resistance 14"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14588,6 +14843,7 @@
     "giant’s stature",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14645,6 +14901,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14697,6 +14954,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14752,6 +15010,7 @@
     "scent",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14807,6 +15066,7 @@
     "scent",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14864,6 +15124,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14919,6 +15180,7 @@
     "fast healing 3",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -14971,6 +15233,7 @@
     "darkvision 60 ft. incorporeal",
     "repairable"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15028,6 +15291,7 @@
     "repairable",
     "skill programming"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15085,6 +15349,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15139,6 +15404,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15193,6 +15459,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15247,6 +15514,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15301,6 +15569,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15355,6 +15624,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15409,6 +15679,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15463,6 +15734,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15517,6 +15789,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15575,6 +15848,7 @@
     "low-light vision",
     "spell resistance 22"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15632,6 +15906,7 @@
     "low-light vision",
     "spell resistance 25"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15689,6 +15964,7 @@
     "low-light vision",
     "spell resistance 20"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15746,6 +16022,7 @@
     "resistance to electricity 15",
     "vulnerability to protection from evil"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15799,6 +16076,7 @@
     "natural invisibility",
     "improved tracking"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15852,6 +16130,7 @@
     "rending claws",
     "spider climb"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15900,6 +16179,7 @@
     "immunity to one energy type",
     "powerful build"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -15966,6 +16246,7 @@
     "low-light vision",
     "spell-like abilities"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16024,6 +16305,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16087,6 +16369,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16144,6 +16427,7 @@
     "magic circle against evil",
     "spell-like abilities"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16216,6 +16500,7 @@
     "spell-like abilities",
     "spell resistance 15"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16270,6 +16555,7 @@
     "all-around vision",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16332,6 +16618,7 @@
     "immunity to poison",
     "resistance to fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16392,6 +16679,7 @@
     "easy breathing",
     "light sensitivity"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16448,6 +16736,7 @@
     "fast healing 1",
     "garbage growth"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16504,6 +16793,7 @@
     "fast healing 1",
     "garbage growth"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16573,6 +16863,7 @@
    "sq": [
     "hold breath"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16620,6 +16911,7 @@
    },
    "sa": [],
    "sq": [],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16672,6 +16964,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16733,6 +17026,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16803,6 +17097,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16856,6 +17151,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16912,6 +17208,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -16983,6 +17280,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17035,6 +17333,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17092,6 +17391,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17153,6 +17453,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17205,6 +17506,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17268,6 +17570,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17328,6 +17631,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17380,6 +17684,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17436,6 +17741,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17496,6 +17802,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17548,6 +17855,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17604,6 +17912,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17674,6 +17983,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17730,6 +18040,7 @@
     "rock catching",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17786,6 +18097,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17857,6 +18169,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17908,6 +18221,7 @@
    "sq": [
     "outburst"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -17965,6 +18279,7 @@
     "melt weapons",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18019,6 +18334,7 @@
     "fire vulnerability",
     "wavesense"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18083,6 +18399,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18134,6 +18451,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18196,6 +18514,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18252,6 +18571,7 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18308,6 +18628,7 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18365,6 +18686,7 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18423,6 +18745,7 @@
     "fast healing 2",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18481,6 +18804,7 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18539,6 +18863,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18596,6 +18921,7 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18652,6 +18978,7 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18710,6 +19037,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18767,6 +19095,7 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18818,6 +19147,7 @@
     "amphibious",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18872,6 +19202,7 @@
     "immunity to acid",
     "mimic shape"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18930,6 +19261,7 @@
     "natural cunning",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -18989,6 +19321,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19045,6 +19378,7 @@
     "low-light vision",
     "tremorsense"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -19104,6 +19438,7 @@
     "immunities",
     "invisibility"
    ],
+   "dcMax": 15,
    "template": false
   },
   {
@@ -19163,6 +19498,7 @@
     "immunities",
     "invisibility"
    ],
+   "dcMax": 24,
    "template": false
   },
   {
@@ -19215,6 +19551,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19270,6 +19607,7 @@
     "undead traits",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19328,6 +19666,7 @@
     "undead traits",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19389,6 +19728,7 @@
     "immunity to poison",
     "resistance to charm"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19442,6 +19782,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19495,6 +19836,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19548,6 +19890,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19604,6 +19947,7 @@
     "damage reduction 5/–",
     "power resistance 25"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19662,6 +20006,7 @@
     "and fear",
     "spell resistance 25"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19718,6 +20063,7 @@
     "selective invisibility",
     "vulnerability"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19778,6 +20124,7 @@
     "darkvision 60 ft.",
     "etherealness"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19838,6 +20185,7 @@
     "darkvision 60 ft.",
     "etherealness"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19907,6 +20255,7 @@
     "tremorsense 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -19968,6 +20317,7 @@
     "telepathy 100 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20029,6 +20379,7 @@
     "telepathy 100 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20087,6 +20438,7 @@
     "unearthly grace",
     "wild empathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20137,6 +20489,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20191,6 +20544,7 @@
     "trap sense +1",
     "uncanny dodge"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20246,6 +20600,7 @@
     "regeneration 5",
     "spell resistance 19"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20302,6 +20657,7 @@
     "split",
     "ooze traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20358,6 +20714,7 @@
     "split",
     "ooze traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20414,6 +20771,7 @@
     "ooze traits",
     "transparent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20470,6 +20828,7 @@
     "ooze traits",
     "transparent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20526,6 +20885,7 @@
     "split",
     "ooze traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20576,6 +20936,7 @@
     "darkvision 60 ft.",
     "light sensitivity"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20630,6 +20991,7 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20685,6 +21047,7 @@
    "sq": [
     "superior lowlight vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20741,6 +21104,7 @@
    "sq": [
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20799,6 +21163,7 @@
     "scent",
     "spell-like abilities"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20850,6 +21215,7 @@
     "plant traits",
     "greater invisibility"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20904,6 +21270,7 @@
     "ethereal jaunt",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -20958,6 +21325,7 @@
     "telepathy 100 ft.",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21019,6 +21387,7 @@
     "resistance to cold 10",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21073,6 +21442,7 @@
     "cold 5",
     "and electricity 5"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21127,6 +21497,7 @@
     "electricity 5",
     "and fire 5"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21185,6 +21556,7 @@
     "spell-like abilities",
     "tongues"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21242,6 +21614,7 @@
     "spell resistance 19",
     "telepathy 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21297,6 +21670,7 @@
     "immunity to psionics",
     "lowlight vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21354,6 +21728,7 @@
     "blindsight 60 ft.",
     "telepathy 20 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21414,6 +21789,7 @@
    "sq": [
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21474,6 +21850,7 @@
     "darkvision 60 ft.",
     "spell resistance 27"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21531,6 +21908,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21601,6 +21979,7 @@
     "flight",
     "immunity to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21657,6 +22036,7 @@
     "low-light vision",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21712,6 +22092,7 @@
    "sq": [
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21764,6 +22145,7 @@
     "darkvision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21842,6 +22224,7 @@
     "speak with sharks",
     "water dependent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21902,6 +22285,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -21963,6 +22347,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22025,6 +22410,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22075,6 +22461,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22132,6 +22519,7 @@
     "ooze traits",
     "telepathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22189,6 +22577,7 @@
     "ooze traits",
     "telepathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22246,6 +22635,7 @@
     "damage reduction 5/cold iron",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22306,6 +22696,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22359,6 +22750,7 @@
     "hazy outline",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22412,6 +22804,7 @@
     "hazy outline",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22469,6 +22862,7 @@
     "ooze traits",
     "stench"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22526,6 +22920,7 @@
     "ooze traits",
     "stench"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22579,6 +22974,7 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22632,6 +23028,7 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22686,6 +23083,7 @@
     "shadow blend",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22743,6 +23141,7 @@
     "plant traits",
     "resistance to fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22799,6 +23198,7 @@
     "shield other",
     "spell storing"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22856,6 +23256,7 @@
     "immunity to electricity",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22921,6 +23322,7 @@
     "immunities",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -22974,6 +23376,7 @@
     "immunities",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23026,6 +23429,7 @@
     "immunity to cold",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23078,6 +23482,7 @@
     "immunity to cold",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23135,6 +23540,7 @@
     "immunity to cold",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23192,6 +23598,7 @@
     "immunity to cold",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23259,6 +23666,7 @@
     "immunity to cold",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23312,6 +23720,7 @@
     "immunity to cold",
     "superior twoweapon"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23374,6 +23783,7 @@
     "immunity to cold",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23427,6 +23837,7 @@
     "oversize weapon",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23494,6 +23905,7 @@
     "immunity to cold and fire",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23547,6 +23959,7 @@
     "skin regrowth",
     "undead traits"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -23600,6 +24013,7 @@
     "skin regrowth",
     "undead traits"
    ],
+   "dcMax": 15,
    "template": false
   },
   {
@@ -23658,6 +24072,7 @@
     "darkvision 60 ft.",
     "amphibious"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23716,6 +24131,7 @@
     "undead traits",
     "unnatural aura"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23772,6 +24188,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23827,6 +24244,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23888,6 +24306,7 @@
     "lowlight vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -23945,6 +24364,7 @@
     "water breathing",
     "wild empathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24001,6 +24421,7 @@
     "low-light vision",
     "spell resistance 15"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24080,6 +24501,7 @@
     "regeneration 5",
     "split"
    ],
+   "dcMax": 10,
    "template": false
   },
   {
@@ -24159,6 +24581,7 @@
     "regeneration 5",
     "split"
    ],
+   "dcMax": 11,
    "template": false
   },
   {
@@ -24238,6 +24661,7 @@
     "regeneration 5",
     "split"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -24317,6 +24741,7 @@
     "regeneration 5",
     "split"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -24396,6 +24821,7 @@
     "regeneration 5",
     "split"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -24449,6 +24875,7 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24500,6 +24927,7 @@
     "low-light vision",
     "swarm traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24551,6 +24979,7 @@
     "tremorsense 30 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24605,6 +25034,7 @@
     "low-light vision",
     "swarm traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24654,6 +25084,7 @@
     "swarm traits",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24705,6 +25136,7 @@
     "scent",
     "swarm traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24755,6 +25187,7 @@
     "tremorsense 30 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24834,6 +25267,7 @@
     "scent",
     "spell resistance 32"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24897,6 +25331,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -24957,6 +25392,7 @@
     "plant traits",
     "regeneration 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25014,6 +25450,7 @@
     "tremorsense 60 ft.",
     "vulnerability to cold"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25067,6 +25504,7 @@
     "darkvision 60 ft.",
     "ethereal jaunt"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25121,6 +25559,7 @@
     "ethereal jaunt",
     "power resistance 21"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25181,6 +25620,7 @@
     "immunities",
     "low-light vision"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -25235,6 +25675,7 @@
     "darkvision 60 ft.",
     "spell resistance 32"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25296,6 +25737,7 @@
     "immunity to acid and cold",
     "resistance to"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25357,6 +25799,7 @@
     "immunity to acid and cold",
     "electricity 10 and fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25418,6 +25861,7 @@
     "resistance to electricity 10 and fire 10 immunity to acid and cold",
     "resistance to electricity 10 and fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25475,6 +25919,7 @@
     "immunities",
     "ooze traits"
    ],
+   "dcMax": 15,
    "template": false
   },
   {
@@ -25532,6 +25977,7 @@
     "immunities",
     "ooze traits"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -25586,6 +26032,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -25640,6 +26087,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": 49,
    "template": false
   },
   {
@@ -25694,6 +26142,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": 24,
    "template": false
   },
   {
@@ -25748,6 +26197,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": 49,
    "template": false
   },
   {
@@ -25803,6 +26253,7 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "dcMax": 32,
    "template": false
   },
   {
@@ -25859,6 +26310,7 @@
     "plant traits",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25911,6 +26363,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -25972,6 +26425,7 @@
    "sq": [
     "darkvision 90 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26031,6 +26485,7 @@
     "regeneration 5",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26109,6 +26564,7 @@
     "scent",
     "wild empathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26158,6 +26614,7 @@
     "plant traits",
     "resistance to cold 10 and fire 10"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26212,6 +26669,7 @@
     "incorporeal traits",
     "telepathy 100 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26274,6 +26732,7 @@
     "scent",
     "wild empathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26345,6 +26804,7 @@
     "spell resistance 20",
     "wild empathy"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26405,6 +26865,7 @@
     "rage",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26465,6 +26926,7 @@
     "spider climb",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26518,6 +26980,7 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26571,6 +27034,7 @@
     "scent",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26625,6 +27089,7 @@
     "scent",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26677,6 +27142,7 @@
     "scent",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26730,6 +27196,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26782,6 +27249,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26832,6 +27300,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26884,6 +27353,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26942,6 +27412,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -26995,6 +27466,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27049,6 +27521,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27103,6 +27576,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27157,6 +27631,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27211,6 +27686,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27265,6 +27741,7 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27320,6 +27797,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27375,6 +27853,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27435,6 +27914,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27495,6 +27975,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27555,6 +28036,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27615,6 +28097,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27670,6 +28153,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27725,6 +28209,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27780,6 +28265,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27835,6 +28321,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27890,6 +28377,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27945,6 +28433,7 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -27996,6 +28485,7 @@
     "outsider traits",
     "one choice from vivilor menu a"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28047,6 +28537,7 @@
     "outsider traits",
     "one choice from vivilor menu a"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28098,6 +28589,7 @@
     "outsider traits",
     "one choice from vivilor menu b"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28150,6 +28642,7 @@
     "outsider traits",
     "one choice from vivilor menu b"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28202,6 +28695,7 @@
     "outsider traits",
     "one choice from vivilor menu a and one choice from vivilor menu b"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28254,6 +28748,7 @@
     "outsider traits",
     "one choice from vivilor menu c"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28306,6 +28801,7 @@
     "outsider traits",
     "one choice from vivilor menu a and one choice from vivilor menu c"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28358,6 +28854,7 @@
     "outsider traits",
     "one choice from vivilor menu b and one choice from vivilor menu c"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28410,6 +28907,7 @@
     "outsider traits",
     "two choices from vivilor menu c"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28466,6 +28964,7 @@
     "undead traits",
     "unnatural aura"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28519,6 +29018,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28570,6 +29070,7 @@
     "immunity to magic",
     "natural invisibility"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28627,6 +29128,7 @@
     "scent",
     "vulnerability to fire"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28680,6 +29182,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28737,6 +29240,7 @@
     "undead traits",
     "unnatural aura"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28794,6 +29298,7 @@
     "undead traits",
     "unnatural aura"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28865,6 +29370,7 @@
     "low-light vision",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28915,6 +29421,7 @@
     "burst",
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -28985,6 +29492,7 @@
     "planewalk",
     "spell resistance 21"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29046,6 +29554,7 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29107,6 +29616,7 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29168,6 +29678,7 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29224,6 +29735,7 @@
     "flight",
     "scent"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29277,6 +29789,7 @@
     "cold subtype",
     "darkvision 60 ft."
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29342,6 +29855,7 @@
     "immunities",
     "vulnerability to sonic damage"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29397,6 +29911,7 @@
     "power resistance 17",
     "siphon fluids"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29449,6 +29964,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29501,6 +30017,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29553,6 +30070,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29605,6 +30123,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29657,6 +30176,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29709,6 +30229,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29762,6 +30283,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29814,6 +30336,7 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29867,6 +30390,7 @@
     "class v sensor system",
     "magnetic feet"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29912,6 +30436,7 @@
     "darkvision 120’",
     "lifelike appearance"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -29961,6 +30486,7 @@
    "sq": [
     "class iv sensor system"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -30025,6 +30551,7 @@
     "immunity to acid",
     "water breathing"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -30089,6 +30616,7 @@
     "immunity to acid",
     "water breathing"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -30153,6 +30681,7 @@
     "immunity to acid",
     "water breathing"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -30217,6 +30746,7 @@
     "immunity to acid",
     "water breathing; darkness"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -30288,6 +30818,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; caster level 2nd",
     "sr 17"
    ],
+   "dcMax": 21,
    "template": false
   },
   {
@@ -30359,6 +30890,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; caster level 4th",
     "sr 18"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -30430,6 +30962,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; caster level 6th",
     "sr 21"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -30501,6 +31034,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; caster level 8th",
     "sr 22"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -30572,6 +31106,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; caster level 10th",
     "sr 23"
    ],
+   "dcMax": 30,
    "template": false
   },
   {
@@ -30643,6 +31178,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; caster level 12th",
     "sr 25"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -30714,6 +31250,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 14th",
     "sr 26"
    ],
+   "dcMax": 34,
    "template": false
   },
   {
@@ -30785,6 +31322,7 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; dr 20/magic; [ignore 20/4d/1d hard.]; charm reptiles; caster level 16th",
     "sr 28"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -30847,6 +31385,7 @@
    "sq": [
     "immunity to electricity"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -30909,6 +31448,7 @@
    "sq": [
     "immunity to electricity"
    ],
+   "dcMax": 16,
    "template": false
   },
   {
@@ -30971,6 +31511,7 @@
    "sq": [
     "immunity to electricity"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -31038,6 +31579,7 @@
    "sq": [
     "immunity to electricity; sound imitation; caster level 2nd"
    ],
+   "dcMax": 20,
    "template": false
   },
   {
@@ -31107,6 +31649,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; caster level 4th",
     "sr 19"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -31176,6 +31719,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; caster level 6th",
     "sr 21"
    ],
+   "dcMax": 25,
    "template": false
   },
   {
@@ -31245,6 +31789,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; caster level 8th",
     "sr 22"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -31314,6 +31859,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; caster level 10th",
     "sr 24"
    ],
+   "dcMax": 29,
    "template": false
   },
   {
@@ -31383,6 +31929,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; caster level 12th",
     "sr 25"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -31452,6 +31999,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; caster level 14th",
     "sr 27"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -31521,6 +32069,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 16th",
     "sr 29"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -31590,6 +32139,7 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; dr 20/magic; [ignore 20/4d/1d hard.]; mirage arcana; caster level 18th",
     "sr 31"
    ],
+   "dcMax": 37,
    "template": false
   },
   {
@@ -31652,6 +32202,7 @@
    "sq": [
     "immunity to acid"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -31714,6 +32265,7 @@
    "sq": [
     "immunity to acid"
    ],
+   "dcMax": 16,
    "template": false
   },
   {
@@ -31776,6 +32328,7 @@
    "sq": [
     "immunity to acid"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -31843,6 +32396,7 @@
    "sq": [
     "immunity to acid; fascinate; caster level 1st"
    ],
+   "dcMax": 20,
    "template": false
   },
   {
@@ -31912,6 +32466,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; caster level 3rd",
     "sr 19"
    ],
+   "dcMax": 22,
    "template": false
   },
   {
@@ -31981,6 +32536,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; caster level 5th",
     "sr 21"
    ],
+   "dcMax": 25,
    "template": false
   },
   {
@@ -32050,6 +32606,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; caster level 7th",
     "sr 22"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -32119,6 +32676,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; caster level 9th",
     "sr 24"
    ],
+   "dcMax": 29,
    "template": false
   },
   {
@@ -32188,6 +32746,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; caster level 11th",
     "sr 25"
    ],
+   "dcMax": 30,
    "template": false
   },
   {
@@ -32257,6 +32816,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; caster level 13th",
     "sr 27"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -32326,6 +32886,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 15th",
     "sr 28"
    ],
+   "dcMax": 35,
    "template": false
   },
   {
@@ -32395,6 +32956,7 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; dr 20/magic; [ignore 20/4d/1d hard.]; command plants; caster level 17th",
     "sr 30"
    ],
+   "dcMax": 37,
    "template": false
   },
   {
@@ -32458,6 +33020,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": 15,
    "template": false
   },
   {
@@ -32526,6 +33089,7 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -32594,6 +33158,7 @@
     "immunity to fire",
     "vulnerability to cold; caster level 1st"
    ],
+   "dcMax": 19,
    "template": false
   },
   {
@@ -32662,6 +33227,7 @@
     "immunity to fire",
     "vulnerability to cold; locate object; caster level 3rd"
    ],
+   "dcMax": 22,
    "template": false
   },
   {
@@ -32732,6 +33298,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "dcMax": 24,
    "template": false
   },
   {
@@ -32802,6 +33369,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; caster level 7th",
     "sr 21"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -32872,6 +33440,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "dcMax": 28,
    "template": false
   },
   {
@@ -32942,6 +33511,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; caster level 11th",
     "sr 24"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -33012,6 +33582,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -33082,6 +33653,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; caster level 15th",
     "sr 28"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -33152,6 +33724,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "dcMax": 38,
    "template": false
   },
   {
@@ -33222,6 +33795,7 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; dr 20/magic; [ignore 20/4d/1d hard.]; discern location; caster level 19th",
     "sr 32"
    ],
+   "dcMax": 40,
    "template": false
   },
   {
@@ -33288,6 +33862,7 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "dcMax": 12,
    "template": false
   },
   {
@@ -33354,6 +33929,7 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -33420,6 +33996,7 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "dcMax": 16,
    "template": false
   },
   {
@@ -33486,6 +34063,7 @@
     "immunity to cold",
     "vulnerability to fire; fog cloud"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -33559,6 +34137,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; caster level 1st",
     "sr 16"
    ],
+   "dcMax": 20,
    "template": false
   },
   {
@@ -33632,6 +34211,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; caster level 3rd",
     "sr 18"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -33705,6 +34285,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; caster level 5th",
     "sr 20"
    ],
+   "dcMax": 25,
    "template": false
   },
   {
@@ -33778,6 +34359,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; caster level 7th",
     "sr 21"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -33851,6 +34433,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; caster level 9th",
     "sr 23"
    ],
+   "dcMax": 29,
    "template": false
   },
   {
@@ -33924,6 +34507,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; caster level 11th",
     "sr 24"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -33997,6 +34581,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 13th",
     "sr 25"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -34064,6 +34649,7 @@
     "immunity to cold",
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -34129,6 +34715,7 @@
     "immunity to acid",
     "metacreativity discipline"
    ],
+   "dcMax": 15,
    "template": false
   },
   {
@@ -34199,6 +34786,7 @@
     "immunity to acid",
     "metacreativity discipline"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -34269,6 +34857,7 @@
     "immunity to acid",
     "metacreativity discipline; caster level 1st"
    ],
+   "dcMax": 19,
    "template": false
   },
   {
@@ -34339,6 +34928,7 @@
     "immunity to acid",
     "metacreativity discipline; minor creation; caster level 3rd"
    ],
+   "dcMax": 22,
    "template": false
   },
   {
@@ -34411,6 +35001,7 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "dcMax": 24,
    "template": false
   },
   {
@@ -34483,6 +35074,7 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; caster level 7th",
     "sr 21"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -34555,6 +35147,7 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "dcMax": 28,
    "template": false
   },
   {
@@ -34628,6 +35221,7 @@
     "greater; caster level 11th",
     "sr 24"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -34701,6 +35295,7 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -34774,6 +35369,7 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; caster level 15th",
     "sr 28"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -34847,6 +35443,7 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "dcMax": 38,
    "template": false
   },
   {
@@ -34920,6 +35517,7 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; dr 20/magic; [ignore 20/4d/1d hard.]; crystallize; caster level 19th",
     "sr 32"
    ],
+   "dcMax": 40,
    "template": false
   },
   {
@@ -34982,6 +35580,7 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35044,6 +35643,7 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35106,6 +35706,7 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35173,6 +35774,7 @@
     "know direction & location",
     "psychoportation discipline; detect teleportation; caster level 1st"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35241,6 +35843,7 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; caster level 3rd",
     "sr 19"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35309,6 +35912,7 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; dimension door; caster level 5th",
     "sr 21"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35377,6 +35981,7 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; dimension door; dr 10/magic; [ignore 10/2d hardness]; caster level 7th",
     "sr 22"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35446,6 +36051,7 @@
     "2nd ectoplasmic breath weapon ; caster level 9th",
     "sr 24"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35515,6 +36121,7 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; caster level 11th",
     "sr 25"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35584,6 +36191,7 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; caster level 13th",
     "sr 27"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35653,6 +36261,7 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 15th",
     "sr 28"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35722,6 +36331,7 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; dr 20/magic; [ignore 20/4d/1d hard.]; time regression; caster level 17th",
     "sr 30"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35785,6 +36395,7 @@
     "sense link",
     "telepathy discipline"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35848,6 +36459,7 @@
     "sense link",
     "telepathy discipline"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35911,6 +36523,7 @@
     "sense link",
     "telepathy discipline"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -35974,6 +36587,7 @@
     "sense link",
     "telepathy discipline; mindlink"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36043,6 +36657,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; caster level 1st",
     "sr 19"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36112,6 +36727,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; caster level 3rd",
     "sr 21"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36181,6 +36797,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; caster level 5th",
     "sr 22"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36250,6 +36867,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; caster level 7th",
     "sr 24"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36319,6 +36937,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; caster level 9th",
     "sr 25"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36388,6 +37007,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; caster level 11th",
     "sr 27"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36457,6 +37077,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 13th",
     "sr 28"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36526,6 +37147,7 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; dr 20/magic; [ignore 20/4d/1d hard.]; brain spider; caster level 15th",
     "sr 30"
    ],
+   "dcMax": null,
    "template": false
   },
   {
@@ -36590,6 +37212,7 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -36654,6 +37277,7 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "dcMax": 16,
    "template": false
   },
   {
@@ -36718,6 +37342,7 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -36787,6 +37412,7 @@
     "psychokinesis discipline",
     "quickened recovery; 2nd breath weapon"
    ],
+   "dcMax": 20,
    "template": false
   },
   {
@@ -36858,6 +37484,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]",
     "sr 19"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -36929,6 +37556,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; caster level 2nd",
     "sr 21"
    ],
+   "dcMax": 25,
    "template": false
   },
   {
@@ -37000,6 +37628,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; caster level 4th",
     "sr 22"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -37071,6 +37700,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; caster level 6th",
     "sr 24"
    ],
+   "dcMax": 29,
    "template": false
   },
   {
@@ -37142,6 +37772,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; caster level 8th",
     "sr 25"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -37213,6 +37844,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; caster level 10th",
     "sr 27"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -37284,6 +37916,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 12th",
     "sr 29"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -37355,6 +37988,7 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; dr 20/magic; [ignore 20/4d/1d hard.]; 4th breath weapon; caster level 14th",
     "sr 31"
    ],
+   "dcMax": 37,
    "template": false
   },
   {
@@ -37419,6 +38053,7 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -37483,6 +38118,7 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "dcMax": 16,
    "template": false
   },
   {
@@ -37547,6 +38183,7 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -37616,6 +38253,7 @@
     "clairsentience discipline",
     "; immunity to scrying; combat precognition; caster level 2nd"
    ],
+   "dcMax": 20,
    "template": false
   },
   {
@@ -37687,6 +38325,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; caster level 4th",
     "sr 19"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -37758,6 +38397,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; caster level 6th",
     "sr 21"
    ],
+   "dcMax": 25,
    "template": false
   },
   {
@@ -37829,6 +38469,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; caster level 8th",
     "sr 22"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -37900,6 +38541,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; caster level 10th",
     "sr 24"
    ],
+   "dcMax": 29,
    "template": false
   },
   {
@@ -37971,6 +38613,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; caster level 12th",
     "sr 25"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -38042,6 +38685,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; caster level 14th",
     "sr 27"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -38113,6 +38757,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 16th",
     "sr 29"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -38184,6 +38829,7 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; dr 20/magic; [ignore 20/4d/1d hard.]; hypercognition; caster level 18th",
     "sr 31"
    ],
+   "dcMax": 37,
    "template": false
   },
   {
@@ -38250,6 +38896,7 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -38316,6 +38963,7 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -38382,6 +39030,7 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -38448,6 +39097,7 @@
     "psychometabolism discipline",
     "synesthete; animal affinity"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -38521,6 +39171,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; caster level 2nd",
     "sr 17"
    ],
+   "dcMax": 21,
    "template": false
   },
   {
@@ -38594,6 +39245,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; caster level 4th",
     "sr 18"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -38667,6 +39319,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; caster level 6th",
     "sr 21"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -38740,6 +39393,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; caster level 8th",
     "sr 22"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -38813,6 +39467,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; caster level 10th",
     "sr 23"
    ],
+   "dcMax": 30,
    "template": false
   },
   {
@@ -38886,6 +39541,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; caster level 12th",
     "sr 25"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -38959,6 +39615,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 14th",
     "sr 26"
    ],
+   "dcMax": 34,
    "template": false
   },
   {
@@ -39026,6 +39683,7 @@
     "psychometabolism discipline",
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -39091,6 +39749,7 @@
     "speak with animals",
     "vulnerability to cold"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -39156,6 +39815,7 @@
     "speak with animals",
     "vulnerability to cold"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -39221,6 +39881,7 @@
     "speak with animals",
     "vulnerability to cold; caster level 1st"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -39286,6 +39947,7 @@
     "speak with animals",
     "vulnerability to cold; endure elements; caster level 3rd"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -39358,6 +40020,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 18"
    ],
+   "dcMax": 21,
    "template": false
   },
   {
@@ -39430,6 +40093,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; caster level 7th",
     "sr 20"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -39502,6 +40166,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 22"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -39574,6 +40239,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; caster level 11th",
     "sr 24"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -39646,6 +40312,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 25"
    ],
+   "dcMax": 30,
    "template": false
   },
   {
@@ -39718,6 +40385,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; caster level 15th",
     "sr 27"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -39790,6 +40458,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 28"
    ],
+   "dcMax": 34,
    "template": false
   },
   {
@@ -39862,6 +40531,7 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; summon djinni; caster level 19th",
     "sr 30"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -39927,6 +40597,7 @@
     "water breathing",
     "speak with animals"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -39992,6 +40663,7 @@
     "water breathing",
     "speak with animals"
    ],
+   "dcMax": 16,
    "template": false
   },
   {
@@ -40057,6 +40729,7 @@
     "water breathing",
     "speak with animals; alternate form; caster level 1st"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -40127,6 +40800,7 @@
     "water breathing",
     "speak with animals; alternate form; caster level 3rd"
    ],
+   "dcMax": 20,
    "template": false
   },
   {
@@ -40199,6 +40873,7 @@
     "speak with animals; alternate form; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 20"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -40272,6 +40947,7 @@
     "fog cloud; caster level 7th",
     "sr 22"
    ],
+   "dcMax": 25,
    "template": false
   },
   {
@@ -40345,6 +41021,7 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -40418,6 +41095,7 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; caster level 11th",
     "sr 25"
    ],
+   "dcMax": 29,
    "template": false
   },
   {
@@ -40491,6 +41169,7 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -40564,6 +41243,7 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; caster level 15th",
     "sr 28"
    ],
+   "dcMax": 33,
    "template": false
   },
   {
@@ -40637,6 +41317,7 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 29"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -40710,6 +41391,7 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; dr 20/magic; [ignore 20/4d/1d hard.]; control weather; caster level 19th",
     "sr 31"
    ],
+   "dcMax": 37,
    "template": false
   },
   {
@@ -40773,6 +41455,7 @@
     "immunity to acid",
     "spider climb"
    ],
+   "dcMax": 13,
    "template": false
   },
   {
@@ -40836,6 +41519,7 @@
     "immunity to acid",
     "spider climb"
    ],
+   "dcMax": 15,
    "template": false
   },
   {
@@ -40899,6 +41583,7 @@
     "immunity to acid",
     "spider climb; caster level 1st"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -40962,6 +41647,7 @@
     "immunity to acid",
     "spider climb; caster level 3rd"
    ],
+   "dcMax": 19,
    "template": false
   },
   {
@@ -41032,6 +41718,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "dcMax": 21,
    "template": false
   },
   {
@@ -41102,6 +41789,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; caster level 7th",
     "sr 21"
    ],
+   "dcMax": 24,
    "template": false
   },
   {
@@ -41172,6 +41860,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -41242,6 +41931,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; caster level 11th",
     "sr 25"
    ],
+   "dcMax": 28,
    "template": false
   },
   {
@@ -41312,6 +42002,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "dcMax": 30,
    "template": false
   },
   {
@@ -41382,6 +42073,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; caster level 15th",
     "sr 28"
    ],
+   "dcMax": 32,
    "template": false
   },
   {
@@ -41452,6 +42144,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 29"
    ],
+   "dcMax": 34,
    "template": false
   },
   {
@@ -41522,6 +42215,7 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; dr 20/magic; [ignore 20/4d/1d hard.]; move earth; caster level 19th",
     "sr 31"
    ],
+   "dcMax": 37,
    "template": false
   },
   {
@@ -41588,6 +42282,7 @@
     "vulnerability to cold",
     "water breathing"
    ],
+   "dcMax": 16,
    "template": false
   },
   {
@@ -41659,6 +42354,7 @@
     "vulnerability to cold",
     "water breathing"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -41730,6 +42426,7 @@
     "vulnerability to cold",
     "water breathing; caster level 1st"
    ],
+   "dcMax": 20,
    "template": false
   },
   {
@@ -41801,6 +42498,7 @@
     "vulnerability to cold",
     "water breathing; bless; caster level 3rd"
    ],
+   "dcMax": 22,
    "template": false
   },
   {
@@ -41874,6 +42572,7 @@
     "water breathing; bless; dr 5/magic; caster level 5th",
     "sr 21"
    ],
+   "dcMax": 25,
    "template": false
   },
   {
@@ -41947,6 +42646,7 @@
     "water breathing; bless; dr 5/magic; luck bonus; caster level 7th",
     "sr 23"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -42020,6 +42720,7 @@
     "water breathing; bless; dr 5/magic; luck bonus; dr 10/magic; caster level 9th",
     "sr 25"
    ],
+   "dcMax": 29,
    "template": false
   },
   {
@@ -42093,6 +42794,7 @@
     "detect gems; caster level 11th",
     "sr 27"
    ],
+   "dcMax": 31,
    "template": false
   },
   {
@@ -42166,6 +42868,7 @@
     "detect gems; dr 15/magic; caster level 13th",
     "sr 28"
    ],
+   "dcMax": 34,
    "template": false
   },
   {
@@ -42239,6 +42942,7 @@
     "detect gems; dr 15/magic; sunburst; caster level 15th",
     "sr 30"
    ],
+   "dcMax": 36,
    "template": false
   },
   {
@@ -42312,6 +43016,7 @@
     "detect gems; dr 15/magic; sunburst; dr 20/magic; caster level 17th",
     "sr 31"
    ],
+   "dcMax": 39,
    "template": false
   },
   {
@@ -42385,6 +43090,7 @@
     "detect gems; dr 15/magic; sunburst; dr 20/magic; foresight; caster level 19th",
     "sr 33"
    ],
+   "dcMax": 41,
    "template": false
   },
   {
@@ -42450,6 +43156,7 @@
     "cloudwalking",
     "vulnerability to fire"
    ],
+   "dcMax": 14,
    "template": false
   },
   {
@@ -42515,6 +43222,7 @@
     "cloudwalking",
     "vulnerability to fire"
    ],
+   "dcMax": 17,
    "template": false
   },
   {
@@ -42580,6 +43288,7 @@
     "cloudwalking",
     "vulnerability to fire; caster level 1st"
    ],
+   "dcMax": 18,
    "template": false
   },
   {
@@ -42650,6 +43359,7 @@
     "cloudwalking",
     "vulnerability to fire; feather fall; caster level 3rd"
    ],
+   "dcMax": 21,
    "template": false
   },
   {
@@ -42722,6 +43432,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 20"
    ],
+   "dcMax": 23,
    "template": false
   },
   {
@@ -42794,6 +43505,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; caster level 7th",
     "sr 22"
    ],
+   "dcMax": 26,
    "template": false
   },
   {
@@ -42866,6 +43578,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 24"
    ],
+   "dcMax": 27,
    "template": false
   },
   {
@@ -42938,6 +43651,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; caster level 11th",
     "sr 26"
    ],
+   "dcMax": 30,
    "template": false
   },
   {
@@ -43010,6 +43724,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 27"
    ],
+   "dcMax": 32,
    "template": false
   },
   {
@@ -43082,6 +43797,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; caster level 15th",
     "sr 29"
    ],
+   "dcMax": 35,
    "template": false
   },
   {
@@ -43154,6 +43870,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "dcMax": 37,
    "template": false
   },
   {
@@ -43226,6 +43943,7 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; reverse gravity; caster level 19th",
     "sr 32"
    ],
+   "dcMax": 40,
    "template": false
   }
  ]

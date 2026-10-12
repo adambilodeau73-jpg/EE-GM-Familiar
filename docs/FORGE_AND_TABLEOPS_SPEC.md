@@ -73,6 +73,13 @@ add family → variant select (the existing CR-per-option machinery) → count s
 band meter as the tray changes (the D&D Beyond/BattleCast table stakes). Environment facet
 pre-filterable from the scenario (a Cold-terrain scenario forges from Cold 23 by default).
 
+### 1.4b The action-economy warning (added 2026-10-12, per the CR doctrine)
+A lone foe at EL ≈ party CR against a 4+ PC roster draws the SOLO-BOSS warning: "the party
+out-acts this encounter ~N:1 — a lone CR-equal foe historically under-performs its EL; consider
+minions (spread the party's attacks) or the Sub-boss/Boss band." The warning cites
+docs/CR_DOCTRINE.md gripe 2. Design lane flagged for Adam: an E&E-native mechanic granting the
+badly-outnumbered extra actions (the 5e legendary-action niche) — UCS candidate, his word.
+
 ### 1.5 The encounter card (output)
 `{name, scenario, foes: [{fam, v, n}], el, band, xpPreview, treasure, notes}` — saved to
 `localStorage gmf_encounters`, exportable, and **sendable to Table Ops** as pre-seeded
