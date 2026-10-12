@@ -32,6 +32,78 @@
    "was": 12,
    "ruled": "2026-10-12",
    "why": "Heaviest honest routine in its band (119 avg behind +28, grab-and-constrict); its aquatic terrain favors IT, so no counter-lane discount."
+  },
+  "PSEUDODRAGON#0": {
+   "cr": 3,
+   "was": 1,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): PSEUDODRAGON rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "BLACK DRAGON#4": {
+   "cr": 11,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Young adult rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "BLUE DRAGON#3": {
+   "cr": 10,
+   "was": 8,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Juvenile rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "GREEN DRAGON#2": {
+   "cr": 7,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "RED DRAGON#1": {
+   "cr": 7,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "RED DRAGON#2": {
+   "cr": 9,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "AMETHYST DRAGON#1": {
+   "cr": 7,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "AMETHYST DRAGON#2": {
+   "cr": 9,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "EMERALD DRAGON#2": {
+   "cr": 7,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "SILVER DRAGON#1": {
+   "cr": 7,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso."
+  },
+  "BARGHEST#1": {
+   "cr": 6,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "DR 10/magic at a tier where magic weapons are scarce is near-immunity; change shape + spell-likes + feed on a CR-6.9 body."
+  },
+  "VIVILOR#4": {
+   "cr": 6,
+   "was": 5,
+   "ruled": "2026-10-12",
+   "why": "The vivilor ladder amendment extended one rung (Adam: 'Massive Damage makes the world a more dangerous place for everybody') - keeps the re-rated ladder monotone."
   }
  }
 }
