@@ -54,4 +54,7 @@ measurables are harvested — the instrument is corpus-relative by construction.
 - Phase D sim spot-checks of the unexplained docket (Athach −4.1, the Wereboar template stack).
 - The within-band variance finding (gripe 1) argues for eventually surfacing the Forge's
   difficulty bands with the FOE's hot/cold chip factored in, not just raw CR.
-- The E&E solo-boss mechanic (gripe 2) awaits Adam's design word — UCS candidate.
+- The E&E solo-boss mechanic (gripe 2): GMG CORE per Adam (2026-10-12) — too crucial for
+  a would-be GM to live outside core; design session pending. The GMG also owes the CR
+  CALCULUS GLOSSARY (letter banked on Adam’s TODO): the Familiar does the heavy lifting,
+  the GMG explains the reading.

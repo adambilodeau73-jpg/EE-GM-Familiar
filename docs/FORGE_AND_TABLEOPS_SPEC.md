@@ -78,7 +78,8 @@ A lone foe at EL ≈ party CR against a 4+ PC roster draws the SOLO-BOSS warning
 out-acts this encounter ~N:1 — a lone CR-equal foe historically under-performs its EL; consider
 minions (spread the party's attacks) or the Sub-boss/Boss band." The warning cites
 docs/CR_DOCTRINE.md gripe 2. Design lane flagged for Adam: an E&E-native mechanic granting the
-badly-outnumbered extra actions (the 5e legendary-action niche) — UCS candidate, his word.
+badly-outnumbered extra actions (the 5e legendary-action niche) — GMG CORE per Adam
+(2026-10-12), design session pending; the warning cites it once ruled.
 
 ### 1.5 The encounter card (output)
 `{name, scenario, foes: [{fam, v, n}], el, band, xpPreview, treasure, notes}` — saved to
