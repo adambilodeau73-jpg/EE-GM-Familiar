@@ -43,7 +43,8 @@ function invert(pts, v) {
   const slope = v1 > v0 ? (c1 - c0) / (v1 - v0) : 0;
   return Math.min(c1 + 6, c1 + slope * (v - v1));
 }
-const C = { hp: curve('effHP'), ac: curve('fullAC'), atk: curve('bestAtk'), dmg: curve('routineAvg'), dc: curve('dcMax') };
+const C = { hp: curve('effHP'), ac: curve('fullAC'), atk: curve('bestAtk'), dmg: curve('routineAvg'), dc: curve('dcMax'), sv: curve('saveAvg') };
+const NOTES = JSON.parse(readFileSync(new URL('../data/cr_notes.json', import.meta.url), 'utf8')).notes;
 const r1 = (x) => x == null ? null : Math.round(x * 10) / 10;
 
 function bodyOf(r) {
@@ -54,12 +55,17 @@ function bodyOf(r) {
   // PF1's benchmark lesson: the primary ability DC is a first-class offense
   // number — the save-or-suffer channel the attack/damage pair cannot see.
   const dcCR = invert(C.dc, r.dcMax);
-  const def = [hpCR, acCR].filter(x => x != null);
+  // Saves join the defense mean (Adam's gavel, 2026-10-12) — the glass-saves
+  // construct finally pays for its 6/6/6. SR joins when present, priced by
+  // PF1 canon: appropriate SR = CR + 11, so srCR = SR − 11 (floored at 0).
+  const svCR = invert(C.sv, r.fort != null ? (r.fort + r.ref + r.will) / 3 : null);
+  const srCR = r.srValue != null ? Math.max(0, r.srValue - 11) : null;
+  const def = [hpCR, acCR, svCR, srCR].filter(x => x != null);
   const off = [atkCR, dmgCR, dcCR].filter(x => x != null);
   if (!def.length || !off.length) return null;
   const defCR = def.reduce((a, b) => a + b) / def.length;
   const offCR = off.reduce((a, b) => a + b) / off.length;
-  return { hpCR: r1(hpCR), acCR: r1(acCR), atkCR: r1(atkCR), dmgCR: r1(dmgCR), dcCR: r1(dcCR), defCR: r1(defCR), offCR: r1(offCR), body: (defCR + offCR) / 2 };
+  return { hpCR: r1(hpCR), acCR: r1(acCR), svCR: r1(svCR), srCR: r1(srCR), atkCR: r1(atkCR), dmgCR: r1(dmgCR), dcCR: r1(dcCR), defCR: r1(defCR), offCR: r1(offCR), body: (defCR + offCR) / 2 };
 }
 
 // ---- Stage 2: ridge regression of (printed − body) on ability tags ----
@@ -67,7 +73,9 @@ const tagCount = new Map();
 for (const r of rows) for (const t of new Set([...r.sa, ...r.sq])) tagCount.set(t, (tagCount.get(t) ?? 0) + 1);
 const TAGS = [...tagCount.entries()].filter(([, n]) => n >= 8).map(([t]) => t).sort();
 const ti = new Map(TAGS.map((t, i) => [t, i]));
-const P = TAGS.length + 1; // + intercept
+// Numeric feature: DR value (per 10 points) — structured, not string-fragmented (Adam, 2026-10-12).
+const DR_COL = TAGS.length;
+const P = TAGS.length + 2; // + DR column + intercept
 
 const fit = [];
 for (const r of rows) {
@@ -75,6 +83,7 @@ for (const r of rows) {
   if (!b) continue;
   const x = new Float64Array(P); x[P - 1] = 1;
   for (const t of new Set([...r.sa, ...r.sq])) { const i = ti.get(t); if (i != null) x[i] = 1; }
+  if (r.drValue) x[DR_COL] = r.drValue / 10;
   fit.push({ r, b, x, y: r.cr - b.body });
 }
 // Normal equations with ridge λ (intercept unpenalized).
@@ -89,6 +98,7 @@ for (const f of fit) {
   }
 }
 for (let i = 0; i < P - 1; i++) A[i][i] += L;
+// (DR column penalized like the tags; only the intercept rides free.)
 // Gaussian elimination.
 const w = (() => {
   const a = A.map((row, i) => [...row, g[i]]);
@@ -117,6 +127,7 @@ for (const f of fit) {
     const i = ti.get(t);
     if (i != null && Math.abs(w[i]) >= 0.05) contribs.push({ t, w: r1(w[i]) });
   }
+  if (f.r.drValue && Math.abs(w[DR_COL] * f.r.drValue / 10) >= 0.05) contribs.push({ t: `DR ${f.r.drValue}`, w: r1(w[DR_COL] * f.r.drValue / 10) });
   contribs.sort((a, b) => Math.abs(b.w) - Math.abs(a.w));
   const abil = contribs.reduce((s, c) => s + c.w, 0);
   const pred = f.b.body + abil + intercept;
@@ -132,9 +143,11 @@ for (const f of fit) {
   ].filter((t, i, a) => a.indexOf(t) === i).slice(0, 4);
   calc[`${f.r.fam}#${f.r.vi}`] = {
     printed: f.r.cr, body: r1(f.b.body), def: f.b.defCR, off: f.b.offCR,
-    hpCR: f.b.hpCR, acCR: f.b.acCR, atkCR: f.b.atkCR, dmgCR: f.b.dmgCR, dcCR: f.b.dcCR,
+    hpCR: f.b.hpCR, acCR: f.b.acCR, svCR: f.b.svCR, srCR: f.b.srCR, atkCR: f.b.atkCR, dmgCR: f.b.dmgCR, dcCR: f.b.dcCR,
     abil: r1(abil), contribs: contribs.slice(0, 6), unpriced, pred: r1(pred), resid: r1(resid),
     derived: !!f.r.derivedRoutine,
+    ...(f.r.crWas != null ? { was: f.r.crWas } : {}),
+    ...(NOTES[`${f.r.fam}#${f.r.vi}`] ? { note: NOTES[`${f.r.fam}#${f.r.vi}`] } : {}),
   };
   f.pred = pred; f.resid = resid;
 }
@@ -155,7 +168,7 @@ writeFileSync(new URL('../data/crcalc.json', import.meta.url), JSON.stringify({
 }, null, 1));
 
 // ---- the report ----
-const priced = TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })).sort((a, b) => b.w - a.w);
+const priced = [...TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })), { t: 'DR (per 10 points)', w: w[DR_COL], n: fit.filter(f => f.r.drValue).length }].sort((a, b) => b.w - a.w);
 const docket = [...fit].sort((a, b) => Math.abs(b.resid) - Math.abs(a.resid)).slice(0, 24);
 const out = [];
 out.push(`# CR MODEL — Phase C: body CR + priced abilities (generated ${new Date().toISOString().slice(0, 10)})`);

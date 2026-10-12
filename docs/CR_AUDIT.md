@@ -16,13 +16,13 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | 4 | 51 | 82 [61–105] | 17 [15–18] | 10 [10–11] | 9 [6–10] | 15.3 [8.8–22.6] | 6/5/5 |
 | 5 | 61 | 88 [75–118] | 17.5 [15–19] | 10 [10–11] | 10 [8–12] | 17.5 [13–28.4] | 8/6/5 |
 | 6 | 31 | 100 [92.5–130] | 18 [17–20] | 10 [9–12] | 11 [10–13] | 24.8 [17.3–32.3] | 8/7/6 |
-| 7 | 56 | 129.5 [88.5–186.5] | 19 [16.8–21] | 10 [8.8–12] | 13 [10–16] | 25.5 [15–37.9] | 9/7/7 |
+| 7 | 55 | 129 [87–174.5] | 19 [16.5–21] | 10 [9–12] | 13 [10–16] | 25 [15–38] | 9/7/7 |
 | 8 | 35 | 147 [103.5–186.5] | 20 [18–22.5] | 10 [9–11.5] | 15 [12–17] | 19 [14.5–34] | 10/8/8 |
 | 9 | 34 | 204.5 [143.8–241.5] | 22.5 [20–24.8] | 9.5 [9–11] | 18 [14.3–20] | 33 [24–46.1] | 12/9/9 |
-| 10 | 26 | 187.5 [134–293.8] | 22 [19–24] | 9 [8–10] | 19 [14–22.8] | 32 [16.3–48.1] | 12/8.5/9 |
-| 11 | 31 | 240 [192.5–300.5] | 25 [23–26] | 9 [9–14] | 21 [17–24.5] | 40 [28.5–58.5] | 14.5/10/10.5 |
+| 10 | 27 | 197 [140–285.5] | 22.5 [19.3–24] | 9 [8–9.8] | 19 [14–22.5] | 30 [17–46] | 12/8/9 |
+| 11 | 30 | 242 [191.8–301.8] | 25 [23–26] | 9 [9–14] | 21 [17–24] | 40 [28.3–55.6] | 14/10/10 |
 | 12 | 16 | 282.5 [204.5–351.8] | 24 [17.8–27] | 8 [5.5–9] | 22 [20–25] | 34.5 [30.6–45.8] | 15/10/8.5 |
-| 13 | 16 | 264 [201–368.8] | 26.5 [25.8–27] | 9 [8–10.3] | 23 [20–26] | 44 [22.5–64.5] | 15/11/13 |
+| 13 | 17 | 259 [203–364] | 26.5 [25.8–27] | 9 [8–10.3] | 23 [20–26] | 53.5 [23.3–69.8] | 15/11/13 |
 | 14 | 14 | 236 [181.8–395] | 27.5 [25.5–29] | 9 [8–13.8] | 24 [21–27] | 40.5 [31–49.5] | 16.5/12/14 |
 | 15 | 12 | 441 [396–458] | 29 [28–29.5] | 8 [8–8] | 27 [26.3–28.8] | 41.8 [11.6–81] | 17.5/12/16.5 |
 | 16 | 14 | 457.5 [272.3–474] | 30.5 [30–32] | 8 [8–12.3] | 29.5 [25–31.8] | 66.3 [50–70.5] | 18/13/16 |
@@ -55,13 +55,13 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | EMERALD DRAGON — Young (p.200) | 5 | 1.5 | 1.6 | 1.4 | 193 | 20 | 23.5 |
 | KRAKEN (p.325) | 12 | 1.5 | 0 | 2.9 | 360 | 20 | 119 |
 | BLACK DRAGON — Great wyrm (p.190) | 22 | 1.4 | 1.5 | 1.4 | 891 | 42 | 98 |
-| GEAR GOLEM (p.285) | 7 | 1.4 | 2.3 | 0.6 | 229 | 30 | 27 |
 | ASTRAL CONSTRUCT — 2ND-LEVEL ASTRAL CONSTRUCT (p.111) | 1 | 1.4 | 2.1 | 0.7 | 61 | 18 | 7.5 |
+| ASTRAL CONSTRUCT — 9TH-LEVEL ASTRAL CONSTRUCT (p.111) | 10 | 1.4 | 1.8 | 1 | 269 | 33 | 46 |
 | FLESHRAKER (Knife Fiend) — Knife Fiend (p.240) | 3 | 1.4 | 2.2 | 0.5 | 71 | 24 | 7 |
-| ASTRAL CONSTRUCT — 9TH-LEVEL ASTRAL CONSTRUCT (p.111) | 10 | 1.4 | 1.8 | 0.9 | 269 | 33 | 46 |
 | BLACK DRAGON — Wyrm (p.190) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
 | TOPAZ DRAGON — Wyrm (p.207) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
 | XORN — Elder Xorn (p.509) | 8 | 1.3 | 1.2 | 1.5 | 210 | 25 | 44.5 |
+| XORN — Minor Xorn (p.509) | 3 | 1.3 | 2.2 | 0.5 | 82 | 23 | 20 |
 
 ## The outlier docket — COLD (under-statted: candidates for a CR cut or an ability-tax explanation)
 
@@ -76,17 +76,17 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | WHISPERER IN THE DARK (p.500) | 12 | -2.6 | -2.4 | -2.8 | 71 | 14 | 28 |
 | MUMMY — Mummy Lord, 10th-Level Cleric (p.372) | 15 | -2.6 | -1.4 | -3.8 | 147 | 33 | 15.5 |
 | ELOHIM (p.232) | 8 | -2.6 | -1.6 | -3.5 | 72 | 15 | 0 |
+| MONTAUK MONSTER — Montauk Monster (p.370) | 11 | -2.5 | -4 | -1.1 | 87 | 14 | 35 |
 | UNBODIED (p.477) | 5 | -2.5 | -2.8 | -2.2 | 22 | 13 | 3.5 |
-| MONTAUK MONSTER — Montauk Monster (p.370) | 11 | -2.5 | -4 | -1 | 87 | 14 | 35 |
 | ABOLETH — Aboleth Mage, 10th-Level Wizard (p.48) | 17 | -2.4 | -2.5 | -2.3 | 212 | 21 | 50 |
 | SEWER SLUDGE — Sewer Sludge (p.427) | 5 | -2.4 | -2.6 | -2.2 | 36 | 10 | 4.5 |
 | VARGOUILLE (p.485) | 2 | -2.4 | -3.3 | -1.5 | 5 | 12 | 2.5 |
 | PIXIE (p.447) | 4 | -2.3 | -2.9 | -1.7 | 8 | 17 | 3.5 |
+| JUMPING JACK (Blood Fiend) — Jumping Jack, 9th-Level Fast Villain (p.243) | 11 | -2.1 | -1.6 | -2.6 | 80 | 25 | 9 |
 | Sidhe, Dreamghast — Sidhe, Faun (p.null) | 4 | -2.1 | -2.1 | -2.2 | 27 | 14 | 3.5 |
-| TOXIC SLUDGE — Toxic Sludge (p.467) | 7 | -2.1 | -2.6 | -1.6 | 60 | 7 | 10 |
 | SHADOW — Greater Shadow (p.428) | 8 | -2.1 | -1.8 | -2.4 | 58 | 15 | 4.5 |
-| JUMPING JACK (Blood Fiend) — Jumping Jack, 9th-Level Fast Villain (p.243) | 11 | -2.1 | -1.7 | -2.5 | 80 | 25 | 9 |
-| GELATINOUS CUBE (p.390) | 3 | -2 | -2.8 | -1.3 | 54 | 3 | 7 |
+| NYMPH (p.385) | 7 | -2.1 | -1.7 | -2.5 | 27 | 18 | 2.5 |
+| SATANIC ICHOR — Satanic Ichor, Advanced (p.423) | 10 | -2.1 | -2.4 | -1.7 | 90 | 11 | 7.5 |
 
 **Reading the docket:** a COLD foe whose body is weak for its CR usually carries its price in abilities the statline cannot show (the synergy problem) — the docket is therefore also a ranked list of WHERE the ability multipliers live, which is exactly the Phase C feature-engineering queue. A HOT foe with no compensating ability tax is a genuine mis-rating candidate.
 
@@ -111,7 +111,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | elemental traits | 39 | 7.5 |
 | undead traits | 38 | 6 |
 | vulnerability to cold | 36 | 8.9 |
-| construct traits | 31 | 7.1 |
+| construct traits | 31 | 7.2 |
 | breath weapon | 31 | 8.5 |
 | vermin traits | 30 | 3.9 |
 | immunity to cold | 29 | 9.1 |
@@ -121,7 +121,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | tremorsense 60 ft. | 23 | 6.2 |
 | immunities | 19 | 7.2 |
 | water breathing | 19 | 11.3 |
-| damage reduction 10/silver | 17 | 6.1 |
+| damage reduction 10/silver | 17 | 6.2 |
 | pounce | 16 | 6.5 |
 | damage reduction 5/magic | 16 | 4 |
 | damage reduction 10/magic | 16 | 7.6 |
@@ -131,7 +131,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | fear aura | 14 | 8.2 |
 | damage reduction 5/bludgeoning | 14 | 4.4 |
 | fast healing 2 | 14 | 3.4 |
-| curse of lycanthropy | 14 | 6.3 |
+| curse of lycanthropy | 14 | 6.4 |
 | immunity to acid and cold | 14 | 13.9 |
 | vulnerability to fire | 13 | 7.1 |
 | sr 21 | 13 | 14.2 |

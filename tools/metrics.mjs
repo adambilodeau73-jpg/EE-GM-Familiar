@@ -8,6 +8,8 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const B = JSON.parse(readFileSync(new URL('../data/bestiary.json', import.meta.url), 'utf8'));
+// Adam's CR errata (the hot-45 review): the model prices against the RULED CR.
+const ERRATA = JSON.parse(readFileSync(new URL('../data/errata.json', import.meta.url), 'utf8')).cr;
 
 const avgDice = (n, d, mod = 0) => n * (d + 1) / 2 + mod;
 const DICE_RX = /(\d+)d(\d+)(?:\s*([+−-])\s*(\d+))?/g;
@@ -122,7 +124,13 @@ for (const fam of B.entries) {
 
     rows.push({
       fam: fam.parent, vi, label: v.label, page: fam.page,
-      cr, size: v.size ?? null, type: v.type ?? null,
+      cr: ERRATA[`${fam.parent}#${vi}`]?.cr ?? cr,
+      crWas: ERRATA[`${fam.parent}#${vi}`] ? cr : undefined,
+      size: v.size ?? null, type: v.type ?? null,
+      // Structured defensive riders (Adam, 2026-10-12): DR value and SR/PR
+      // value pulled from the raw SQ/SA lines (the tags fragment by bypass).
+      drValue: (() => { const m = String(v.special_qualities ?? '').match(/damage reduction\s+(\d+)\//i); return m ? +m[1] : null; })(),
+      srValue: (() => { const m = String((v.special_qualities ?? '') + ' ' + (v.special_attacks ?? '')).match(/(?:spell resistance|power resistance|\bSR\b|\bPR\b)\s+(\d+)/i); return m ? +m[1] : null; })(),
       la: num(v.level_adjustment),
       hd: +hdM[1], hdDie: +hdM[2], hp: +hpM[1],
       bonusHp: bonusHpM ? +bonusHpM[1] : 0,

@@ -29,6 +29,7 @@ const METRICS = {
   // they dominate; dragon offense is scored on the PRINTED melee bonus alone.
   routineAvg: { get: r => r.derivedRoutine ? null : r.routineAvg, log: true },
   dcMax: { get: r => r.dcMax, log: false },
+  saveAvg: { get: r => r.fort != null ? Math.round(10 * (r.fort + r.ref + r.will) / 3) / 10 : null, log: false },
   fort: { get: r => r.fort, log: false },
   ref: { get: r => r.ref, log: false },
   will: { get: r => r.will, log: false },

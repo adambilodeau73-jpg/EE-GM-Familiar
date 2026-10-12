@@ -4,6 +4,20 @@ const tpl = readFileSync('src/gmf.template.html', 'utf8');
 const data = JSON.parse(readFileSync('data/bestiary.json', 'utf8'));
 const refs = JSON.parse(readFileSync('data/refs.json', 'utf8'));
 const crcalc = JSON.parse(readFileSync('data/crcalc.json', 'utf8'));
+// Adam's CR errata (hot-45 review): the DISPLAY follows the ruling too —
+// the card's chips and filters price at the ruled CR, with provenance in
+// the challenge-rating line and the calculus row's errata chip.
+const errata = JSON.parse(readFileSync('data/errata.json', 'utf8')).cr;
+for (const [key, e] of Object.entries(errata)) {
+  const [fam, vi] = [key.slice(0, key.lastIndexOf('#')), +key.slice(key.lastIndexOf('#') + 1)];
+  const f = data.entries.find(x => x.parent === fam);
+  const v = f?.variants[vi];
+  if (!v) { console.warn(`errata key not found: ${key}`); continue; }
+  v.cr = e.cr;
+  v.challenge_rating = `${e.cr} (Adam's errata ${e.ruled}; FF prints ${e.was})`;
+  f.crMin = Math.min(...f.variants.map(x => x.cr).filter(x => x != null));
+  f.crMax = Math.max(...f.variants.map(x => x.cr).filter(x => x != null));
+}
 const payload = JSON.stringify(data.entries);
 const refPayload = JSON.stringify({ spells: refs.spells, feats: refs.feats, skills: refs.skills });
 const calcPayload = JSON.stringify({ meta: crcalc._meta, calc: crcalc.calc });

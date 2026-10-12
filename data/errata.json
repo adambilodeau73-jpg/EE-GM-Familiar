@@ -1,0 +1,9 @@
+{
+ "_meta": {
+  "note": "Adam's CR re-rates from the hot-45 review (2026-10-12). Applied over the Foe Folio print by metrics.mjs (model) and build.mjs (display); FF letters banked on the TODO. 'was' preserves the print."
+ },
+ "cr": {
+  "GEAR GOLEM#0": { "cr": 10, "was": 7, "ruled": "2026-10-12", "why": "Stone-Golem-class body (18 HD, 229 effHP, AC 30) plus magic immunity; golem doctrine prices immunity upward." },
+  "HILL GIANT DIRE WEREBOAR#2": { "cr": 13, "was": 11, "ruled": "2026-10-12", "why": "Template stack under-charged: Fort +20, DR 10/silver, ferocity, +29/104.5-avg iterative routine deletes a CR-11 PC per round." }
+ }
+}
