@@ -122,6 +122,24 @@
    "was": 2,
    "ruled": "2026-10-12",
    "why": "The Flesh Harrower's body alone outruns CR 2; the controller note carries the real doctrine."
+  },
+  "ATHACH#0": {
+   "cr": 10,
+   "was": 8,
+   "ruled": "2026-10-12",
+   "why": "The one that got away in batch 1: 173 effHP, three-armed ~55-avg poison routine - the classic maul behind a friendly '8'. Model 10.7."
+  },
+  "VIVILOR#5": {
+   "cr": 9,
+   "was": 7,
+   "ruled": "2026-10-12",
+   "why": "Ladder smoothing (Adam: 'smooth out the staircase as best-fit') - model 9.0; the family now climbs ...6, 9, 11, 13, 14."
+  },
+  "VIVILOR#6": {
+   "cr": 11,
+   "was": 9,
+   "ruled": "2026-10-12",
+   "why": "Ladder smoothing - model 10.5, rounded to keep the staircase even."
   }
  }
 }
