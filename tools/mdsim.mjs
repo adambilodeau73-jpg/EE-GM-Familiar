@@ -67,7 +67,10 @@ function battle(foeRow, L, mdOn, seed) {
     fort: foeRow.fort ?? 5, con: foeRow.attrs?.con ?? 14,
   };
   const party = partyAt(L);
-  const mdCheck = (fort) => d20() + fort >= 15; // Fort DC 15
+  // HH p.350: DC 15 + 1 per 5 points of damage above Con; a natural 1 is an
+  // automatic failure in combat (Adam, 2026-10-12 — Fate Points' day job),
+  // a natural 20 an automatic success.
+  const mdCheck = (fort, dmg, con) => { const nat = d20(); if (nat === 1) return false; if (nat === 20) return true; return nat + fort >= 15 + Math.floor((dmg - con) / 5); };
   for (let round = 0; round < 100; round++) {
     // party swings
     for (const pc of party) {
@@ -77,7 +80,7 @@ function battle(foeRow, L, mdOn, seed) {
         if (nat === 1) continue;
         if (nat === 20 || nat + pc.atk >= foe.ac) {
           foe.hp -= dmg;
-          if (mdOn && dmg >= foe.con && !mdCheck(foe.fort)) foe.hp = 0;
+          if (mdOn && dmg >= foe.con && !mdCheck(foe.fort, dmg, foe.con)) foe.hp = 0;
         }
       }
     }
@@ -92,7 +95,7 @@ function battle(foeRow, L, mdOn, seed) {
       if (nat === 1) continue;
       if (nat === 20 || nat + a.bonus >= t.ac) {
         t.hp -= a.dmg;
-        if (mdOn && a.dmg >= t.con && !mdCheck(t.fort)) t.hp = 0;
+        if (mdOn && a.dmg >= t.con && !mdCheck(t.fort, a.dmg, t.con)) t.hp = 0;
       }
     }
     if (!party.some(p => p.hp > 0)) return { win: false, rounds: round + 1, lost: 4, toll: 1 };

@@ -21,15 +21,15 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | 9 | 35 | 197 [145.5–233.5] | 22 [20–24] | 9 [9–11] | 18 [14–20] | 29.8 [24–43] | 12/9/9 |
 | 10 | 28 | 187.5 [146–277.3] | 22 [19.5–24] | 9 [8–9.5] | 18 [13.8–22.3] | 30 [17–46] | 11.5/7.5/9 |
 | 11 | 31 | 240 [192.5–302.5] | 25 [23–26] | 9 [9–13.3] | 20 [17–24] | 40 [28.3–51.4] | 14/10/10.5 |
-| 12 | 15 | 275 [202–349] | 26 [17.5–27] | 8 [6–9] | 21 [20–24.5] | 34 [29.8–39.5] | 15/9/8 |
+| 12 | 13 | 234 [197–349] | 26 [18–27] | 9 [8–9] | 21 [20–24] | 33 [28–35] | 15/9/8 |
 | 13 | 19 | 259 [220–362] | 26.5 [25.3–27] | 8.5 [8–10] | 23 [20–26] | 63.8 [24.8–86.1] | 16/11/13 |
-| 14 | 15 | 238 [186.5–390] | 28 [26–29] | 9 [8–13.5] | 23 [21–27] | 44.3 [31.5–52.9] | 17/12/13 |
+| 14 | 17 | 265 [196–400] | 27 [25–29] | 8 [8–13] | 23 [21–27] | 48.8 [32.5–62.8] | 17/12/13 |
 | 15 | 12 | 441 [396–458] | 29 [28–29.5] | 8 [8–8] | 27 [26.3–28.8] | 41.8 [11.6–81] | 17.5/12/16.5 |
 | 16 | 14 | 457.5 [272.3–474] | 30.5 [30–32] | 8 [8–12.3] | 29.5 [25–31.8] | 66.3 [50–70.5] | 18/13/16 |
 | 17 | 8 | 351.5 [261.3–491] | 31 [29–32.5] | 9 [8–13.3] | 30.5 [24–31.3] | 89 [46–130.3] | 19/14/17 |
-| 18 | 13 | 553 [507–592] | 33 [32–35] | 8 [8–8] | 34 [32–36] | 83.5 [69.3–97.8] | 21/14/19 |
+| 18 | 12 | 553.5 [503–596.5] | 33 [32–35] | 8 [8–8] | 34 [31.8–35.3] | 55 [55–55] | 20.5/14.5/19 |
 | 19 | 12 | 618.5 [592–655.5] | 35.5 [34–37.3] | 8 [8–8] | 37 [35–39.3] | — | 22/16/20 |
-| 20 | 14 | 638 [596.5–676.5] | 36 [34.3–37.8] | 8 [6–8] | 36.5 [35.3–39.8] | 108.5 [102.5–112.1] | 23/17/21 |
+| 20 | 15 | 638 [572.5–666] | 36 [33.5–37.5] | 8 [6–8] | 37 [35.5–40.5] | 112 [105–112] | 23/17/21 |
 | 21 | 12 | 737 [666.5–750.5] | 37 [36–38] | 6 [6–7] | 40 [39–40.3] | 205 [205–205] | 25/17/23 |
 | 22 | 9 | 769 [755–827] | 38.5 [38–40] | 6 [6–6] | 43 [41–44] | — | 26/18/25 |
 | 23 | 10 | 842 [769.5–872] | 39.5 [39–41] | 6 [6–6] | 44 [42.3–45] | 142.5 [142.5–142.5] | 28/19/25.5 |
@@ -42,26 +42,26 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 
 | foe | CR | overall z | def z | off z | eff HP | AC | routine |
 |---|---|---|---|---|---|---|---|
-| TARRASQUE (p.458) | 20 | 3.6 | 1.1 | 6.2 | 1008 | 36 | 112.5 |
 | WHITE DRAGON — Great wyrm (p.196) | 21 | 2.1 | 0.8 | 3.3 | 872 | null | 98 |
-| MONSTROUS SCORPION — Monstrous Scorpion, Colossal (p.492) | 12 | 1.9 | 0.5 | 3.2 | 425 | 26 | 57 |
+| TARRASQUE (p.458) | 20 | 1.9 | 1.1 | 2.7 | 1008 | 36 | 112.5 |
 | BLUE DRAGON — Young (p.191) | 6 | 1.9 | 1.9 | 1.8 | 207 | 21 | 23.5 |
 | WHITE DRAGON — Juvenile (p.196) | 6 | 1.8 | 1.9 | 1.8 | 205 | 21 | 23.5 |
+| WHITE DRAGON — Ancient (p.196) | 18 | 1.7 | 1.4 | 1.9 | 670 | 37 | 75 |
 | ASTRAL CONSTRUCT — 4TH-LEVEL ASTRAL CONSTRUCT (p.111) | 3 | 1.7 | 2.2 | 1.1 | 97 | 22 | 13.5 |
 | ASTRAL CONSTRUCT — 9TH-LEVEL ASTRAL CONSTRUCT (p.111) | 10 | 1.6 | 2 | 1.1 | 269 | 33 | 46 |
 | WHITE DRAGON — Old (p.196) | 15 | 1.5 | 0.9 | 2.2 | 491 | 31 | 68 |
-| WHITE DRAGON — Ancient (p.196) | 18 | 1.5 | 1.4 | 1.7 | 670 | 37 | 75 |
 | ETOILE (p.235) | 2 | 1.5 | 2 | 0.9 | 56 | 23 | 10.5 |
+| WHITE DRAGON — Mature adult (p.196) | 12 | 1.5 | 0.9 | 2 | 441 | 28 | 67 |
 | BLACK DRAGON — Great wyrm (p.190) | 22 | 1.4 | 1.5 | 1.4 | 891 | 42 | 98 |
 | ASTRAL CONSTRUCT — 2ND-LEVEL ASTRAL CONSTRUCT (p.111) | 1 | 1.4 | 2.2 | 0.7 | 61 | 18 | 7.5 |
 | ASTRAL CONSTRUCT — 5TH-LEVEL ASTRAL CONSTRUCT (p.111) | 5 | 1.4 | 1.8 | 1 | 133 | 23 | 27 |
 | FLESHRAKER (Knife Fiend) — Knife Fiend (p.240) | 3 | 1.4 | 2.2 | 0.5 | 71 | 24 | 7 |
 | XORN — Elder Xorn (p.509) | 8 | 1.4 | 1.3 | 1.5 | 210 | 25 | 44.5 |
-| BLACK DRAGON — Wyrm (p.190) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
-| TOPAZ DRAGON — Wyrm (p.207) | 20 | 1.4 | 1.1 | 1.7 | 774 | 39 | 97 |
 | XORN — Minor Xorn (p.509) | 3 | 1.3 | 2.2 | 0.5 | 82 | 23 | 20 |
 | ASTRAL CONSTRUCT — 3RD-LEVEL ASTRAL CONSTRUCT (p.111) | 2 | 1.3 | 1.7 | 0.9 | 76 | 20 | 10.5 |
 | ASTRAL CONSTRUCT — 7TH-LEVEL ASTRAL CONSTRUCT (p.111) | 8 | 1.3 | 1.5 | 1.1 | 186 | 27 | 33 |
+| UNICORN — Unicorn (p.479) | 3 | 1.3 | 0.9 | 1.7 | 72 | 18 | 21.5 |
+| EARTH ELEMENTAL — Earth Elemental, Small (p.224) | 1 | 1.2 | 1.5 | 1 | 46 | 17 | 7.5 |
 
 ## The outlier docket — COLD (under-statted: candidates for a CR cut or an ability-tax explanation)
 
@@ -71,8 +71,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | ALICORN — Advanced Alicorn Champion of Good (p.50) | 16 | -3.4 | -4.2 | -2.6 | 198 | 21 | 22 |
 | SATANIC ICHOR — Satanic Ichor (p.423) | 4 | -3 | -3 | -3 | 21 | 11 | 1.5 |
 | MONGOLIAN DEATH WORM (p.369) | 8 | -2.8 | -2.3 | -3.3 | 32 | 16 | 1.5 |
-| NUCLEAR TOXYDERM — Nuclear Toxyderm (p.470) | 20 | -2.8 | -4.2 | -1.3 | 380 | 21 | 112 |
-| WHISPERER IN THE DARK (p.500) | 12 | -2.8 | -2.5 | -3 | 71 | 14 | 28 |
+| WHISPERER IN THE DARK (p.500) | 12 | -2.8 | -2.3 | -3.3 | 71 | 14 | 28 |
 | GRAY OOZE (p.391) | 4 | -2.7 | -3.9 | -1.5 | 31 | 5 | 8 |
 | UNBODIED (p.477) | 5 | -2.6 | -2.9 | -2.4 | 22 | 13 | 3.5 |
 | MUMMY — Mummy Lord, 10th-Level Cleric (p.372) | 15 | -2.6 | -1.4 | -3.8 | 147 | 33 | 15.5 |
@@ -82,6 +81,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | VARGOUILLE (p.485) | 2 | -2.4 | -3.4 | -1.5 | 5 | 12 | 2.5 |
 | ABOLETH — Aboleth Mage, 10th-Level Wizard (p.48) | 17 | -2.4 | -2.5 | -2.3 | 212 | 21 | 50 |
 | PIXIE (p.447) | 4 | -2.3 | -2.9 | -1.7 | 8 | 17 | 3.5 |
+| NUCLEAR TOXYDERM — Nuclear Toxyderm (p.470) | 20 | -2.3 | -3.8 | -0.7 | 380 | 21 | 112 |
 | JUMPING JACK (Blood Fiend) — Jumping Jack, 9th-Level Fast Villain (p.243) | 11 | -2.2 | -1.6 | -2.7 | 80 | 25 | 9 |
 | Sidhe, Dreamghast — Sidhe, Faun (p.null) | 4 | -2.1 | -2.1 | -2.2 | 27 | 14 | 3.5 |
 | TOXIC SLUDGE — Toxic Sludge (p.467) | 7 | -2.1 | -2.7 | -1.5 | 60 | 7 | 10 |
@@ -108,18 +108,18 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | immunity to fire | 74 | 12.1 |
 | poison | 55 | 5.7 |
 | immunity to acid | 51 | 12.5 |
-| elemental traits | 39 | 7.5 |
+| elemental traits | 39 | 7.6 |
 | undead traits | 38 | 6 |
 | vulnerability to cold | 36 | 9 |
 | construct traits | 31 | 7.2 |
-| breath weapon | 31 | 8.5 |
+| breath weapon | 31 | 8.6 |
 | vermin traits | 30 | 3.9 |
 | immunity to cold | 29 | 9.1 |
 | spells | 26 | 11 |
 | telepathy 100 ft. | 26 | 10.2 |
 | immunity to electricity | 24 | 10.8 |
-| tremorsense 60 ft. | 23 | 6.2 |
-| immunities | 19 | 7.2 |
+| tremorsense 60 ft. | 23 | 6.3 |
+| immunities | 19 | 7.3 |
 | water breathing | 19 | 11.3 |
 | damage reduction 10/silver | 17 | 6.2 |
 | pounce | 16 | 6.5 |
@@ -137,6 +137,6 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | sr 21 | 13 | 14.2 |
 | sr 25 | 13 | 19.2 |
 | tongues | 12 | 12 |
-| ooze traits | 12 | 7.1 |
+| ooze traits | 12 | 7.3 |
 
 (173 tags total at n ≥ 5; full set in data/metrics.json rows. A tag whose bearers' mean CR runs far above the corpus mean while their BODIES score cold is a high-value ability — the first crude synergy signal, formalized in Phase C.)

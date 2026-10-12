@@ -140,6 +140,24 @@
    "was": 9,
    "ruled": "2026-10-12",
    "why": "Ladder smoothing - model 10.5, rounded to keep the staircase even."
+  },
+  "MONSTROUS SCORPION#6": {
+   "cr": 14,
+   "was": 12,
+   "ruled": "2026-10-12",
+   "why": "The MD ruling (Phase D): 3 effectively-100% forcing attacks/rd (avg 19 vs DC 15+excess) flip an at-level fight from 100% win/0 dead to 44%/2.96 dead - +2 per the gaveled constant."
+  },
+  "GARBAGE TOXYDERM#1": {
+   "cr": 20,
+   "was": 18,
+   "ruled": "2026-10-12",
+   "why": "The MD ruling: 4 forcing attacks/rd (avg 28) kill 0.70 benchmark PCs per at-level encounter that killed none without MD - +2 per the constant (verbatim Menace Manual per Adam; E&E's own MD rule is what is being priced)."
+  },
+  "TOXIC SLUDGE#1": {
+   "cr": 14,
+   "was": 12,
+   "ruled": "2026-10-12",
+   "why": "The MD ruling: 4 forcing attacks/rd (avg ~21), at-level 1.75 PCs dead / 50% HP toll - +2 per the constant."
   }
  }
 }

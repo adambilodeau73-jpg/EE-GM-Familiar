@@ -149,7 +149,9 @@ for (const fam of B.entries) {
       // every attack in the routine averaging >=14 on a single connect
       // forces a Massive Damage check. mdHits = such attacks per round.
       maxHitAvg: dAtk ? Math.round(Math.max(...dAtk.attacks.map(a => a.avg)) * 10) / 10 : null,
-      mdHits: dAtk ? dAtk.attacks.filter(a => a.avg >= 14).reduce((t, a) => t + a.n, 0) : null,
+      // "Effectively-100% MD-forcing" (Adam's calculus, 2026-10-12): an attack
+      // averaging >= 18 forces the check on virtually every adventurer Con.
+      mdHits: dAtk ? dAtk.attacks.filter(a => a.avg >= 18).reduce((t, a) => t + a.n, 0) : null,
       // PF1's benchmark lesson (2026-10-12): the primary ability DC is a
       // first-class offense number — harvest the highest DC printed anywhere
       // in the special-attack/quality lines.

@@ -75,10 +75,10 @@ const TAGS = [...tagCount.entries()].filter(([, n]) => n >= 8).map(([t]) => t).s
 const ti = new Map(TAGS.map((t, i) => [t, i]));
 // Numeric feature: DR value (per 10 points) — structured, not string-fragmented (Adam, 2026-10-12).
 const DR_COL = TAGS.length;
-// Numeric feature: MASSIVE DAMAGE pressure — attacks/round averaging >= 14
-// on one connect (E&E MDT = Con, Fort DC 15); the corpus prices the threshold.
-const MD_COL = TAGS.length + 1;
-const P = TAGS.length + 3; // + DR + MD columns + intercept
+// MASSIVE DAMAGE is NOT a fitted feature: the regression proved the print
+// charges zero for it, so it is priced by RULING (Adam, 2026-10-12, Phase D
+// calibrated): +1 CR per 2 effectively-100%-forcing attacks/round, cap +3.
+const P = TAGS.length + 2; // + DR column + intercept
 
 const fit = [];
 for (const r of rows) {
@@ -87,7 +87,6 @@ for (const r of rows) {
   const x = new Float64Array(P); x[P - 1] = 1;
   for (const t of new Set([...r.sa, ...r.sq])) { const i = ti.get(t); if (i != null) x[i] = 1; }
   if (r.drValue) x[DR_COL] = r.drValue / 10;
-  if (r.mdHits) x[MD_COL] = Math.min(6, r.mdHits);
   fit.push({ r, b, x, y: r.cr - b.body });
 }
 // Normal equations with ridge λ (intercept unpenalized).
@@ -132,7 +131,9 @@ for (const f of fit) {
     if (i != null && Math.abs(w[i]) >= 0.05) contribs.push({ t, w: r1(w[i]) });
   }
   if (f.r.drValue && Math.abs(w[DR_COL] * f.r.drValue / 10) >= 0.05) contribs.push({ t: `DR ${f.r.drValue}`, w: r1(w[DR_COL] * f.r.drValue / 10) });
-  if (f.r.mdHits && Math.abs(w[MD_COL] * Math.min(6, f.r.mdHits)) >= 0.05) contribs.push({ t: `MD pressure ×${f.r.mdHits}`, w: r1(w[MD_COL] * Math.min(6, f.r.mdHits)) });
+  // The Phase D ruled term: +1 CR per 2 forcing attacks (avg >= 18), cap +3.
+  const ruledMd = f.r.mdHits ? Math.min(3, Math.floor(f.r.mdHits / 2)) : 0;
+  if (ruledMd) contribs.push({ t: `MD pressure ×${f.r.mdHits} (ruled)`, w: ruledMd });
   contribs.sort((a, b) => Math.abs(b.w) - Math.abs(a.w));
   const abil = contribs.reduce((s, c) => s + c.w, 0);
   const pred = f.b.body + abil + intercept;
@@ -182,7 +183,7 @@ writeFileSync(new URL('../data/crcalc.json', import.meta.url), JSON.stringify({
 }, null, 1));
 
 // ---- the report ----
-const priced = [...TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })), { t: 'DR (per 10 points)', w: w[DR_COL], n: fit.filter(f => f.r.drValue).length }, { t: 'MD pressure (per forcing attack/round)', w: w[MD_COL], n: fit.filter(f => f.r.mdHits).length }].sort((a, b) => b.w - a.w);
+const priced = [...TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })), { t: 'DR (per 10 points)', w: w[DR_COL], n: fit.filter(f => f.r.drValue).length }, { t: 'MD pressure (RULED: +1 per 2 forcing attacks, cap +3)', w: 0.5, n: fit.filter(f => f.r.mdHits).length }].sort((a, b) => b.w - a.w);
 const docket = [...fit].sort((a, b) => Math.abs(b.resid) - Math.abs(a.resid)).slice(0, 24);
 const out = [];
 out.push(`# CR MODEL — Phase C: body CR + priced abilities (generated ${new Date().toISOString().slice(0, 10)})`);

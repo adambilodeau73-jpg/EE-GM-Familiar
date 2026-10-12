@@ -205,7 +205,7 @@
     "dodge +6*"
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -479,7 +479,7 @@
     "uncanny dodge"
    ],
    "maxHitAvg": 16.5,
-   "mdHits": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -854,7 +854,7 @@
     "scent"
    ],
    "maxHitAvg": 15,
-   "mdHits": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -911,7 +911,7 @@
     "scent"
    ],
    "maxHitAvg": 16.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -1269,7 +1269,7 @@
     "scent"
    ],
    "maxHitAvg": 14.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -2322,7 +2322,7 @@
     "scent"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3553,7 +3553,7 @@
     "keen scent"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -3671,7 +3671,7 @@
     "scent"
    ],
    "maxHitAvg": 14.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4610,7 +4610,7 @@
     "low-light vision; also see text"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -4786,7 +4786,7 @@
     "tremorsense 60 ft."
    ],
    "maxHitAvg": 16.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5053,7 +5053,7 @@
     "tongues"
    ],
    "maxHitAvg": 16,
-   "mdHits": 4,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5299,7 +5299,7 @@
     "resistance to cold 10 and fire 10"
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5705,7 +5705,7 @@
     "lowlight vision"
    ],
    "maxHitAvg": 15.5,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5763,7 +5763,7 @@
     "lowlight vision"
    ],
    "maxHitAvg": 16.5,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -5946,7 +5946,7 @@
     "darkvision 60 ft."
    ],
    "maxHitAvg": 18.5,
-   "mdHits": 5,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -6319,7 +6319,7 @@
     "scent"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -6688,7 +6688,7 @@
     "tremorsense 60 ft."
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8024,7 +8024,7 @@
     "true seeing"
    ],
    "maxHitAvg": 15,
-   "mdHits": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8092,7 +8092,7 @@
     "telepathy 100 ft."
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8382,7 +8382,7 @@
     "telepathy 100 ft."
    ],
    "maxHitAvg": 15,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8458,7 +8458,7 @@
     "telepathy 100 ft."
    ],
    "maxHitAvg": 18,
-   "mdHits": 5,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -8530,7 +8530,7 @@
     "true seeing"
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -8669,7 +8669,7 @@
     "low-light vision"
    ],
    "maxHitAvg": 17,
-   "mdHits": 4,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9061,7 +9061,7 @@
     "telepathy 100 ft."
    ],
    "maxHitAvg": 15,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9475,7 +9475,7 @@
     "telepathy 100 ft."
    ],
    "maxHitAvg": 22,
-   "mdHits": 5,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -9551,7 +9551,7 @@
     "telepathy 100 ft."
    ],
    "maxHitAvg": 16,
-   "mdHits": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -9757,7 +9757,7 @@
     "telepathy 100 ft."
    ],
    "maxHitAvg": 22,
-   "mdHits": 4,
+   "mdHits": 3,
    "dcMax": null,
    "template": false
   },
@@ -10067,7 +10067,7 @@
     "scent"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10856,7 +10856,7 @@
     "gaseous form"
    ],
    "maxHitAvg": 14,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -10916,7 +10916,7 @@
     "gaseous form"
    ],
    "maxHitAvg": 15,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11094,7 +11094,7 @@
     "elemental traits"
    ],
    "maxHitAvg": 16,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11455,7 +11455,7 @@
     "vulnerability to cold"
    ],
    "maxHitAvg": 16,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -11822,7 +11822,7 @@
     "fluid form"
    ],
    "maxHitAvg": 14,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -13641,7 +13641,7 @@
     "vulnerability to cold"
    ],
    "maxHitAvg": 14,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -14792,7 +14792,7 @@
     "low-light vision"
    ],
    "maxHitAvg": 14,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -15156,7 +15156,7 @@
     "scent"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16308,7 +16308,7 @@
     "darkvision 60 ft."
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16780,7 +16780,7 @@
     "scent"
    ],
    "maxHitAvg": 15,
-   "mdHits": 12,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16843,7 +16843,7 @@
     "spell resistance 22"
    ],
    "maxHitAvg": 17.5,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -16967,7 +16967,7 @@
     "spell resistance 20"
    ],
    "maxHitAvg": 15.5,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20410,7 +20410,7 @@
     "scent"
    ],
    "maxHitAvg": 16.5,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20599,7 +20599,7 @@
     "invisibility"
    ],
    "maxHitAvg": 17.5,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": 15,
    "template": false
   },
@@ -20843,7 +20843,7 @@
     "vulnerability to fire"
    ],
    "maxHitAvg": 15.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -20967,7 +20967,7 @@
     "darkvision 60 ft."
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21144,7 +21144,7 @@
     "power resistance 25"
    ],
    "maxHitAvg": 17,
-   "mdHits": 4,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21722,7 +21722,7 @@
     "low-light vision"
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -21841,7 +21841,7 @@
     "spell resistance 19"
    ],
    "maxHitAvg": 17.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -23429,7 +23429,7 @@
     "low-light vision"
    ],
    "maxHitAvg": 19,
-   "mdHits": 3,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -23752,7 +23752,7 @@
     "vulnerability to cold"
    ],
    "maxHitAvg": 18,
-   "mdHits": 5,
+   "mdHits": 4,
    "dcMax": null,
    "template": false
   },
@@ -24111,7 +24111,7 @@
     "low-light vision"
    ],
    "maxHitAvg": 15,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -25216,7 +25216,7 @@
     "undead traits"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -26234,7 +26234,7 @@
     "split"
    ],
    "maxHitAvg": 15,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 17,
    "template": false
   },
@@ -26796,7 +26796,7 @@
     "spell resistance 32"
    ],
    "maxHitAvg": 35,
-   "mdHits": 4,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -27173,7 +27173,7 @@
     "low-light vision"
    ],
    "maxHitAvg": 15,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 23,
    "template": false
   },
@@ -27501,7 +27501,8 @@
    "vi": 1,
    "label": "Toxic Sludge, Advanced",
    "page": 467,
-   "cr": 12,
+   "cr": 14,
+   "crWas": 12,
    "size": "Gargantuan",
    "type": "Ooze",
    "drValue": null,
@@ -27740,7 +27741,8 @@
    "vi": 1,
    "label": "Garbage Toxyderm, Advanced",
    "page": 469,
-   "cr": 18,
+   "cr": 20,
+   "crWas": 18,
    "size": "Gargantuan",
    "type": "Elemental",
    "drValue": null,
@@ -27911,7 +27913,7 @@
     "vulnerability to fire"
    ],
    "maxHitAvg": 16,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28156,7 +28158,7 @@
     "wild empathy"
    ],
    "maxHitAvg": 15,
-   "mdHits": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -28412,7 +28414,7 @@
     "wild empathy"
    ],
    "maxHitAvg": 14.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29732,7 +29734,7 @@
     "vermin traits"
    ],
    "maxHitAvg": 17,
-   "mdHits": 2,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -29741,7 +29743,8 @@
    "vi": 6,
    "label": "Monstrous Scorpion, Colossal",
    "page": 492,
-   "cr": 12,
+   "cr": 14,
+   "crWas": 12,
    "size": "Colossal",
    "type": "Vermin",
    "drValue": null,
@@ -29797,7 +29800,7 @@
     "vermin traits"
    ],
    "maxHitAvg": 21,
-   "mdHits": 3,
+   "mdHits": 2,
    "dcMax": null,
    "template": false
   },
@@ -30556,7 +30559,7 @@
     "one choice from vivilor menu a and one choice from vivilor menu c"
    ],
    "maxHitAvg": 16,
-   "mdHits": 3,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30614,7 +30617,7 @@
     "one choice from vivilor menu b and one choice from vivilor menu c"
    ],
    "maxHitAvg": 16,
-   "mdHits": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30672,7 +30675,7 @@
     "two choices from vivilor menu c"
    ],
    "maxHitAvg": 16,
-   "mdHits": 5,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -30909,7 +30912,7 @@
     "vulnerability to fire"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -31414,7 +31417,7 @@
     "tremorsense 60 ft."
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -31664,7 +31667,7 @@
     "vulnerability to sonic damage"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -32066,7 +32069,7 @@
     "undead traits"
    ],
    "maxHitAvg": 17.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -32124,7 +32127,7 @@
     "undead traits"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -32181,7 +32184,7 @@
     "undead traits"
    ],
    "maxHitAvg": 14.5,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -32239,7 +32242,7 @@
     "magnetic feet"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -32848,7 +32851,7 @@
     "sr 21"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 26,
    "template": false
   },
@@ -33152,7 +33155,7 @@
     "sr 26"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 34,
    "template": false
   },
@@ -33228,7 +33231,7 @@
     "sr 28"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -33650,7 +33653,7 @@
     "sr 21"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 25,
    "template": false
   },
@@ -33946,7 +33949,7 @@
     "sr 27"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -34020,7 +34023,7 @@
     "sr 29"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -34094,7 +34097,7 @@
     "sr 31"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 37,
    "template": false
   },
@@ -34516,7 +34519,7 @@
     "sr 21"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 25,
    "template": false
   },
@@ -34812,7 +34815,7 @@
     "sr 27"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -34886,7 +34889,7 @@
     "sr 28"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 35,
    "template": false
   },
@@ -34960,7 +34963,7 @@
     "sr 30"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 37,
    "template": false
   },
@@ -35176,7 +35179,7 @@
     "vulnerability to cold; caster level 1st"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 19,
    "template": false
   },
@@ -35249,7 +35252,7 @@
     "vulnerability to cold; locate object; caster level 3rd"
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 22,
    "template": false
   },
@@ -35549,7 +35552,7 @@
     "sr 24"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -35624,7 +35627,7 @@
     "sr 26"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -35699,7 +35702,7 @@
     "sr 28"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -35774,7 +35777,7 @@
     "sr 30"
    ],
    "maxHitAvg": 29,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 38,
    "template": false
   },
@@ -35849,7 +35852,7 @@
     "sr 32"
    ],
    "maxHitAvg": 35,
-   "mdHits": 6,
+   "mdHits": 4,
    "dcMax": 40,
    "template": false
   },
@@ -36367,7 +36370,7 @@
     "sr 20"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 25,
    "template": false
   },
@@ -36679,7 +36682,7 @@
     "sr 25"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -36751,7 +36754,7 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -36973,7 +36976,7 @@
     "metacreativity discipline; caster level 1st"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 19,
    "template": false
   },
@@ -37048,7 +37051,7 @@
     "metacreativity discipline; minor creation; caster level 3rd"
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 22,
    "template": false
   },
@@ -37357,7 +37360,7 @@
     "sr 24"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -37435,7 +37438,7 @@
     "sr 26"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -37513,7 +37516,7 @@
     "sr 28"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -37591,7 +37594,7 @@
     "sr 30"
    ],
    "maxHitAvg": 29,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 38,
    "template": false
   },
@@ -37669,7 +37672,7 @@
     "sr 32"
    ],
    "maxHitAvg": 35,
-   "mdHits": 6,
+   "mdHits": 4,
    "dcMax": 40,
    "template": false
   },
@@ -38089,7 +38092,7 @@
     "sr 21"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -38384,7 +38387,7 @@
     "sr 27"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -38458,7 +38461,7 @@
     "sr 28"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -38532,7 +38535,7 @@
     "sr 30"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -39026,7 +39029,7 @@
     "sr 22"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": null,
    "template": false
   },
@@ -39322,7 +39325,7 @@
     "sr 28"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -39396,7 +39399,7 @@
     "sr 30"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": null,
    "template": false
   },
@@ -39829,7 +39832,7 @@
     "sr 21"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 25,
    "template": false
   },
@@ -40133,7 +40136,7 @@
     "sr 27"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -40209,7 +40212,7 @@
     "sr 29"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -40285,7 +40288,7 @@
     "sr 31"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 37,
    "template": false
   },
@@ -40718,7 +40721,7 @@
     "sr 21"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 25,
    "template": false
   },
@@ -41022,7 +41025,7 @@
     "sr 27"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -41098,7 +41101,7 @@
     "sr 29"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -41174,7 +41177,7 @@
     "sr 31"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 37,
    "template": false
   },
@@ -41692,7 +41695,7 @@
     "sr 21"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 26,
    "template": false
   },
@@ -42004,7 +42007,7 @@
     "sr 26"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 34,
    "template": false
   },
@@ -42076,7 +42079,7 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -42587,7 +42590,7 @@
     "sr 22"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 26,
    "template": false
   },
@@ -42895,7 +42898,7 @@
     "sr 28"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 34,
    "template": false
   },
@@ -42972,7 +42975,7 @@
     "sr 30"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -43412,7 +43415,7 @@
     "sr 22"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 25,
    "template": false
   },
@@ -43724,7 +43727,7 @@
     "sr 28"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 33,
    "template": false
   },
@@ -43802,7 +43805,7 @@
     "sr 29"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -43880,7 +43883,7 @@
     "sr 31"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 37,
    "template": false
   },
@@ -44377,7 +44380,7 @@
     "sr 23"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 26,
    "template": false
   },
@@ -44677,7 +44680,7 @@
     "sr 29"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 34,
    "template": false
   },
@@ -44752,7 +44755,7 @@
     "sr 31"
    ],
    "maxHitAvg": 27,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 37,
    "template": false
   },
@@ -44975,7 +44978,7 @@
     "water breathing; caster level 1st"
    ],
    "maxHitAvg": 14,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 20,
    "template": false
   },
@@ -45051,7 +45054,7 @@
     "water breathing; bless; caster level 3rd"
    ],
    "maxHitAvg": 16,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 22,
    "template": false
   },
@@ -45363,7 +45366,7 @@
     "sr 27"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 31,
    "template": false
   },
@@ -45441,7 +45444,7 @@
     "sr 28"
    ],
    "maxHitAvg": 29,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 34,
    "template": false
   },
@@ -45519,7 +45522,7 @@
     "sr 30"
    ],
    "maxHitAvg": 30,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 36,
    "template": false
   },
@@ -45597,7 +45600,7 @@
     "sr 31"
    ],
    "maxHitAvg": 35,
-   "mdHits": 6,
+   "mdHits": 4,
    "dcMax": 39,
    "template": false
   },
@@ -46115,7 +46118,7 @@
     "sr 22"
    ],
    "maxHitAvg": 17,
-   "mdHits": 1,
+   "mdHits": 0,
    "dcMax": 26,
    "template": false
   },
@@ -46423,7 +46426,7 @@
     "sr 29"
    ],
    "maxHitAvg": 26,
-   "mdHits": 4,
+   "mdHits": 1,
    "dcMax": 35,
    "template": false
   },
@@ -46500,7 +46503,7 @@
     "sr 30"
    ],
    "maxHitAvg": 28,
-   "mdHits": 6,
+   "mdHits": 1,
    "dcMax": 37,
    "template": false
   },
@@ -46577,7 +46580,7 @@
     "sr 32"
    ],
    "maxHitAvg": 34,
-   "mdHits": 6,
+   "mdHits": 4,
    "dcMax": 40,
    "template": false
   }
