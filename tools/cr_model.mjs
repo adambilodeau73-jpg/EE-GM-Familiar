@@ -112,7 +112,11 @@ for (const r of rows) {
   const b = bodyOf(r);
   if (!b) continue;
   const x = new Float64Array(P); x[P - 1] = 1;
-  for (const t of new Set([...r.sa, ...r.sq])) { const i = ti.get(t); if (i != null) x[i] = 1; }
+  // v0.6.10 (the Kobold Inquest): when the CL component carries a foe's
+  // casting (spCR live), the 'spells' tag is SUPPRESSED for that foe — the
+  // component supersedes the tag (attribution applied inward); the tag
+  // refits to price only the casters the harvest could not level.
+  for (const t of new Set([...r.sa, ...r.sq])) { if (t === 'spells' && r.cl != null) continue; const i = ti.get(t); if (i != null) x[i] = 1; }
   if (r.drValue) x[DR_COL] = r.drValue / 10;
   if (r.defRung) x[RUNG_COL] = r.defRung;
   if (r.quickenFeat) x[QK_COL] = 1;
@@ -156,6 +160,7 @@ const calc = {};
 for (const f of fit) {
   const contribs = [];
   for (const t of new Set([...f.r.sa, ...f.r.sq])) {
+    if (t === 'spells' && f.r.cl != null) continue; // superseded by spCR
     const i = ti.get(t);
     if (i != null && Math.abs(w[i]) >= 0.05) contribs.push({ t, w: r1(w[i]) });
   }

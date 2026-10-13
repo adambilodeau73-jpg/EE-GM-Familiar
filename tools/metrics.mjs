@@ -44,7 +44,10 @@ function parseFullAttack(s) {
     // read each "N name +B[/+B2/…] type (damage)" clause; iteratives count as
     // attacks at full damage (the PF1 all-attacks-hit convention).
     for (const clause of routine.split(/,?\s+and\s+/i)) {
-      const m = clause.match(/^(?:(\d+)\s+)?.*?([+−-]\d+)(?:\/[+−-]\d+)*\s+(?:melee|ranged|touch)/i);
+      // v0.6.10 (the Kobold Inquest): NPC-style lines omit melee/ranged —
+      // accept "name +N (dice)" when the dice parenthetical anchors it.
+      const m = clause.match(/^(?:(\d+)\s+)?.*?([+−-]\d+)(?:\/[+−-]\d+)*\s+(?:melee|ranged|touch)/i)
+        || clause.match(/^(?:(\d+)\s+)?[^(]*?([+−-]\d+)(?:\/[+−-]\d+)*\s*\(\d+d\d+/i);
       const dmg = clause.match(/\(([^)]*)\)/);
       if (!m) continue;
       const bonus = parseInt(m[2].replace('−', '-'), 10);
@@ -76,6 +79,9 @@ for (const fam of B.entries) {
     const hpM = String(v.hit_dice ?? '').match(/\((\d+)\s*hp\)/i);
     const hdM = String(v.hit_dice ?? '').match(/(\d+)d(\d+)/);
     if (!hpM || !hdM) { skip('no hit dice/hp'); continue; }
+    // v0.6.10 (the Kobold Inquest): "1d10+1 plus 6d4+6" is 7 HD, not 1 —
+    // plus-joined pools sum (29 statblocks).
+    const hdTotal = [...String(v.hit_dice).matchAll(/(\d+)d\d+/g)].reduce((t, mm) => t + +mm[1], 0) || +hdM[1];
     const acM = String(v.touch_full_ac_t_ac ?? v.touch_full_ac ?? '').match(/(\d+)\s*\/\s*(\d+)/);
     const flatM = String(v.touch_full_ac_t_ac ?? '').match(/flat-footed\s+(\d+)/i);
     const hardM = String(v.t_ac_system_adj ?? '').match(/Hardness\s+(\d+)/i);
@@ -132,7 +138,7 @@ for (const fam of B.entries) {
       drValue: (() => { const m = String(v.special_qualities ?? '').match(/damage reduction\s+(\d+)\//i); return m ? +m[1] : null; })(),
       srValue: (() => { const m = String((v.special_qualities ?? '') + ' ' + (v.special_attacks ?? '')).match(/(?:spell resistance|power resistance|\bSR\b|\bPR\b)\s+(\d+)/i); return m ? +m[1] : null; })(),
       la: num(v.level_adjustment),
-      hd: +hdM[1], hdDie: +hdM[2], hp: +hpM[1],
+      hd: hdTotal, hdDie: +hdM[2], hp: +hpM[1],
       bonusHp: bonusHpM ? +bonusHpM[1] : 0,
       hardness: hardM ? +hardM[1] : 0,
       touchAC: acM ? +acM[1] : null, fullAC: acM ? +acM[2] : null, flatAC: flatM ? +flatM[1] : null,
