@@ -13,8 +13,13 @@ for (const [key, e] of Object.entries(errata)) {
   const f = data.entries.find(x => x.parent === fam);
   const v = f?.variants[vi];
   if (!v) { console.warn(`errata key not found: ${key}`); continue; }
+  // v0.6.8 (Adam: "without the game-design commentary lol"): the drop-down
+  // and chips show CLEAN numbers; provenance lives in the calculus chip, and
+  // the lens backs out the MD-attributable delta (crMD) in SRD/MSRD modes.
   v.cr = e.cr;
-  v.challenge_rating = `${e.cr} (Adam's errata ${e.ruled}; FF prints ${e.was})`;
+  v.challenge_rating = String(e.cr);
+  v.crWas = e.was;
+  v.crMD = e.md || 0;
   f.crMin = Math.min(...f.variants.map(x => x.cr).filter(x => x != null));
   f.crMax = Math.max(...f.variants.map(x => x.cr).filter(x => x != null));
 }

@@ -64,7 +64,7 @@ details.card[open]{border-left-color:var(--gold)}
 <body>
 <header>
   <h1>The Game Master's Familiar</h1>
-  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.6.7 — the Bestiary, the Forge &amp; the Adjudicator</div>
+  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.6.8 — the Bestiary, the Forge &amp; the Adjudicator</div>
 </header>
 <nav>
   <button id="tab-bestiary" class="on" onclick="show('bestiary')">🐾 Bestiary</button>
@@ -136,7 +136,7 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="a-list"></div>
 </section>
 </main>
-<div class="foot">The Game Master's Familiar v0.6.7 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
+<div class="foot">The Game Master's Familiar v0.6.8 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
 <script>
 const BESTIARY = /*__BESTIARY__*/[];
 const REFS = /*__REFS__*/{spells:[],feats:[],skills:[]};
@@ -269,6 +269,12 @@ function calcHTML(fam,vi){
 let LENS='ee';
 try{LENS=localStorage.getItem('gmf_lens')||'ee';}catch(e){}
 function setLens(v){LENS=v;try{localStorage.setItem('gmf_lens',v);}catch(e){}const s=document.getElementById('b-lens');if(s)s.value=v;renderB();}
+// Lens-aware CR (Adam, 2026-10-13): the MD-attributable share of an errata
+// (crMD) exists because of E&E's Massive Damage rule — under the SRD/MSRD
+// lenses it backs out, so the Chemical Toxyderm reads its FF-given 15 in
+// Modern mode and its E&E 17 natively. Body-ruled re-rates are dialect-
+// independent and stand in every lens.
+const lensCR=v=>v==null?null:(LENS==='ee'||!v.crMD)?v.cr:(v.cr-v.crMD);
 // Per-field transform: returns {label, html, delta?} — delta is the E&E line.
 function lensField(k,label,raw){
   const official=(txt)=>RFIELDS[k]?refify(esc(txt),true):esc(txt);
@@ -302,7 +308,8 @@ function statHTML(v,fam,vi){
     return `${t.label?`<div class="statrow"><b>${t.label}:</b> ${t.html}</div>`:''}${t.delta?`<div class="ee-delta" title="the Tantalize line: E&E's variant beneath the official reading — steal it for your table">⚜ ${t.delta}</div>`:''}`;
   }).join('');
   const note=LENS!=='ee'?`<div class="lens-note">${LENS==='classic'?'Classic SRD':'Modern SRD'} lens — conversions approximate; E&E is the native truth. Gold ⚜ lines are E&E's variants, free for the borrowing.</div>`:'';
-  return `<div class="statline">${note}${rows}${scaled}${fam!=null?calcHTML(fam,vi):''}</div>`;
+  const crDelta=(LENS!=='ee'&&v.crMD)?`<div class="ee-delta" title="the lens shows the FF-given CR; the difference is the Massive Damage surcharge, which only exists under E&E's rule">⚜ E&E rates this creature CR ${esc(String(fmtCR(v.cr)))} — its Massive Damage rule prices the big hits this dialect lets slide.</div>`:'';
+  return `<div class="statline">${note}${rows}${crDelta}${scaled}${fam!=null?calcHTML(fam,vi):''}</div>`;
 }
 function pickV(sel,idx){
   const f=VIEW[idx];
@@ -328,9 +335,11 @@ function renderB(){
     // preselect the first variant that matches the active filters
     let sel=0; if(ty||sz||crb){const m=f.variants.findIndex(v=>vMatch(v,ty,sz,lo,hi)); if(m>=0)sel=m;}
     const v0=f.variants[sel];
-    const crChip=f.crMin!=null?`<span class="chip cr">CR ${f.crMin===f.crMax?esc(String(fmtCR(f.crMin))):esc(fmtCR(f.crMin)+'–'+fmtCR(f.crMax))}</span>`:'';
+    const crs=f.variants.map(v=>lensCR(v)).filter(x=>x!=null);
+    const cLo=crs.length?Math.min(...crs):null,cHi=crs.length?Math.max(...crs):null;
+    const crChip=cLo!=null?`<span class="chip cr">CR ${cLo===cHi?esc(String(fmtCR(cLo))):esc(fmtCR(cLo)+'–'+fmtCR(cHi))}</span>`:'';
     const formChip=f.variants.length>1?`<span class="chip" style="color:var(--green);border-color:rgba(109,186,136,.4)">${f.variants.length} forms</span>`:`<span class="chip">${esc(v0.size_type||'')}</span>`;
-    const vsel=f.variants.length>1?`<div style="padding:7px 12px 0;"><select id="vsel-${idx}" onchange="pickV(this,${idx})" style="max-width:100%;">${f.variants.map((v,i)=>`<option value="${i}"${i===sel?' selected':''}>${esc(v.label)}${v.challenge_rating?` — CR ${esc(v.challenge_rating)}`:''}</option>`).join('')}</select></div>`:'';
+    const vsel=f.variants.length>1?`<div style="padding:7px 12px 0;"><select id="vsel-${idx}" onchange="pickV(this,${idx})" style="max-width:100%;">${f.variants.map((v,i)=>`<option value="${i}"${i===sel?' selected':''}>${esc(v.label)}${v.cr!=null?` — CR ${esc(String(fmtCR(lensCR(v))))}`:''}</option>`).join('')}</select></div>`:'';
     return `<details class="card"><summary><span class="nm">${esc(toTitle(f.parent))}</span>${formChip}${crChip}${f.page?`<span class="chip pg">FF p.${f.page}</span>`:''}</summary>${vsel}<div id="stat-${idx}">${statHTML(v0,f.parent,sel)}</div><div style="padding:0 12px 6px"><button class="fbtn" onclick="advPanel(${idx})" title="FF pp.33-35: advance this creature by Hit Dice (and a quick class silhouette) — the calculus re-prices it live">⚙ Advance</button></div><div id="adv-${idx}"></div>${f.body?`<div class="body">${bodyHTML(f.body)}</div>`:''}</details>`;
   }).join('')+(hits.length>120?`<div class="count" style="padding:8px;">…${hits.length-120} more — narrow the search.</div>`:'');
 }
