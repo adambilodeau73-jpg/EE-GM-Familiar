@@ -1,4 +1,4 @@
-# CR MODEL — Phase C: body CR + priced abilities (generated 2026-10-12)
+# CR MODEL — Phase C: body CR + priced abilities (generated 2026-10-13)
 
 Two-stage legible model over 704 foes. **Fit:** body CR alone R² 0.931; with 98 priced ability tags (ridge λ=3) **R² 0.963, mean absolute error 0.9 CR**; intercept 0. predicted CR = body + Σ ability weights + intercept.
 

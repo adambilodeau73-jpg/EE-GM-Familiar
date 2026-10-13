@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "n": 704,
   "tags": 98,
   "lambda": 3,
@@ -10218,7 +10218,8 @@
    ],
    "pred": 8.6,
    "resid": -0.6,
-   "derived": false
+   "derived": false,
+   "note": "Trick for the GM's eye (Adam, 2026-10-12): Greater Invisibility 2/day (self only) — a POUNCE-AND-RAKE chassis that attacks from total unseen (50% miss against it, no Dex to AC, sneak-friendly flanks). The statline's quiet 'spells' undersells it: the lion you cannot see is the whole encounter."
   },
   "LAMMASU#1": {
    "printed": 13,

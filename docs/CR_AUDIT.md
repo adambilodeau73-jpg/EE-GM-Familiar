@@ -1,4 +1,4 @@
-# CR AUDIT — Phase B: the descriptive benchmarks (generated 2026-10-12)
+# CR AUDIT — Phase B: the descriptive benchmarks (generated 2026-10-13)
 
 Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, saves 688, offense 704). Method: per-CR percentile bands; outliers scored by robust within-band z (median/IQR, log-space for HP and damage), defense = mean z(effHP, fullAC), offense = mean z(bestAtk, routine), overall = their mean. Bands with n < 5 are reported but not scored.
 

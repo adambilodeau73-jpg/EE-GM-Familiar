@@ -190,7 +190,10 @@ for (let a = 0; a < anchors.length; a++) {
     // like "Elemental" is ToC-known too, and must not truncate a body
     // (creature headings are already bounded by the next block start).
     const t = lines[k];
-    if (pageOf.has(t.toUpperCase()) && (isCaps(t) || /\(Template\)/i.test(t))) break;
+    // v0.6.1 (Adam's Alicorn catch): ToC-known POINTER STUBS — "ALIEN (see
+    // EXTRATERRESTRIAL)" — carry a lowercase "see" that defeats isCaps and
+    // bled into the preceding body. Same narrow shape as the Template fix.
+    if (pageOf.has(t.toUpperCase()) && (isCaps(t) || /\(Template\)/i.test(t) || /\(see\s/i.test(t))) break;
     if (/^Chapter [IVX]+\b/.test(t)) break; // chapter boundary ends any body
     prose.push(t);
   }
