@@ -40,7 +40,9 @@ for (const m of ['effHP', 'fullAC', 'bestAtk', 'routineAvg', 'saveAvg', 'dcMax']
 const benchPayload = JSON.stringify(curves);
 const stage = JSON.parse(readFileSync('data/stage.json', 'utf8'));
 const stagePayload = JSON.stringify({ environs: stage.environs, library: stage.library, academy: stage.academy });
-const out = tpl.replace('/*__BESTIARY__*/[]', payload).replace('/*__REFS__*/{spells:[],feats:[],skills:[]}', refPayload).replace('/*__CRCALC__*/{meta:{},calc:{}}', calcPayload).replace('/*__BENCH__*/{}', benchPayload).replace('/*__STAGE__*/{environs:[],library:[],academy:{classes:[],roles:[]}}', stagePayload);
+const treasure = JSON.parse(readFileSync('data/treasure.json', 'utf8'));
+const treasurePayload = JSON.stringify({ levels: treasure.levels, values: treasure.values, avg: treasure.avg, beyond: treasure.beyond });
+const out = tpl.replace('/*__BESTIARY__*/[]', payload).replace('/*__REFS__*/{spells:[],feats:[],skills:[]}', refPayload).replace('/*__CRCALC__*/{meta:{},calc:{}}', calcPayload).replace('/*__BENCH__*/{}', benchPayload).replace('/*__STAGE__*/{environs:[],library:[],academy:{classes:[],roles:[]}}', stagePayload).replace('/*__TREASURE__*/{levels:{},values:{},avg:{},beyond:{}}', treasurePayload);
 writeFileSync('gmf.html', out);
 writeFileSync('index.html', out); // the bare domain serves the Familiar too (deploy nicety, 2026-10-12)
 console.log(`gmf.html built: ${(out.length/1024/1024).toFixed(2)} MB, ${data.entries.length} foes, ${refs.spells.length + refs.feats.length + refs.skills.length} refs embedded`);
