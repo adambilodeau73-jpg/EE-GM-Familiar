@@ -38,7 +38,9 @@ for (const m of ['effHP', 'fullAC', 'bestAtk', 'routineAvg', 'saveAvg', 'dcMax']
   curves[m] = pts;
 }
 const benchPayload = JSON.stringify(curves);
-const out = tpl.replace('/*__BESTIARY__*/[]', payload).replace('/*__REFS__*/{spells:[],feats:[],skills:[]}', refPayload).replace('/*__CRCALC__*/{meta:{},calc:{}}', calcPayload).replace('/*__BENCH__*/{}', benchPayload);
+const stage = JSON.parse(readFileSync('data/stage.json', 'utf8'));
+const stagePayload = JSON.stringify({ environs: stage.environs, library: stage.library, academy: stage.academy });
+const out = tpl.replace('/*__BESTIARY__*/[]', payload).replace('/*__REFS__*/{spells:[],feats:[],skills:[]}', refPayload).replace('/*__CRCALC__*/{meta:{},calc:{}}', calcPayload).replace('/*__BENCH__*/{}', benchPayload).replace('/*__STAGE__*/{environs:[],library:[],academy:{classes:[],roles:[]}}', stagePayload);
 writeFileSync('gmf.html', out);
 writeFileSync('index.html', out); // the bare domain serves the Familiar too (deploy nicety, 2026-10-12)
 console.log(`gmf.html built: ${(out.length/1024/1024).toFixed(2)} MB, ${data.entries.length} foes, ${refs.spells.length + refs.feats.length + refs.skills.length} refs embedded`);
