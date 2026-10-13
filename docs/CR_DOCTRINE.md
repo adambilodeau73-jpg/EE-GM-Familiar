@@ -58,3 +58,22 @@ measurables are harvested — the instrument is corpus-relative by construction.
   a would-be GM to live outside core; design session pending. The GMG also owes the CR
   CALCULUS GLOSSARY (letter banked on Adam’s TODO): the Familiar does the heavy lifting,
   the GMG explains the reading.
+
+## Gear, Tech Scale, and casters (Adam's gavels, 2026-10-13)
+- **Statline-carried gear is priced automatically** — the calculus prices output, not
+  provenance; a statted foe's armor and weapons already live in its AC and attack lines.
+- **Off-statline gear — the printed caveat (Adam's wording):** *"Challenge Rating
+  calculations do not account for equipment that is carried but not equipped."* Consumables
+  and activatables surface in the residual/tricks radar by design. (Goes in the GMG glossary
+  letter.)
+- **The TECH-SCALE TOGGLE (Forge lane, banked):** gear the GM adds BEYOND the print —
+  +1 CR if armed above the foe's native TS, +1 more if armored above it (cap +2), GM-set per
+  tray row. No double-count: the print's own gear is already in the body. (GMG pp.39-40's
+  Technological Considerations, finally given a dial.)
+- **CASTERS — the CL component, Heritage-tempered:** the flat 'spells' tag (+2.2) under-
+  prices archmages and would overprice Heritage-feat characters (CL = character level but
+  1st-level access only). The gaveled-in-principle formula: **spellCR = min(CL, 2 × highest
+  spell level castable)** — caster level is the amplifier, spell ACCESS is the ammunition;
+  access gates the price exactly as the Six Scales gate casting itself. Harvest: CL from
+  labels/body, access from the printed spell lists ("8th—Holy Aura…"); fall back to the
+  flat tag where lists don't print. Wire pending Adam's word.
