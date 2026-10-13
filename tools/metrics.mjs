@@ -152,6 +152,24 @@ for (const fam of B.entries) {
       // "Effectively-100% MD-forcing" (Adam's calculus, 2026-10-12): an attack
       // averaging >= 18 forces the check on virtually every adventurer Con.
       mdHits: dAtk ? dAtk.attacks.filter(a => a.avg >= 18).reduce((t, a) => t + a.n, 0) : null,
+      // THE CL COMPONENT (Adam's gavel, 2026-10-13): caster level from the
+      // classed label ("10th-Level Wizard") or, for casting-tagged variants,
+      // the family body ("Caster Level Nth"); highest spell level from the
+      // printed spell-list markers ("6th—Blade Barrier"). Access gates the
+      // price: spellCR = min(CL, 2 × S) in the model.
+      cl: (() => {
+        const lm = String(v.label || '').match(/(\d+)(?:st|nd|rd|th)-Level/i);
+        if (lm) return +lm[1];
+        const castish = /spells|spell-like|psionics|manifest/i.test(String(v.special_attacks || '') + ' ' + String(v.special_qualities || ''));
+        if (!castish) return null;
+        const bm = String(fam.body || '').match(/Caster Level[:\s]+(\d+)|Manifester level[:\s]+(\d+)|CL\s+(\d+)(?:st|nd|rd|th)|as an? (\d+)(?:st|nd|rd|th)-level (?:caster|manifester|cleric|wizard|sorcerer|druid|psion|wilder)/i);
+        return bm ? +(bm[1] || bm[2] || bm[3] || bm[4]) : null;
+      })(),
+      sMax: (() => {
+        let mx = null;
+        for (const m of String(fam.body || '').matchAll(/\b(\d)(?:st|nd|rd|th)\s*[—–-]/g)) mx = Math.max(mx ?? 0, +m[1]);
+        return mx;
+      })(),
       // PF1's benchmark lesson (2026-10-12): the primary ability DC is a
       // first-class offense number — harvest the highest DC printed anywhere
       // in the special-attack/quality lines.

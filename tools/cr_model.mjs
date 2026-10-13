@@ -60,12 +60,16 @@ function bodyOf(r) {
   // PF1 canon: appropriate SR = CR + 11, so srCR = SR − 11 (floored at 0).
   const svCR = invert(C.sv, r.fort != null ? (r.fort + r.ref + r.will) / 3 : null);
   const srCR = r.srValue != null ? Math.max(0, r.srValue - 11) : null;
+  // THE CL COMPONENT (Adam, 2026-10-13): access gates the price, CL caps it
+  // — spellCR = min(CL, 2 × highest spell level). A Heritage-feat chassis
+  // (CL high, access 1st) prices its casting at 2, not its character level.
+  const spCR = r.cl != null ? Math.min(r.cl, r.sMax != null ? 2 * r.sMax : r.cl) : null;
   const def = [hpCR, acCR, svCR, srCR].filter(x => x != null);
-  const off = [atkCR, dmgCR, dcCR].filter(x => x != null);
+  const off = [atkCR, dmgCR, dcCR, spCR].filter(x => x != null);
   if (!def.length || !off.length) return null;
   const defCR = def.reduce((a, b) => a + b) / def.length;
   const offCR = off.reduce((a, b) => a + b) / off.length;
-  return { hpCR: r1(hpCR), acCR: r1(acCR), svCR: r1(svCR), srCR: r1(srCR), atkCR: r1(atkCR), dmgCR: r1(dmgCR), dcCR: r1(dcCR), defCR: r1(defCR), offCR: r1(offCR), body: (defCR + offCR) / 2 };
+  return { hpCR: r1(hpCR), acCR: r1(acCR), svCR: r1(svCR), srCR: r1(srCR), atkCR: r1(atkCR), dmgCR: r1(dmgCR), dcCR: r1(dcCR), spCR: r1(spCR), defCR: r1(defCR), offCR: r1(offCR), body: (defCR + offCR) / 2 };
 }
 
 // ---- Stage 2: ridge regression of (printed − body) on ability tags ----
@@ -156,7 +160,7 @@ for (const f of fit) {
   if (f.b.acCR != null && f.b.acCR - f.r.cr >= 5) notable.push('Fortress AC');
   calc[`${f.r.fam}#${f.r.vi}`] = {
     printed: f.r.cr, body: r1(f.b.body), def: f.b.defCR, off: f.b.offCR,
-    hpCR: f.b.hpCR, acCR: f.b.acCR, svCR: f.b.svCR, srCR: f.b.srCR, atkCR: f.b.atkCR, dmgCR: f.b.dmgCR, dcCR: f.b.dcCR,
+    hpCR: f.b.hpCR, acCR: f.b.acCR, svCR: f.b.svCR, srCR: f.b.srCR, atkCR: f.b.atkCR, dmgCR: f.b.dmgCR, dcCR: f.b.dcCR, spCR: f.b.spCR,
     abil: r1(abil), contribs: contribs.slice(0, 6), unpriced, pred: r1(pred), resid: r1(resid),
     derived: !!f.r.derivedRoutine,
     ...(notable.length ? { notable } : {}),

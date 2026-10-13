@@ -77,6 +77,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": 13,
+   "sMax": 5,
    "dcMax": null,
    "template": false
   },
@@ -140,6 +142,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": 10,
+   "sMax": 5,
    "dcMax": null,
    "template": false
   },
@@ -206,6 +210,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -278,6 +284,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 8,
    "dcMax": 19,
    "template": false
   },
@@ -351,6 +359,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 8,
    "dcMax": 23,
    "template": false
   },
@@ -412,6 +422,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -480,6 +492,8 @@
    ],
    "maxHitAvg": 16.5,
    "mdHits": 0,
+   "cl": 12,
+   "sMax": 9,
    "dcMax": null,
    "template": false
   },
@@ -549,6 +563,8 @@
    ],
    "maxHitAvg": 23.5,
    "mdHits": 3,
+   "cl": 12,
+   "sMax": 9,
    "dcMax": null,
    "template": false
   },
@@ -618,6 +634,8 @@
    ],
    "maxHitAvg": 28.5,
    "mdHits": 5,
+   "cl": 12,
+   "sMax": 9,
    "dcMax": null,
    "template": false
   },
@@ -681,6 +699,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -739,6 +759,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -795,6 +817,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -857,6 +881,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -914,6 +940,8 @@
    ],
    "maxHitAvg": 16.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -978,6 +1006,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1036,6 +1066,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1093,6 +1125,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1157,6 +1191,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1215,6 +1251,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1272,6 +1310,8 @@
    ],
    "maxHitAvg": 14.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1335,6 +1375,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1396,6 +1438,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1452,6 +1496,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1510,6 +1556,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1570,6 +1618,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1632,6 +1682,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1695,6 +1747,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1752,6 +1806,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1809,6 +1865,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1864,6 +1922,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1927,6 +1987,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -1985,6 +2047,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2043,6 +2107,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2098,6 +2164,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2153,6 +2221,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2208,6 +2278,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2263,6 +2335,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2325,6 +2399,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2380,6 +2456,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2429,6 +2507,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2478,6 +2558,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2538,6 +2620,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2593,6 +2677,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2650,6 +2736,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2714,6 +2802,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2778,6 +2868,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2833,6 +2925,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2881,6 +2975,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2936,6 +3032,8 @@
    ],
    "maxHitAvg": 2,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -2991,6 +3089,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3055,6 +3155,8 @@
    ],
    "maxHitAvg": 2,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3120,6 +3222,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3175,6 +3279,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3224,6 +3330,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3279,6 +3387,8 @@
    ],
    "maxHitAvg": 4,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3335,6 +3445,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3391,6 +3503,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3446,6 +3560,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3501,6 +3617,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3556,6 +3674,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3615,6 +3735,8 @@
    ],
    "maxHitAvg": 6,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3674,6 +3796,8 @@
    ],
    "maxHitAvg": 14.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3732,6 +3856,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3790,6 +3916,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3848,6 +3976,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3906,6 +4036,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -3964,6 +4096,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4028,6 +4162,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4092,6 +4228,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4148,6 +4286,8 @@
    ],
    "maxHitAvg": 22.5,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4209,6 +4349,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4265,6 +4407,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4322,6 +4466,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4381,6 +4527,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4439,6 +4587,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4497,6 +4647,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4555,6 +4707,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4613,6 +4767,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4671,6 +4827,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4729,6 +4887,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4789,6 +4949,8 @@
    ],
    "maxHitAvg": 16.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4850,6 +5012,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -4912,6 +5076,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -4982,6 +5148,8 @@
    ],
    "maxHitAvg": 10,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5056,6 +5224,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5123,6 +5293,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 3,
+   "cl": 12,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -5183,6 +5355,8 @@
    ],
    "maxHitAvg": 7,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5243,6 +5417,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5303,6 +5479,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5366,6 +5544,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5423,6 +5603,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": 1,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5479,6 +5661,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": 2,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5536,6 +5720,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5593,6 +5779,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": 4,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5651,6 +5839,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": 5,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5709,6 +5899,8 @@
    ],
    "maxHitAvg": 15.5,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5767,6 +5959,8 @@
    ],
    "maxHitAvg": 16.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5826,6 +6020,8 @@
    ],
    "maxHitAvg": 18.5,
    "mdHits": 2,
+   "cl": 8,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5885,6 +6081,8 @@
    ],
    "maxHitAvg": 23,
    "mdHits": 2,
+   "cl": 9,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -5952,6 +6150,8 @@
    ],
    "maxHitAvg": 18.5,
    "mdHits": 3,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6011,6 +6211,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6076,6 +6278,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6142,6 +6346,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6199,6 +6405,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6260,6 +6468,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6325,6 +6535,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6394,6 +6606,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6452,6 +6666,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6513,6 +6729,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6573,6 +6791,8 @@
    ],
    "maxHitAvg": 2,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6629,6 +6849,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6694,6 +6916,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6755,6 +6979,8 @@
    ],
    "maxHitAvg": 7,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -6813,6 +7039,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -6880,6 +7108,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": 8,
+   "sMax": 8,
    "dcMax": null,
    "template": false
   },
@@ -6946,6 +7176,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7013,6 +7245,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 3,
+   "cl": 12,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -7087,6 +7321,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": 10,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7146,6 +7382,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7204,6 +7442,8 @@
    ],
    "maxHitAvg": 4,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7265,6 +7505,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 13,
    "template": false
   },
@@ -7339,6 +7581,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7398,6 +7642,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7459,6 +7705,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7523,6 +7771,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7581,6 +7831,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7644,6 +7896,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": 9,
    "dcMax": null,
    "template": false
   },
@@ -7707,6 +7961,8 @@
    ],
    "maxHitAvg": 19.5,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7767,6 +8023,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7826,6 +8084,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7887,6 +8147,8 @@
    ],
    "maxHitAvg": 18.5,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -7958,6 +8220,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -8033,6 +8297,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": 20,
+   "sMax": 9,
    "dcMax": null,
    "template": false
   },
@@ -8101,6 +8367,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -8176,6 +8444,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": 4,
    "dcMax": null,
    "template": false
   },
@@ -8244,6 +8514,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": 2,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -8321,6 +8593,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 2,
+   "cl": 14,
+   "sMax": 4,
    "dcMax": null,
    "template": false
   },
@@ -8392,6 +8666,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": 13,
+   "sMax": 4,
    "dcMax": null,
    "template": false
   },
@@ -8468,6 +8744,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": 16,
+   "sMax": 5,
    "dcMax": null,
    "template": false
   },
@@ -8540,6 +8818,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": 12,
+   "sMax": 5,
    "dcMax": null,
    "template": false
   },
@@ -8608,6 +8888,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -8679,6 +8961,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 8,
    "dcMax": null,
    "template": false
   },
@@ -8746,6 +9030,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": 12,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -8824,6 +9110,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": 12,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -8886,6 +9174,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -8946,6 +9236,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9004,6 +9296,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9071,6 +9365,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": 4,
    "dcMax": null,
    "template": false
   },
@@ -9136,6 +9432,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -9211,6 +9509,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": 4,
    "dcMax": null,
    "template": false
   },
@@ -9272,6 +9572,8 @@
    ],
    "maxHitAvg": 7,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9338,6 +9640,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": 16,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -9407,6 +9711,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9486,6 +9792,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 4,
+   "cl": 15,
+   "sMax": 6,
    "dcMax": null,
    "template": false
   },
@@ -9562,6 +9870,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": 13,
+   "sMax": 4,
    "dcMax": null,
    "template": false
   },
@@ -9625,6 +9935,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9685,6 +9997,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9769,6 +10083,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 3,
+   "cl": 18,
+   "sMax": 8,
    "dcMax": null,
    "template": false
   },
@@ -9830,6 +10146,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": 18,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9889,6 +10207,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -9956,6 +10276,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10012,6 +10334,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10079,6 +10403,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10137,6 +10463,8 @@
    ],
    "maxHitAvg": 24,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10195,6 +10523,8 @@
    ],
    "maxHitAvg": 23.5,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10252,6 +10582,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10321,6 +10653,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10386,6 +10720,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10451,6 +10787,8 @@
    ],
    "maxHitAvg": 10,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": 6,
    "dcMax": null,
    "template": false
   },
@@ -10509,6 +10847,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10570,6 +10910,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10629,6 +10971,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10688,6 +11032,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10748,6 +11094,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10808,6 +11156,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10868,6 +11218,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10928,6 +11280,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -10987,6 +11341,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11046,6 +11402,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11106,6 +11464,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11167,6 +11527,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11228,6 +11590,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11289,6 +11653,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11349,6 +11715,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11409,6 +11777,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11470,6 +11840,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11532,6 +11904,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11594,6 +11968,8 @@
    ],
    "maxHitAvg": 23,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11656,6 +12032,8 @@
    ],
    "maxHitAvg": 24,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11717,6 +12095,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11778,6 +12158,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11840,6 +12222,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11903,6 +12287,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -11966,6 +12352,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12029,6 +12417,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12094,6 +12484,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 17,
    "template": false
   },
@@ -12150,6 +12542,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12205,6 +12599,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12267,6 +12663,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12330,6 +12728,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12385,6 +12785,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12446,6 +12848,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -12510,6 +12914,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -12574,6 +12980,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12633,6 +13041,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 13,
    "template": false
   },
@@ -12697,6 +13107,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": null,
    "dcMax": 17,
    "template": false
   },
@@ -12766,6 +13178,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12827,6 +13241,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -12894,6 +13310,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 15,
    "template": false
   },
@@ -12956,6 +13374,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13018,6 +13438,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13080,6 +13502,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13153,6 +13577,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13224,6 +13650,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13299,6 +13727,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13362,6 +13792,8 @@
    ],
    "maxHitAvg": 25.5,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13413,6 +13845,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13470,6 +13904,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13537,6 +13973,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13599,6 +14037,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": 20,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13662,6 +14102,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": 12,
+   "sMax": 2,
    "dcMax": null,
    "template": false
   },
@@ -13724,6 +14166,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": 12,
+   "sMax": 2,
    "dcMax": null,
    "template": false
   },
@@ -13788,6 +14232,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13853,6 +14299,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13914,6 +14362,8 @@
    ],
    "maxHitAvg": 32,
    "mdHits": 3,
+   "cl": 15,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -13974,6 +14424,8 @@
    ],
    "maxHitAvg": 25.5,
    "mdHits": 3,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14034,6 +14486,8 @@
    ],
    "maxHitAvg": 23.5,
    "mdHits": 3,
+   "cl": null,
+   "sMax": 8,
    "dcMax": null,
    "template": false
   },
@@ -14103,6 +14557,8 @@
    ],
    "maxHitAvg": 32,
    "mdHits": 4,
+   "cl": 8,
+   "sMax": 8,
    "dcMax": null,
    "template": false
   },
@@ -14161,6 +14617,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14220,6 +14678,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 3,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14282,6 +14742,8 @@
    ],
    "maxHitAvg": 35,
    "mdHits": 3,
+   "cl": 15,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14351,6 +14813,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14415,6 +14879,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14469,6 +14935,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14527,6 +14995,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14581,6 +15051,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14637,6 +15109,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 9,
    "dcMax": null,
    "template": false
   },
@@ -14699,6 +15173,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14762,6 +15238,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14822,6 +15300,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14883,6 +15363,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -14944,6 +15426,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15005,6 +15489,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15066,6 +15552,8 @@
    ],
    "maxHitAvg": 31,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15125,6 +15613,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15189,6 +15679,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15248,6 +15740,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15312,6 +15806,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15378,6 +15874,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15435,6 +15933,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15500,6 +16000,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15556,6 +16058,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15622,6 +16126,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": 8,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15682,6 +16188,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15741,6 +16249,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15799,6 +16309,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15861,6 +16373,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15918,6 +16432,8 @@
    ],
    "maxHitAvg": 3,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -15978,6 +16494,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16038,6 +16556,8 @@
    ],
    "maxHitAvg": 23.5,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16100,6 +16620,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16160,6 +16682,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16217,6 +16741,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16279,6 +16805,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16341,6 +16869,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16400,6 +16930,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16459,6 +16991,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16518,6 +17052,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16577,6 +17113,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16636,6 +17174,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16695,6 +17235,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16754,6 +17296,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16813,6 +17357,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16876,6 +17422,8 @@
    ],
    "maxHitAvg": 17.5,
    "mdHits": 0,
+   "cl": 13,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -16938,6 +17486,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": 14,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17000,6 +17550,8 @@
    ],
    "maxHitAvg": 15.5,
    "mdHits": 0,
+   "cl": 8,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17062,6 +17614,8 @@
    ],
    "maxHitAvg": 3,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17120,6 +17674,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17178,6 +17734,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17231,6 +17789,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17303,6 +17863,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 3,
+   "cl": 9,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17366,6 +17928,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -17429,6 +17993,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17491,6 +18057,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -17568,6 +18136,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -17627,6 +18197,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17694,6 +18266,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": 10,
+   "sMax": 6,
    "dcMax": null,
    "template": false
   },
@@ -17759,6 +18333,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17820,6 +18396,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17881,6 +18459,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17940,6 +18520,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -17992,6 +18574,8 @@
    "sq": [],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -18049,6 +18633,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18115,6 +18701,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18180,6 +18768,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18238,6 +18828,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18299,6 +18891,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18365,6 +18959,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18422,6 +19018,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18484,6 +19082,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18545,6 +19145,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18602,6 +19204,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18670,6 +19274,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18735,6 +19341,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18792,6 +19400,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18853,6 +19463,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18918,6 +19530,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -18975,6 +19589,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19036,6 +19652,8 @@
    ],
    "maxHitAvg": 23,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19102,6 +19720,8 @@
    ],
    "maxHitAvg": 24,
    "mdHits": 3,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19164,6 +19784,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 3,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19225,6 +19847,8 @@
    ],
    "maxHitAvg": 26.5,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19292,6 +19916,8 @@
    ],
    "maxHitAvg": 31,
    "mdHits": 3,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19348,6 +19974,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19410,6 +20038,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19469,6 +20099,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19528,6 +20160,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19584,6 +20218,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19646,6 +20282,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19707,6 +20345,8 @@
    ],
    "maxHitAvg": 2,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19768,6 +20408,8 @@
    ],
    "maxHitAvg": 2,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -19830,6 +20472,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": 2,
    "dcMax": null,
    "template": false
   },
@@ -19893,6 +20537,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": 3,
    "dcMax": null,
    "template": false
   },
@@ -19956,6 +20602,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20019,6 +20667,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20081,6 +20731,8 @@
    ],
    "maxHitAvg": 4,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20142,6 +20794,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": 2,
    "dcMax": null,
    "template": false
   },
@@ -20205,6 +20859,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": 2,
    "dcMax": null,
    "template": false
   },
@@ -20267,6 +20923,8 @@
    ],
    "maxHitAvg": 4,
    "mdHits": 0,
+   "cl": 3,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20323,6 +20981,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20382,6 +21042,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20445,6 +21107,8 @@
    ],
    "maxHitAvg": 16.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20509,6 +21173,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20570,6 +21236,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -20634,6 +21302,8 @@
    ],
    "maxHitAvg": 17.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 15,
    "template": false
   },
@@ -20699,6 +21369,8 @@
    ],
    "maxHitAvg": 24,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": 24,
    "template": false
   },
@@ -20756,6 +21428,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20816,6 +21490,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20879,6 +21555,8 @@
    ],
    "maxHitAvg": 15.5,
    "mdHits": 0,
+   "cl": 10,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -20945,6 +21623,8 @@
    ],
    "maxHitAvg": 7,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -21003,6 +21683,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 9,
    "dcMax": null,
    "template": false
   },
@@ -21061,6 +21743,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -21119,6 +21803,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -21180,6 +21866,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21243,6 +21931,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": 8,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21304,6 +21994,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21369,6 +22061,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21435,6 +22129,8 @@
    ],
    "maxHitAvg": 19.5,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21510,6 +22206,8 @@
    ],
    "maxHitAvg": 35,
    "mdHits": 2,
+   "cl": 25,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21577,6 +22275,8 @@
    ],
    "maxHitAvg": 23,
    "mdHits": 2,
+   "cl": 21,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21643,6 +22343,8 @@
    ],
    "maxHitAvg": 24,
    "mdHits": 1,
+   "cl": 17,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21706,6 +22408,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -21761,6 +22465,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21821,6 +22527,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 2,
+   "cl": 4,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21881,6 +22589,8 @@
    ],
    "maxHitAvg": 17.5,
    "mdHits": 0,
+   "cl": 9,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -21942,6 +22652,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22003,6 +22715,8 @@
    ],
    "maxHitAvg": 33,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22064,6 +22778,8 @@
    ],
    "maxHitAvg": 7,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22125,6 +22841,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22186,6 +22904,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22241,6 +22961,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22300,6 +23022,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22360,6 +23084,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22421,6 +23147,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22484,6 +23212,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": 5,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22540,6 +23270,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22599,6 +23331,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22658,6 +23392,8 @@
    ],
    "maxHitAvg": 3,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22724,6 +23460,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22783,6 +23521,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": null,
    "template": false
   },
@@ -22842,6 +23582,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22905,6 +23647,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -22968,6 +23712,8 @@
    ],
    "maxHitAvg": 2,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23029,6 +23775,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23092,6 +23840,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23157,6 +23907,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23222,6 +23974,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": 18,
+   "sMax": 7,
    "dcMax": null,
    "template": false
   },
@@ -23284,6 +24038,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23349,6 +24105,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23410,6 +24168,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23471,6 +24231,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23528,6 +24290,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23596,6 +24360,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23661,6 +24427,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23727,6 +24495,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23795,6 +24565,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 4,
+   "cl": 15,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23850,6 +24622,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23912,6 +24686,8 @@
    ],
    "maxHitAvg": 1.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -23974,6 +24750,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24031,6 +24809,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24096,6 +24876,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24154,6 +24936,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24212,6 +24996,8 @@
    ],
    "maxHitAvg": 30,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24274,6 +25060,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24336,6 +25124,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24394,6 +25184,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24452,6 +25244,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24511,6 +25305,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24573,6 +25369,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24634,6 +25432,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24696,6 +25496,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24766,6 +25568,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24824,6 +25628,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24881,6 +25687,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -24938,6 +25746,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25000,6 +25810,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25062,6 +25874,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25134,6 +25948,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25192,6 +26008,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25259,6 +26077,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25318,6 +26138,8 @@
    ],
    "maxHitAvg": 32,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25391,6 +26213,8 @@
    ],
    "maxHitAvg": 22,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25449,6 +26273,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 13,
    "template": false
   },
@@ -25507,6 +26333,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 15,
    "template": false
   },
@@ -25570,6 +26398,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25633,6 +26463,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25694,6 +26526,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": 6,
    "dcMax": null,
    "template": false
   },
@@ -25754,6 +26588,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": 14,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25820,6 +26656,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25882,6 +26720,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -25943,6 +26783,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": 8,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26027,6 +26869,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 10,
    "template": false
   },
@@ -26111,6 +26955,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 11,
    "template": false
   },
@@ -26195,6 +27041,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 13,
    "template": false
   },
@@ -26279,6 +27127,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 17,
    "template": false
   },
@@ -26363,6 +27213,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -26421,6 +27273,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26477,6 +27331,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26533,6 +27389,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26592,6 +27450,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26646,6 +27506,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26702,6 +27564,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26757,6 +27621,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26842,6 +27708,8 @@
    ],
    "maxHitAvg": 35,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -26910,6 +27778,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 8,
    "dcMax": null,
    "template": false
   },
@@ -26975,6 +27845,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27037,6 +27909,8 @@
    ],
    "maxHitAvg": 13.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27095,6 +27969,8 @@
    ],
    "maxHitAvg": 0,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27154,6 +28030,8 @@
    ],
    "maxHitAvg": 22.5,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27219,6 +28097,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -27279,6 +28159,8 @@
    ],
    "maxHitAvg": 41,
    "mdHits": 5,
+   "cl": 20,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27345,6 +28227,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27411,6 +28295,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27477,6 +28363,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -27539,6 +28427,8 @@
    ],
    "maxHitAvg": 10,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 15,
    "template": false
   },
@@ -27602,6 +28492,8 @@
    ],
    "maxHitAvg": 21.5,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 26,
    "template": false
   },
@@ -27662,6 +28554,8 @@
    ],
    "maxHitAvg": 30,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 27,
    "template": false
   },
@@ -27722,6 +28616,8 @@
    ],
    "maxHitAvg": 38,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 49,
    "template": false
   },
@@ -27782,6 +28678,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 3,
+   "cl": null,
+   "sMax": null,
    "dcMax": 24,
    "template": false
   },
@@ -27842,6 +28740,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 49,
    "template": false
   },
@@ -27903,6 +28803,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 32,
    "template": false
   },
@@ -27964,6 +28866,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28021,6 +28925,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28077,6 +28983,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28141,6 +29049,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28209,6 +29119,8 @@
    ],
    "maxHitAvg": 15,
    "mdHits": 0,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28263,6 +29175,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": 6,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28322,6 +29236,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 4,
    "dcMax": null,
    "template": false
   },
@@ -28389,6 +29305,8 @@
    ],
    "maxHitAvg": 12.5,
    "mdHits": 0,
+   "cl": 5,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28465,6 +29383,8 @@
    ],
    "maxHitAvg": 14.5,
    "mdHits": 0,
+   "cl": 7,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28530,6 +29450,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28595,6 +29517,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28653,6 +29577,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28711,6 +29637,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28770,6 +29698,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28827,6 +29757,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28885,6 +29817,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28942,6 +29876,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -28997,6 +29933,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29054,6 +29992,8 @@
    ],
    "maxHitAvg": 23,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29117,6 +30057,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29175,6 +30117,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29234,6 +30178,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29293,6 +30239,8 @@
    ],
    "maxHitAvg": 5.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29352,6 +30300,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29411,6 +30361,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29470,6 +30422,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29530,6 +30484,8 @@
    ],
    "maxHitAvg": 2,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29590,6 +30546,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29655,6 +30613,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29720,6 +30680,8 @@
    ],
    "maxHitAvg": 10.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29785,6 +30747,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29851,6 +30815,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 2,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29911,6 +30877,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -29971,6 +30939,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30031,6 +31001,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30091,6 +31063,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30151,6 +31125,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30211,6 +31187,8 @@
    ],
    "maxHitAvg": 29,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30267,6 +31245,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30323,6 +31303,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30379,6 +31361,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30436,6 +31420,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30494,6 +31480,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30552,6 +31540,8 @@
    ],
    "maxHitAvg": 9.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30610,6 +31600,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30668,6 +31660,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30726,6 +31720,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30787,6 +31783,8 @@
    ],
    "maxHitAvg": 7,
    "mdHits": 0,
+   "cl": 10,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30845,6 +31843,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30901,6 +31901,8 @@
    ],
    "maxHitAvg": 9,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -30963,6 +31965,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31021,6 +32025,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31083,6 +32089,8 @@
    ],
    "maxHitAvg": 6,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31145,6 +32153,8 @@
    ],
    "maxHitAvg": 11.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31221,6 +32231,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31276,6 +32288,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31336,6 +32350,8 @@
    ],
    "maxHitAvg": 8,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31402,6 +32418,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31468,6 +32486,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31534,6 +32554,8 @@
    ],
    "maxHitAvg": 25,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31595,6 +32617,8 @@
    ],
    "maxHitAvg": 8.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31653,6 +32677,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31718,6 +32744,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31778,6 +32806,8 @@
    ],
    "maxHitAvg": 5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31835,6 +32865,8 @@
    ],
    "maxHitAvg": 3.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31892,6 +32924,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -31949,6 +32983,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32006,6 +33042,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32063,6 +33101,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32120,6 +33160,8 @@
    ],
    "maxHitAvg": 17.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32178,6 +33220,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32235,6 +33279,8 @@
    ],
    "maxHitAvg": 14.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32293,6 +33339,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32343,6 +33391,8 @@
    ],
    "maxHitAvg": null,
    "mdHits": null,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32397,6 +33447,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -32466,6 +33518,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 13,
    "template": false
   },
@@ -32535,6 +33589,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 14,
    "template": false
   },
@@ -32604,6 +33660,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 17,
    "template": false
   },
@@ -32673,6 +33731,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 18,
    "template": false
   },
@@ -32750,6 +33810,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 21,
    "template": false
   },
@@ -32826,6 +33888,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 23,
    "template": false
   },
@@ -32902,6 +33966,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 26,
    "template": false
   },
@@ -32978,6 +34044,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 27,
    "template": false
   },
@@ -33054,6 +34122,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 30,
    "template": false
   },
@@ -33130,6 +34200,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 31,
    "template": false
   },
@@ -33206,6 +34278,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 34,
    "template": false
   },
@@ -33282,6 +34356,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 1,
    "dcMax": 36,
    "template": false
   },
@@ -33349,6 +34425,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -33416,6 +34494,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 16,
    "template": false
   },
@@ -33483,6 +34563,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -33556,6 +34638,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 20,
    "template": false
   },
@@ -33630,6 +34714,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -33704,6 +34790,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 25,
    "template": false
   },
@@ -33778,6 +34866,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 27,
    "template": false
   },
@@ -33852,6 +34942,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 29,
    "template": false
   },
@@ -33926,6 +35018,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 31,
    "template": false
   },
@@ -34000,6 +35094,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 33,
    "template": false
   },
@@ -34074,6 +35170,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 36,
    "template": false
   },
@@ -34148,6 +35246,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 37,
    "template": false
   },
@@ -34215,6 +35315,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 13,
    "template": false
   },
@@ -34282,6 +35384,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 16,
    "template": false
   },
@@ -34350,6 +35454,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 17,
    "template": false
   },
@@ -34422,6 +35528,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 20,
    "template": false
   },
@@ -34496,6 +35604,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 22,
    "template": false
   },
@@ -34570,6 +35680,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 25,
    "template": false
   },
@@ -34644,6 +35756,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 26,
    "template": false
   },
@@ -34718,6 +35832,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 29,
    "template": false
   },
@@ -34792,6 +35908,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 30,
    "template": false
   },
@@ -34866,6 +35984,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 33,
    "template": false
   },
@@ -34940,6 +36060,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 35,
    "template": false
   },
@@ -35014,6 +36136,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 37,
    "template": false
   },
@@ -35082,6 +36206,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 15,
    "template": false
   },
@@ -35156,6 +36282,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -35230,6 +36358,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 19,
    "template": false
   },
@@ -35303,6 +36433,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 22,
    "template": false
   },
@@ -35378,6 +36510,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 24,
    "template": false
   },
@@ -35453,6 +36587,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 26,
    "template": false
   },
@@ -35528,6 +36664,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 28,
    "template": false
   },
@@ -35603,6 +36741,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 31,
    "template": false
   },
@@ -35678,6 +36818,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 33,
    "template": false
   },
@@ -35753,6 +36895,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 36,
    "template": false
   },
@@ -35828,6 +36972,8 @@
    ],
    "maxHitAvg": 29,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 38,
    "template": false
   },
@@ -35904,6 +37050,8 @@
    ],
    "maxHitAvg": 35,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 40,
    "template": false
   },
@@ -35975,6 +37123,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 12,
    "template": false
   },
@@ -36046,6 +37196,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 14,
    "template": false
   },
@@ -36117,6 +37269,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 16,
    "template": false
   },
@@ -36188,6 +37342,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 18,
    "template": false
   },
@@ -36266,6 +37422,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 20,
    "template": false
   },
@@ -36344,6 +37502,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 23,
    "template": false
   },
@@ -36422,6 +37582,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 25,
    "template": false
   },
@@ -36500,6 +37662,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 27,
    "template": false
   },
@@ -36578,6 +37742,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 29,
    "template": false
   },
@@ -36656,6 +37822,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 31,
    "template": false
   },
@@ -36734,6 +37902,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 33,
    "template": false
   },
@@ -36806,6 +37976,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 5,
    "dcMax": 36,
    "template": false
   },
@@ -36876,6 +38048,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 15,
    "template": false
   },
@@ -36952,6 +38126,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -37028,6 +38204,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 19,
    "template": false
   },
@@ -37103,6 +38281,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 22,
    "template": false
   },
@@ -37180,6 +38360,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 24,
    "template": false
   },
@@ -37257,6 +38439,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 26,
    "template": false
   },
@@ -37334,6 +38518,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 28,
    "template": false
   },
@@ -37412,6 +38598,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 31,
    "template": false
   },
@@ -37490,6 +38678,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 33,
    "template": false
   },
@@ -37568,6 +38758,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 36,
    "template": false
   },
@@ -37646,6 +38838,8 @@
    ],
    "maxHitAvg": 29,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 38,
    "template": false
   },
@@ -37725,6 +38919,8 @@
    ],
    "maxHitAvg": 35,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 40,
    "template": false
   },
@@ -37792,6 +38988,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -37859,6 +39057,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -37927,6 +39127,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -37999,6 +39201,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38072,6 +39276,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38145,6 +39351,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38218,6 +39426,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38292,6 +39502,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38366,6 +39578,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38440,6 +39654,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38514,6 +39730,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38588,6 +39806,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38656,6 +39876,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38724,6 +39946,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38792,6 +40016,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38860,6 +40086,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -38934,6 +40162,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39008,6 +40238,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39082,6 +40314,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39156,6 +40390,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39230,6 +40466,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39304,6 +40542,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39378,6 +40618,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39452,6 +40694,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": null,
    "template": false
   },
@@ -39521,6 +40765,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -39590,6 +40836,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 16,
    "template": false
   },
@@ -39659,6 +40907,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -39733,6 +40983,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 20,
    "template": false
   },
@@ -39809,6 +41061,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -39885,6 +41139,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 25,
    "template": false
   },
@@ -39961,6 +41217,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 27,
    "template": false
   },
@@ -40037,6 +41295,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 29,
    "template": false
   },
@@ -40113,6 +41373,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 31,
    "template": false
   },
@@ -40189,6 +41451,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 33,
    "template": false
   },
@@ -40265,6 +41529,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 36,
    "template": false
   },
@@ -40341,6 +41607,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 37,
    "template": false
   },
@@ -40410,6 +41678,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -40479,6 +41749,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 16,
    "template": false
   },
@@ -40548,6 +41820,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -40622,6 +41896,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 20,
    "template": false
   },
@@ -40698,6 +41974,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -40774,6 +42052,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 25,
    "template": false
   },
@@ -40850,6 +42130,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 27,
    "template": false
   },
@@ -40926,6 +42208,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 29,
    "template": false
   },
@@ -41002,6 +42286,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 31,
    "template": false
   },
@@ -41078,6 +42364,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 33,
    "template": false
   },
@@ -41154,6 +42442,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 36,
    "template": false
   },
@@ -41230,6 +42520,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 37,
    "template": false
   },
@@ -41301,6 +42593,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 13,
    "template": false
   },
@@ -41372,6 +42666,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -41443,6 +42739,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 17,
    "template": false
   },
@@ -41514,6 +42812,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -41592,6 +42892,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 21,
    "template": false
   },
@@ -41670,6 +42972,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -41748,6 +43052,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 26,
    "template": false
   },
@@ -41826,6 +43132,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 27,
    "template": false
   },
@@ -41904,6 +43212,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 30,
    "template": false
   },
@@ -41982,6 +43292,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 31,
    "template": false
   },
@@ -42060,6 +43372,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 34,
    "template": false
   },
@@ -42132,6 +43446,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 36,
    "template": false
   },
@@ -42202,6 +43518,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 13,
    "template": false
   },
@@ -42272,6 +43590,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 14,
    "template": false
   },
@@ -42342,6 +43662,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 17,
    "template": false
   },
@@ -42412,6 +43734,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 18,
    "template": false
   },
@@ -42489,6 +43813,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 21,
    "template": false
   },
@@ -42566,6 +43892,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 23,
    "template": false
   },
@@ -42643,6 +43971,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 26,
    "template": false
   },
@@ -42720,6 +44050,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 27,
    "template": false
   },
@@ -42797,6 +44129,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 30,
    "template": false
   },
@@ -42874,6 +44208,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 31,
    "template": false
   },
@@ -42951,6 +44287,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 34,
    "template": false
   },
@@ -43028,6 +44366,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 7,
    "dcMax": 36,
    "template": false
   },
@@ -43098,6 +44438,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -43168,6 +44510,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 16,
    "template": false
   },
@@ -43238,6 +44582,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -43313,6 +44659,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 20,
    "template": false
   },
@@ -43390,6 +44738,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -43468,6 +44818,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 25,
    "template": false
   },
@@ -43546,6 +44898,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 27,
    "template": false
   },
@@ -43624,6 +44978,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 29,
    "template": false
   },
@@ -43702,6 +45058,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 31,
    "template": false
   },
@@ -43780,6 +45138,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 33,
    "template": false
   },
@@ -43858,6 +45218,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 36,
    "template": false
   },
@@ -43936,6 +45298,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 37,
    "template": false
   },
@@ -44004,6 +45368,8 @@
    ],
    "maxHitAvg": 2.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 13,
    "template": false
   },
@@ -44072,6 +45438,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 15,
    "template": false
   },
@@ -44140,6 +45508,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 17,
    "template": false
   },
@@ -44208,6 +45578,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 19,
    "template": false
   },
@@ -44283,6 +45655,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 21,
    "template": false
   },
@@ -44358,6 +45732,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 24,
    "template": false
   },
@@ -44433,6 +45809,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 26,
    "template": false
   },
@@ -44508,6 +45886,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 28,
    "template": false
   },
@@ -44583,6 +45963,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 30,
    "template": false
   },
@@ -44658,6 +46040,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 32,
    "template": false
   },
@@ -44733,6 +46117,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 34,
    "template": false
   },
@@ -44808,6 +46194,8 @@
    ],
    "maxHitAvg": 27,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 37,
    "template": false
   },
@@ -44879,6 +46267,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 16,
    "template": false
   },
@@ -44955,6 +46345,8 @@
    ],
    "maxHitAvg": 12,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 18,
    "template": false
   },
@@ -45031,6 +46423,8 @@
    ],
    "maxHitAvg": 14,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 20,
    "template": false
   },
@@ -45107,6 +46501,8 @@
    ],
    "maxHitAvg": 16,
    "mdHits": 0,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 22,
    "template": false
   },
@@ -45185,6 +46581,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 25,
    "template": false
   },
@@ -45263,6 +46661,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 26,
    "template": false
   },
@@ -45341,6 +46741,8 @@
    ],
    "maxHitAvg": 21,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 29,
    "template": false
   },
@@ -45419,6 +46821,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 31,
    "template": false
   },
@@ -45497,6 +46901,8 @@
    ],
    "maxHitAvg": 29,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 34,
    "template": false
   },
@@ -45575,6 +46981,8 @@
    ],
    "maxHitAvg": 30,
    "mdHits": 1,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 36,
    "template": false
   },
@@ -45654,6 +47062,8 @@
    ],
    "maxHitAvg": 35,
    "mdHits": 4,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 39,
    "template": false
   },
@@ -45733,6 +47143,8 @@
    ],
    "maxHitAvg": 36,
    "mdHits": 6,
+   "cl": null,
+   "sMax": 2,
    "dcMax": 41,
    "template": false
   },
@@ -45803,6 +47215,8 @@
    ],
    "maxHitAvg": 4.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 14,
    "template": false
   },
@@ -45874,6 +47288,8 @@
    ],
    "maxHitAvg": 6.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 17,
    "template": false
   },
@@ -45944,6 +47360,8 @@
    ],
    "maxHitAvg": 7.5,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 18,
    "template": false
   },
@@ -46019,6 +47437,8 @@
    ],
    "maxHitAvg": 11,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 21,
    "template": false
   },
@@ -46096,6 +47516,8 @@
    ],
    "maxHitAvg": 13,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 23,
    "template": false
   },
@@ -46173,6 +47595,8 @@
    ],
    "maxHitAvg": 17,
    "mdHits": 0,
+   "cl": null,
+   "sMax": null,
    "dcMax": 26,
    "template": false
   },
@@ -46250,6 +47674,8 @@
    ],
    "maxHitAvg": 18,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 27,
    "template": false
   },
@@ -46327,6 +47753,8 @@
    ],
    "maxHitAvg": 19,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 30,
    "template": false
   },
@@ -46404,6 +47832,8 @@
    ],
    "maxHitAvg": 20,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 32,
    "template": false
   },
@@ -46481,6 +47911,8 @@
    ],
    "maxHitAvg": 26,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 35,
    "template": false
   },
@@ -46558,6 +47990,8 @@
    ],
    "maxHitAvg": 28,
    "mdHits": 1,
+   "cl": null,
+   "sMax": null,
    "dcMax": 37,
    "template": false
   },
@@ -46636,6 +48070,8 @@
    ],
    "maxHitAvg": 34,
    "mdHits": 4,
+   "cl": null,
+   "sMax": null,
    "dcMax": 40,
    "template": false
   }
