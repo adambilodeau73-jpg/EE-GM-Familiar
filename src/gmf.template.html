@@ -64,11 +64,12 @@ details.card[open]{border-left-color:var(--gold)}
 <body>
 <header>
   <h1>The Game Master's Familiar</h1>
-  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.7.1 — Bestiary · Forge · Stage · Library · Academy · Adjudicator</div>
+  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.8.0 — Bestiary · Forge · Table Ops · Stage · Library · Academy · Adjudicator</div>
 </header>
 <nav>
   <button id="tab-bestiary" class="on" onclick="show('bestiary')">🐾 Bestiary</button>
   <button id="tab-forge" onclick="show('forge')">🔨 Forge</button>
+  <button id="tab-ops" onclick="show('ops')">⚔ Table Ops</button>
   <button id="tab-stage" onclick="show('stage')">🎭 Stage</button>
   <button id="tab-library" onclick="show('library')">📚 Library</button>
   <button id="tab-academy" onclick="show('academy')">🎓 Academy</button>
@@ -136,6 +137,45 @@ details.card[open]{border-left-color:var(--gold)}
     <div id="f-saved"></div>
   </div>
 </section>
+<section id="pg-ops" style="display:none">
+  <div class="fgrid">
+    <div class="fpanel">
+      <div class="fhead">THE SESSION</div>
+      <div class="bar" style="padding:6px 0">
+        <input type="text" id="o-campaign" placeholder="Campaign…" style="max-width:34%" oninput="opsMeta()">
+        <input type="text" id="o-title" placeholder="Session title…" style="max-width:34%" oninput="opsMeta()">
+        <input type="text" id="o-registers" placeholder="registers (tone tags)…" style="max-width:26%" oninput="opsMeta()" title="the setting's tone tags — the Chronicler's styling dial (e.g. gothic, industrial-horror)">
+      </div>
+      <div class="bar" style="padding:2px 0">
+        <button class="fbtn" onclick="opsNew()" title="archives the current session and opens a fresh log">New session</button>
+        <button class="fbtn" onclick="opsExport()" title="download the full session document (.gmfsession.json) — the Chronicler's transcript">Export</button>
+        <span class="fshare" id="o-meta"></span>
+      </div>
+      <div class="bar" style="padding:4px 0">
+        <button class="fbtn" onclick="opsScene()">🎬 Scene</button>
+        <button class="fbtn" onclick="opsQuote()">💬 Quote</button>
+        <button class="fbtn" onclick="opsNote()">📝 Note</button>
+        <button class="fbtn" onclick="opsLoot()">💰 Loot</button>
+        <input type="text" id="o-quick" placeholder="…text for scene/quote/note/loot" style="flex:1">
+      </div>
+      <div id="o-log"></div>
+    </div>
+    <div class="fpanel">
+      <div class="fhead">THE COMBAT RAIL — <span id="o-round" class="fshare"></span></div>
+      <div class="bar" style="padding:6px 0">
+        <select id="o-enc"></select>
+        <button class="fbtn" onclick="opsSeed()" title="seed the rail from a saved Forge encounter (hp from the statblocks)">Field encounter</button>
+        <button class="fbtn" onclick="opsParty()" title="add the Forge roster's PCs to the rail">+ Party</button>
+      </div>
+      <div class="bar" style="padding:2px 0">
+        <input type="text" id="o-adhoc" placeholder="ad-hoc name" style="max-width:40%"><input type="number" id="o-adhp" placeholder="hp" style="width:64px"><button class="fbtn" onclick="opsAdhoc()">Add</button>
+        <button class="fbtn" onclick="opsSort()" title="sort by initiative, highest first">Sort init</button>
+        <button class="fbtn" onclick="opsRound()" title="advance the round (logged)">Next round ▶</button>
+      </div>
+      <div id="o-rail"></div>
+    </div>
+  </div>
+</section>
 <section id="pg-stage" style="display:none">
   <div class="bar">
     <input type="text" id="s-q" placeholder="Search the stage — weather, terrain, hazards, dungeons…" oninput="renderS()">
@@ -167,7 +207,7 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="a-list"></div>
 </section>
 </main>
-<div class="foot">The Game Master's Familiar v0.7.1 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
+<div class="foot">The Game Master's Familiar v0.8.0 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
 <script>
 const BESTIARY = /*__BESTIARY__*/[];
 const REFS = /*__REFS__*/{spells:[],feats:[],skills:[]};
@@ -205,7 +245,7 @@ const ADJUDICATOR = [
 {t:'Dragons: Read the CR with Respect', s:'bestiary · dragons · GM doctrine', cite:"Adam's Class A ruling, 2026-10-12", d:'The young rungs (Juvenile and down) carry honest re-rates (+2, shown as errata on their cards) so the at-a-glance CR tells the truth. The proviso stands at EVERY age: a dragon played properly — flying, strafing breath on its own cooldowns, refusing melee until the party is softened, opening from surprise — fights one to two bands above any number printed beside it. The CR prices the creature; the WINGS and the WITS are yours to add. Budget an encounter with a dragon as if it were the next band up, and let the party feel clever for surviving what the math said they should.'}
 ];
 function show(p){
-  for(const t of ['bestiary','forge','stage','library','academy','adjudicator']){document.getElementById('pg-'+t).style.display=t===p?'':'none';document.getElementById('tab-'+t).classList.toggle('on',t===p);}
+  for(const t of ['bestiary','forge','ops','stage','library','academy','adjudicator']){document.getElementById('pg-'+t).style.display=t===p?'':'none';document.getElementById('tab-'+t).classList.toggle('on',t===p);}
 }
 const fmtCR=n=>n==null?null:(n<1?(Math.round(n*2)/2||0.5):Math.round(n));
 const toTitle=s=>String(s??'').toLowerCase().replace(/(^|[\s\-(\/,''])([a-z])/g,(m,p,c)=>p+c.toUpperCase());
@@ -385,6 +425,114 @@ function renderB(){
     const vsel=f.variants.length>1?`<div style="padding:7px 12px 0;"><select id="vsel-${idx}" onchange="pickV(this,${idx})" style="max-width:100%;">${f.variants.map((v,i)=>`<option value="${i}"${i===sel?' selected':''}>${esc(v.label)}${v.cr!=null?` — CR ${esc(String(fmtCR(lensCR(v))))}`:''}</option>`).join('')}</select></div>`:'';
     return `<details class="card"><summary><span class="nm">${esc(toTitle(f.parent))}</span>${formChip}${crChip}${f.page?`<span class="chip pg">FF p.${f.page}</span>`:''}</summary>${vsel}<div id="stat-${idx}">${statHTML(v0,f.parent,sel)}</div><div style="padding:0 12px 6px"><button class="fbtn" onclick="advPanel(${idx})" title="FF pp.33-35: advance this creature by Hit Dice (and a quick class silhouette) — the calculus re-prices it live">⚙ Advance</button></div><div id="adv-${idx}"></div>${f.body?`<div class="body">${bodyHTML(f.body)}</div>`:''}</details>`;
   }).join('')+(hits.length>120?`<div class="count" style="padding:8px;">…${hits.length-120} more — narrow the search.</div>`:'');
+}
+// ⚔ TABLE OPS (v0.8.0, Adam: "I look forward to the implementation" —
+// 2026-10-13, per the ratified spec §2): the tracker whose every tap WRITES
+// the Chronicler's transcript. One session document, append-only events
+// (seventeen kinds, each with a prose-rendering contract), autosaved per
+// action, exported whole. The event log IS the recap's source of truth —
+// the competitive insight that re-anchored the whole subscription.
+let OPS=null;
+function opsBlank(){return {id:'s-'+Date.now().toString(36)+Math.random().toString(36).slice(2,6),campaign:'',title:'',date:new Date().toISOString().slice(0,10),registers:[],rosterSnapshot:ROSTER.map(p=>({...p})),combat:[],round:0,seq:0,events:[]};}
+function opsLoad(){try{OPS=JSON.parse(localStorage.getItem('gmf_session_active'));}catch(e){}if(!OPS)OPS=opsBlank();}
+function opsSave(){try{localStorage.setItem('gmf_session_active',JSON.stringify(OPS));}catch(e){}}
+function EV(kind,fields){OPS.events.push({seq:++OPS.seq,t:new Date().toISOString(),kind,...(fields||{})});opsSave();renderOpsLog();}
+function opsMeta(){OPS.campaign=document.getElementById('o-campaign').value;OPS.title=document.getElementById('o-title').value;OPS.registers=document.getElementById('o-registers').value.split(/[,;]+/).map(s=>s.trim()).filter(Boolean);opsSave();}
+function opsNew(){
+  if(OPS&&(OPS.events.length||OPS.combat.length)){let arc=[];try{arc=JSON.parse(localStorage.getItem('gmf_sessions')||'[]');}catch(e){}arc.push(OPS);try{localStorage.setItem('gmf_sessions',JSON.stringify(arc));}catch(e){}}
+  OPS=opsBlank();opsSave();renderOps();
+}
+function opsExport(){
+  const a=document.createElement('a');
+  a.href='data:application/json;charset=utf-8,'+encodeURIComponent(JSON.stringify(OPS,null,1));
+  a.download=((OPS.title||OPS.campaign||'session').toLowerCase().replace(/[^a-z0-9._-]+/g,'_'))+'.gmfsession.json';
+  a.click();
+}
+const opsQuick=()=>{const el=document.getElementById('o-quick');const v=el.value.trim();el.value='';return v;};
+function opsScene(){const v=opsQuick();if(v)EV('scene',{data:{title:v},note:''});}
+function opsQuote(){const v=opsQuick();if(v)EV('quote',{ic:v});}
+function opsNote(){const v=opsQuick();if(v)EV('note',{note:v});}
+function opsLoot(){const v=opsQuick();if(v)EV('loot',{data:{items:[v]}});}
+function opsRef(c){return c.src==='pc'?'pc:'+c.name:(c.src==='foe'?'foe:'+c.fam+'#'+(c.vi??'x'):'x:'+c.name);}
+function opsSeed(){
+  const ix=+document.getElementById('o-enc').value;
+  let enc=[];try{enc=JSON.parse(localStorage.getItem('gmf_encounters')||'[]');}catch(e){}
+  const e=enc[ix];if(!e)return;
+  for(const t of e.tray){
+    const f=BESTIARY.find(x=>x.parent===t.fam);
+    const v=f&&t.vi>=0?f.variants[t.vi]:null;
+    const hp=t.d?t.d.hp:(v?+((String(v.hit_dice||'').match(/\((\d+)\s*hp\)/i)||[])[1]||10)+ +((String(v.t_ac_system_adj||'').match(/\+(\d+)\s*HP/i)||[])[1]||0):10);
+    for(let k=1;k<=t.n;k++)OPS.combat.push({id:'c'+(++OPS.seq),src:'foe',fam:t.fam,vi:t.vi,name:toTitle(t.fam)+(t.label&&t.label!==t.fam?' — '+t.label:'')+(t.n>1?' #'+k:''),init:null,hp,maxhp:hp,cond:[]});
+  }
+  EV('encounter',{data:{name:e.name,foes:e.tray.map(t=>({fam:t.fam,n:t.n}))}});
+  renderOps();
+}
+function opsParty(){
+  for(const p of ROSTER)if(!OPS.combat.some(c=>c.src==='pc'&&c.name===p.name))OPS.combat.push({id:'c'+(++OPS.seq),src:'pc',name:p.name,init:null,hp:null,maxhp:null,cond:[]});
+  opsSave();renderOps();
+}
+function opsAdhoc(){
+  const n=document.getElementById('o-adhoc').value.trim()||'Combatant';
+  const hp=+document.getElementById('o-adhp').value||null;
+  OPS.combat.push({id:'c'+(++OPS.seq),src:'x',name:n,init:null,hp,maxhp:hp,cond:[]});
+  document.getElementById('o-adhoc').value='';document.getElementById('o-adhp').value='';
+  opsSave();renderOps();
+}
+function opsInit(i,v){OPS.combat[i].init=v===''?null:+v;opsSave();}
+function opsSort(){
+  OPS.combat.sort((a,b)=>(b.init??-99)-(a.init??-99));
+  EV('initiative',{data:{order:OPS.combat.map(opsRef)}});
+  renderOps();
+}
+function opsRound(){OPS.round++;EV('round',{data:{n:OPS.round}});renderOps();}
+function opsHP(i,sign){
+  const amt=+document.getElementById('o-amt-'+i).value||0;if(!amt)return;
+  const c=OPS.combat[i];
+  if(c.hp==null)c.hp=0;
+  c.hp+=sign*amt;
+  EV(sign<0?'damage':'heal',{target:opsRef(c),data:{amount:amt,remaining:c.hp}});
+  if(sign<0&&c.hp<=0)EV('death',{target:opsRef(c)});
+  opsSave();renderOps();
+}
+function opsCond(i){
+  const q=opsQuick();if(!q)return; // condition name rides the quick-text field
+  const c=OPS.combat[i];
+  const ix=c.cond.indexOf(q);
+  if(ix>=0){c.cond.splice(ix,1);EV('condition',{target:opsRef(c),data:{name:q,on:false}});}
+  else{c.cond.push(q);EV('condition',{target:opsRef(c),data:{name:q,on:true}});}
+  opsSave();renderOps();
+}
+function opsDrop(i){OPS.combat.splice(i,1);opsSave();renderOps();}
+const KINDICON={scene:'🎬',round:'🔄',initiative:'⚡',damage:'🗡',heal:'✚',death:'💀',condition:'☣',quote:'💬',note:'📝',loot:'💰',encounter:'⚔',xp:'★'};
+function renderOpsLog(){
+  const box=document.getElementById('o-log');if(!box)return;
+  box.innerHTML='<div class="fhead" style="margin-top:6px">THE LOG <span class="fshare">(append-only — the Chronicler’s transcript)</span></div>'+
+    OPS.events.slice(-40).reverse().map(e=>{
+      const who=e.target||e.actor||'';
+      const what=e.kind==='damage'?`${e.data.amount} damage → ${e.data.remaining} hp`:e.kind==='heal'?`healed ${e.data.amount} → ${e.data.remaining} hp`:e.kind==='death'?'falls':e.kind==='round'?`round ${e.data.n}`:e.kind==='scene'?e.data.title:e.kind==='quote'?'“'+e.ic+'”':e.kind==='note'?e.note:e.kind==='loot'?e.data.items.join(', '):e.kind==='condition'?`${e.data.name} ${e.data.on?'on':'off'}`:e.kind==='encounter'?e.data.name:e.kind==='initiative'?'battle is joined':'';
+      return `<div class="frow"><span class="fshare" style="min-width:26px">${KINDICON[e.kind]||'·'}</span><span class="nm">${esc(String(what))}</span>${who?`<span class="fshare">${esc(who.replace(/^(pc|foe|x):/,''))}</span>`:''}<span class="fshare">#${e.seq}</span></div>`;
+    }).join('');
+}
+function renderOps(){
+  if(!OPS)opsLoad();
+  document.getElementById('o-campaign').value=OPS.campaign||'';
+  document.getElementById('o-title').value=OPS.title||'';
+  document.getElementById('o-registers').value=(OPS.registers||[]).join(', ');
+  document.getElementById('o-meta').textContent=`${OPS.date} · ${OPS.events.length} events`;
+  document.getElementById('o-round').textContent=OPS.round?('round '+OPS.round):'not yet joined';
+  let enc=[];try{enc=JSON.parse(localStorage.getItem('gmf_encounters')||'[]');}catch(e){}
+  document.getElementById('o-enc').innerHTML=enc.map((e,i)=>`<option value="${i}">${esc(e.name)}</option>`).join('')||'<option value="-1">(no saved encounters)</option>';
+  document.getElementById('o-rail').innerHTML=OPS.combat.map((c,i)=>`<div class="frow${c.hp!=null&&c.hp<=0?' fchaff':''}">
+    <input type="number" value="${c.init??''}" placeholder="init" style="width:56px" onchange="opsInit(${i},this.value)" title="initiative">
+    <span class="nm">${c.src==='pc'?'🛡 ':c.src==='foe'?'🐾 ':''}${esc(c.name)}${c.cond.length?` <span class="fshare">[${esc(c.cond.join(', '))}]</span>`:''}</span>
+    <span class="chip">${c.hp==null?'—':c.hp+(c.maxhp?'/'+c.maxhp:'')} hp</span>
+    <input type="number" id="o-amt-${i}" placeholder="±" style="width:52px">
+    <button class="fbtn" onclick="opsHP(${i},-1)" title="damage (logged)">🗡</button>
+    <button class="fbtn" onclick="opsHP(${i},1)" title="heal (logged)">✚</button>
+    <button class="fbtn" onclick="opsCond(${i})" title="toggle the condition named in the quick-text field (logged)">☣</button>
+    <button class="fbtn" onclick="opsDrop(${i})">✕</button>
+  </div>`).join('')||'<div class="fshare">An empty field — seed an encounter, add the party, or add ad-hoc combatants.</div>';
+  renderOpsLog();
 }
 // v0.7.0: the three reference tabs — same card grammar as the Adjudicator;
 // bodies get the hover layer (capitalized matches only, so prose stays quiet).
@@ -774,7 +922,7 @@ function renderFSaved(){
   document.getElementById('f-saved').innerHTML=enc.length?'<div class="fhead" style="margin-top:8px">SAVED ENCOUNTERS</div>'+enc.map((e,i)=>`<div class="frow"><span class="nm">${esc(e.name)}</span><span class="fshare">${e.saved}</span><button class="fbtn" onclick="forgeLoad(${i})">Load</button><button class="fbtn" onclick="forgeDel(${i})">✕</button></div>`).join(''):'';
 }
 (function(){const s=document.getElementById('b-lens');if(s)s.value=LENS;})();
-initFilters();renderB();renderA();renderF();renderS();renderL();renderAc();
+initFilters();renderB();renderA();renderF();renderS();renderL();renderAc();opsLoad();renderOps();
 </script>
 </body>
 </html>
