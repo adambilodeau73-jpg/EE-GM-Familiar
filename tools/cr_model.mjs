@@ -43,12 +43,29 @@ function invert(pts, v) {
   const slope = v1 > v0 ? (c1 - c0) / (v1 - v0) : 0;
   return Math.min(c1 + 6, c1 + slope * (v - v1));
 }
-const C = { hp: curve('effHP'), ac: curve('fullAC'), atk: curve('bestAtk'), dmg: curve('routineAvg'), dc: curve('dcMax'), sv: curve('saveAvg') };
+const C = { hp: curve('effHPmit'), ac: curve('fullAC'), atk: curve('bestAtk'), dmg: curve('routineAvg'), dc: curve('dcMax'), sv: curve('saveAvg'), hit: curve('maxHitAvg') };
+// Forward interpolation (cr -> band-typical value) for the mitigation math.
+function interp(pts, cr) {
+  if (!pts || !pts.length || cr == null) return null;
+  if (cr <= pts[0][0]) return pts[0][1];
+  for (let i = 1; i < pts.length; i++) if (cr <= pts[i][0]) {
+    const [c0, v0] = pts[i - 1], [c1, v1] = pts[i];
+    return v0 + (v1 - v0) * (cr - c0) / (c1 - c0);
+  }
+  return pts[pts.length - 1][1];
+}
 const NOTES = JSON.parse(readFileSync(new URL('../data/cr_notes.json', import.meta.url), 'utf8')).notes;
 const r1 = (x) => x == null ? null : Math.round(x * 10) / 10;
 
 function bodyOf(r) {
-  const hpCR = invert(C.hp, effHP(r));
+  // HARDNESS-AS-MITIGATION (Adam's gavel, 2026-10-13): the T/AC rider's +HP
+  // is already in effHP; the per-hit SOAK was the last unmodeled defense.
+  // Mitigated HP = effHP x (1 + hardness / band-typical biggest hit) - vs a
+  // band hitting ~30 per swing, Hardness 10 is a third more staying power;
+  // vs chip damage it approaches immunity. ATTRIBUTABLE: a T/AC-system term.
+  const bandHit = Math.max(6, interp(C.hit, r.cr) || 12);
+  const mitHP = Math.round(effHP(r) * (1 + (r.hardness || 0) / bandHit));
+  const hpCR = invert(C.hp, mitHP);
   const acCR = invert(C.ac, r.fullAC);
   const atkCR = invert(C.atk, r.bestAtk);
   const dmgCR = invert(C.dmg, r.routineAvg);
@@ -79,10 +96,16 @@ const TAGS = [...tagCount.entries()].filter(([, n]) => n >= 8).map(([t]) => t).s
 const ti = new Map(TAGS.map((t, i) => [t, i]));
 // Numeric feature: DR value (per 10 points) — structured, not string-fragmented (Adam, 2026-10-12).
 const DR_COL = TAGS.length;
+// Swift-action ledger features (Adam, 2026-10-13): the defense-cost ladder
+// rung (move 1 / swift 2 / free 3) and the Quicken offense flag - fitted so
+// the corpus can CONFESS whether the print ever priced action economy
+// (prediction: it did not; the ruled constant then comes from the sim).
+const RUNG_COL = TAGS.length + 1;
+const QK_COL = TAGS.length + 2;
 // MASSIVE DAMAGE is NOT a fitted feature: the regression proved the print
 // charges zero for it, so it is priced by RULING (Adam, 2026-10-12, Phase D
 // calibrated): +1 CR per 2 effectively-100%-forcing attacks/round, cap +3.
-const P = TAGS.length + 2; // + DR column + intercept
+const P = TAGS.length + 4; // + DR, defRung, quicken columns + intercept
 
 const fit = [];
 for (const r of rows) {
@@ -91,6 +114,8 @@ for (const r of rows) {
   const x = new Float64Array(P); x[P - 1] = 1;
   for (const t of new Set([...r.sa, ...r.sq])) { const i = ti.get(t); if (i != null) x[i] = 1; }
   if (r.drValue) x[DR_COL] = r.drValue / 10;
+  if (r.defRung) x[RUNG_COL] = r.defRung;
+  if (r.quickenFeat) x[QK_COL] = 1;
   fit.push({ r, b, x, y: r.cr - b.body });
 }
 // Normal equations with ridge λ (intercept unpenalized).
@@ -135,6 +160,8 @@ for (const f of fit) {
     if (i != null && Math.abs(w[i]) >= 0.05) contribs.push({ t, w: r1(w[i]) });
   }
   if (f.r.drValue && Math.abs(w[DR_COL] * f.r.drValue / 10) >= 0.05) contribs.push({ t: `DR ${f.r.drValue}`, w: r1(w[DR_COL] * f.r.drValue / 10) });
+  if (f.r.defRung && Math.abs(w[RUNG_COL] * f.r.defRung) >= 0.05) contribs.push({ t: `active defense (rung ${f.r.defRung})`, w: r1(w[RUNG_COL] * f.r.defRung) });
+  if (f.r.quickenFeat && Math.abs(w[QK_COL]) >= 0.05) contribs.push({ t: 'Quicken', w: r1(w[QK_COL]) });
   // The Phase D ruled term: +1 CR per 2 forcing attacks (avg >= 18), cap +3.
   const ruledMd = f.r.mdHits ? Math.min(3, Math.floor(f.r.mdHits / 2)) : 0;
   if (ruledMd) contribs.push({ t: `MD pressure ×${f.r.mdHits} (ruled)`, w: ruledMd });
@@ -187,7 +214,7 @@ writeFileSync(new URL('../data/crcalc.json', import.meta.url), JSON.stringify({
 }, null, 1));
 
 // ---- the report ----
-const priced = [...TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })), { t: 'DR (per 10 points)', w: w[DR_COL], n: fit.filter(f => f.r.drValue).length }, { t: 'MD pressure (RULED: +1 per 2 forcing attacks, cap +3)', w: 0.5, n: fit.filter(f => f.r.mdHits).length }].sort((a, b) => b.w - a.w);
+const priced = [...TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })), { t: 'DR (per 10 points)', w: w[DR_COL], n: fit.filter(f => f.r.drValue).length }, { t: 'MD pressure (RULED: +1 per 2 forcing attacks, cap +3)', w: 0.5, n: fit.filter(f => f.r.mdHits).length }, { t: 'active-defense rung (fitted/rung)', w: w[RUNG_COL], n: fit.filter(f => f.r.defRung).length }, { t: 'Quicken feat (fitted)', w: w[QK_COL], n: fit.filter(f => f.r.quickenFeat).length }].sort((a, b) => b.w - a.w);
 const docket = [...fit].sort((a, b) => Math.abs(b.resid) - Math.abs(a.resid)).slice(0, 24);
 const out = [];
 out.push(`# CR MODEL — Phase C: body CR + priced abilities (generated ${new Date().toISOString().slice(0, 10)})`);

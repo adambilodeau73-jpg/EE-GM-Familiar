@@ -75,6 +75,8 @@
     "darkvision 60 ft.",
     "mucus cloud"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": 13,
@@ -140,6 +142,8 @@
     "mucus cloud",
     "summon familiar"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": 10,
@@ -208,6 +212,8 @@
     "will +7",
     "dodge +6*"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -282,6 +288,8 @@
     "scent",
     "wild empathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -357,6 +365,8 @@
     "spell resistance 20",
     "wild empathy"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -420,6 +430,8 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -490,6 +502,8 @@
     "tongues",
     "uncanny dodge"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16.5,
    "mdHits": 0,
    "cl": 12,
@@ -561,6 +575,8 @@
     "spell resistance 30",
     "tongues"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 23.5,
    "mdHits": 3,
    "cl": 12,
@@ -632,6 +648,8 @@
     "spell resistance 32",
     "tongues"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 28.5,
    "mdHits": 5,
    "cl": 12,
@@ -697,6 +715,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -757,6 +777,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -815,6 +837,8 @@
    "sq": [
     "blindsense 40 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -879,6 +903,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": null,
@@ -938,6 +964,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16.5,
    "mdHits": 0,
    "cl": null,
@@ -1004,6 +1032,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -1064,6 +1094,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -1123,6 +1155,8 @@
    "sq": [
     "keen scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -1189,6 +1223,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -1249,6 +1285,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -1308,6 +1346,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14.5,
    "mdHits": 0,
    "cl": null,
@@ -1373,6 +1413,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -1436,6 +1478,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -1494,6 +1538,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -1554,6 +1600,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -1616,6 +1664,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -1680,6 +1730,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": null,
@@ -1745,6 +1797,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": null,
@@ -1804,6 +1858,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": null,
@@ -1863,6 +1919,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -1920,6 +1978,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -1985,6 +2045,8 @@
     "scent",
     "sprint"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -2045,6 +2107,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": null,
@@ -2105,6 +2169,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 1,
    "cl": null,
@@ -2162,6 +2228,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -2219,6 +2287,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -2276,6 +2346,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -2333,6 +2405,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -2397,6 +2471,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -2454,6 +2530,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -2505,6 +2583,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -2556,6 +2636,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -2618,6 +2700,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -2675,6 +2759,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -2734,6 +2820,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -2800,6 +2888,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -2866,6 +2956,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -2923,6 +3015,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -2973,6 +3067,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -3030,6 +3126,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2,
    "mdHits": 0,
    "cl": null,
@@ -3087,6 +3185,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -3153,6 +3253,8 @@
     "jet",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2,
    "mdHits": 0,
    "cl": null,
@@ -3220,6 +3322,8 @@
     "jet",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -3277,6 +3381,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -3328,6 +3434,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -3385,6 +3493,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4,
    "mdHits": 0,
    "cl": null,
@@ -3443,6 +3553,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -3501,6 +3613,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -3558,6 +3672,8 @@
     "blindsense",
     "keen scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -3615,6 +3731,8 @@
     "blindsense",
     "keen scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -3672,6 +3790,8 @@
     "blindsense",
     "keen scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -3733,6 +3853,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6,
    "mdHits": 0,
    "cl": null,
@@ -3794,6 +3916,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14.5,
    "mdHits": 0,
    "cl": null,
@@ -3854,6 +3978,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -3914,6 +4040,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -3974,6 +4102,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -4034,6 +4164,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -4094,6 +4226,8 @@
     "jet",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": null,
@@ -4160,6 +4294,8 @@
     "jet",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -4226,6 +4362,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -4284,6 +4422,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 22.5,
    "mdHits": 1,
    "cl": null,
@@ -4347,6 +4487,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -4405,6 +4547,8 @@
     "hold breath",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -4464,6 +4608,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -4525,6 +4671,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -4585,6 +4733,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -4645,6 +4795,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -4705,6 +4857,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -4765,6 +4919,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -4825,6 +4981,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -4885,6 +5043,8 @@
     "darkvision 60 ft.",
     "low-light vision; also see text"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -4947,6 +5107,8 @@
     "low-light vision",
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16.5,
    "mdHits": 0,
    "cl": null,
@@ -5010,6 +5172,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": 3,
@@ -5074,6 +5238,8 @@
     "teleport",
     "tongues"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": 3,
@@ -5146,6 +5312,8 @@
     "teleport",
     "tongues"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10,
    "mdHits": 0,
    "cl": 6,
@@ -5222,6 +5390,8 @@
     "teleport",
     "tongues"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": 6,
@@ -5291,6 +5461,8 @@
     "teleport",
     "tongues"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 3,
    "cl": 12,
@@ -5353,6 +5525,8 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 7,
    "mdHits": 0,
    "cl": null,
@@ -5415,6 +5589,8 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -5477,6 +5653,8 @@
     "and poison",
     "resistance to cold 10 and fire 10"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -5542,6 +5720,8 @@
     "plant traits",
     "resistance to cold 10 and fire 10"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -5601,6 +5781,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": 1,
@@ -5659,6 +5841,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": 2,
@@ -5718,6 +5902,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": 3,
@@ -5777,6 +5963,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": 4,
@@ -5837,6 +6025,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": 5,
@@ -5897,6 +6087,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 15.5,
    "mdHits": 0,
    "cl": 6,
@@ -5957,6 +6149,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 16.5,
    "mdHits": 0,
    "cl": 7,
@@ -6018,6 +6212,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 18.5,
    "mdHits": 2,
    "cl": 8,
@@ -6079,6 +6275,8 @@
     "darkvision 60 ft.",
     "lowlight vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 23,
    "mdHits": 2,
    "cl": 9,
@@ -6148,6 +6346,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18.5,
    "mdHits": 3,
    "cl": null,
@@ -6209,6 +6409,8 @@
     "spell resistance 13",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -6276,6 +6478,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -6344,6 +6548,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -6403,6 +6609,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -6466,6 +6674,8 @@
     "low-light vision",
     "spell resistance 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -6533,6 +6743,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -6604,6 +6816,8 @@
     "elemental traits",
     "smoke form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -6664,6 +6878,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -6727,6 +6943,8 @@
     "undead traits",
     "vulnerability to sunlight"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -6789,6 +7007,8 @@
     "power conversion",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2,
    "mdHits": 0,
    "cl": null,
@@ -6847,6 +7067,8 @@
     "powerful build",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -6914,6 +7136,8 @@
     "scent",
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -6977,6 +7201,8 @@
     "unnatural aura",
     "vulnerability to sunlight"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7,
    "mdHits": 0,
    "cl": null,
@@ -7037,6 +7263,8 @@
     "mesmerizing gaze",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -7106,6 +7334,8 @@
     "spell resistance 25",
     "true seeing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": 8,
@@ -7174,6 +7404,8 @@
     "spell resistance 17",
     "tongues"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": 6,
@@ -7243,6 +7475,8 @@
     "resistance to cold 10 and fire 10 spell resistance 28",
     "tongues"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 3,
    "cl": 12,
@@ -7319,6 +7553,8 @@
     "spell resistance 28",
     "tongues"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": 10,
@@ -7380,6 +7616,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -7440,6 +7678,8 @@
     "immunity to critical hits and transformation",
     "spell resistance 15"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4,
    "mdHits": 0,
    "cl": null,
@@ -7503,6 +7743,8 @@
     "locate killer",
     "undead"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -7579,6 +7821,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -7640,6 +7884,8 @@
     "darkvision 60 ft.",
     "quickness"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -7703,6 +7949,8 @@
     "darkvision 60 ft.",
     "immunity to poison"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": null,
@@ -7769,6 +8017,8 @@
     "darkvision 60 ft.",
     "shadow shift"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -7829,6 +8079,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -7894,6 +8146,8 @@
     "ethereal jaunt",
     "telepathy 90 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": 9,
@@ -7959,6 +8213,8 @@
     "ooze traits",
     "sonic/concussion vulnerability"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 19.5,
    "mdHits": 2,
    "cl": null,
@@ -8021,6 +8277,8 @@
     "immunity to fire and cold",
     "resistance to electricity 15"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -8082,6 +8340,8 @@
    "sq": [
     "blindsight 90 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -8145,6 +8405,8 @@
     "stone shape",
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18.5,
    "mdHits": 2,
    "cl": null,
@@ -8218,6 +8480,8 @@
     "spell resistance 14",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": 7,
@@ -8295,6 +8559,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "defRung": 1,
+   "quickenFeat": 1,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": 20,
@@ -8365,6 +8631,8 @@
     "scent",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -8442,6 +8710,8 @@
     "will +10",
     "dodge +6"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": 9,
@@ -8512,6 +8782,8 @@
     "and fire 10",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": 2,
@@ -8591,6 +8863,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 2,
    "cl": 14,
@@ -8664,6 +8938,8 @@
     "spell resistance 19",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": 13,
@@ -8742,6 +9018,8 @@
     "spell resistance 25",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": 16,
@@ -8816,6 +9094,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": 12,
@@ -8886,6 +9166,8 @@
     "immunity to poison",
     "resistance to fire 10"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": 6,
@@ -8959,6 +9241,8 @@
     "fast healing 5",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -9028,6 +9312,8 @@
     "telepathy 100 ft.",
     "tongues"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": 12,
@@ -9108,6 +9394,8 @@
     "spell resistance 17",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": 12,
@@ -9172,6 +9460,8 @@
     "repairable",
     "darkvision 120 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": null,
@@ -9234,6 +9524,8 @@
     "spell resistance 15",
     "vulnerability to sunlight"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": 3,
@@ -9294,6 +9586,8 @@
     "immunities",
     "protection from sonics"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -9363,6 +9657,8 @@
     "spell-like abilities",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": 9,
@@ -9430,6 +9726,8 @@
     "spell resistance 17",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -9507,6 +9805,8 @@
     "spell resistance 21",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": 7,
@@ -9570,6 +9870,8 @@
     "regeneration 2",
     "spell resistance 18"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7,
    "mdHits": 0,
    "cl": null,
@@ -9638,6 +9940,8 @@
     "telepathy 100 ft.",
     "true seeing"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": 16,
@@ -9709,6 +10013,8 @@
     "spell resistance 19",
     "telepathy 100 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": null,
@@ -9790,6 +10096,8 @@
     "spell resistance 28",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 22,
    "mdHits": 4,
    "cl": 15,
@@ -9868,6 +10176,8 @@
     "spell resistance 25",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": 13,
@@ -9933,6 +10243,8 @@
     "immunity to poison",
     "resistance to fire 5"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": 6,
@@ -9995,6 +10307,8 @@
     "mindless",
     "see in darkness"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -10081,6 +10395,8 @@
     "spell resistance 32",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 1,
    "maxHitAvg": 22,
    "mdHits": 3,
    "cl": 18,
@@ -10144,6 +10460,8 @@
     "spell resistance 21",
     "undead traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": 18,
@@ -10205,6 +10523,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -10274,6 +10594,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -10332,6 +10654,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 1,
    "cl": null,
@@ -10401,6 +10725,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -10461,6 +10787,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 24,
    "mdHits": 1,
    "cl": null,
@@ -10521,6 +10849,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 23.5,
    "mdHits": 1,
    "cl": null,
@@ -10580,6 +10910,8 @@
     "change shape",
     "immunity to sleep and charm effects"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -10651,6 +10983,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 22,
    "mdHits": 1,
    "cl": null,
@@ -10718,6 +11052,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -10785,6 +11121,8 @@
     "darkvision 60 ft.",
     "spell resistance 17"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10,
    "mdHits": 0,
    "cl": 6,
@@ -10845,6 +11183,8 @@
     "tree dependent",
     "wild empathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": 6,
@@ -10908,6 +11248,8 @@
     "low-light vision",
     "evasion"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -10969,6 +11311,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -11030,6 +11374,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -11092,6 +11438,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -11154,6 +11502,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -11216,6 +11566,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -11278,6 +11630,8 @@
     "elemental traits",
     "gaseous form"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": null,
@@ -11339,6 +11693,8 @@
     "earth glide",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -11400,6 +11756,8 @@
     "earth glide",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -11462,6 +11820,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -11525,6 +11885,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 2,
    "cl": null,
@@ -11588,6 +11950,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 2,
    "cl": null,
@@ -11651,6 +12015,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 22,
    "mdHits": 2,
    "cl": null,
@@ -11713,6 +12079,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -11775,6 +12143,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": null,
@@ -11838,6 +12208,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -11902,6 +12274,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 22,
    "mdHits": 2,
    "cl": null,
@@ -11966,6 +12340,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 23,
    "mdHits": 2,
    "cl": null,
@@ -12030,6 +12406,8 @@
     "scorn earth",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 24,
    "mdHits": 2,
    "cl": null,
@@ -12093,6 +12471,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -12156,6 +12536,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -12220,6 +12602,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -12285,6 +12669,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 2,
    "cl": null,
@@ -12350,6 +12736,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 2,
    "cl": null,
@@ -12415,6 +12803,8 @@
     "elemental traits",
     "fluid form"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 2,
    "cl": null,
@@ -12482,6 +12872,8 @@
     "flame sword",
     "telepathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": null,
@@ -12540,6 +12932,8 @@
     "detect magic",
     "ethereal jaunt"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -12597,6 +12991,8 @@
     "darkvision 60 ft.",
     "ethereal jaunt"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -12661,6 +13057,8 @@
     "mechanical healing",
     "telepathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -12726,6 +13124,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -12783,6 +13183,8 @@
     "low-light vision",
     "superior two-weapon fighting"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -12846,6 +13248,8 @@
     "immunity to slashing and piercing weapons",
     "silent visage"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -12912,6 +13316,8 @@
     "silent visage",
     "uncanny dodge"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": 3,
@@ -12978,6 +13384,8 @@
     "indestructible body",
     "telepathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -13039,6 +13447,8 @@
     "immunity to fire and poison",
     "prodigious leap"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -13105,6 +13515,8 @@
     "increased speed",
     "prodigious leap"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": 9,
@@ -13176,6 +13588,8 @@
     "telepathy",
     "web cocoon"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -13239,6 +13653,8 @@
     "telepathy",
     "whistle"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -13308,6 +13724,8 @@
     "invisibility",
     "telepathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -13372,6 +13790,8 @@
     "gaseous",
     "immune to electricity and fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -13436,6 +13856,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -13500,6 +13922,8 @@
     "fire 10",
     "and sonic 10"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -13575,6 +13999,8 @@
     "and sonic 10",
     "spell resistance 18"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": null,
@@ -13648,6 +14074,8 @@
     "spell resistance 21",
     "telepathy 100 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -13725,6 +14153,8 @@
     "spell resistance 30",
     "telepathy"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -13790,6 +14220,8 @@
     "low-light vision",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 25.5,
    "mdHits": 1,
    "cl": null,
@@ -13843,6 +14275,8 @@
     "low-light vision",
     "plant traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -13902,6 +14336,8 @@
     "low-light vision",
     "plant traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -13971,6 +14407,8 @@
     "darkvision 60 ft.",
     "freeze"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -14035,6 +14473,8 @@
     "plane shift",
     "telepathy 100 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": 20,
@@ -14100,6 +14540,8 @@
     "telepathy 100 ft.",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 1,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": 12,
@@ -14164,6 +14606,8 @@
     "resistance to fire 10",
     "telepathy 100 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": 12,
@@ -14230,6 +14674,8 @@
     "undead traits",
     "+2 turn resistance"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -14297,6 +14743,8 @@
     "undead traits",
     "+2 turn resistance"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -14360,6 +14808,8 @@
     "rock catching",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 32,
    "mdHits": 3,
    "cl": 15,
@@ -14422,6 +14872,8 @@
     "rock catching",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 25.5,
    "mdHits": 3,
    "cl": null,
@@ -14484,6 +14936,8 @@
     "rock catching",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 23.5,
    "mdHits": 3,
    "cl": null,
@@ -14555,6 +15009,8 @@
     "rock catching",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 32,
    "mdHits": 4,
    "cl": 8,
@@ -14615,6 +15071,8 @@
     "low-light vision",
     "rock catching"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 2,
    "cl": null,
@@ -14676,6 +15134,8 @@
     "low-light vision",
     "rock catching"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 3,
    "cl": null,
@@ -14740,6 +15200,8 @@
     "rock catching",
     "water breathing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 35,
    "mdHits": 3,
    "cl": 15,
@@ -14811,6 +15273,8 @@
     "damage reduction 5/bludgeoning",
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -14877,6 +15341,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -14933,6 +15399,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -14993,6 +15461,8 @@
     "svirfneblin traits",
     "spell resistance 12"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -15049,6 +15519,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -15107,6 +15579,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -15171,6 +15645,8 @@
     "immunity to magic",
     "rupture"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 2,
    "cl": null,
@@ -15236,6 +15712,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 2,
    "cl": null,
@@ -15298,6 +15776,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -15361,6 +15841,8 @@
     "darkvision 60 ft.",
     "magic immunity"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": null,
@@ -15424,6 +15906,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 22,
    "mdHits": 2,
    "cl": null,
@@ -15487,6 +15971,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 2,
    "cl": null,
@@ -15550,6 +16036,8 @@
     "immunity to magic",
     "low-light vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 31,
    "mdHits": 2,
    "cl": null,
@@ -15611,6 +16099,8 @@
     "lowlight vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -15677,6 +16167,8 @@
     "power resistance 20",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -15738,6 +16230,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -15804,6 +16298,8 @@
     "rage",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -15872,6 +16368,8 @@
     "rage",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -15931,6 +16429,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -15998,6 +16498,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -16056,6 +16558,8 @@
     "immunities",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -16124,6 +16628,8 @@
     "darkvision 60 ft.",
     "spell resistance 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": 8,
@@ -16186,6 +16692,8 @@
     "darkvision 90 ft.",
     "spell resistance 18"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": 9,
@@ -16247,6 +16755,8 @@
     "amphibious",
     "spell resistance 14"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -16307,6 +16817,8 @@
     "giant’s stature",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": null,
@@ -16371,6 +16883,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -16430,6 +16944,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3,
    "mdHits": 0,
    "cl": 7,
@@ -16492,6 +17008,8 @@
     "scent",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -16554,6 +17072,8 @@
     "scent",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 23.5,
    "mdHits": 1,
    "cl": null,
@@ -16618,6 +17138,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -16680,6 +17202,8 @@
     "fast healing 3",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -16739,6 +17263,8 @@
     "darkvision 60 ft. incorporeal",
     "repairable"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -16803,6 +17329,8 @@
     "repairable",
     "skill programming"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -16867,6 +17395,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -16928,6 +17458,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -16989,6 +17521,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -17050,6 +17584,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -17111,6 +17647,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -17172,6 +17710,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -17233,6 +17773,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -17294,6 +17836,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -17355,6 +17899,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": null,
@@ -17420,6 +17966,8 @@
     "low-light vision",
     "spell resistance 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17.5,
    "mdHits": 0,
    "cl": 13,
@@ -17484,6 +18032,8 @@
     "low-light vision",
     "spell resistance 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": 14,
@@ -17548,6 +18098,8 @@
     "low-light vision",
     "spell resistance 20"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15.5,
    "mdHits": 0,
    "cl": 8,
@@ -17612,6 +18164,8 @@
     "resistance to electricity 15",
     "vulnerability to protection from evil"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3,
    "mdHits": 0,
    "cl": null,
@@ -17672,6 +18226,8 @@
     "natural invisibility",
     "improved tracking"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -17732,6 +18288,8 @@
     "rending claws",
     "spider climb"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": null,
@@ -17787,6 +18345,8 @@
     "immunity to one energy type",
     "powerful build"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": 6,
@@ -17861,6 +18421,8 @@
     "low-light vision",
     "spell-like abilities"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 3,
    "cl": 9,
@@ -17926,6 +18488,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -17991,6 +18555,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": 9,
@@ -18055,6 +18621,8 @@
     "magic circle against evil",
     "spell-like abilities"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": 7,
@@ -18134,6 +18702,8 @@
     "spell-like abilities",
     "spell resistance 15"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": 7,
@@ -18195,6 +18765,8 @@
     "all-around vision",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -18264,6 +18836,8 @@
     "immunity to poison",
     "resistance to fire 10"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": 10,
@@ -18331,6 +18905,8 @@
     "easy breathing",
     "light sensitivity"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -18394,6 +18970,8 @@
     "fast healing 1",
     "garbage growth"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -18457,6 +19035,8 @@
     "fast healing 1",
     "garbage growth"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -18518,6 +19098,8 @@
    "sq": [
     "hold breath"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -18572,6 +19154,8 @@
    },
    "sa": [],
    "sq": [],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -18631,6 +19215,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -18699,6 +19285,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": null,
@@ -18766,6 +19354,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": null,
@@ -18826,6 +19416,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -18889,6 +19481,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -18957,6 +19551,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -19016,6 +19612,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -19080,6 +19678,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -19143,6 +19743,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -19202,6 +19804,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -19272,6 +19876,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -19339,6 +19945,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -19398,6 +20006,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -19461,6 +20071,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -19528,6 +20140,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -19587,6 +20201,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": null,
@@ -19650,6 +20266,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 23,
    "mdHits": 1,
    "cl": null,
@@ -19718,6 +20336,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 24,
    "mdHits": 3,
    "cl": null,
@@ -19782,6 +20402,8 @@
     "rock catching",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 3,
    "cl": null,
@@ -19845,6 +20467,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26.5,
    "mdHits": 1,
    "cl": null,
@@ -19914,6 +20538,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 31,
    "mdHits": 3,
    "cl": null,
@@ -19972,6 +20598,8 @@
    "sq": [
     "outburst"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -20036,6 +20664,8 @@
     "melt weapons",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -20097,6 +20727,8 @@
     "fire vulnerability",
     "wavesense"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -20158,6 +20790,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -20216,6 +20850,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -20280,6 +20916,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -20343,6 +20981,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 2,
    "mdHits": 0,
    "cl": 3,
@@ -20406,6 +21046,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 2,
    "mdHits": 0,
    "cl": 3,
@@ -20470,6 +21112,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": 6,
@@ -20535,6 +21179,8 @@
     "fast healing 2",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": 6,
@@ -20600,6 +21246,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": 3,
@@ -20665,6 +21313,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": 6,
@@ -20729,6 +21379,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4,
    "mdHits": 0,
    "cl": 3,
@@ -20792,6 +21444,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": 3,
@@ -20857,6 +21511,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": 3,
@@ -20921,6 +21577,8 @@
     "darkvision 60 ft.",
     "fast healing 2"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4,
    "mdHits": 0,
    "cl": 3,
@@ -20979,6 +21637,8 @@
     "amphibious",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -21040,6 +21700,8 @@
     "immunity to acid",
     "mimic shape"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -21105,6 +21767,8 @@
     "natural cunning",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16.5,
    "mdHits": 0,
    "cl": null,
@@ -21171,6 +21835,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -21234,6 +21900,8 @@
     "low-light vision",
     "tremorsense"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -21300,6 +21968,8 @@
     "immunities",
     "invisibility"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17.5,
    "mdHits": 0,
    "cl": null,
@@ -21367,6 +22037,8 @@
     "immunities",
     "invisibility"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 24,
    "mdHits": 2,
    "cl": null,
@@ -21426,6 +22098,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -21488,6 +22162,8 @@
     "undead traits",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": null,
@@ -21553,6 +22229,8 @@
     "undead traits",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15.5,
    "mdHits": 0,
    "cl": 10,
@@ -21621,6 +22299,8 @@
     "immunity to poison",
     "resistance to charm"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 7,
    "mdHits": 0,
    "cl": 9,
@@ -21681,6 +22361,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -21741,6 +22423,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -21801,6 +22485,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -21864,6 +22550,8 @@
     "damage reduction 5/–",
     "power resistance 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -21929,6 +22617,8 @@
     "and fear",
     "spell resistance 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": 8,
@@ -21992,6 +22682,8 @@
     "selective invisibility",
     "vulnerability"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -22059,6 +22751,8 @@
     "darkvision 60 ft.",
     "etherealness"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -22127,6 +22821,8 @@
     "darkvision 60 ft.",
     "etherealness"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19.5,
    "mdHits": 2,
    "cl": null,
@@ -22204,6 +22900,8 @@
     "tremorsense 60 ft.",
     "undead traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 1,
    "maxHitAvg": 35,
    "mdHits": 2,
    "cl": 25,
@@ -22273,6 +22971,8 @@
     "telepathy 100 ft.",
     "undead traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 1,
    "maxHitAvg": 23,
    "mdHits": 2,
    "cl": 21,
@@ -22341,6 +23041,8 @@
     "telepathy 100 ft.",
     "undead traits"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 24,
    "mdHits": 1,
    "cl": 17,
@@ -22406,6 +23108,8 @@
     "unearthly grace",
     "wild empathy"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": 7,
@@ -22463,6 +23167,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -22525,6 +23231,8 @@
     "trap sense +1",
     "uncanny dodge"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 22,
    "mdHits": 2,
    "cl": 4,
@@ -22587,6 +23295,8 @@
     "regeneration 5",
     "spell resistance 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17.5,
    "mdHits": 0,
    "cl": 9,
@@ -22650,6 +23360,8 @@
     "split",
     "ooze traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -22713,6 +23425,8 @@
     "split",
     "ooze traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 33,
    "mdHits": 1,
    "cl": null,
@@ -22776,6 +23490,8 @@
     "ooze traits",
     "transparent"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 7,
    "mdHits": 0,
    "cl": null,
@@ -22839,6 +23555,8 @@
     "ooze traits",
     "transparent"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": null,
@@ -22902,6 +23620,8 @@
     "split",
     "ooze traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -22959,6 +23679,8 @@
     "darkvision 60 ft.",
     "light sensitivity"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -23020,6 +23742,8 @@
     "darkvision 60 ft.",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -23082,6 +23806,8 @@
    "sq": [
     "superior lowlight vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -23145,6 +23871,8 @@
    "sq": [
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -23210,6 +23938,8 @@
     "scent",
     "spell-like abilities"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": 5,
@@ -23268,6 +23998,8 @@
     "plant traits",
     "greater invisibility"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -23329,6 +24061,8 @@
     "ethereal jaunt",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -23390,6 +24124,8 @@
     "telepathy 100 ft.",
     "tremorsense 60 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3,
    "mdHits": 0,
    "cl": null,
@@ -23458,6 +24194,8 @@
     "resistance to cold 10",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -23519,6 +24257,8 @@
     "cold 5",
     "and electricity 5"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -23580,6 +24320,8 @@
     "electricity 5",
     "and fire 5"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -23645,6 +24387,8 @@
     "spell-like abilities",
     "tongues"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -23710,6 +24454,8 @@
     "spell resistance 19",
     "telepathy 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2,
    "mdHits": 0,
    "cl": null,
@@ -23773,6 +24519,8 @@
     "immunity to psionics",
     "lowlight vision"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 2,
    "cl": null,
@@ -23838,6 +24586,8 @@
     "blindsight 60 ft.",
     "telepathy 20 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -23905,6 +24655,8 @@
    "sq": [
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 1,
    "cl": null,
@@ -23972,6 +24724,8 @@
     "darkvision 60 ft.",
     "spell resistance 27"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": 18,
@@ -24036,6 +24790,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -24103,6 +24859,8 @@
     "flight",
     "immunity to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -24166,6 +24924,8 @@
     "low-light vision",
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 1,
    "cl": null,
@@ -24229,6 +24989,8 @@
    "sq": [
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 2,
    "cl": null,
@@ -24288,6 +25050,8 @@
     "darkvision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": null,
@@ -24358,6 +25122,8 @@
     "speak with sharks",
     "water dependent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -24425,6 +25191,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": null,
@@ -24493,6 +25261,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -24563,6 +25333,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 4,
    "cl": 15,
@@ -24620,6 +25392,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -24684,6 +25458,8 @@
     "ooze traits",
     "telepathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 1.5,
    "mdHits": 0,
    "cl": null,
@@ -24748,6 +25524,8 @@
     "ooze traits",
     "telepathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -24807,6 +25585,8 @@
     "damage reduction 5/cold iron",
     "low-light vision"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -24874,6 +25654,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -24934,6 +25716,8 @@
     "hazy outline",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": null,
@@ -24994,6 +25778,8 @@
     "hazy outline",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 30,
    "mdHits": 1,
    "cl": null,
@@ -25058,6 +25844,8 @@
     "ooze traits",
     "stench"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -25122,6 +25910,8 @@
     "ooze traits",
     "stench"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -25182,6 +25972,8 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -25242,6 +26034,8 @@
     "+2 turn resistance",
     "undead traits"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -25303,6 +26097,8 @@
     "shadow blend",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -25367,6 +26163,8 @@
     "plant traits",
     "resistance to fire 10"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": null,
@@ -25430,6 +26228,8 @@
     "shield other",
     "spell storing"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -25494,6 +26294,8 @@
     "immunity to electricity",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -25566,6 +26368,8 @@
     "immunities",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -25626,6 +26430,8 @@
     "immunities",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -25685,6 +26491,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -25744,6 +26552,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -25808,6 +26618,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -25872,6 +26684,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -25946,6 +26760,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -26006,6 +26822,8 @@
     "immunity to cold",
     "superior twoweapon"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -26075,6 +26893,8 @@
     "immunity to cold",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -26136,6 +26956,8 @@
     "oversize weapon",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 32,
    "mdHits": 2,
    "cl": null,
@@ -26211,6 +27033,8 @@
     "immunity to cold and fire",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 22,
    "mdHits": 2,
    "cl": null,
@@ -26271,6 +27095,8 @@
     "skin regrowth",
     "undead traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -26331,6 +27157,8 @@
     "skin regrowth",
     "undead traits"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -26396,6 +27224,8 @@
     "darkvision 60 ft.",
     "amphibious"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -26461,6 +27291,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -26524,6 +27356,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": 6,
@@ -26586,6 +27420,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": 14,
@@ -26654,6 +27490,8 @@
     "lowlight vision",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -26718,6 +27556,8 @@
     "water breathing",
     "wild empathy"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -26781,6 +27621,8 @@
     "low-light vision",
     "spell resistance 15"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": 8,
@@ -26867,6 +27709,8 @@
     "regeneration 5",
     "split"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -26953,6 +27797,8 @@
     "regeneration 5",
     "split"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -27039,6 +27885,8 @@
     "regeneration 5",
     "split"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -27125,6 +27973,8 @@
     "regeneration 5",
     "split"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": null,
@@ -27211,6 +28061,8 @@
     "regeneration 5",
     "split"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 1,
    "cl": null,
@@ -27271,6 +28123,8 @@
     "darkvision 60 ft.",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": null,
@@ -27329,6 +28183,8 @@
     "low-light vision",
     "swarm traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -27387,6 +28243,8 @@
     "tremorsense 30 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -27448,6 +28306,8 @@
     "low-light vision",
     "swarm traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -27504,6 +28364,8 @@
     "swarm traits",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -27562,6 +28424,8 @@
     "scent",
     "swarm traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -27619,6 +28483,8 @@
     "tremorsense 30 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -27706,6 +28572,8 @@
     "scent",
     "spell resistance 32"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 35,
    "mdHits": 2,
    "cl": null,
@@ -27776,6 +28644,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -27843,6 +28713,8 @@
     "plant traits",
     "regeneration 10"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -27907,6 +28779,8 @@
     "tremorsense 60 ft.",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13.5,
    "mdHits": 0,
    "cl": null,
@@ -27967,6 +28841,8 @@
     "darkvision 60 ft.",
     "ethereal jaunt"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 0,
    "mdHits": 0,
    "cl": null,
@@ -28028,6 +28904,8 @@
     "ethereal jaunt",
     "power resistance 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 22.5,
    "mdHits": 1,
    "cl": null,
@@ -28095,6 +28973,8 @@
     "immunities",
     "low-light vision"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": null,
@@ -28157,6 +29037,8 @@
     "darkvision 60 ft.",
     "spell resistance 32"
    ],
+   "defRung": 1,
+   "quickenFeat": 1,
    "maxHitAvg": 41,
    "mdHits": 5,
    "cl": 20,
@@ -28225,6 +29107,8 @@
     "immunity to acid and cold",
     "resistance to"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -28293,6 +29177,8 @@
     "immunity to acid and cold",
     "electricity 10 and fire 10"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": null,
@@ -28361,6 +29247,8 @@
     "resistance to electricity 10 and fire 10 immunity to acid and cold",
     "resistance to electricity 10 and fire 10"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -28425,6 +29313,8 @@
     "immunities",
     "ooze traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 10,
    "mdHits": 0,
    "cl": null,
@@ -28490,6 +29380,8 @@
     "immunities",
     "ooze traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 21.5,
    "mdHits": 4,
    "cl": null,
@@ -28552,6 +29444,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 30,
    "mdHits": 4,
    "cl": null,
@@ -28614,6 +29508,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 38,
    "mdHits": 4,
    "cl": null,
@@ -28676,6 +29572,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 3,
    "cl": null,
@@ -28738,6 +29636,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 4,
    "cl": null,
@@ -28801,6 +29701,8 @@
     "darkvision 60 ft.",
     "elemental traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 4,
    "cl": null,
@@ -28864,6 +29766,8 @@
     "plant traits",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -28923,6 +29827,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": 7,
@@ -28981,6 +29887,8 @@
    "sq": [
     "darkvision 90 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -29047,6 +29955,8 @@
     "regeneration 5",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -29117,6 +30027,8 @@
     "scent",
     "wild empathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 15,
    "mdHits": 0,
    "cl": 6,
@@ -29173,6 +30085,8 @@
     "plant traits",
     "resistance to cold 10 and fire 10"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": 6,
@@ -29234,6 +30148,8 @@
     "incorporeal traits",
     "telepathy 100 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -29303,6 +30219,8 @@
     "scent",
     "wild empathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12.5,
    "mdHits": 0,
    "cl": 5,
@@ -29381,6 +30299,8 @@
     "spell resistance 20",
     "wild empathy"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14.5,
    "mdHits": 0,
    "cl": 7,
@@ -29448,6 +30368,8 @@
     "rage",
     "scent"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -29515,6 +30437,8 @@
     "spider climb",
     "undead traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -29575,6 +30499,8 @@
    "sq": [
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -29635,6 +30561,8 @@
     "scent",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -29696,6 +30624,8 @@
     "scent",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": null,
@@ -29755,6 +30685,8 @@
     "scent",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -29815,6 +30747,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -29874,6 +30808,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -29931,6 +30867,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -29990,6 +30928,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 23,
    "mdHits": 1,
    "cl": null,
@@ -30055,6 +30995,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -30115,6 +31057,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": null,
@@ -30176,6 +31120,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -30237,6 +31183,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 5.5,
    "mdHits": 0,
    "cl": null,
@@ -30298,6 +31246,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -30359,6 +31309,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -30420,6 +31372,8 @@
     "darkvision 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -30482,6 +31436,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 2,
    "mdHits": 0,
    "cl": null,
@@ -30544,6 +31500,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -30611,6 +31569,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -30678,6 +31638,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 10.5,
    "mdHits": 0,
    "cl": null,
@@ -30745,6 +31707,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -30813,6 +31777,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 2,
    "cl": null,
@@ -30875,6 +31841,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -30937,6 +31905,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -30999,6 +31969,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -31061,6 +32033,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -31123,6 +32097,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -31185,6 +32161,8 @@
     "tremorsense 60 ft.",
     "vermin traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 29,
    "mdHits": 1,
    "cl": null,
@@ -31243,6 +32221,8 @@
     "outsider traits",
     "one choice from vivilor menu a"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -31301,6 +32281,8 @@
     "outsider traits",
     "one choice from vivilor menu a"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -31359,6 +32341,8 @@
     "outsider traits",
     "one choice from vivilor menu b"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -31418,6 +32402,8 @@
     "outsider traits",
     "one choice from vivilor menu b"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -31478,6 +32464,8 @@
     "outsider traits",
     "one choice from vivilor menu a and one choice from vivilor menu b"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -31538,6 +32526,8 @@
     "outsider traits",
     "one choice from vivilor menu c"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 9.5,
    "mdHits": 0,
    "cl": null,
@@ -31598,6 +32588,8 @@
     "outsider traits",
     "one choice from vivilor menu a and one choice from vivilor menu c"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -31658,6 +32650,8 @@
     "outsider traits",
     "one choice from vivilor menu b and one choice from vivilor menu c"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -31718,6 +32712,8 @@
     "outsider traits",
     "two choices from vivilor menu c"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -31781,6 +32777,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7,
    "mdHits": 0,
    "cl": 10,
@@ -31841,6 +32839,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -31899,6 +32899,8 @@
     "immunity to magic",
     "natural invisibility"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 9,
    "mdHits": 0,
    "cl": null,
@@ -31963,6 +32965,8 @@
     "scent",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -32023,6 +33027,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -32087,6 +33093,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6,
    "mdHits": 0,
    "cl": null,
@@ -32151,6 +33159,8 @@
     "undead traits",
     "unnatural aura"
    ],
+   "defRung": 2,
+   "quickenFeat": 0,
    "maxHitAvg": 11.5,
    "mdHits": 0,
    "cl": null,
@@ -32229,6 +33239,8 @@
     "low-light vision",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -32286,6 +33298,8 @@
     "burst",
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -32348,6 +33362,8 @@
     "planewalk",
     "spell resistance 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8,
    "mdHits": 0,
    "cl": null,
@@ -32416,6 +33432,8 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -32484,6 +33502,8 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -32552,6 +33572,8 @@
     "resistance to electricity 10",
     "tremorsense 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 25,
    "mdHits": 1,
    "cl": null,
@@ -32615,6 +33637,8 @@
     "flight",
     "scent"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 8.5,
    "mdHits": 0,
    "cl": null,
@@ -32675,6 +33699,8 @@
     "cold subtype",
     "darkvision 60 ft."
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -32742,6 +33768,8 @@
     "immunities",
     "vulnerability to sonic damage"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -32804,6 +33832,8 @@
     "power resistance 17",
     "siphon fluids"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 5,
    "mdHits": 0,
    "cl": null,
@@ -32863,6 +33893,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 3.5,
    "mdHits": 0,
    "cl": null,
@@ -32922,6 +33954,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -32981,6 +34015,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -33040,6 +34076,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -33099,6 +34137,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -33158,6 +34198,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 17.5,
    "mdHits": 0,
    "cl": null,
@@ -33218,6 +34260,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -33277,6 +34321,8 @@
     "darkvision 60 ft.",
     "undead traits"
    ],
+   "defRung": 0,
+   "quickenFeat": 0,
    "maxHitAvg": 14.5,
    "mdHits": 0,
    "cl": null,
@@ -33337,6 +34383,8 @@
     "class v sensor system",
     "magnetic feet"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -33389,6 +34437,8 @@
     "darkvision 120’",
     "lifelike appearance"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": null,
    "mdHits": null,
    "cl": null,
@@ -33445,6 +34495,8 @@
    "sq": [
     "class iv sensor system"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -33516,6 +34568,8 @@
     "immunity to acid",
     "water breathing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -33587,6 +34641,8 @@
     "immunity to acid",
     "water breathing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -33658,6 +34714,8 @@
     "immunity to acid",
     "water breathing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -33729,6 +34787,8 @@
     "immunity to acid",
     "water breathing; darkness"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -33808,6 +34868,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; caster level 2nd",
     "sr 17"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -33886,6 +34948,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; caster level 4th",
     "sr 18"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -33964,6 +35028,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; caster level 6th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -34042,6 +35108,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; caster level 8th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -34120,6 +35188,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; caster level 10th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -34198,6 +35268,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; caster level 12th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -34276,6 +35348,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 14th",
     "sr 26"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -34354,6 +35428,8 @@
     "water breathing; darkness; dr 5/magic; [ignore 5/1d hardness]; corrupt water; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; insect plague; dr 20/magic; [ignore 20/4d/1d hard.]; charm reptiles; caster level 16th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -34423,6 +35499,8 @@
    "sq": [
     "immunity to electricity"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -34492,6 +35570,8 @@
    "sq": [
     "immunity to electricity"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -34561,6 +35641,8 @@
    "sq": [
     "immunity to electricity"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -34636,6 +35718,8 @@
    "sq": [
     "immunity to electricity; sound imitation; caster level 2nd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -34712,6 +35796,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; caster level 4th",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -34788,6 +35874,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; caster level 6th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -34864,6 +35952,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; caster level 8th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -34940,6 +36030,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; caster level 10th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -35016,6 +36108,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; caster level 12th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -35092,6 +36186,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; caster level 14th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -35168,6 +36264,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 16th",
     "sr 29"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -35244,6 +36342,8 @@
     "immunity to electricity; sound imitation; dr 5/magic; [ignore 5/1d hardness]; ventriloquism; dr 10/magic; [ignore 10/2d hardness]; hallucinatory terrain; dr 15/magic; [ignore 15/3d hardness]; veil; dr 20/magic; [ignore 20/4d/1d hard.]; mirage arcana; caster level 18th",
     "sr 31"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -35313,6 +36413,8 @@
    "sq": [
     "immunity to acid"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -35382,6 +36484,8 @@
    "sq": [
     "immunity to acid"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -35452,6 +36556,8 @@
    "sq": [
     "immunity to acid"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -35526,6 +36632,8 @@
    "sq": [
     "immunity to acid; fascinate; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -35602,6 +36710,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; caster level 3rd",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -35678,6 +36788,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; caster level 5th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -35754,6 +36866,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; caster level 7th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -35830,6 +36944,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; caster level 9th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -35906,6 +37022,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; caster level 11th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -35982,6 +37100,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; caster level 13th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -36058,6 +37178,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 15th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -36134,6 +37256,8 @@
     "immunity to acid; fascinate; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; plant growth; dr 15/magic; [ignore 15/3d hardness]; dominate person; dr 20/magic; [ignore 20/4d/1d hard.]; command plants; caster level 17th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -36204,6 +37328,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -36280,6 +37406,8 @@
     "immunity to fire",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": null,
@@ -36356,6 +37484,8 @@
     "immunity to fire",
     "vulnerability to cold; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -36431,6 +37561,8 @@
     "immunity to fire",
     "vulnerability to cold; locate object; caster level 3rd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -36508,6 +37640,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -36585,6 +37719,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; caster level 7th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -36662,6 +37798,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -36739,6 +37877,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; caster level 11th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -36816,6 +37956,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -36893,6 +38035,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; caster level 15th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -36970,6 +38114,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 29,
    "mdHits": 1,
    "cl": null,
@@ -37048,6 +38194,8 @@
     "vulnerability to cold; locate object; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; suggestion; dr 15/magic; [ignore 15/3d hardness]; find the path; dr 20/magic; [ignore 20/4d/1d hard.]; discern location; caster level 19th",
     "sr 32"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 35,
    "mdHits": 4,
    "cl": null,
@@ -37121,6 +38269,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -37194,6 +38344,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -37267,6 +38419,8 @@
     "immunity to cold",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -37340,6 +38494,8 @@
     "immunity to cold",
     "vulnerability to fire; fog cloud"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -37420,6 +38576,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; caster level 1st",
     "sr 16"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -37500,6 +38658,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; caster level 3rd",
     "sr 18"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -37580,6 +38740,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; caster level 5th",
     "sr 20"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -37660,6 +38822,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; caster level 7th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -37740,6 +38904,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; caster level 9th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -37820,6 +38986,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; caster level 11th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -37900,6 +39068,8 @@
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 13th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -37974,6 +39144,8 @@
     "immunity to cold",
     "vulnerability to fire; fog cloud; dr 5/magic; [ignore 5/1d hardness]; gust of wind; dr 10/magic; [ignore 10/2d hardness]; freezing fog; dr 15/magic; [ignore 15/3d hardness]; wall of ice; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -38046,6 +39218,8 @@
     "immunity to acid",
     "metacreativity discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -38124,6 +39298,8 @@
     "immunity to acid",
     "metacreativity discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": null,
@@ -38202,6 +39378,8 @@
     "immunity to acid",
     "metacreativity discipline; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -38279,6 +39457,8 @@
     "immunity to acid",
     "metacreativity discipline; minor creation; caster level 3rd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -38358,6 +39538,8 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -38437,6 +39619,8 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; caster level 7th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -38516,6 +39700,8 @@
     "metacreativity discipline; minor creation; dr 5/magic; [ignore 5/1d hardness]; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -38596,6 +39782,8 @@
     "greater; caster level 11th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -38676,6 +39864,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -38756,6 +39946,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; caster level 15th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -38836,6 +40028,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 29,
    "mdHits": 1,
    "cl": null,
@@ -38917,6 +40111,8 @@
     "greater; dr 15/magic; [ignore 15/3d hardness]; major creation; dr 20/magic; [ignore 20/4d/1d hard.]; crystallize; caster level 19th",
     "sr 32"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 35,
    "mdHits": 4,
    "cl": null,
@@ -38986,6 +40182,8 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -39055,6 +40253,8 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -39125,6 +40325,8 @@
     "know direction & location",
     "psychoportation discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -39199,6 +40401,8 @@
     "know direction & location",
     "psychoportation discipline; detect teleportation; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -39274,6 +40478,8 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; caster level 3rd",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -39349,6 +40555,8 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; dimension door; caster level 5th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -39424,6 +40632,8 @@
     "psychoportation discipline; detect teleportation; dr 5/magic; [ignore 5/1d hardness]; dimension door; dr 10/magic; [ignore 10/2d hardness]; caster level 7th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -39500,6 +40710,8 @@
     "2nd ectoplasmic breath weapon ; caster level 9th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -39576,6 +40788,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; caster level 11th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -39652,6 +40866,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; caster level 13th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -39728,6 +40944,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 15th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -39804,6 +41022,8 @@
     "2nd ectoplasmic breath weapon ; dr 15/magic; [ignore 15/3d hardness]; temporal acceleration; dr 20/magic; [ignore 20/4d/1d hard.]; time regression; caster level 17th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -39874,6 +41094,8 @@
     "sense link",
     "telepathy discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -39944,6 +41166,8 @@
     "sense link",
     "telepathy discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -40014,6 +41238,8 @@
     "sense link",
     "telepathy discipline"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -40084,6 +41310,8 @@
     "sense link",
     "telepathy discipline; mindlink"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -40160,6 +41388,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; caster level 1st",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -40236,6 +41466,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; caster level 3rd",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -40312,6 +41544,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; caster level 5th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -40388,6 +41622,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; caster level 7th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -40464,6 +41700,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; caster level 9th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -40540,6 +41778,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; caster level 11th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -40616,6 +41856,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 13th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -40692,6 +41934,8 @@
     "telepathy discipline; mindlink; dr 5/magic; [ignore 5/1d hardness]; read thoughts; dr 10/magic; [ignore 10/2d hardness]; schism; dr 15/magic; [ignore 15/3d hardness]; personal mind blank; dr 20/magic; [ignore 20/4d/1d hard.]; brain spider; caster level 15th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -40763,6 +42007,8 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -40834,6 +42080,8 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -40905,6 +42153,8 @@
     "psychokinesis discipline",
     "quickened recovery"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -40981,6 +42231,8 @@
     "psychokinesis discipline",
     "quickened recovery; 2nd breath weapon"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -41059,6 +42311,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -41137,6 +42391,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; caster level 2nd",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -41215,6 +42471,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; caster level 4th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -41293,6 +42551,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; caster level 6th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -41371,6 +42631,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; caster level 8th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -41449,6 +42711,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; caster level 10th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -41527,6 +42791,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 12th",
     "sr 29"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -41605,6 +42871,8 @@
     "quickened recovery; 2nd breath weapon; dr 5/magic; [ignore 5/1d hardness]; 2nd energy immunity; dr 10/magic; [ignore 10/2d hardness]; 3rd breath weapon; dr 15/magic; [ignore 15/3d hardness]; 3rd energy immunity; dr 20/magic; [ignore 20/4d/1d hard.]; 4th breath weapon; caster level 14th",
     "sr 31"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -41676,6 +42944,8 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -41747,6 +43017,8 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -41818,6 +43090,8 @@
     "clairsentience discipline",
     "; immunity to scrying"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -41894,6 +43168,8 @@
     "clairsentience discipline",
     "; immunity to scrying; combat precognition; caster level 2nd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -41972,6 +43248,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; caster level 4th",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -42050,6 +43328,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; caster level 6th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -42128,6 +43408,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; caster level 8th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -42206,6 +43488,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; caster level 10th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -42284,6 +43568,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; caster level 12th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -42362,6 +43648,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; caster level 14th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -42440,6 +43728,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 16th",
     "sr 29"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -42518,6 +43808,8 @@
     "; immunity to scrying; combat precognition; dr 5/magic; [ignore 5/1d hardness]; divination; dr 10/magic; [ignore 10/2d hardness]; remote viewing; dr 15/magic; [ignore 15/3d hardness]; greater precognition; dr 20/magic; [ignore 20/4d/1d hard.]; hypercognition; caster level 18th",
     "sr 31"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -42591,6 +43883,8 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -42664,6 +43958,8 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -42737,6 +44033,8 @@
     "psychometabolism discipline",
     "synesthete"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -42810,6 +44108,8 @@
     "psychometabolism discipline",
     "synesthete; animal affinity"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -42890,6 +44190,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; caster level 2nd",
     "sr 17"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -42970,6 +44272,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; caster level 4th",
     "sr 18"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -43050,6 +44354,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; caster level 6th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -43130,6 +44436,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; caster level 8th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -43210,6 +44518,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; caster level 10th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -43290,6 +44600,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; caster level 12th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -43370,6 +44682,8 @@
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 14th",
     "sr 26"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -43444,6 +44758,8 @@
     "psychometabolism discipline",
     "synesthete; animal affinity; dr 5/magic; [ignore 5/1d hardness]; chameleon; dr 10/magic; [ignore 10/2d hardness]; metamorphosis; dr 15/magic; [ignore 15/3d hardness]; psychofeedback; dr 20/magic; [ignore 20/4d/1d hard.]"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -43516,6 +44832,8 @@
     "speak with animals",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -43588,6 +44906,8 @@
     "speak with animals",
     "vulnerability to cold"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -43660,6 +44980,8 @@
     "speak with animals",
     "vulnerability to cold; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -43732,6 +45054,8 @@
     "speak with animals",
     "vulnerability to cold; endure elements; caster level 3rd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -43811,6 +45135,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 18"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -43890,6 +45216,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; caster level 7th",
     "sr 20"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -43969,6 +45297,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -44048,6 +45378,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; caster level 11th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -44127,6 +45459,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -44206,6 +45540,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; caster level 15th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -44285,6 +45621,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -44364,6 +45702,8 @@
     "vulnerability to cold; endure elements; dr 5/magic; [ignore 5/1d hardness]; suggestion; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; summon djinni; caster level 19th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -44436,6 +45776,8 @@
     "water breathing",
     "speak with animals"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -44508,6 +45850,8 @@
     "water breathing",
     "speak with animals"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -44580,6 +45924,8 @@
     "water breathing",
     "speak with animals; alternate form; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -44657,6 +46003,8 @@
     "water breathing",
     "speak with animals; alternate form; caster level 3rd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -44736,6 +46084,8 @@
     "speak with animals; alternate form; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 20"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -44816,6 +46166,8 @@
     "fog cloud; caster level 7th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -44896,6 +46248,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -44976,6 +46330,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; caster level 11th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -45056,6 +46412,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -45136,6 +46494,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; caster level 15th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -45216,6 +46576,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 29"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -45296,6 +46658,8 @@
     "fog cloud; dr 10/magic; [ignore 10/2d hardness]; detect thoughts; dr 15/magic; [ignore 15/3d hardness]; control water; dr 20/magic; [ignore 20/4d/1d hard.]; control weather; caster level 19th",
     "sr 31"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -45366,6 +46730,8 @@
     "immunity to acid",
     "spider climb"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 2.5,
    "mdHits": 0,
    "cl": null,
@@ -45436,6 +46802,8 @@
     "immunity to acid",
     "spider climb"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -45506,6 +46874,8 @@
     "immunity to acid",
     "spider climb; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -45576,6 +46946,8 @@
     "immunity to acid",
     "spider climb; caster level 3rd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -45653,6 +47025,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 19"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -45730,6 +47104,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; caster level 7th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -45807,6 +47183,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -45884,6 +47262,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; caster level 11th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -45961,6 +47341,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 26"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -46038,6 +47420,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; caster level 15th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -46115,6 +47499,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 29"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -46192,6 +47578,8 @@
     "spider climb; dr 5/magic; [ignore 5/1d hardness]; stone shape; dr 10/magic; [ignore 10/2d hardness]; transmute rock to mud/mud to rock; dr 15/magic; [ignore 15/3d hardness]; wall of stone; dr 20/magic; [ignore 20/4d/1d hard.]; move earth; caster level 19th",
     "sr 31"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 27,
    "mdHits": 1,
    "cl": null,
@@ -46265,6 +47653,8 @@
     "vulnerability to cold",
     "water breathing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -46343,6 +47733,8 @@
     "vulnerability to cold",
     "water breathing"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 12,
    "mdHits": 0,
    "cl": null,
@@ -46421,6 +47813,8 @@
     "vulnerability to cold",
     "water breathing; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 14,
    "mdHits": 0,
    "cl": null,
@@ -46499,6 +47893,8 @@
     "vulnerability to cold",
     "water breathing; bless; caster level 3rd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 16,
    "mdHits": 0,
    "cl": null,
@@ -46579,6 +47975,8 @@
     "water breathing; bless; dr 5/magic; caster level 5th",
     "sr 21"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -46659,6 +48057,8 @@
     "water breathing; bless; dr 5/magic; luck bonus; caster level 7th",
     "sr 23"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -46739,6 +48139,8 @@
     "water breathing; bless; dr 5/magic; luck bonus; dr 10/magic; caster level 9th",
     "sr 25"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 21,
    "mdHits": 1,
    "cl": null,
@@ -46819,6 +48221,8 @@
     "detect gems; caster level 11th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -46899,6 +48303,8 @@
     "detect gems; dr 15/magic; caster level 13th",
     "sr 28"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 29,
    "mdHits": 1,
    "cl": null,
@@ -46979,6 +48385,8 @@
     "detect gems; dr 15/magic; sunburst; caster level 15th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 30,
    "mdHits": 1,
    "cl": null,
@@ -47060,6 +48468,8 @@
     "detect gems; dr 15/magic; sunburst; dr 20/magic; caster level 17th",
     "sr 31"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 35,
    "mdHits": 4,
    "cl": null,
@@ -47141,6 +48551,8 @@
     "detect gems; dr 15/magic; sunburst; dr 20/magic; foresight; caster level 19th",
     "sr 33"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 36,
    "mdHits": 6,
    "cl": null,
@@ -47213,6 +48625,8 @@
     "cloudwalking",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 4.5,
    "mdHits": 0,
    "cl": null,
@@ -47286,6 +48700,8 @@
     "cloudwalking",
     "vulnerability to fire"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 6.5,
    "mdHits": 0,
    "cl": null,
@@ -47358,6 +48774,8 @@
     "cloudwalking",
     "vulnerability to fire; caster level 1st"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 7.5,
    "mdHits": 0,
    "cl": null,
@@ -47435,6 +48853,8 @@
     "cloudwalking",
     "vulnerability to fire; feather fall; caster level 3rd"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 11,
    "mdHits": 0,
    "cl": null,
@@ -47514,6 +48934,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; caster level 5th",
     "sr 20"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 13,
    "mdHits": 0,
    "cl": null,
@@ -47593,6 +49015,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; caster level 7th",
     "sr 22"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 17,
    "mdHits": 0,
    "cl": null,
@@ -47672,6 +49096,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; caster level 9th",
     "sr 24"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 18,
    "mdHits": 1,
    "cl": null,
@@ -47751,6 +49177,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; caster level 11th",
     "sr 26"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 19,
    "mdHits": 1,
    "cl": null,
@@ -47830,6 +49258,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; caster level 13th",
     "sr 27"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 20,
    "mdHits": 1,
    "cl": null,
@@ -47909,6 +49339,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; caster level 15th",
     "sr 29"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 26,
    "mdHits": 1,
    "cl": null,
@@ -47988,6 +49420,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; caster level 17th",
     "sr 30"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 28,
    "mdHits": 1,
    "cl": null,
@@ -48068,6 +49502,8 @@
     "vulnerability to fire; feather fall; dr 5/magic; [ignore 5/1d hardness]; fog cloud; dr 10/magic; [ignore 10/2d hardness]; control winds; dr 15/magic; [ignore 15/3d hardness]; control weather; dr 20/magic; [ignore 20/4d/1d hard.]; reverse gravity; caster level 19th",
     "sr 32"
    ],
+   "defRung": 1,
+   "quickenFeat": 0,
    "maxHitAvg": 34,
    "mdHits": 4,
    "cl": null,

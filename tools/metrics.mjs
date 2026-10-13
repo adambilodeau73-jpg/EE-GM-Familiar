@@ -144,6 +144,19 @@ for (const fam of B.entries) {
       attacks: dAtk?.attacks ?? [],
       speeds, attrs,
       sa: tags(v.special_attacks), sq: tags(v.special_qualities),
+      // THE SWIFT-ACTION LEDGER (Adam, 2026-10-13): the active-defense cost
+      // ladder — a printed Parry/Dodge declares as a MOVE action (rung 1);
+      // Dodge/Defensive Martial Arts upgrade to swift (rung 2); the Improved
+      // feats to free (rung 3). Plus the Quicken offense flags.
+      defRung: (() => {
+        const f = String(v.feats || '');
+        if (/Improved (Dodge|Defensive Martial Arts)/i.test(f)) return 3;
+        if (/\bDodge\b|Defensive Martial Arts/i.test(f)) return 2;
+        const hasParry = /\/\s*[+−-]?\d+\s*$/.test(String(v.ba_grapple_parry || '')) && String(v.ba_grapple_parry || '').split('/').length >= 3;
+        const hasDodgeSv = /Dodge\s*[+−-]?\d/i.test(String(v.saves_dodge || ''));
+        return (hasParry || hasDodgeSv) ? 1 : 0;
+      })(),
+      quickenFeat: /Quicken (Spell|Power)/i.test(String(v.feats || '')) ? 1 : 0,
       // E&E MASSIVE DAMAGE pressure (Adam, 2026-10-12): MDT = the target's
       // current Con (HH), Fort DC 15. A typical adventurer Con is ~14, so
       // every attack in the routine averaging >=14 on a single connect

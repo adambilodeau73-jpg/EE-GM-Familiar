@@ -10,6 +10,27 @@ const M = JSON.parse(readFileSync(new URL('../data/metrics.json', import.meta.ur
 const rows = M.rows.filter(r => !r.template);
 
 const effHP = (r) => r.hp + (r.bonusHp ?? 0);
+// HARDNESS-AS-MITIGATION (Adam, 2026-10-13): benchmarks and model must speak
+// the SAME metric — mitigated HP = effHP x (1 + hardness / band-typical
+// biggest hit). Two-pass: build the hit curve from the rows, then attach.
+(function () {
+  const pts = (() => {
+    const by = new Map();
+    for (const r of rows) { if (r.maxHitAvg == null) continue; const k = r.cr; if (!by.has(k)) by.set(k, []); by.get(k).push(r.maxHitAvg); }
+    const out = [...by.entries()].filter(([, a]) => a.length >= 3)
+      .map(([cr, a]) => { const s2 = [...a].sort((x, y) => x - y); return [cr, s2[Math.floor(s2.length / 2)]]; })
+      .sort((a, b) => a[0] - b[0]);
+    for (let i = 1; i < out.length; i++) out[i][1] = Math.max(out[i][1], out[i - 1][1]);
+    return out;
+  })();
+  const bandHit = (cr) => {
+    if (!pts.length) return 12;
+    if (cr <= pts[0][0]) return pts[0][1];
+    for (let i = 1; i < pts.length; i++) if (cr <= pts[i][0]) { const [c0, v0] = pts[i - 1], [c1, v1] = pts[i]; return v0 + (v1 - v0) * (cr - c0) / (c1 - c0); }
+    return pts[pts.length - 1][1];
+  };
+  for (const r of rows) r._mitHP = Math.round(effHP(r) * (1 + (r.hardness || 0) / Math.max(6, bandHit(r.cr) || 12)));
+})();
 const q = (arr, p) => { const a = [...arr].sort((x, y) => x - y); if (!a.length) return null; const i = (a.length - 1) * p; const lo = Math.floor(i); return a[lo] + (a[Math.ceil(i)] - a[lo]) * (i - lo); };
 const fmt = (x) => x == null ? '—' : (Math.round(x * 10) / 10).toString();
 
@@ -20,6 +41,7 @@ const crKeys = [...byCR.keys()].sort((a, b) => a - b);
 
 const METRICS = {
   effHP: { get: effHP, log: true },
+  effHPmit: { get: r => r._mitHP, log: true },
   fullAC: { get: r => r.fullAC, log: false },
   touchAC: { get: r => r.touchAC, log: false },
   hardness: { get: r => r.hardness, log: false },
@@ -30,6 +52,7 @@ const METRICS = {
   routineAvg: { get: r => r.derivedRoutine ? null : r.routineAvg, log: true },
   dcMax: { get: r => r.dcMax, log: false },
   saveAvg: { get: r => r.fort != null ? Math.round(10 * (r.fort + r.ref + r.will) / 3) / 10 : null, log: false },
+  maxHitAvg: { get: r => r.maxHitAvg, log: true },
   fort: { get: r => r.fort, log: false },
   ref: { get: r => r.ref, log: false },
   will: { get: r => r.will, log: false },
