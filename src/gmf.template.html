@@ -62,7 +62,7 @@ details.card[open]{border-left-color:var(--gold)}
 <body>
 <header>
   <h1>The Game Master's Familiar</h1>
-  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.6.2 — the Bestiary, the Forge &amp; the Adjudicator</div>
+  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · v0.6.3 — the Bestiary, the Forge &amp; the Adjudicator</div>
 </header>
 <nav>
   <button id="tab-bestiary" class="on" onclick="show('bestiary')">🐾 Bestiary</button>
@@ -131,7 +131,7 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="a-list"></div>
 </section>
 </main>
-<div class="foot">The Game Master's Familiar v0.6.2 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
+<div class="foot">The Game Master's Familiar v0.6.3 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
 <script>
 const BESTIARY = /*__BESTIARY__*/[];
 const REFS = /*__REFS__*/{spells:[],feats:[],skills:[]};
@@ -400,6 +400,19 @@ function advHTML(idx){
   return `<div style="padding:6px 12px"><span class="fshare">Advancement: ${esc(v.advancement)}</span><div class="bar" style="padding:6px 0">HD <input type="number" id="advhd-${idx}" min="${oldHD}" max="${hi}" value="${oldHD}" style="width:70px" onchange="advGo(${idx},${vi})">${advOverlayHTML(idx,vi,oldHD)}</div><div id="advout-${idx}"></div></div>`;
 }
 const advOverlayHTML=(idx,vi,oldHD)=>` <label title="NPC-grade class silhouette (the quick overlay) — for the full character, Send to CG">+ <select id="advov-${idx}" onchange="advGo(${idx},${vi})"><option value="">no class</option><option>Warrior</option><option>Expert</option><option>Adept (caster)</option></select> <input type="number" id="advovl-${idx}" min="0" max="20" value="0" style="width:60px" onchange="advGo(${idx},${vi})"></label> <button class="fbtn" onclick="advSeed(${idx},${vi})" title="Export the creature seed for the Character Generator's Monstrous Heritage lane (the bridge)">Seed → CG</button>`;
+// The derived statline, shared by the Advancer panel AND the Forge tray's
+// stats toggle (v0.6.3, Adam's Terror-of-the-Greymist-Moors catch: a fielded
+// advanced creature must carry its whole body through save/load, forever).
+function advStatHTML(d,fieldBtn){
+  return `<div class="statline"><div class="statrow"><b>${esc(d.label)}</b></div>
+  <div class="statrow"><b>HD/hp:</b> ${d.hd} HD (${d.hp} hp) · <b>Size:</b> ${d.size}${d.steps?` (+${d.steps} step${d.steps>1?'s':''})`:''}</div>
+  <div class="statrow"><b>BA/Grapple:</b> +${d.bab}/+${d.grapple} · <b>Full AC ≈</b> ${d.fullAC??'—'} · <b>F/R/W:</b> ${d.fort??'—'}/${d.ref??'—'}/${d.will??'—'}</div>
+  <div class="statrow"><b>Str/Dex/Con:</b> ${d.str??'—'}/${d.dex??'—'}/${d.con??'—'}${d.bumps?` <span class="fshare">(+${d.bumps} ability bump${d.bumps>1?'s':''} → Str by default; reassign at will)</span>`:''}</div>
+  <div class="statrow"><b>Full Attack ≈</b> ${esc(d.fullAttack)}${d.dmgNote?` <span class="fshare">${esc(d.dmgNote)}</span>`:''}${d.cl?` · ${esc(d.cl)}`:''}</div>
+  ${d.modelCR!=null?`<div class="statrow calculus"><b>Model CR ≈ ${Math.round(d.modelCR)}</b> <span class="fshare">(${esc(d.crNote)} — the FF prints no HD-to-CR rule; the calculus measures instead)</span>${d.mdHits?` <span class="chip" style="color:#d9a85c">⚠ ${d.mdHits} MD/rd</span>`:''}${fieldBtn||''}</div>`:''}
+  <div class="fshare">Skills, feats and SA/SQ scaling are the GM's finishing touches (FF p.35); save DCs rise with HD/ability where formulas say so.</div></div>`;
+}
+const ADVLAST={};
 function advGo(idx,vi){
   const f=VIEW[idx];
   const hd=+(document.getElementById('advhd-'+idx)?.value)||null;
@@ -409,15 +422,18 @@ function advGo(idx,vi){
   const d=advanceCreature(f.parent,vi,hd??(hdM?+hdM[1]:1),ov,ovl);
   const box=document.getElementById('advout-'+idx);if(!box)return;
   if(!d){box.innerHTML='<div class="fshare">Could not derive (statline gaps).</div>';return;}
-  box.innerHTML=`<div class="statline"><div class="statrow"><b>${esc(d.label)}</b></div>
-  <div class="statrow"><b>HD/hp:</b> ${d.hd} HD (${d.hp} hp) · <b>Size:</b> ${d.size}${d.steps?` (+${d.steps} step${d.steps>1?'s':''})`:''}</div>
-  <div class="statrow"><b>BA/Grapple:</b> +${d.bab}/+${d.grapple} · <b>Full AC ≈</b> ${d.fullAC??'—'} · <b>F/R/W:</b> ${d.fort??'—'}/${d.ref??'—'}/${d.will??'—'}</div>
-  <div class="statrow"><b>Str/Dex/Con:</b> ${d.str??'—'}/${d.dex??'—'}/${d.con??'—'}${d.bumps?` <span class="fshare">(+${d.bumps} ability bump${d.bumps>1?'s':''} → Str by default; reassign at will)</span>`:''}</div>
-  <div class="statrow"><b>Full Attack ≈</b> ${esc(d.fullAttack)}${d.dmgNote?` <span class="fshare">${esc(d.dmgNote)}</span>`:''}${d.cl?` · ${esc(d.cl)}`:''}</div>
-  ${d.modelCR!=null?`<div class="statrow calculus"><b>Model CR ≈ ${Math.round(d.modelCR)}</b> <span class="fshare">(${esc(d.crNote)} — the FF prints no HD-to-CR rule; the calculus measures instead)</span>${d.mdHits?` <span class="chip" style="color:#d9a85c">⚠ ${d.mdHits} MD/rd</span>`:''} <button class="fbtn" onclick='forgeAddAdvanced(${JSON.stringify(JSON.stringify({fam:f.parent,label:d.label,cr:Math.round(d.modelCR)}))})'>Field it → Forge</button></div>`:''}
-  <div class="fshare">Skills, feats and SA/SQ scaling are the GM's finishing touches (FF p.35); save DCs rise with HD/ability where formulas say so.</div></div>`;
+  ADVLAST[idx]={fam:f.parent,d};
+  box.innerHTML=advStatHTML(d,` <button class="fbtn" onclick="forgeAddAdvanced(${idx})">Field it → Forge</button>`);
 }
-function forgeAddAdvanced(j){const o=JSON.parse(j);TRAY.push({fam:o.fam,vi:-1,label:o.label,cr:o.cr,n:1});saveForge();renderF();show('forge');}
+function forgeAddAdvanced(idx){
+  const a=typeof idx==='object'?idx:ADVLAST[idx];if(!a)return;
+  TRAY.push({fam:a.fam,vi:-1,label:a.d.label,cr:Math.round(a.d.modelCR??a.d.cr??1),n:1,d:a.d});
+  saveForge();renderF();show('forge');
+}
+function trayStats(i){
+  const box=document.getElementById('trayst-'+i);if(!box)return;
+  box.innerHTML=box.innerHTML?'':(TRAY[i]&&TRAY[i].d?advStatHTML(TRAY[i].d,''):'');
+}
 function advSeed(idx,vi){
   const f=VIEW[idx];const v=f.variants[vi]||f.variants[0];
   const seed={seed:'ee-creature',from:'GMF v0.6.2',fam:f.parent,label:v.label,size:v.size,type:v.type,hit_dice:v.hit_dice,attributes:v.attributes,saves:v.saves_dodge,ba_grapple_parry:v.ba_grapple_parry,attack:v.attack,full_attack:v.full_attack,special_attacks:v.special_attacks,special_qualities:v.special_qualities,level_adjustment:v.level_adjustment,advancement:v.advancement};
@@ -493,7 +509,7 @@ function renderF(){
     const chaff=chaffFloor!=null&&t.cr<=chaffFloor;
     const m=chaff?0:t.n*Math.pow(2,t.cr/2);mass+=m;
     shares.push({t,m,chaff});
-    return `<div class="frow${chaff?' fchaff':''}"><span class="nm">${t.n>1?t.n+'× ':''}${esc(toTitle(t.fam))}${t.label&&t.label!==t.fam?' — '+esc(t.label):''}</span><span class="chip cr">CR ${esc(String(fmtCR(t.cr)))}</span>${chaff?'<span class="chip" title="8 or more CR below this party: scenery with hit points — excluded from the reading">chaff</span>':''}<button class="fbtn" onclick="forgeN(${i},-1)">−</button><button class="fbtn" onclick="forgeN(${i},1)">＋</button></div>`;
+    return `<div class="frow${chaff?' fchaff':''}"><span class="nm">${t.n>1?t.n+'× ':''}${esc(toTitle(t.fam))}${t.label&&t.label!==t.fam?' — '+esc(t.label):''}</span><span class="chip cr">CR ${esc(String(fmtCR(t.cr)))}</span>${chaff?'<span class="chip" title="8 or more CR below this party: scenery with hit points — excluded from the reading">chaff</span>':''}${t.d?`<button class="fbtn" onclick="trayStats(${i})" title="the advanced creature's full derived statblock — carried in the encounter, survives save/load">📜 stats</button>`:''}<button class="fbtn" onclick="forgeN(${i},-1)">−</button><button class="fbtn" onclick="forgeN(${i},1)">＋</button></div><div id="trayst-${i}"></div>`;
   }).join('');
   const meter=document.getElementById('f-meter');
   if(!TRAY.length||!mass){meter.innerHTML='<div class="fshare">Field some opposition and the Familiar will read the threat.</div>';renderFSaved();return;}
