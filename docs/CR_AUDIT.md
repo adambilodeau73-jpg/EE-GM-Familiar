@@ -1,6 +1,6 @@
-# CR AUDIT — Phase B: the descriptive benchmarks (generated 2026-10-13)
+# CR AUDIT — Phase B: the descriptive benchmarks (generated 2026-10-14)
 
-Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, saves 688, offense 706). Method: per-CR percentile bands; outliers scored by robust within-band z (median/IQR, log-space for HP and damage), defense = mean z(effHP, fullAC), offense = mean z(bestAtk, routine), overall = their mean. Bands with n < 5 are reported but not scored.
+Corpus: 717 non-template variants with CR (717 harvested; coverage — AC 703, saves 687, offense 705). Method: per-CR percentile bands; outliers scored by robust within-band z (median/IQR, log-space for HP and damage), defense = mean z(effHP, fullAC), offense = mean z(bestAtk, routine), overall = their mean. Bands with n < 5 are reported but not scored.
 
 ## The benchmark table (median [p25–p75])
 
@@ -12,7 +12,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | 0.5 | 22 | 12.5 [5.3–23.8] | 15 [13–16] | 12 [11–13] | 3 [2–4] | 4.5 [3.5–5.4] | 3/4/1 |
 | 1 | 51 | 25 [21–35] | 15 [14–16] | 12 [10–13] | 3 [2–4] | 5 [3.5–7.4] | 3/3/1 |
 | 2 | 55 | 38 [27.5–48] | 16 [14–17] | 12 [11–13] | 5 [4–6] | 7.5 [4.5–11.5] | 4/4.5/3 |
-| 3 | 85 | 49 [36–64] | 16 [15–18] | 12 [11–13] | 6 [4–7] | 9 [5.5–16.5] | 5/4.5/4 |
+| 3 | 84 | 49 [36.8–64.8] | 16 [15–18] | 12 [11–13] | 6 [4–7] | 9 [6.3–16.9] | 5/4/4 |
 | 4 | 51 | 82 [61–105] | 17 [15–18] | 10 [10–11] | 9 [6–10] | 15.3 [8.8–22.6] | 6/5/5 |
 | 5 | 53 | 83 [75–113] | 17 [15–19] | 11 [10–11.3] | 10 [7.8–11] | 16.5 [11.3–27.3] | 8/6/5 |
 | 6 | 34 | 103 [92.3–131] | 18.5 [17–20] | 10 [9–12] | 11 [10–13] | 25.5 [19.3–32.5] | 8/7/6 |
@@ -49,21 +49,21 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | BLUE DRAGON — Young (p.191) | 6 | 1.9 | 1.9 | 1.8 | 207 | 21 | 23.5 |
 | WHITE DRAGON — Juvenile (p.196) | 6 | 1.8 | 1.9 | 1.8 | 205 | 21 | 23.5 |
 | BLACK DRAGON — Great wyrm (p.190) | 22 | 1.8 | 1.7 | 1.8 | 891 | 42 | 98 |
+| ASTRAL CONSTRUCT — 4TH-LEVEL ASTRAL CONSTRUCT (p.111) | 3 | 1.7 | 2.2 | 1.2 | 97 | 22 | 13.5 |
 | WHITE DRAGON — Ancient (p.196) | 18 | 1.7 | 1.4 | 1.9 | 670 | 37 | 75 |
-| ASTRAL CONSTRUCT — 4TH-LEVEL ASTRAL CONSTRUCT (p.111) | 3 | 1.7 | 2.2 | 1.1 | 97 | 22 | 13.5 |
 | ASTRAL CONSTRUCT — 9TH-LEVEL ASTRAL CONSTRUCT (p.111) | 11 | 1.6 | 2 | 1.1 | 269 | 33 | 46 |
 | WHITE DRAGON — Wyrm (p.196) | 19 | 1.6 | 1.3 | 1.8 | 755 | 38 | 97 |
 | ETOILE (p.235) | 2 | 1.5 | 2 | 0.9 | 56 | 23 | 10.5 |
 | ASTRAL CONSTRUCT — 2ND-LEVEL ASTRAL CONSTRUCT (p.111) | 1 | 1.4 | 2.2 | 0.7 | 61 | 18 | 7.5 |
 | ASTRAL CONSTRUCT — 5TH-LEVEL ASTRAL CONSTRUCT (p.111) | 5 | 1.4 | 1.8 | 1 | 133 | 23 | 27 |
 | FLESHRAKER (Knife Fiend) — Knife Fiend (p.240) | 3 | 1.4 | 2.2 | 0.5 | 71 | 24 | 7 |
+| XORN — Minor Xorn (p.509) | 3 | 1.4 | 2.2 | 0.5 | 82 | 23 | 20 |
 | WHITE DRAGON — Very old (p.196) | 17 | 1.4 | 1.4 | 1.4 | 592 | 34 | 74 |
-| XORN — Minor Xorn (p.509) | 3 | 1.3 | 2.2 | 0.5 | 82 | 23 | 20 |
 | ASTRAL CONSTRUCT — 3RD-LEVEL ASTRAL CONSTRUCT (p.111) | 2 | 1.3 | 1.7 | 0.9 | 76 | 20 | 10.5 |
+| UNICORN — Unicorn (p.479) | 3 | 1.3 | 0.9 | 1.7 | 72 | 18 | 21.5 |
 | XORN — Elder Xorn (p.509) | 8 | 1.3 | 1.3 | 1.4 | 210 | 25 | 44.5 |
 | TOPAZ DRAGON — Great wyrm (p.207) | 22 | 1.3 | 0.8 | 1.8 | 891 | null | 98 |
 | WHITE DRAGON — Mature adult (p.196) | 12 | 1.3 | 1.5 | 1.1 | 441 | 28 | 67 |
-| UNICORN — Unicorn (p.479) | 3 | 1.3 | 0.9 | 1.7 | 72 | 18 | 21.5 |
 
 ## The outlier docket — COLD (under-statted: candidates for a CR cut or an ability-tax explanation)
 
@@ -105,7 +105,7 @@ Corpus: 718 non-template variants with CR (718 harvested; coverage — AC 704, s
 | scent | 137 | 4.9 |
 | frightful presence | 114 | 18.5 |
 | improved grab | 86 | 7 |
-| spell-like abilities | 78 | 9.2 |
+| spell-like abilities | 77 | 9.2 |
 | alternate form | 75 | 11.7 |
 | immunity to fire | 74 | 12.3 |
 | poison | 55 | 5.7 |

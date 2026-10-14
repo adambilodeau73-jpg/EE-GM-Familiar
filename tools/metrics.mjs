@@ -163,6 +163,21 @@ for (const fam of B.entries) {
         return (hasParry || hasDodgeSv) ? 1 : 0;
       })(),
       quickenFeat: /Quicken (Spell|Power)/i.test(String(v.feats || '')) ? 1 : 0,
+      // THE RULED ACTIVE-DEFENSE TERM needs the printed maneuver QUALITY
+      // (Adam's gavel, 2026-10-13: gate on the foe's own band): Parry = the
+      // last segment of the BA/Grapple/Parry line, Dodge = the Saves/Dodge
+      // line's Dodge entry. Asterisks (conditional riders) are stripped —
+      // the gate reads the base modifier.
+      parryMod: (() => {
+        const parts = String(v.ba_grapple_parry || '').split('/');
+        if (parts.length < 3) return null;
+        const m = parts[parts.length - 1].match(/([+−-]?\d+)/);
+        return m ? parseInt(m[1].replace('−', '-'), 10) : null;
+      })(),
+      dodgeMod: (() => {
+        const m = String(v.saves_dodge || '').match(/Dodge\s*([+−-]?\d+)/i);
+        return m ? parseInt(m[1].replace('−', '-'), 10) : null;
+      })(),
       // E&E MASSIVE DAMAGE pressure (Adam, 2026-10-12): MDT = the target's
       // current Con (HH), Fort DC 15. A typical adventurer Con is ~14, so
       // every attack in the routine averaging >=14 on a single connect

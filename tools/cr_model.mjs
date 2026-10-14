@@ -96,16 +96,21 @@ const TAGS = [...tagCount.entries()].filter(([, n]) => n >= 8).map(([t]) => t).s
 const ti = new Map(TAGS.map((t, i) => [t, i]));
 // Numeric feature: DR value (per 10 points) — structured, not string-fragmented (Adam, 2026-10-12).
 const DR_COL = TAGS.length;
-// Swift-action ledger features (Adam, 2026-10-13): the defense-cost ladder
-// rung (move 1 / swift 2 / free 3) and the Quicken offense flag - fitted so
-// the corpus can CONFESS whether the print ever priced action economy
-// (prediction: it did not; the ruled constant then comes from the sim).
-const RUNG_COL = TAGS.length + 1;
-const QK_COL = TAGS.length + 2;
+// The Quicken offense flag stays FITTED (the caster sim will rule it later).
+// The defense-cost RUNG left the ridge 2026-10-13: it is now a RULED term
+// (the Kobold lesson — a ruled term and its fitted shadow never coexist).
+const QK_COL = TAGS.length + 1;
 // MASSIVE DAMAGE is NOT a fitted feature: the regression proved the print
 // charges zero for it, so it is priced by RULING (Adam, 2026-10-12, Phase D
 // calibrated): +1 CR per 2 effectively-100%-forcing attacks/round, cap +3.
-const P = TAGS.length + 4; // + DR, defRung, quicken columns + intercept
+// ACTIVE DEFENSE is likewise RULED (Adam, 2026-10-13, defsim-calibrated:
+// docs/DEFENSE_SIM.md): +0.5 CR per rung ABOVE move (swift/free/immediate),
+// cap +1.5, GATED on quality — counts only while the printed Parry or Dodge
+// modifier >= the foe's own band attack benchmark - 2 (a decorative dodge
+// prices at zero). One attempt per round at every tier (Adam's A1 ruling);
+// the sim showed the rung's worth is the ACTION REFUND, so move-rung
+// defense (mitigation paid from the foe's own offense) nets zero.
+const P = TAGS.length + 3; // + DR, quicken columns + intercept
 
 const fit = [];
 for (const r of rows) {
@@ -118,7 +123,6 @@ for (const r of rows) {
   // refits to price only the casters the harvest could not level.
   for (const t of new Set([...r.sa, ...r.sq])) { if (t === 'spells' && r.cl != null) continue; const i = ti.get(t); if (i != null) x[i] = 1; }
   if (r.drValue) x[DR_COL] = r.drValue / 10;
-  if (r.defRung) x[RUNG_COL] = r.defRung;
   if (r.quickenFeat) x[QK_COL] = 1;
   fit.push({ r, b, x, y: r.cr - b.body });
 }
@@ -165,11 +169,18 @@ for (const f of fit) {
     if (i != null && Math.abs(w[i]) >= 0.05) contribs.push({ t, w: r1(w[i]) });
   }
   if (f.r.drValue && Math.abs(w[DR_COL] * f.r.drValue / 10) >= 0.05) contribs.push({ t: `DR ${f.r.drValue}`, w: r1(w[DR_COL] * f.r.drValue / 10) });
-  if (f.r.defRung && Math.abs(w[RUNG_COL] * f.r.defRung) >= 0.05) contribs.push({ t: `active defense (rung ${f.r.defRung})`, w: r1(w[RUNG_COL] * f.r.defRung) });
   if (f.r.quickenFeat && Math.abs(w[QK_COL]) >= 0.05) contribs.push({ t: 'Quicken', w: r1(w[QK_COL]) });
   // The Phase D ruled term: +1 CR per 2 forcing attacks (avg >= 18), cap +3.
   const ruledMd = f.r.mdHits ? Math.min(3, Math.floor(f.r.mdHits / 2)) : 0;
   if (ruledMd) contribs.push({ t: `MD pressure ×${f.r.mdHits} (ruled)`, w: ruledMd });
+  // THE ACTIVE-DEFENSE RULED TERM (Adam, 2026-10-13; defsim-calibrated):
+  // +0.5/rung above move, cap +1.5, gated on the printed maneuver quality
+  // vs the foe's OWN band attack benchmark (Adam's gavel: own band).
+  const adRungs = Math.max(0, (f.r.defRung || 0) - 1);
+  const adMod = Math.max(f.r.parryMod ?? -99, f.r.dodgeMod ?? -99);
+  const bandAtk = interp(C.atk, f.r.cr);
+  const ruledAd = (adRungs > 0 && bandAtk != null && adMod >= bandAtk - 2) ? Math.min(1.5, 0.5 * adRungs) : 0;
+  if (ruledAd) contribs.push({ t: `active defense ×${adRungs} (ruled)`, w: ruledAd });
   contribs.sort((a, b) => Math.abs(b.w) - Math.abs(a.w));
   const abil = contribs.reduce((s, c) => s + c.w, 0);
   const pred = f.b.body + abil + intercept;
@@ -219,7 +230,7 @@ writeFileSync(new URL('../data/crcalc.json', import.meta.url), JSON.stringify({
 }, null, 1));
 
 // ---- the report ----
-const priced = [...TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })), { t: 'DR (per 10 points)', w: w[DR_COL], n: fit.filter(f => f.r.drValue).length }, { t: 'MD pressure (RULED: +1 per 2 forcing attacks, cap +3)', w: 0.5, n: fit.filter(f => f.r.mdHits).length }, { t: 'active-defense rung (fitted/rung)', w: w[RUNG_COL], n: fit.filter(f => f.r.defRung).length }, { t: 'Quicken feat (fitted)', w: w[QK_COL], n: fit.filter(f => f.r.quickenFeat).length }].sort((a, b) => b.w - a.w);
+const priced = [...TAGS.map((t, i) => ({ t, w: w[i], n: tagCount.get(t) })), { t: 'DR (per 10 points)', w: w[DR_COL], n: fit.filter(f => f.r.drValue).length }, { t: 'MD pressure (RULED: +1 per 2 forcing attacks, cap +3)', w: 0.5, n: fit.filter(f => f.r.mdHits).length }, { t: 'active defense (RULED: +0.5/rung above move, quality-gated, cap +1.5)', w: 0.5, n: fit.filter(f => Math.max(0, (f.r.defRung || 0) - 1) > 0 && Math.max(f.r.parryMod ?? -99, f.r.dodgeMod ?? -99) >= (interp(C.atk, f.r.cr) ?? 99) - 2).length }, { t: 'Quicken feat (fitted)', w: w[QK_COL], n: fit.filter(f => f.r.quickenFeat).length }].sort((a, b) => b.w - a.w);
 const docket = [...fit].sort((a, b) => Math.abs(b.resid) - Math.abs(a.resid)).slice(0, 24);
 const out = [];
 out.push(`# CR MODEL — Phase C: body CR + priced abilities (generated ${new Date().toISOString().slice(0, 10)})`);
