@@ -5472,36 +5472,6 @@
    "resid": 3,
    "derived": false
   },
-  "DERRO#0": {
-   "printed": 3,
-   "body": 3,
-   "def": 3.8,
-   "off": 2.1,
-   "hpCR": 0.9,
-   "acCR": 7.3,
-   "svCR": 3,
-   "srCR": 4,
-   "atkCR": 3,
-   "dmgCR": 0.3,
-   "dcCR": null,
-   "spCR": 3,
-   "abil": 0.5,
-   "contribs": [
-    {
-     "t": "active defense (rung 1)",
-     "w": 0.5
-    }
-   ],
-   "unpriced": [
-    "poison use",
-    "spell-like abilities",
-    "sneak attack +1d6",
-    "madness"
-   ],
-   "pred": 2.9,
-   "resid": 0.1,
-   "derived": false
-  },
   "DESTRACHAN#0": {
    "printed": 8,
    "body": 5,
