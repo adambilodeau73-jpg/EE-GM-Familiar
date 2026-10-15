@@ -1,4 +1,4 @@
-# CR AUDIT — Phase B: the descriptive benchmarks (generated 2026-10-14)
+# CR AUDIT — Phase B: the descriptive benchmarks (generated 2026-10-15)
 
 Corpus: 717 non-template variants with CR (717 harvested; coverage — AC 703, saves 687, offense 705). Method: per-CR percentile bands; outliers scored by robust within-band z (median/IQR, log-space for HP and damage), defense = mean z(effHP, fullAC), offense = mean z(bestAtk, routine), overall = their mean. Bands with n < 5 are reported but not scored.
 
@@ -16,8 +16,8 @@ Corpus: 717 non-template variants with CR (717 harvested; coverage — AC 703, s
 | 4 | 51 | 82 [61–105] | 17 [15–18] | 10 [10–11] | 9 [6–10] | 15.3 [8.8–22.6] | 6/5/5 |
 | 5 | 53 | 83 [75–113] | 17 [15–19] | 11 [10–11.3] | 10 [7.8–11] | 16.5 [11.3–27.3] | 8/6/5 |
 | 6 | 34 | 103 [92.3–131] | 18.5 [17–20] | 10 [9–12] | 11 [10–13] | 25.5 [19.3–32.5] | 8/7/6 |
-| 7 | 51 | 129 [81–165] | 18 [16.5–21] | 10 [9–12] | 13 [10–15] | 22.8 [11.6–32.5] | 9/7/7.5 |
-| 8 | 37 | 147 [104–187] | 20 [18–22] | 10 [9–12] | 15 [12–17] | 21 [15–37.5] | 10/8/7 |
+| 7 | 50 | 128.5 [79.5–163.8] | 18 [16.3–20.8] | 10 [9–12] | 12.5 [10–15] | 22.8 [11.6–32.5] | 9/7/7 |
+| 8 | 38 | 147 [104.8–194.5] | 20 [18–22] | 10 [9–12] | 15 [12–17] | 21 [15–37.5] | 10/8/7 |
 | 9 | 29 | 174 [138–233] | 22 [20–24] | 10 [9–11] | 17 [14–19] | 28 [23.6–43.6] | 12/9/9 |
 | 10 | 30 | 219 [177.3–263.5] | 22 [19–24] | 9 [8–10] | 18.5 [14.3–22] | 34 [19.8–44] | 12/9/9 |
 | 11 | 28 | 213.5 [160–305.5] | 25 [22.5–25.5] | 9 [9–10.5] | 18 [15–23.3] | 35 [27.3–53] | 13/10/11 |
@@ -61,7 +61,7 @@ Corpus: 717 non-template variants with CR (717 harvested; coverage — AC 703, s
 | WHITE DRAGON — Very old (p.196) | 17 | 1.4 | 1.4 | 1.4 | 592 | 34 | 74 |
 | ASTRAL CONSTRUCT — 3RD-LEVEL ASTRAL CONSTRUCT (p.111) | 2 | 1.3 | 1.7 | 0.9 | 76 | 20 | 10.5 |
 | UNICORN — Unicorn (p.479) | 3 | 1.3 | 0.9 | 1.7 | 72 | 18 | 21.5 |
-| XORN — Elder Xorn (p.509) | 8 | 1.3 | 1.3 | 1.4 | 210 | 25 | 44.5 |
+| XORN — Elder Xorn (p.509) | 8 | 1.3 | 1.2 | 1.4 | 210 | 25 | 44.5 |
 | TOPAZ DRAGON — Great wyrm (p.207) | 22 | 1.3 | 0.8 | 1.8 | 891 | null | 98 |
 | WHITE DRAGON — Mature adult (p.196) | 12 | 1.3 | 1.5 | 1.1 | 441 | 28 | 67 |
 
@@ -76,13 +76,13 @@ Corpus: 717 non-template variants with CR (717 harvested; coverage — AC 703, s
 | SATANIC ICHOR — Satanic Ichor (p.423) | 4 | -3 | -3 | -3 | 21 | 11 | 1.5 |
 | WHISPERER IN THE DARK (p.500) | 12 | -3 | -2.9 | -3.1 | 71 | 14 | 28 |
 | MONTAUK MONSTER — Montauk Monster, Advanced (p.370) | 15 | -2.9 | -5.1 | -0.7 | 215 | 15 | 48 |
-| MONGOLIAN DEATH WORM (p.369) | 8 | -2.9 | -2.4 | -3.3 | 32 | 16 | 1.5 |
+| MONGOLIAN DEATH WORM (p.369) | 8 | -2.8 | -2.3 | -3.3 | 32 | 16 | 1.5 |
 | FROST GIANT — Frost Giant Jarl, 8th-Level Blackguard (p.269) | 19 | -2.8 | -3.4 | -2.2 | 276 | 29 | 128 |
 | TITAN (p.464) | 23 | -2.7 | -2 | -3.4 | 465 | 38 | 205 |
 | GRAY OOZE (p.391) | 4 | -2.7 | -3.9 | -1.5 | 31 | 5 | 8 |
-| ELOHIM (p.232) | 8 | -2.6 | -1.7 | -3.5 | 72 | 15 | 0 |
 | SATANIC ICHOR — Satanic Ichor, Advanced (p.423) | 10 | -2.5 | -3 | -2.1 | 90 | 11 | 7.5 |
 | UNBODIED (p.477) | 5 | -2.5 | -2.9 | -2.2 | 22 | 13 | 3.5 |
+| ELOHIM (p.232) | 8 | -2.5 | -1.6 | -3.5 | 72 | 15 | 0 |
 | HORNED DEVIL (CORNUGON) (p.174) | 18 | -2.4 | -1.4 | -3.5 | 267 | 35 | 114 |
 | VARGOUILLE (p.485) | 2 | -2.4 | -3.4 | -1.5 | 5 | 12 | 2.5 |
 | SEWER SLUDGE — Sewer Sludge (p.427) | 5 | -2.4 | -2.6 | -2.2 | 36 | 10 | 4.5 |
@@ -109,7 +109,7 @@ Corpus: 717 non-template variants with CR (717 harvested; coverage — AC 703, s
 | alternate form | 75 | 11.7 |
 | immunity to fire | 74 | 12.3 |
 | poison | 55 | 5.7 |
-| immunity to acid | 51 | 12.6 |
+| immunity to acid | 51 | 12.7 |
 | elemental traits | 39 | 8 |
 | undead traits | 38 | 6.1 |
 | vulnerability to cold | 36 | 9.3 |

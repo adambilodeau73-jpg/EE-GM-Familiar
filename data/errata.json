@@ -42,70 +42,70 @@
    "cr": 3,
    "was": 1,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): PSEUDODRAGON rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): PSEUDODRAGON rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "BLACK DRAGON#4": {
    "cr": 11,
    "was": 9,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Young adult rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Young adult rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "BLUE DRAGON#3": {
    "cr": 10,
    "was": 8,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Juvenile rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Juvenile rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "GREEN DRAGON#2": {
    "cr": 7,
    "was": 5,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "RED DRAGON#1": {
    "cr": 7,
    "was": 5,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "RED DRAGON#2": {
    "cr": 9,
    "was": 7,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "AMETHYST DRAGON#1": {
    "cr": 7,
    "was": 5,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "AMETHYST DRAGON#2": {
    "cr": 9,
    "was": 7,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "EMERALD DRAGON#2": {
    "cr": 7,
    "was": 5,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Young rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "SILVER DRAGON#1": {
    "cr": 7,
    "was": 5,
    "ruled": "2026-10-12",
-   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price \u2014 honest re-rate +2; see the Adjudicator's dragon proviso.",
+   "why": "Class A ruling (the young-dragon heat): Very young rung statted a band above its price — honest re-rate +2; see the Adjudicator's dragon proviso.",
    "md": 0
   },
   "BARGHEST#1": {
@@ -569,6 +569,12 @@
    "ruled": "2026-10-12",
    "why": "Blanket MD errata (+1: 2 forcing attacks). Adam's privy ruling (2026-10-12): the keep-gavel priced the BODY gap; the MD stack is a tax it never paid - the keep stands on its own reasoning, the modifier applies on top.",
    "md": 1
+  },
+  "BLACK DRAGON#3": {
+   "cr": 8,
+   "was": 7,
+   "md": 0,
+   "why": "hot-45 batch 3 Class A young-dragon honest re-rate; calculus body 8.3/pred 8.1 (Adam, ruled via the calculus 2026-10-15; the batch-3 note said 6 to 8 but the print was 7)"
   }
  }
 }
