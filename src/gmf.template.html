@@ -45,6 +45,11 @@ details.card[open]{border-left-color:var(--gold)}
 .rule-card .body{border-top:none}
 .ref-p{margin:0 0 .6em;line-height:1.5}.ref-p:last-child{margin-bottom:0}
 .sub-lead{color:var(--gold);font-weight:600}
+.ref-tbl{border-collapse:collapse;margin:.5em 0 .8em;font-size:.95em}
+.ref-tbl caption{caption-side:top;text-align:left;color:var(--gold);font-weight:600;padding-bottom:.25em}
+.ref-tbl th{color:var(--gold);text-align:left;padding:.2em .7em .2em 0;border-bottom:1px solid rgba(200,160,80,.35);font-weight:600}
+.ref-tbl td{padding:.18em .7em .18em 0;border-bottom:1px solid rgba(200,160,80,.14);white-space:nowrap}
+.ref-tbl .tbl-lbl{white-space:normal}
 .cite{font-size:10px;color:var(--blue)}
 .tag{font-size:10px;color:var(--purple)}
 .foot{padding:16px 18px;font-size:10px;color:var(--dim);border-top:1px solid var(--line);margin-top:20px}
@@ -544,18 +549,61 @@ function renderOps(){
 // lead (the GMG's own idiom — "Poor Visibility:", "Getting Lost:") starts a
 // fresh paragraph with the lead highlighted.
 const _SUBLEAD=/^([A-Z][A-Za-z0-9'’()\/&,\- ]{0,60}):\s+(.*)$/;
+// v0.8.6 (Adam's chart report — "Desert Terrain Features mashed into the
+// opening text"): the GMG's terrain tables survive the harvest as line runs
+// of "Label  N% (dd-dd)  ---  …". Reconstruct them as real tables, matching
+// the print's shape: feature labels left, per-category d% columns across,
+// the category spanner as a caption. Stray PDF page-footers (bare numbers)
+// are dropped wherever they leaked.
+const _TCELL='(?:\\d+% \\((?:\\d+-\\d+|-{1,3})\\)|-{3}|—)';
+const _TROWRX=new RegExp('^(.{1,60}?)\\s+('+_TCELL+'(?:\\s+'+_TCELL+')+)\\s*$');
+const _tRow=(t)=>{const m=t.match(_TROWRX);return (m&&/\d+%/.test(m[2]))?{label:m[1],cells:m[2].match(new RegExp(_TCELL,'g'))}:null;};
+const _tHeader=(h,n)=>{
+  const pct=h.match(/\S[^()]*?\(d%\)/g);
+  if(pct&&pct.length===n)return{lead:h.slice(0,h.indexOf(pct[0])).trim(),cols:pct.map(x=>x.trim())};
+  if(h.trim()==='Alpine Meadow Rugged Forbidding')return{lead:'',cols:['Alpine Meadow','Rugged','Forbidding']};
+  return null;
+};
 const fmtRefBody=(d)=>{
-  const paras=[];let cur=[];
-  for(const raw of String(d).split('\n')){
-    const t=raw.trim();
-    if(!t){if(cur.length){paras.push(cur.join(' '));cur=[];}continue;}
-    if(_SUBLEAD.test(t)&&cur.length){paras.push(cur.join(' '));cur=[t];}
-    else cur.push(t);
+  const lines=String(d).split('\n').map(x=>x.trim()).filter(x=>!/^\d{1,3}$/.test(x));
+  // pre-pass: mark table blocks (a run of >=2 data rows + up to 3 furniture
+  // lines above: header, category spanner [dashed or "X Category"], title
+  // ending in "Features").
+  const kind=lines.map(()=>null);const tables=[];
+  for(let i=0;i<lines.length;i++){
+    if(!_tRow(lines[i]))continue;
+    let j=i;while(j<lines.length&&_tRow(lines[j]))j++;
+    if(j-i>=2){
+      const tb={start:i,end:j,rows:lines.slice(i,j).map(_tRow),header:null,caption:null,title:null};
+      let k=i-1;
+      if(k>=0&&!_tRow(lines[k])&&!/[.!?]$/.test(lines[k])){tb.header=lines[k];tb.start=k;k--;}
+      if(k>=0){const sp=lines[k].match(/^-{6,}(.+?)-{6,}$/)||lines[k].match(/^([A-Z][A-Za-z\/ &]+ Category)$/);if(sp){tb.caption=sp[1].trim();tb.start=k;k--;}}
+      if(k>=0&&/Features$/.test(lines[k])){tb.title=lines[k];tb.start=k;}
+      for(let x=tb.start;x<tb.end;x++)kind[x]='t';
+      tables.push(tb);i=j;
+    }
   }
-  if(cur.length)paras.push(cur.join(' '));
-  return paras.map(p=>{
-    const m=p.match(_SUBLEAD);
-    const inner=m?`<span class="sub-lead">${esc(m[1])}:</span> ${refify(esc(m[2]),false)}`:refify(esc(p),false);
+  const out=[];let cur=[];let ti=0;
+  const flush=()=>{if(cur.length){out.push({p:cur.join(' ')});cur=[];}};
+  for(let i=0;i<lines.length;i++){
+    if(kind[i]==='t'){flush();const tb=tables[ti++];out.push({tb});i=tb.end-1;continue;}
+    const t=lines[i];
+    if(!t){flush();continue;}
+    if(_SUBLEAD.test(t)&&cur.length){flush();cur=[t];}else cur.push(t);
+  }
+  flush();
+  return out.map(seg=>{
+    if(seg.tb){
+      const tb=seg.tb,n=tb.rows[0].cells.length,h=tb.header?_tHeader(tb.header,n):null;
+      let html=`<table class="ref-tbl">`;
+      if(tb.title||tb.caption)html+=`<caption>${esc(tb.title||'')}${tb.title&&tb.caption?' — ':''}${esc(tb.caption||'')}</caption>`;
+      if(h)html+=`<tr><th>${esc(h.lead)}</th>${h.cols.map(c=>`<th>${esc(c)}</th>`).join('')}</tr>`;
+      else if(tb.header)html+=`<tr><th colspan="${n+1}">${esc(tb.header)}</th></tr>`;
+      html+=tb.rows.map(r=>`<tr><td class="tbl-lbl">${esc(r.label)}</td>${r.cells.map(c=>`<td>${esc(c==='---'?'—':c)}</td>`).join('')}</tr>`).join('');
+      return html+`</table>`;
+    }
+    const m=seg.p.match(_SUBLEAD);
+    const inner=m?`<span class="sub-lead">${esc(m[1])}:</span> ${refify(esc(m[2]),false)}`:refify(esc(seg.p),false);
     return `<p class="ref-p">${inner}</p>`;
   }).join('');
 };
