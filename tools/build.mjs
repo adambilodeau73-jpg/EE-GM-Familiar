@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 // had said v0.8.0 since Table Ops): ONE source of truth, bumped here every
 // ship; the subtitle displays it, so "has it posted?" is answerable at a
 // glance. Ship ritual addendum: bump GMF_VERSION in the same commit you tag.
-const GMF_VERSION = 'v0.8.6';
+const GMF_VERSION = 'v0.8.7';
 const tpl = readFileSync('src/gmf.template.html', 'utf8');
 const data = JSON.parse(readFileSync('data/bestiary.json', 'utf8'));
 const refs = JSON.parse(readFileSync('data/refs.json', 'utf8'));
