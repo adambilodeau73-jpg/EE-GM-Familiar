@@ -4,8 +4,66 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Game Master's Familiar</title>
+<script>
+// v0.8.8 — THE CG PAIR, PORTED (Adam: "for posterity"): boot-time error
+// capture + display prefs, ahead of everything else, mirroring the CG's
+// §276/§277 machinery. Runs first so the ring catches load-time errors and
+// the theme applies before first paint.
+window._gmfErrRing = [];
+window._gmfPushErr = function (s) {
+  try {
+    window._gmfErrRing.push('[' + new Date().toISOString().slice(11, 19) + '] ' + String(s).slice(0, 300));
+    if (window._gmfErrRing.length > 10) window._gmfErrRing.shift();
+  } catch (e) {}
+};
+window.addEventListener('error', function (ev) { window._gmfPushErr(ev.message || String(ev.error || 'error')); });
+window.addEventListener('unhandledrejection', function (ev) { window._gmfPushErr('unhandled rejection: ' + String(ev.reason && ev.reason.message || ev.reason).slice(0, 200)); });
+(function () {
+  var orig = console.error;
+  console.error = function () {
+    try { window._gmfPushErr('console.error: ' + Array.prototype.map.call(arguments, function (a) { return a && a.stack ? a.stack : (typeof a === 'object' ? JSON.stringify(a) : String(a)); }).join(' ')); } catch (e) {}
+    return orig.apply(console, arguments);
+  };
+})();
+window.readDisplayPrefs = function () {
+  var p = {};
+  try { p = JSON.parse(localStorage.getItem('gmf_display') || '{}') || {}; } catch (e) {}
+  if (p.theme !== 'default' && p.theme !== 'hc') delete p.theme;
+  return p;
+};
+window.applyDisplayPrefs = function () {
+  var p = window.readDisplayPrefs();
+  var wantsMore = false;
+  try { wantsMore = window.matchMedia('(prefers-contrast: more)').matches; } catch (e) {}
+  var theme = p.theme || (wantsMore ? 'hc' : 'default');
+  if (theme === 'default') document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.setAttribute('data-theme', theme);
+  if (p.textsize === 'lg' || p.textsize === 'xl') document.documentElement.setAttribute('data-textsize', p.textsize);
+  else document.documentElement.removeAttribute('data-textsize');
+  return { theme: theme, explicit: !!p.theme, textsize: p.textsize || 'md' };
+};
+window.applyDisplayPrefs();
+</script>
 <style>
 :root{--gold:#c89730;--bronze:#8a6a24;--ink:#0d0b07;--panel:#171310;--line:rgba(200,151,30,.22);--txt:#d8cdb4;--dim:rgba(200,151,30,.55);--blue:#7daadc;--purple:#c499d4;--red:#d47070;--green:#6dba88}
+/* v0.8.8 HIGH CONTRAST — the already-dark Familiar brightens its inks:
+   pure-black ground, lifted text/gold/accents, solid dim, stronger rules.
+   Auto under prefers-contrast:more unless the GM picks a theme. */
+html[data-theme="hc"]{--gold:#ffd060;--bronze:#f0c878;--ink:#000;--panel:#0b0803;--line:rgba(255,208,96,.5);--txt:#fffaf0;--dim:#ecd9a0;--blue:#a8ccf0;--purple:#dcc0ec;--red:#ffb0b0;--green:#9cdcb0}
+html[data-textsize="lg"]{font-size:115%}
+html[data-textsize="xl"]{font-size:130%}
+/* v0.8.8 modal + QoL chrome (CG idiom, GMF palette) */
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:90;align-items:center;justify-content:center}
+.modal-bg.open{display:flex}
+.modal-box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px 18px;max-width:640px;width:min(94vw,640px);max-height:88vh;overflow:auto;color:var(--txt)}
+.modal-title{color:var(--gold);font-weight:700;margin-bottom:.6em;font-size:1.05em}
+.modal-box textarea{width:100%;background:var(--ink);color:var(--txt);border:1px solid var(--line);border-radius:4px;padding:6px;font:inherit}
+.modal-box label{cursor:pointer}
+.qbtn{background:none;border:1px solid var(--line);color:var(--txt);border-radius:4px;padding:3px 10px;cursor:pointer;font:inherit}
+.qbtn:hover{border-color:var(--gold);color:var(--gold)}
+.qbtn-pri{border-color:var(--gold);color:var(--gold)}
+#bug-status{color:var(--green);min-height:1.2em;font-size:.9em}
+#bug-ctx,#bug-view{white-space:pre-wrap;word-break:break-word;font-size:.82em;line-height:1.45;background:rgba(0,0,0,.35);border:1px solid var(--line);padding:8px;max-height:200px;overflow:auto}
 *{box-sizing:border-box}
 body{margin:0;background:var(--ink);color:var(--txt);font:14px/1.5 Georgia,'Times New Roman',serif}
 header{padding:14px 18px 10px;border-bottom:2px solid var(--bronze);background:linear-gradient(180deg,#1a150f,var(--ink))}
@@ -82,7 +140,54 @@ details.card[open]{border-left-color:var(--gold)}
   <button id="tab-library" onclick="show('library')">📚 Library</button>
   <button id="tab-academy" onclick="show('academy')">🎓 Academy</button>
   <button id="tab-adjudicator" onclick="show('adjudicator')">⚖ Adjudicator</button>
+  <button id="nav-display-btn" title="Display settings — theme and text size" style="margin-left:auto" onclick="openDisplaySettings()">⚙</button>
+  <button id="nav-report-btn" title="Report a bug" onclick="openBugReport()">🐞</button>
 </nav>
+
+<!-- v0.8.8: the CG pair, ported — bug reporter + display selector -->
+<div class="modal-bg" id="bug-modal" role="dialog" aria-modal="true" aria-labelledby="bug-modal-title">
+  <div class="modal-box">
+    <div class="modal-title" id="bug-modal-title">🐞 Report a bug</div>
+    <label for="bug-what" style="font-size:.85em">What happened? (what you clicked, what you expected, what you saw)</label>
+    <textarea id="bug-what" rows="5" placeholder="e.g. On the Forge tab I added an ogre and the Encounter Level didn't change."></textarea>
+    <label style="display:flex;gap:8px;align-items:center;margin-top:.7rem;font-size:.85em">
+      <input type="checkbox" id="bug-attach" style="width:auto"> Attach my current Table Ops session log (JSON) — optional
+    </label>
+    <details style="margin-top:.7rem;font-size:.9em">
+      <summary style="cursor:pointer;color:var(--gold)">Captured automatically (click to view)</summary>
+      <pre id="bug-ctx" style="margin-top:6px"></pre>
+    </details>
+    <div style="font-size:.85em;color:var(--dim);margin-top:.6rem">Send opens your email app addressed to <b id="bug-email" style="color:var(--gold)"></b>. If no mail app opens, use Copy and paste the report into any email or message.</div>
+    <div id="bug-status" role="status" aria-live="polite" style="margin-top:.4rem"></div>
+    <div style="margin-top:.6rem;display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap">
+      <button type="button" class="qbtn" onclick="closeBugReport()">Close</button>
+      <button type="button" class="qbtn" id="bug-copy" onclick="bugCopy()">⧉ Copy to clipboard</button>
+      <button type="button" class="qbtn qbtn-pri" id="bug-send" onclick="bugSend()">✉ Send</button>
+    </div>
+    <div style="color:var(--gold);font-weight:600;margin-top:1.2rem;border-top:1px solid var(--line);padding-top:.6rem">My reports</div>
+    <div id="bug-list" style="font-size:.88em"></div>
+    <pre id="bug-view" style="display:none;margin-top:8px;max-height:260px"></pre>
+  </div>
+</div>
+<div class="modal-bg" id="display-modal" role="dialog" aria-modal="true" aria-labelledby="display-modal-title">
+  <div class="modal-box" style="max-width:480px">
+    <div class="modal-title" id="display-modal-title">⚙ Display</div>
+    <fieldset style="border:none;margin:0 0 1rem;padding:0">
+      <legend style="font-size:.8em;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:6px">Colour theme</legend>
+      <label style="display:flex;gap:8px;align-items:flex-start;margin-bottom:6px"><input type="radio" name="disp-theme" value="default" style="width:auto;margin-top:3px" onchange="setDisplayPref('theme','default')"> <span><b>Lantern</b> (default) — the Familiar's dark parchment and gold</span></label>
+      <label style="display:flex;gap:8px;align-items:flex-start"><input type="radio" name="disp-theme" value="hc" style="width:auto;margin-top:3px" onchange="setDisplayPref('theme','hc')"> <span><b>High Contrast</b> — bright text on pure black, for low vision</span></label>
+      <div id="disp-theme-note" style="font-size:.85em;color:var(--dim);margin-top:6px"></div>
+    </fieldset>
+    <fieldset style="border:none;margin:0;padding:0">
+      <legend style="font-size:.8em;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:6px">Text size</legend>
+      <label style="display:flex;gap:8px;align-items:center"><input type="radio" name="disp-size" value="md" style="width:auto" onchange="setDisplayPref('textsize','md')"> Standard</label>
+      <label style="display:flex;gap:8px;align-items:center"><input type="radio" name="disp-size" value="lg" style="width:auto" onchange="setDisplayPref('textsize','lg')"> Large (115%)</label>
+      <label style="display:flex;gap:8px;align-items:center"><input type="radio" name="disp-size" value="xl" style="width:auto" onchange="setDisplayPref('textsize','xl')"> Larger (130%)</label>
+    </fieldset>
+    <div style="font-size:.85em;color:var(--dim);margin-top:.8rem">Saved in this browser.</div>
+    <div style="margin-top:1rem;display:flex;justify-content:flex-end"><button type="button" class="qbtn qbtn-pri" onclick="closeDisplaySettings()">Done</button></div>
+  </div>
+</div>
 <main>
 <section id="pg-bestiary">
   <div class="bar">
@@ -1003,6 +1108,106 @@ function renderFSaved(){
   document.getElementById('f-saved').innerHTML=enc.length?'<div class="fhead" style="margin-top:8px">SAVED ENCOUNTERS</div>'+enc.map((e,i)=>`<div class="frow"><span class="nm">${esc(e.name)}</span><span class="fshare">${e.saved}</span><button class="fbtn" onclick="forgeLoad(${i})">Load</button><button class="fbtn" onclick="forgeDel(${i})">✕</button></div>`).join(''):'';
 }
 (function(){const s=document.getElementById('b-lens');if(s)s.value=LENS;})();
+// ===== v0.8.8: THE CG PAIR, PORTED — bug reporter + display selector =====
+const GMF_VERSION='__GMFVER__';
+const BUG_REPORT_EMAIL='admin@epicsandepochs.com';
+const BUG_STORE_KEY='gmf_bugreports';
+function _bugLoad(){try{const a=JSON.parse(localStorage.getItem(BUG_STORE_KEY)||'[]');return Array.isArray(a)?a:[]}catch(e){return[]}}
+function _bugStore(list){
+  try{localStorage.setItem(BUG_STORE_KEY,JSON.stringify(list.slice(-50)));return true}
+  catch(e){try{localStorage.setItem(BUG_STORE_KEY,JSON.stringify(list.slice(-50).map(r=>Object.assign({},r,{opsJson:r.opsJson?'[omitted — storage full]':''}))));return true}catch(e2){return false}}
+}
+function _bugContext(){
+  const tab=(document.querySelector('nav button.on')||{}).textContent||'?';
+  const theme=document.documentElement.getAttribute('data-theme')||'default';
+  const textsize=document.documentElement.getAttribute('data-textsize')||'md';
+  let session='(none)';try{if(typeof OPS==='object'&&OPS&&(OPS.title||OPS.campaign))session=`${OPS.campaign||''}${OPS.campaign&&OPS.title?' — ':''}${OPS.title||''} (${(OPS.events||[]).length} events)`}catch(e){}
+  return{version:GMF_VERSION,page:tab.trim(),session,timestamp:new Date().toISOString(),userAgent:navigator.userAgent,viewport:`${window.innerWidth}×${window.innerHeight} @${window.devicePixelRatio||1}x`,display:`${theme} theme, text ${textsize}`,errors:(window._gmfErrRing||[]).slice()};
+}
+function _bugCtxText(ctx){return[`GMF version: ${ctx.version}`,`Tab: ${ctx.page}`,`Session: ${ctx.session}`,`When: ${ctx.timestamp}`,`Browser: ${ctx.userAgent}`,`Screen: ${ctx.viewport} · ${ctx.display}`,`Recent errors: ${ctx.errors.length?'\n  '+ctx.errors.join('\n  '):'none captured'}`].join('\n')}
+function _bugText(r,withJson){let t=`WHAT HAPPENED\n${r.what||'(no description)'}\n\nCONTEXT\n${_bugCtxText(r.ctx)}`;if(withJson&&r.opsJson)t+=`\n\nSESSION LOG JSON\n${r.opsJson}`;return t}
+function _bugSubject(r){const first=(r.what||'').split('\n')[0].slice(0,60);return`[E&E GMF ${r.ctx.version}] Bug report${first?': '+first:''}`}
+function _bugMailto(r){
+  const full=_bugText(r,true);let body=full,clipped=false;
+  if(encodeURIComponent(full).length>1800){clipped=true;body=_bugText(r,false);if(encodeURIComponent(body).length>1600)body=body.slice(0,900)+'\n…';body+='\n\n[The full report'+(r.opsJson?' incl. session log':'')+' was copied to my clipboard — pasting it below.]\n'}
+  return{href:`mailto:${BUG_REPORT_EMAIL}?subject=${encodeURIComponent(_bugSubject(r))}&body=${encodeURIComponent(body)}`,full,clipped}
+}
+async function _bugClipboard(text){
+  try{await navigator.clipboard.writeText(text);return true}catch(e){}
+  try{const ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.left='-9999px';document.body.appendChild(ta);ta.select();const ok=document.execCommand('copy');ta.remove();return ok}catch(e){return false}
+}
+function _bugOpenMail(href){const a=document.createElement('a');a.href=href;a.style.display='none';document.body.appendChild(a);a.click();a.remove();window._lastBugMailto=href}
+function _bugCurrent(){
+  const what=document.getElementById('bug-what').value.trim();const ctx=_bugContext();let opsJson='';
+  if(document.getElementById('bug-attach').checked){try{if(typeof OPS==='object'&&OPS)opsJson=JSON.stringify(OPS)}catch(e){opsJson='[could not serialize]'}}
+  return{id:'bug-'+Date.now().toString(36),what,ctx,opsJson,sent:[]}
+}
+function _bugRecord(r,how){const list=_bugLoad();const i=list.findIndex(x=>x.id===r.id);r.sent=(r.sent||[]).concat([{how,at:new Date().toISOString()}]);if(i>=0)list[i]=r;else list.push(r);_bugStore(list);renderBugList()}
+function _bugStatus(msg){const s=document.getElementById('bug-status');if(s)s.textContent=msg}
+function openBugReport(){
+  document.getElementById('bug-email').textContent=BUG_REPORT_EMAIL;
+  document.getElementById('bug-ctx').textContent=_bugCtxText(_bugContext());
+  _bugStatus('');document.getElementById('bug-view').style.display='none';
+  renderBugList();document.getElementById('bug-modal').classList.add('open');document.getElementById('bug-what').focus();
+}
+function closeBugReport(){document.getElementById('bug-modal').classList.remove('open')}
+async function bugSend(){
+  const r=_bugCurrent();
+  if(!r.what){_bugStatus('Please describe what happened first.');document.getElementById('bug-what').focus();return}
+  const m=_bugMailto(r);let copied=false;
+  if(m.clipped)copied=await _bugClipboard(m.full);
+  _bugRecord(r,'email');_bugOpenMail(m.href);
+  document.getElementById('bug-what').value='';document.getElementById('bug-attach').checked=false;
+  _bugStatus(m.clipped?(copied?'Your mail app should open. The report is long, so the full text is on your clipboard: paste it into the email.':'Your mail app should open. The report is long; use Copy in My reports below to grab the full text.'):'Your mail app should open with the report filled in. It is also saved under My reports.');
+}
+async function bugCopy(){
+  const r=_bugCurrent();
+  if(!r.what){_bugStatus('Please describe what happened first.');document.getElementById('bug-what').focus();return}
+  const ok=await _bugClipboard(`To: ${BUG_REPORT_EMAIL}\nSubject: ${_bugSubject(r)}\n\n`+_bugText(r,true));
+  _bugRecord(r,'copy');
+  _bugStatus(ok?`Copied. Paste it into an email to ${BUG_REPORT_EMAIL}. Also saved under My reports.`:'Copy was blocked by the browser. The report is saved under My reports: click View and copy the text by hand.');
+}
+function renderBugList(){
+  const el=document.getElementById('bug-list');if(!el)return;
+  const list=_bugLoad().slice().reverse();
+  if(!list.length){el.innerHTML='<div style="color:var(--dim)">No reports yet. Reports you send or copy are kept here on this device.</div>';return}
+  el.innerHTML=list.map(r=>{
+    const when=(r.ctx&&r.ctx.timestamp||'').replace('T',' ').slice(0,16);
+    const last=(r.sent||[]).slice(-1)[0];
+    return`<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:6px 0;border-bottom:1px solid var(--line)">
+      <span style="color:var(--gold);white-space:nowrap">${esc(when)}</span>
+      <span style="flex:1;min-width:140px">${esc((r.what||'').split('\n')[0].slice(0,70)||'(no description)')}</span>
+      <span style="color:var(--dim);font-size:.85em">${last?esc(last.how==='email'?'sent':'copied'):''}${r.opsJson?' · +log':''}</span>
+      <button type="button" class="qbtn" onclick="bugView('${r.id}')">View</button>
+      <button type="button" class="qbtn" onclick="bugResend('${r.id}')">Resend</button>
+      <button type="button" class="qbtn" onclick="bugCopyStored('${r.id}')">Copy</button>
+      <button type="button" class="qbtn" onclick="bugDelete('${r.id}')" aria-label="Delete this report">✕</button>
+    </div>`}).join('');
+}
+function _bugFind(id){return _bugLoad().find(r=>r.id===id)}
+function bugView(id){const r=_bugFind(id);if(!r)return;const v=document.getElementById('bug-view');v.textContent=_bugText(r,true);v.style.display='block'}
+async function bugResend(id){const r=_bugFind(id);if(!r)return;const m=_bugMailto(r);if(m.clipped)await _bugClipboard(m.full);_bugRecord(r,'email');_bugOpenMail(m.href);_bugStatus(m.clipped?'Mail app opening; the full report is on your clipboard to paste.':'Mail app opening with the report filled in.')}
+async function bugCopyStored(id){const r=_bugFind(id);if(!r)return;const ok=await _bugClipboard(`To: ${BUG_REPORT_EMAIL}\nSubject: ${_bugSubject(r)}\n\n`+_bugText(r,true));_bugStatus(ok?'Copied to the clipboard.':'Copy was blocked; use View and copy by hand.')}
+function bugDelete(id){if(!confirm('Delete this saved report from this device?'))return;_bugStore(_bugLoad().filter(r=>r.id!==id));document.getElementById('bug-view').style.display='none';renderBugList()}
+function _renderDisplayMenu(){
+  const s=window.applyDisplayPrefs();
+  document.querySelectorAll('input[name="disp-theme"]').forEach(i=>{i.checked=i.value===s.theme});
+  document.querySelectorAll('input[name="disp-size"]').forEach(i=>{i.checked=i.value===s.textsize});
+  const note=document.getElementById('disp-theme-note');
+  if(note)note.textContent=s.explicit?'Your choice is saved in this browser and overrides your device\'s contrast setting.':(s.theme==='hc'?'High Contrast is on because your device asks for more contrast. Pick a theme to override it.':'Default. High Contrast turns on by itself if your device asks for more contrast, unless you pick a theme here.');
+}
+function openDisplaySettings(){_renderDisplayMenu();document.getElementById('display-modal').classList.add('open')}
+function closeDisplaySettings(){document.getElementById('display-modal').classList.remove('open')}
+function setDisplayPref(key,val){
+  const p=window.readDisplayPrefs();p[key]=val;
+  try{localStorage.setItem('gmf_display',JSON.stringify(p))}catch(e){}
+  if(document.getElementById('display-modal').classList.contains('open'))_renderDisplayMenu();else window.applyDisplayPrefs();
+}
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Escape')return;
+  if(document.getElementById('bug-modal').classList.contains('open'))closeBugReport();
+  else if(document.getElementById('display-modal').classList.contains('open'))closeDisplaySettings();
+});
 initFilters();renderB();renderA();renderF();renderS();renderL();renderAc();opsLoad();renderOps();
 </script>
 </body>
