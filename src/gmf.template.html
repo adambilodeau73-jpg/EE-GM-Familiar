@@ -957,20 +957,41 @@ try{ROSTER=JSON.parse(localStorage.getItem('gmf_roster')||'[]');TRAY=JSON.parse(
 const saveForge=()=>{try{localStorage.setItem('gmf_roster',JSON.stringify(ROSTER));localStorage.setItem('gmf_tray',JSON.stringify(TRAY));}catch(e){}};
 function forgeImport(inp){
   const f=inp.files&&inp.files[0]; if(!f)return;
+  const fname=f.name;
   const rd=new FileReader();
   rd.onload=()=>{try{
-    const data=JSON.parse(rd.result); const chars=Array.isArray(data)?data:(data.chars||[]);
-    for(const c of chars){
+    const data=JSON.parse(rd.result);
+    // v0.8.9 (Adam's ferry report, 2026-10-24): accept every CG export shape.
+    // The full-roster export is a bare ARRAY and {chars:[...]} was a guessed
+    // wrapper — but the CG's "Export Current Hero" writes ONE bare character
+    // object, which fell through both tests to [] and imported nothing, in
+    // silence. A lone object that looks like a hero now imports as a party
+    // of one, and the import always says what it did.
+    let chars=Array.isArray(data)?data:(Array.isArray(data&&data.chars)?data.chars:null);
+    if(!chars&&data&&typeof data==='object'&&(data.name||data.classes||data.attrs))chars=[data];
+    let added=0;
+    for(const c of (chars||[])){
+      if(!c||typeof c!=='object')continue;
       const name=c.name||c.charName||'PC';
       let ecl=c.ecl??c.level??null;
       if(ecl==null&&Array.isArray(c.classes))ecl=c.classes.reduce((t,k)=>t+(+k.lvl||+k.level||0),0);
       if(ecl==null&&c.cls&&c.lvl)ecl=+c.lvl;
       ecl=(+ecl||1)+(+c.rlm||+c.racialLevelMod||0);
       ROSTER.push({name:String(name).slice(0,40),ecl:Math.max(1,Math.round(ecl))});
+      added++;
     }
     saveForge();renderF();
-  }catch(e){alert('Could not read that file — expected the Character Generator Save All JSON.');}};
+    forgeImportNote(added?`Imported ${added} party member${added===1?'':'s'} from ${fname}.`:`No heroes recognized in ${fname} — expected a CG roster export (Export Roster) or a single-hero export.`);
+  }catch(e){forgeImportNote(`Could not read ${fname} — not valid JSON (expected a Character Generator export).`);}};
   rd.readAsText(f); inp.value='';
+}
+// Inline outcome note for the import control (the Familiar has no toast —
+// the .fshare seednote pattern is the house feedback voice).
+function forgeImportNote(msg){
+  const bar=document.getElementById('f-import').parentElement;
+  let n=bar.querySelector('.importnote');
+  if(!n){n=document.createElement('div');n.className='fshare importnote';bar.appendChild(n);}
+  n.textContent=msg;
 }
 function forgeAddPC(){
   const n=document.getElementById('f-pcname').value.trim()||'PC';
