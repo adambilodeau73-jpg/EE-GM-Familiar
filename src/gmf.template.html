@@ -140,8 +140,8 @@ details.card[open]{border-left-color:var(--gold)}
 .lo-sub{margin:5px 0 0 14px;font-size:.92em}
 .lo-credit{color:var(--dim);font-size:.78em;margin-top:10px;border-top:1px solid var(--line);padding-top:6px}
 .lo-gloss{color:var(--dim);border-left:2px solid var(--line);padding-left:10px}
-#lo-tut{margin-bottom:10px}
-#lo-tut .body p{margin:.55em 0}
+details.tut{margin-bottom:10px}
+details.tut .body p{margin:.55em 0}
 </style>
 </head>
 <body>
@@ -208,6 +208,16 @@ details.card[open]{border-left-color:var(--gold)}
 </div>
 <main>
 <section id="pg-bestiary">
+  <details class="card tut" id="tut-bestiary" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How the Bestiary Works</span><span class="cite">the Foe Folio, at your fingertips</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> every creature in the Foe Folio — 390 of them — as searchable cards. The search box reads names <i>and</i> ability text, so "swallow whole" or "energy drain" finds every foe that does it; the filters narrow by type, size, environment, and CR band.</p>
+      <p><span class="sub-lead">The cards:</span> click a name to open its full statblock. Underlined terms are live — hover (or tap) any spell, feat, skill, or special ability for its rules text on the spot, no page-flipping. The CR chip shows the honest, ruled rating; where a rating was corrected, the calculus row carries the provenance.</p>
+      <p><span class="sub-lead">The Rules Lens</span> (the dropdown on the right) re-reads every statblock in your table's dialect — E&amp;E native, Classic SRD, or Modern SRD. Conversions are approximate and E&amp;E remains the truth; where the dialects genuinely diverge, the E&amp;E variant appears beneath the official reading so you can see both.</p>
+      <p><span class="sub-lead">⚙ Advance</span> (inside each card) grows a creature by Hit Dice or a quick class silhouette, and the CR calculus re-prices it live — the number you see is the number you'd pay.</p>
+      <p><span class="sub-lead">Fast fielding:</span> set a CR band and an environment, and the list becomes tonight's menu.</p>
+    </div>
+  </details>
   <div class="bar">
     <input type="text" id="b-q" placeholder="Search foes — name, ability text, anything…" oninput="renderB()">
     <select id="b-type" onchange="renderB()"><option value="">All types</option></select>
@@ -224,6 +234,16 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="b-list"></div>
 </section>
 <section id="pg-forge" style="display:none">
+  <details class="card tut" id="tut-forge" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How the Forge Works</span><span class="cite">encounters priced honestly — GMG pp.39-41</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> the encounter builder. Three panels: who's playing, who's opposing, and the honest reading of what happens when they meet.</p>
+      <p><span class="sub-lead">The Party:</span> import your players straight from the Character Generator — a Save All file or a single hero's export both work — or add names and levels by hand. Tick <i>Favored/Heroic attributes</i> if your table rolled hot (+1 party CR, GMG p.39), and use <i>Fine-tune</i> ±1 as your table's real results dictate (p.40). The Familiar computes the party CR from there.</p>
+      <p><span class="sub-lead">The Opposition:</span> search the Bestiary and field foes into the tray — singles or squads. Counts multiply into the math automatically.</p>
+      <p><span class="sub-lead">The Reading:</span> the meter compares the Encounter Level against your party and says what the math says — a fair fight, a breather, or a funeral. That honesty is the point: adjust until the reading matches the night you intend. Then roll treasure (the printed rating sets the default; double rolls twice), name the encounter, and save it — saved encounters are what Table Ops fields onto the combat rail.</p>
+      <p><span class="sub-lead">Worth knowing:</span> a dragon played with its wings and wits fights a band above its printed number — the Bestiary's dragon doctrine cards have the details.</p>
+    </div>
+  </details>
   <div class="fgrid">
     <div class="fpanel">
       <div class="fhead">THE PARTY</div>
@@ -269,6 +289,15 @@ details.card[open]{border-left-color:var(--gold)}
   </div>
 </section>
 <section id="pg-ops" style="display:none">
+  <details class="card tut" id="tut-ops" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How Table Ops Works</span><span class="cite">the session, while it happens</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> the live-play desk — a session log on the left, a combat rail on the right. Everything you record here becomes the session's transcript.</p>
+      <p><span class="sub-lead">The Session:</span> name the campaign and the session, then log as you go with one tap — 🎬 Scene when the party moves somewhere new, 💬 Quote when a player says the thing, 📝 Note for rulings and reminders, 💰 Loot when treasure changes hands. Type in the quick box, press the button, keep playing. The <i>registers</i> field takes tone tags ("gothic", "industrial-horror") — they'll style the Chronicler's retelling of this transcript when that service arrives.</p>
+      <p><span class="sub-lead">The Combat Rail:</span> field a saved Forge encounter (hit points arrive from the statblocks), pull in the party with one button, and add ad-hoc combatants as the night invents them. Sort by initiative, tick damage on the rail, and advance rounds — round changes are logged automatically.</p>
+      <p><span class="sub-lead">Export</span> downloads the whole session as a file — your record, on your machine, nothing kept anywhere else. <span class="sub-lead">New session</span> archives the current log and opens a fresh page.</p>
+    </div>
+  </details>
   <div class="fgrid">
     <div class="fpanel">
       <div class="fhead">THE SESSION</div>
@@ -308,6 +337,14 @@ details.card[open]{border-left-color:var(--gold)}
   </div>
 </section>
 <section id="pg-stage" style="display:none">
+  <details class="card tut" id="tut-stage" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How the Stage Works</span><span class="cite">the world as an opponent — from the GMG</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> the environment reference — travel and movement, terrain, weather, extreme effects, and dungeon features, harvested from the GM's Guide into cards. When the world itself is the obstacle, the ruling lives here.</p>
+      <p><span class="sub-lead">Using it:</span> search anything ("avalanche", "forced march", "quicksand") or filter by the tag dropdown. Terrain cards carry their full feature tables — chances, DCs, and footnotes as printed — so a wilderness crossing runs off one open card.</p>
+      <p><span class="sub-lead">Pairs well with:</span> the Loom's premises (the Crossing and the Deluge skeletons in particular are played almost entirely from this tab) and the Forge — terrain is the cheapest difficulty dial a GM owns.</p>
+    </div>
+  </details>
   <div class="bar">
     <input type="text" id="s-q" placeholder="Search the stage — weather, terrain, hazards, dungeons…" oninput="renderS()">
     <select id="s-tag" onchange="renderS()"><option value="">All</option><option>Movement & Travel</option><option>Terrain</option><option>Weather</option><option>Extreme Effects</option><option>Dungeons</option></select>
@@ -316,6 +353,13 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="s-list"></div>
 </section>
 <section id="pg-library" style="display:none">
+  <details class="card tut" id="tut-library" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How the Library Works</span><span class="cite">the glossary behind every statblock</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> the rules glossary — special abilities and qualities (darkvision, damage reduction, energy drain, regeneration, fear and its kin) as searchable reference cards.</p>
+      <p><span class="sub-lead">The quiet trick:</span> these same entries power the hover layer everywhere else in the Familiar — when an underlined term in a Bestiary statblock pops up its rules text, it's the Library answering. Come here when you want the entry at full length, or to browse what a term's neighbors do.</p>
+    </div>
+  </details>
   <div class="bar">
     <input type="text" id="l-q" placeholder="Search the library — darkvision, energy drain, fear, regeneration…" oninput="renderL()">
     <span class="count" id="l-n"></span>
@@ -323,6 +367,13 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="l-list"></div>
 </section>
 <section id="pg-academy" style="display:none">
+  <details class="card tut" id="tut-academy" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How the Academy Works</span><span class="cite">casting your NPCs</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> the class reference, built for a GM's two questions. <span class="sub-lead">By class</span> answers "what does this class actually give?" — for reading your players' sheets and statting named NPCs. <span class="sub-lead">By role</span> is the casting-director view: start from the job the story needs — the healer, the face, the infiltrator — and see which classes play it, so the quartermaster you invented mid-sentence gets a competent chassis in seconds.</p>
+      <p><span class="sub-lead">Pairs well with:</span> the Loom — when a woven premise hands you a patron, a rival, or a serpent in the court, this tab casts the part.</p>
+    </div>
+  </details>
   <div class="bar">
     <input type="text" id="ac-q" placeholder="Search the academy — classes, roles, occupations…" oninput="renderAc()">
     <select id="ac-view" onchange="renderAc()"><option value="class">By class</option><option value="role">By role (casting director)</option></select>
@@ -335,8 +386,8 @@ details.card[open]{border-left-color:var(--gold)}
        GMG's own apparatus made operational (five archetypes pp.15-16, the
        Three-Act method pp.29-30, the p.56 Six-Scales genre table), factored
        as SKELETON × AXES per the 2026-11-03 taxonomy audit. Warp and weft. -->
-  <details class="card" id="lo-tut" ontoggle="try{localStorage.setItem('gmf_ui_loomTut',this.open?'1':'0')}catch(e){}">
-    <summary><span class="nm">ⓘ How the Loom Works — a gentle introduction</span><span class="cite">five minutes, no prior GMing required</span></summary>
+  <details class="card tut" id="tut-loom" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How the Loom Works</span><span class="cite">five minutes, no prior GMing required</span></summary>
     <div class="body">
       <p><span class="sub-lead">What this is:</span> a plot generator for Game Masters. You tell the Loom roughly what kind of story you want; it hands you back a complete scenario premise — who the party faces, what's at stake, and the complication that makes it a story rather than an errand. Use it to break a blank page, to prep a one-shot in ten minutes, or to surprise yourself out of a rut.</p>
       <p><span class="sub-lead">The skeleton</span> (the first dropdown) is the story's engine — the one sentence that survives when every detail is stripped away. "The party must obtain something someone doesn't want them to have" is a skeleton; a dragon's hoard, a kidnapped heir, and a rival company's prototype are all skins stretched over it. The Loom carries seventeen, from the classic five scenario shapes in the GM's Guide (pp.15-16) to courtroom dramas, cons, and revolutions. Each one notes which GMG archetype it belongs to, and offers a few sentences of table advice once it's on the frame.</p>
@@ -364,6 +415,13 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="lo-out"></div>
 </section>
 <section id="pg-adjudicator" style="display:none">
+  <details class="card tut" id="tut-adjudicator" ontoggle="tutToggle(this)">
+    <summary><span class="nm">ⓘ How the Adjudicator Works</span><span class="cite">rulings, with receipts</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> the deck of table-ready rulings — the calls that come up mid-session (massive damage, grapple, the horror-save flow, the stellar combat round, dragon doctrine) pre-adjudicated, each card citing its page so you can show the receipt when a player asks.</p>
+      <p><span class="sub-lead">Using it:</span> search by the word your table just said. The cards open pre-expanded because when you need one, you need it <i>now</i>. The deck grows as the rulings ledger does — if a call you make keeps recurring, it's a candidate for a card.</p>
+    </div>
+  </details>
   <div class="bar">
     <input type="text" id="a-q" placeholder="Search rulings — massive damage, grapple, horror…" oninput="renderA()">
     <span class="count" id="a-n"></span>
@@ -1294,10 +1352,12 @@ function loInit(){
   sk.innerHTML=LOOM.skeletons.map((s,i)=>`<option value="${i}">${s.icon} ${esc(s.name)}</option>`).join('');
   const g=document.getElementById('lo-genre');
   g.innerHTML='<option value="-1">— no genre skin —</option>'+LOOM.genres.map((x,i)=>`<option value="${i}">${esc(x.n)}</option>`).join('');
-  // the tutorial greets first-timers open; a deliberate collapse is remembered
-  try{document.getElementById('lo-tut').open=localStorage.getItem('gmf_ui_loomTut')!=='0'}catch(e){document.getElementById('lo-tut').open=true}
   loPickSk(0,true);
 }
+// v0.9.2 THE DOCENT PASS: every tab greets first-timers with its ⓘ tutorial
+// open; a deliberate collapse is remembered per tab (gmf_ui_tut_<id>).
+function tutToggle(d){try{localStorage.setItem('gmf_ui_tut_'+d.id,d.open?'1':'0')}catch(e){}}
+function initTuts(){for(const d of document.querySelectorAll('details.tut')){try{d.open=localStorage.getItem('gmf_ui_tut_'+d.id)!=='0'}catch(e){d.open=true}}}
 function loPickSk(i,first){
   LO.sk=i;LO.picks={};LO.locks={};LO.twist=-1;
   for(const ax of loSkel().axes)LO.picks[ax.id]=0;
@@ -1371,7 +1431,7 @@ async function loCopy(){
   try{await navigator.clipboard.writeText(loText());loStatus('premise copied')}
   catch(e){loStatus('copy was blocked by the browser — select and copy by hand')}
 }
-initFilters();renderB();renderA();renderF();renderS();renderL();renderAc();opsLoad();renderOps();loInit();
+initFilters();renderB();renderA();renderF();renderS();renderL();renderAc();opsLoad();renderOps();loInit();initTuts();
 </script>
 </body>
 </html>
