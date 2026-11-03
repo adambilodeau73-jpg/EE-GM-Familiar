@@ -139,6 +139,9 @@ details.card[open]{border-left-color:var(--gold)}
 .lo-flip{color:var(--gold)}
 .lo-sub{margin:5px 0 0 14px;font-size:.92em}
 .lo-credit{color:var(--dim);font-size:.78em;margin-top:10px;border-top:1px solid var(--line);padding-top:6px}
+.lo-gloss{color:var(--dim);border-left:2px solid var(--line);padding-left:10px}
+#lo-tut{margin-bottom:10px}
+#lo-tut .body p{margin:.55em 0}
 </style>
 </head>
 <body>
@@ -332,6 +335,20 @@ details.card[open]{border-left-color:var(--gold)}
        GMG's own apparatus made operational (five archetypes pp.15-16, the
        Three-Act method pp.29-30, the p.56 Six-Scales genre table), factored
        as SKELETON × AXES per the 2026-11-03 taxonomy audit. Warp and weft. -->
+  <details class="card" id="lo-tut" ontoggle="try{localStorage.setItem('gmf_ui_loomTut',this.open?'1':'0')}catch(e){}">
+    <summary><span class="nm">ⓘ How the Loom Works — a gentle introduction</span><span class="cite">five minutes, no prior GMing required</span></summary>
+    <div class="body">
+      <p><span class="sub-lead">What this is:</span> a plot generator for Game Masters. You tell the Loom roughly what kind of story you want; it hands you back a complete scenario premise — who the party faces, what's at stake, and the complication that makes it a story rather than an errand. Use it to break a blank page, to prep a one-shot in ten minutes, or to surprise yourself out of a rut.</p>
+      <p><span class="sub-lead">The skeleton</span> (the first dropdown) is the story's engine — the one sentence that survives when every detail is stripped away. "The party must obtain something someone doesn't want them to have" is a skeleton; a dragon's hoard, a kidnapped heir, and a rival company's prototype are all skins stretched over it. The Loom carries seventeen, from the classic five scenario shapes in the GM's Guide (pp.15-16) to courtroom dramas, cons, and revolutions. Each one notes which GMG archetype it belongs to, and offers a few sentences of table advice once it's on the frame.</p>
+      <p><span class="sub-lead">The threads</span> (the labeled rows beneath) are that skeleton's moving parts — the prize, the opposition, the method, and so on. Each thread is a dropdown you can set by hand, a 🎲 that rolls just that one thread, and a lock. Changing a single thread re-skins the whole plot: the same Taking is a heist with one method and a siege with another.</p>
+      <p><span class="sub-lead">The Weave! button</span> rolls every <i>unlocked</i> thread at once and draws a twist. This is the Loom's rhythm: weave, read the premise, 🔒 lock the threads you like, weave again for the rest. Three or four passes usually lands on something you want to run. (🔓 means the thread rerolls; 🔒 means it holds.)</p>
+      <p><span class="sub-lead">The twist</span> is an optional complication drawn from a deck of sixteen — the employer's hidden agenda, the rival crew, the deadline that was never real. One twist is plenty; a premise with three twists is a GM with a headache.</p>
+      <p><span class="sub-lead">Subplots</span> are personal threads, dealt one per hero — a temptation, a debt, an old vow. They run <i>alongside</i> the main plot across sessions, and they're where the inward story (what the GM's Guide calls being-vs-themself) lives in group play. Deal them at a campaign's start and let them simmer.</p>
+      <p><span class="sub-lead">The genre skin</span> dresses the premise for your world and quotes the Six-Scales settings that world implies (after the GMG's p.56 table) — pick "Classic Medieval Fantasy" and the same skeleton wears crowns and crypts; pick "Mecha &amp; Starship Warfare" and it wears steel. <span class="sub-lead">The register</span> declares drama or comedy up front, which the GM's Guide (p.15) recommends telling your players before the dice come out. <span class="sub-lead">The Flip</span> turns any plot inside out: the party isn't running the heist, they're guarding against it.</p>
+      <p><span class="sub-lead">From premise to session:</span> open the Three-Act Scaffold under the premise and sketch one line per act — the hook, the two reveals, the finale. Then ⧉ Copy carries the whole weave into your notes. That's it: a skeleton, a few threads, a twist, three acts — you have run a session before you knew these words for it.</p>
+      <p><span class="sub-lead">Try it now:</span> press 🧵 Weave! once. Read what came out loud, in your best narrator voice. If any part of it makes you grin — lock it, and weave the rest until the grin spreads.</p>
+    </div>
+  </details>
   <div class="bar">
     <select id="lo-sk" onchange="loPickSk(this.selectedIndex)" title="The skeleton — the plot's irreducible engine"></select>
     <select id="lo-genre" onchange="loSet()" title="Genre skin — Six Scales presets after GMG p.56"></select>
@@ -1277,6 +1294,8 @@ function loInit(){
   sk.innerHTML=LOOM.skeletons.map((s,i)=>`<option value="${i}">${s.icon} ${esc(s.name)}</option>`).join('');
   const g=document.getElementById('lo-genre');
   g.innerHTML='<option value="-1">— no genre skin —</option>'+LOOM.genres.map((x,i)=>`<option value="${i}">${esc(x.n)}</option>`).join('');
+  // the tutorial greets first-timers open; a deliberate collapse is remembered
+  try{document.getElementById('lo-tut').open=localStorage.getItem('gmf_ui_loomTut')!=='0'}catch(e){document.getElementById('lo-tut').open=true}
   loPickSk(0,true);
 }
 function loPickSk(i,first){
@@ -1325,6 +1344,7 @@ function loRender(){
       <div class="lo-chips">${chips}</div>
       ${g?`<div class="lo-line"><span class="sub-lead">The skin:</span> ${esc(g.n)} — ${esc(g.skin)}.</div>`:''}
       <div class="lo-premise">${esc(loPremise())}</div>
+      ${s.gloss?`<div class="lo-line lo-gloss"><span class="sub-lead">At the table:</span> ${esc(s.gloss)}</div>`:''}
       <div class="lo-line"><span class="sub-lead">The register:</span> ${esc(LOOM.registers[LO.reg]||'')}</div>
       ${LO.flip?`<div class="lo-line lo-flip">${esc(LOOM.flip)}</div>`:''}
       <div class="lo-line"><span class="sub-lead">The twist:</span> ${LO.twist>=0?esc(LOOM.twists[LO.twist]):'<i>none drawn</i>'} <button class="qbtn" onclick="loDrawTwist()">🎲 draw</button>${LO.twist>=0?`<button class="qbtn" onclick="loClearTwist()">✕</button>`:''}</div>
@@ -1338,7 +1358,9 @@ function loText(){
   const s=loSkel(),g=LO.genre>=0?LOOM.genres[LO.genre]:null;
   const L=[`THE LOOM — ${s.name} (${s.conflict}; GMG archetypes: ${s.arch.join(', ')})`];
   if(g)L.push(`Genre: ${g.n} (${g.sc}) — ${g.skin}`);
-  L.push('',loPremise(),'',`Register: ${LOOM.registers[LO.reg]||LO.reg}`);
+  L.push('',loPremise());
+  if(s.gloss)L.push('',`At the table: ${s.gloss}`);
+  L.push('',`Register: ${LOOM.registers[LO.reg]||LO.reg}`);
   if(LO.flip)L.push(LOOM.flip);
   if(LO.twist>=0)L.push(`Twist: ${LOOM.twists[LO.twist]}`);
   for(const i of LO.subs)L.push(`Subplot: ${LOOM.subplots[i].n} — ${LOOM.subplots[i].d}`);
