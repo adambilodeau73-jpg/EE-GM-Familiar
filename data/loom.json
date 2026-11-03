@@ -1,0 +1,433 @@
+{
+  "_meta": {
+    "built": "2026-11-03",
+    "note": "THE LOOM v1 — Adam's gavel 2026-11-03: all nine gap skeletons approved, name stands. Architecture per E_E_Loom_Plot_Audit_2026-11-03.md: skeleton × axes (factored, not flat), twist deck, subplot deck (the being-vs-themself home), the Flip, drama/comedy register (GMG p.15), genre skins after GMG p.56 'Table: Scenarios According to the Six Scales' (archetype labels genericized for the public tool — restoring the book's franchise touchstones is a data edit). Every word original; S. John Ross's Big List (GMG p.16's cited resource) was audited for structure only."
+  },
+  "skeletons": [
+    {
+      "id": "taking", "name": "The Taking", "icon": "🗝",
+      "engine": "The party must obtain something that someone — or something — does not want them to have.",
+      "conflict": "being-vs-being", "arch": ["Assault", "Exploration"],
+      "tmpl": "The party must take {prize}. Between them and it stands {opposition}. They will come {method}.",
+      "axes": [
+        { "id": "prize", "name": "The Prize", "opt": [
+          { "l": "an object of power", "f": "an object of power that will not stay quiet" },
+          { "l": "a person held", "f": "a person held behind walls, law, and better locks than either" },
+          { "l": "knowledge", "f": "knowledge that exists in exactly one place" },
+          { "l": "a living creature", "f": "a living creature that others would cage, milk, or kill" },
+          { "l": "a place or claim", "f": "a deed, a title — ownership of the ground itself" } ] },
+        { "id": "opposition", "name": "The Opposition", "opt": [
+          { "l": "sworn guardians", "f": "a guardianship sworn, bound, and long prepared for exactly this" },
+          { "l": "rival claimants", "f": "rival claimants on the same road, racing the same clock" },
+          { "l": "the rightful owner", "f": "the rightful owner — alerted, lawful, and well-loved" },
+          { "l": "the land itself", "f": "no enemy at all but the land, which keeps its treasures the hard way" } ] },
+        { "id": "method", "name": "The Method", "opt": [
+          { "l": "by shadow", "f": "by shadow — unseen, unsigned, and never suspected" },
+          { "l": "by storm", "f": "by storm — over the walls and through the gate" },
+          { "l": "by silver tongue", "f": "by the silver tongue — invited in, and welcome" },
+          { "l": "by purse", "f": "by purse and paper, if the asking price can be survived" },
+          { "l": "by speed", "f": "at speed — first past the post takes all" } ] }
+      ]
+    },
+    {
+      "id": "hunt", "name": "The Hunt", "icon": "🏹",
+      "engine": "Something out there must be found — and what happens at the finding is the whole question.",
+      "conflict": "being-vs-being", "arch": ["Rescue", "Exploration"],
+      "tmpl": "The party hunts {quarry}. The trail is {trail}. The commission says: {intent}.",
+      "axes": [
+        { "id": "quarry", "name": "The Quarry", "opt": [
+          { "l": "a fugitive", "f": "a fugitive who knows exactly why they run" },
+          { "l": "the taken", "f": "someone taken — or someone who walked away, which is worse" },
+          { "l": "a beast", "f": "a beast already a legend in three counties" },
+          { "l": "the unaware", "f": "a quarry who does not yet know they are hunted" } ] },
+        { "id": "trail", "name": "The Trail", "opt": [
+          { "l": "hot", "f": "hours old and still warm" },
+          { "l": "cold", "f": "years cold, kept alive by one stubborn witness" },
+          { "l": "false", "f": "fresh, obvious — and laid by someone who wants followers" } ] },
+        { "id": "intent", "name": "The Intent", "opt": [
+          { "l": "alive", "f": "alive, whatever it costs" },
+          { "l": "stopped", "f": "stopped, by any means the law will afterward forgive" },
+          { "l": "found, not spooked", "f": "found and watched — and above all, not spooked" } ] }
+      ]
+    },
+    {
+      "id": "vigil", "name": "The Vigil", "icon": "🛡",
+      "engine": "Something precious persists only while the party stands over it.",
+      "conflict": "being-vs-being", "arch": ["Rescue", "Assault"],
+      "tmpl": "The party keeps {charge} — {posture}. The flaw in the watch: {flaw}.",
+      "axes": [
+        { "id": "charge", "name": "The Charge", "opt": [
+          { "l": "a marked person", "f": "a person marked for death by professionals" },
+          { "l": "a corrupting treasure", "f": "a thing whose worth corrupts its own protectors" },
+          { "l": "a border", "f": "a line on the map that must not be crossed in either direction" },
+          { "l": "a secret", "f": "a secret that must outlive the week" } ] },
+        { "id": "posture", "name": "The Posture", "opt": [
+          { "l": "the moving road", "f": "on the moving road, where every mile deals a new hand" },
+          { "l": "the fixed wall", "f": "behind fixed walls, where the enemy chooses the hour" },
+          { "l": "the unseen eye", "f": "from the shadows, guarding a charge who must never know" } ] },
+        { "id": "flaw", "name": "The Flaw", "opt": [
+          { "l": "bad briefing", "f": "the briefing was wrong about what is coming" },
+          { "l": "unwilling charge", "f": "the charge fights the protection at every turn" },
+          { "l": "threat inside", "f": "the threat is already inside the perimeter" } ] }
+      ]
+    },
+    {
+      "id": "riddle", "name": "The Riddle", "icon": "🔍",
+      "engine": "The truth exists; everything else is in the way.",
+      "conflict": "being-vs-being", "arch": ["Mystery"],
+      "tmpl": "{tense} The matter at hand: {subject}. The deeper obstacle: {obstruction}.",
+      "axes": [
+        { "id": "tense", "name": "The Tense", "opt": [
+          { "l": "done — whodunit", "f": "The deed is done — name the hand that did it." },
+          { "l": "unfolding — find the source", "f": "The harm is happening now — trace it to its source before the next stroke." },
+          { "l": "brewing — prove it in time", "f": "The scheme is still forming — prove it before proof becomes hindsight." } ] },
+        { "id": "subject", "name": "The Subject", "opt": [
+          { "l": "an impossible death", "f": "a death that arithmetic says was impossible" },
+          { "l": "a broken rule", "f": "a phenomenon that breaks a rule everyone trusted" },
+          { "l": "a vanishing", "f": "a disappearance with too many clean explanations" },
+          { "l": "the party's own past", "f": "something the party themselves did — and cannot remember" } ] },
+        { "id": "obstruction", "name": "The Obstruction", "opt": [
+          { "l": "a power wants it unsolved", "f": "a power that prefers the mystery exactly as it is" },
+          { "l": "fearful witnesses", "f": "witnesses who fear the answer more than the crime" },
+          { "l": "lying evidence", "f": "evidence that lies on purpose" } ] }
+      ]
+    },
+    {
+      "id": "purge", "name": "The Purge", "icon": "🔥",
+      "engine": "A place has been claimed by something that must be unclaimed.",
+      "conflict": "being-vs-being", "arch": ["Horror", "Assault"],
+      "tmpl": "The party must cleanse {infestation}. The catch: {key}. The pressure: {stake}.",
+      "axes": [
+        { "id": "infestation", "name": "The Infestation", "opt": [
+          { "l": "a bold haunting", "f": "a haunting grown bold enough to collect rent" },
+          { "l": "a leaking breach", "f": "a breach that leaks horrors on its own schedule" },
+          { "l": "a nest in the deeps", "f": "a nest dug deep, where the maps go white" },
+          { "l": "a rooted cult", "f": "a cult whose roots run under respectable doors" } ] },
+        { "id": "key", "name": "The Key", "opt": [
+          { "l": "understand it first", "f": "it cannot be fought until it is understood" },
+          { "l": "find the root", "f": "cutting the visible growth does nothing — find the root" },
+          { "l": "starve it", "f": "it must be starved of what feeds it — and what feeds it is loved" } ] },
+        { "id": "stake", "name": "The Pressure", "opt": [
+          { "l": "needed by nightfall", "f": "the party needs this place habitable by nightfall" },
+          { "l": "spreading", "f": "the blight is spreading along lines only just becoming visible" },
+          { "l": "innocents inside", "f": "innocents still live inside it — collateral is failure" } ] }
+      ]
+    },
+    {
+      "id": "crossing", "name": "The Crossing", "icon": "⛰",
+      "engine": "Between the party and safety lies distance that fights back.",
+      "conflict": "being-vs-nature", "arch": ["Exploration", "Horror"],
+      "tmpl": "The trap: {trap}. The way out: {exit}. Carried along the way: {burden}.",
+      "axes": [
+        { "id": "trap", "name": "The Trap", "opt": [
+          { "l": "stranded", "f": "stranded off the edge of every map they trusted" },
+          { "l": "held", "f": "taken, held, and inventoried" },
+          { "l": "hijacked", "f": "aboard a conveyance that no longer answers to its passengers" },
+          { "l": "the gauntlet", "f": "facing a gauntlet that must be run because around it is worse" } ] },
+        { "id": "exit", "name": "The Exit", "opt": [
+          { "l": "repair the way home", "f": "repair the way home with what the wreck left behind" },
+          { "l": "break the walls", "f": "break the walls at the one hour they can be broken" },
+          { "l": "outlast", "f": "outlast — rescue is coming, if they can still be found" },
+          { "l": "the far side", "f": "reach the far side on foot, through all of it" } ] },
+        { "id": "burden", "name": "The Burden", "opt": [
+          { "l": "the wounded", "f": "wounded who cannot walk and will not be left" },
+          { "l": "a thing that must survive", "f": "a thing that must also survive the crossing" },
+          { "l": "pursuers", "f": "pursuers who know the ground better" } ] }
+      ]
+    },
+    {
+      "id": "battleline", "name": "The Battle Line", "icon": "⚔",
+      "engine": "Two forces, one piece of ground, and the party where the lines meet.",
+      "conflict": "being-vs-being", "arch": ["Assault"],
+      "tmpl": "The party's part: {side} — {ground}. What the plan does not know: {wrinkle}.",
+      "axes": [
+        { "id": "side", "name": "The Side", "opt": [
+          { "l": "take it", "f": "take it, before the enemy makes it unbreakable" },
+          { "l": "hold it", "f": "hold it, until relief or the last order" } ] },
+        { "id": "ground", "name": "The Ground", "opt": [
+          { "l": "the only way through", "f": "a bridge, a gate, a pass — the only way through" },
+          { "l": "a prepared compound", "f": "a compound built by someone who expected this day" },
+          { "l": "open country, innocents near", "f": "open country, with innocents between the lines" },
+          { "l": "a vessel underway", "f": "a vessel underway, where retreat means the water" } ] },
+        { "id": "wrinkle", "name": "The Wrinkle", "opt": [
+          { "l": "bad intelligence", "f": "the intelligence underneath the plan is wrong" },
+          { "l": "relief — if they last", "f": "relief will come — if anyone lasts long enough to signal it" },
+          { "l": "a hidden objective", "f": "the enemy is not here for the ground, but for something hidden in it" } ] }
+      ]
+    },
+    {
+      "id": "game", "name": "The Game", "icon": "🏆",
+      "engine": "The party enters a contest with rules — and discovers what the rules are actually protecting.",
+      "conflict": "being-vs-being", "arch": ["Mystery"],
+      "tmpl": "The arena: {arena}. The rot in it: {corruption}. Riding on the outcome: {stake}.",
+      "axes": [
+        { "id": "arena", "name": "The Arena", "opt": [
+          { "l": "a tournament", "f": "a tournament of arms, skill, or speed" },
+          { "l": "a court of manners", "f": "a court where protocol is the weapon and a fork can be a scandal" },
+          { "l": "an enterprise to redeem", "f": "a failing enterprise the party must run — and redeem" },
+          { "l": "a wager grown teeth", "f": "a wager that began as a joke and grew teeth" } ] },
+        { "id": "corruption", "name": "The Rot", "opt": [
+          { "l": "a cheat", "f": "someone is cheating, and well" },
+          { "l": "a false prize", "f": "the prize is not what the posters promise" },
+          { "l": "lethal stakes", "f": "losing, it turns out, is lethal" } ] },
+        { "id": "stake", "name": "The Stake", "opt": [
+          { "l": "standing", "f": "standing — doors open here, or close forever" },
+          { "l": "a life", "f": "a life rides on the outcome, and not a volunteer's" },
+          { "l": "the cover", "f": "the party's cover — winning IS the disguise" } ] }
+      ]
+    },
+    {
+      "id": "squeeze", "name": "The Squeeze", "icon": "🪝",
+      "engine": "Someone owns the party's obedience — for now.",
+      "conflict": "being-vs-being", "arch": ["Mystery"],
+      "tmpl": "The leverage: {leverage}. The demand: {demand}. The way out: {out}.",
+      "axes": [
+        { "id": "leverage", "name": "The Leverage", "opt": [
+          { "l": "a hostage", "f": "a hostage dear enough to end every argument" },
+          { "l": "a ruinous secret", "f": "a secret that would unmake one of them" },
+          { "l": "a manufactured crime", "f": "a debt or a crime manufactured to fit" },
+          { "l": "a timed poison", "f": "a slow poison, and a timetable of antidotes" } ] },
+        { "id": "demand", "name": "The Demand", "opt": [
+          { "l": "an unthinkable theft", "f": "a theft they would refuse at any price" },
+          { "l": "a betrayal", "f": "the betrayal of someone who trusts them" },
+          { "l": "silence", "f": "silence — merely watch it happen, and say nothing" } ] },
+        { "id": "out", "name": "The Way Out", "opt": [
+          { "l": "break the hold", "f": "break the hold at its anchor" },
+          { "l": "trade up", "f": "find the squeezer's own master, and trade up" },
+          { "l": "rig the compliance", "f": "comply to the letter — and rig what compliance delivers" } ] }
+      ]
+    },
+    {
+      "id": "serpent", "name": "The Serpent", "icon": "🐍",
+      "engine": "The threat is inside the walls, wearing a trusted face.",
+      "conflict": "being-vs-being", "arch": ["Mystery"],
+      "tmpl": "The nest: {nest}. The serpent: {serpent}. The bind: {bind}.",
+      "axes": [
+        { "id": "nest", "name": "The Nest", "opt": [
+          { "l": "the patron's court", "f": "the party's own patron's court" },
+          { "l": "an allied house", "f": "an allied house that must not be insulted" },
+          { "l": "the expedition itself", "f": "the expedition itself, one day from the trailhead" },
+          { "l": "a holy order", "f": "an order whose faith forbids the very suspicion" } ] },
+        { "id": "serpent", "name": "The Serpent", "opt": [
+          { "l": "a traitor", "f": "a traitor selling the inside to the outside" },
+          { "l": "a poisoner of successions", "f": "a claimant thinning the succession one accident at a time" },
+          { "l": "an impostor", "f": "an impostor, word-perfect in a borrowed life" } ] },
+        { "id": "bind", "name": "The Bind", "opt": [
+          { "l": "accusation shatters all", "f": "an open accusation shatters the alliance whether right or wrong" },
+          { "l": "the suspect is beloved", "f": "the likeliest suspect is the best-loved" },
+          { "l": "the party is suspected", "f": "suspicion has already landed — on the party" } ] }
+      ]
+    },
+    {
+      "id": "table", "name": "The Table", "icon": "🕊",
+      "engine": "The war is optional; somebody has to prove it.",
+      "conflict": "being-vs-being", "arch": ["Mystery"],
+      "tmpl": "At the table: {parties}. The party's leverage: {leverage}. Working against the peace: {spoiler}.",
+      "axes": [
+        { "id": "parties", "name": "The Parties", "opt": [
+          { "l": "powers at the brink", "f": "two powers one incident from open war" },
+          { "l": "feuding houses", "f": "houses feuding past all memory of the cause" },
+          { "l": "the city and the deep", "f": "a city above, and something older beneath it" },
+          { "l": "labor and master", "f": "labor and master — and the harvest will not wait" } ] },
+        { "id": "leverage", "name": "The Leverage", "opt": [
+          { "l": "a fetchable want", "f": "both sides privately want a thing only the party can fetch" },
+          { "l": "a held secret", "f": "a secret that would collapse one side's case, held in trust" },
+          { "l": "the true deadline", "f": "the true deadline, which only the party knows" } ] },
+        { "id": "spoiler", "name": "The Spoiler", "opt": [
+          { "l": "war profiteers", "f": "a faction that profits handsomely from failure" },
+          { "l": "the unspoken wound", "f": "an old wound neither delegation will speak aloud" },
+          { "l": "the party's own flag", "f": "the party's own flag, which one side cannot forgive" } ] }
+      ]
+    },
+    {
+      "id": "sting", "name": "The Sting", "icon": "🎭",
+      "engine": "The lie is the weapon; the party is the lie.",
+      "conflict": "being-vs-being", "arch": ["Mystery"],
+      "tmpl": "The mark: {mark}. The con: {con}. The thread that may unravel it: {unravel}.",
+      "axes": [
+        { "id": "mark", "name": "The Mark", "opt": [
+          { "l": "a lawless tyrant", "f": "a tyrant the law cannot reach" },
+          { "l": "a swindler", "f": "a swindler grown fat on the savings of the small" },
+          { "l": "an institution", "f": "an institution armored in clerks and paper" },
+          { "l": "a spymaster", "f": "an enemy spymaster who trades in exactly this" } ] },
+        { "id": "con", "name": "The Con", "opt": [
+          { "l": "the borrowed face", "f": "a borrowed identity with a short shelf life" },
+          { "l": "the counterfeit prize", "f": "a counterfeit prize too good to verify" },
+          { "l": "the manufactured omen", "f": "an omen manufactured to order" },
+          { "l": "the long game", "f": "the long game — trust built carefully, to be spent all at once" } ] },
+        { "id": "unravel", "name": "The Loose Thread", "opt": [
+          { "l": "a face from the past", "f": "a face from the past who knows the real names" },
+          { "l": "the mark's own game", "f": "the mark is running a game of their own" },
+          { "l": "invested innocents", "f": "the innocent bystanders are getting invested" } ] }
+      ]
+    },
+    {
+      "id": "seven", "name": "The Seven", "icon": "🛖",
+      "engine": "The storm is coming; the village cannot stop it; the party must make it able to.",
+      "conflict": "being-vs-being", "arch": ["Assault", "Rescue"],
+      "tmpl": "The ward: {ward}. The storm: {storm}. The means at hand: {means}.",
+      "axes": [
+        { "id": "ward", "name": "The Ward", "opt": [
+          { "l": "a village", "f": "a village square in the storm's path" },
+          { "l": "a wintering caravan", "f": "a caravan that must winter where it stands" },
+          { "l": "a forgotten quarter", "f": "a quarter the law has formally forgotten" } ] },
+        { "id": "storm", "name": "The Storm", "opt": [
+          { "l": "raiders on a schedule", "f": "raiders who keep a schedule" },
+          { "l": "a seasonal creature", "f": "a creature that returns with the season" },
+          { "l": "hired blades", "f": "hired blades with a deadline and a ledger" } ] },
+        { "id": "means", "name": "The Means", "opt": [
+          { "l": "train the unwilling", "f": "training hands that have only ever held tools" },
+          { "l": "fortify with nothing", "f": "fortifying with nothing but what is already here" },
+          { "l": "unite the rivals", "f": "uniting neighbors who hate each other almost enough to lose" } ] }
+      ]
+    },
+    {
+      "id": "deluge", "name": "The Deluge", "icon": "🌊",
+      "engine": "The catastrophe is not a threat; it is in progress.",
+      "conflict": "being-vs-nature", "arch": ["Rescue", "Exploration"],
+      "tmpl": "The catastrophe: {catastrophe}. The party's part: {role}. The truth underneath: {truth}.",
+      "axes": [
+        { "id": "catastrophe", "name": "The Catastrophe", "opt": [
+          { "l": "the waters", "f": "water rising faster than the ground can climb" },
+          { "l": "the fire", "f": "fire taking the streets block by block" },
+          { "l": "the earth", "f": "the earth itself opening old accounts" },
+          { "l": "the failing engine", "f": "a great engine — or a great working — failing toward ruin" } ] },
+        { "id": "role", "name": "The Part", "opt": [
+          { "l": "the evacuation", "f": "get them out — all of them, in the time there is" },
+          { "l": "the line", "f": "hold one line so that others can run" },
+          { "l": "the heart", "f": "reach the heart of it, and make it stop" } ] },
+        { "id": "truth", "name": "The Truth Underneath", "opt": [
+          { "l": "no accident", "f": "it was no accident" },
+          { "l": "a looters' cover", "f": "the rescue is somebody's cover for a harvest" },
+          { "l": "the rehearsal", "f": "this was the rehearsal — the real one is aimed" } ] }
+      ]
+    },
+    {
+      "id": "longnight", "name": "The Long Night", "icon": "🕯",
+      "engine": "It is stronger; the night is long; survival is the victory condition.",
+      "conflict": "being-vs-nature", "arch": ["Horror"],
+      "tmpl": "The horror: {horror}. The ground: {ground}. The hope: {hope}.",
+      "axes": [
+        { "id": "horror", "name": "The Horror", "opt": [
+          { "l": "unknown rules", "f": "it hunts by rules nobody has survived learning" },
+          { "l": "borrowed faces", "f": "it wears the faces of the already-taken" },
+          { "l": "unkillable tonight", "f": "it cannot be killed tonight — only outlasted" } ] },
+        { "id": "ground", "name": "The Ground", "opt": [
+          { "l": "sealed in", "f": "sealed in with it, by accident or by design" },
+          { "l": "the conditional dawn", "f": "a night that will not end until some condition is met" },
+          { "l": "the shrinking circle", "f": "a circle of safety shrinking by the hour" } ] },
+        { "id": "hope", "name": "The Hope", "opt": [
+          { "l": "first light", "f": "first light, if everyone holds" },
+          { "l": "one way out", "f": "one door, one window, one hour — out" },
+          { "l": "its one rule", "f": "its one rule, learnable at a terrible price" } ] }
+      ]
+    },
+    {
+      "id": "reckoning", "name": "The Reckoning", "icon": "⚖",
+      "engine": "The verdict is coming; the truth and the verdict are not yet the same thing.",
+      "conflict": "being-vs-being", "arch": ["Mystery"],
+      "tmpl": "In the dock: {accused}. The court: {court}. The crooked timber: {truth}.",
+      "axes": [
+        { "id": "accused", "name": "The Accused", "opt": [
+          { "l": "one of the party", "f": "one of the party's own" },
+          { "l": "the obvious innocent", "f": "a friend whose innocence is obvious — and inadmissible" },
+          { "l": "the wrong guilt", "f": "an enemy guilty of everything except this" },
+          { "l": "the friendless stranger", "f": "a stranger nobody else will stand for" } ] },
+        { "id": "court", "name": "The Court", "opt": [
+          { "l": "the law", "f": "the law — rigid, slow, and mostly honest" },
+          { "l": "a noble's whim", "f": "a noble's whim wearing a robe" },
+          { "l": "ordeal or combat", "f": "ordeal or combat, as the old ways demand" },
+          { "l": "the mob", "f": "the mob, which has already voted" } ] },
+        { "id": "truth", "name": "The Crooked Timber", "opt": [
+          { "l": "a bought verdict", "f": "the verdict has been purchased in advance" },
+          { "l": "the culprit watches", "f": "the real culprit watches from the gallery" },
+          { "l": "acquittal at a price", "f": "acquittal is possible — at a price aimed squarely at the party" } ] }
+      ]
+    },
+    {
+      "id": "throne", "name": "The Throne", "icon": "👑",
+      "engine": "The order of things is the antagonist — or the patient.",
+      "conflict": "being-vs-being", "arch": ["Assault", "Mystery"],
+      "tmpl": "The regime: {regime}. The lever: {lever}. The price already written: {price}.",
+      "axes": [
+        { "id": "regime", "name": "The Regime", "opt": [
+          { "l": "the paper usurper", "f": "a usurper whose paperwork is immaculate" },
+          { "l": "the occupier", "f": "an occupier settling in to stay" },
+          { "l": "the rotted council", "f": "a council rotted quietly from within" },
+          { "l": "the failing crown", "f": "a crown failing, with no agreed-upon heir" } ] },
+        { "id": "lever", "name": "The Lever", "opt": [
+          { "l": "the hidden heir", "f": "an heir in hiding who may not want finding" },
+          { "l": "the unpaid army", "f": "an army three payrolls in arrears" },
+          { "l": "the people", "f": "a people one public spark from rising" },
+          { "l": "the founding crime", "f": "written proof of the regime's founding crime" } ] },
+        { "id": "price", "name": "The Price", "opt": [
+          { "l": "revolutions eat their own", "f": "revolutions eat their firstborn — plan the after" },
+          { "l": "the worse successor", "f": "the likeliest successor is worse" },
+          { "l": "order falls first", "f": "order will fall faster than it can be rebuilt, and winter is coming" } ] }
+      ]
+    }
+  ],
+  "twists": [
+    "The clock is wrong — the deadline everyone planned around is sooner than believed, or was never real.",
+    "The patron's true goal is not the stated commission; the party is the errand inside someone else's plot.",
+    "Two of the opposing forces are at war with each other — exploit the seam, or be crushed in it.",
+    "The objective is already gone when the party arrives; someone was faster, and left a message.",
+    "Success springs the real trap: what the party accomplishes is exactly what a hidden power needed done.",
+    "An enemy from a past adventure holds the one key — and knows precisely what it is worth.",
+    "The party's reputation has arrived ahead of them, and it is wrong in a dangerous direction.",
+    "The weather — or the world — turns mid-adventure, and the board is suddenly a different game.",
+    "A rival party is on the same job for a different employer, and they are not incompetent.",
+    "One of the supposed victims is a quiet beneficiary of the villainy.",
+    "The lawful authority is the obstacle: what must be stopped is, technically, perfectly legal.",
+    "What the party learns must be kept from their own side, at least until the worst possible moment.",
+    "An innocent attaches to the party at the worst time, and cannot be parked anywhere safe.",
+    "The supernatural turns out mundane — or the mundane explanation is itself the cover for the real haunting.",
+    "Mid-adventure, the employer dies, vanishes, or recants — the commission is suddenly an orphan.",
+    "The only road to success runs through a place one of the party swore never to enter again."
+  ],
+  "subplots": [
+    { "n": "The Temptation", "d": "A power or prize within easy reach, costing a little more of the hero each time it is used. (The Mutation Scale's drawbacks give this teeth in E&E.)" },
+    { "n": "The Divided Loyalty", "d": "An allegiance pulls against the party's course — quietly at first, then on a day when both call at once." },
+    { "n": "The Vow", "d": "An oath taken long ago, certain to come due at the least convenient hour of the main plot." },
+    { "n": "The Monster Within", "d": "A curse, mutation, or appetite that grows with every use; the hero's strength and the hero's doom on one leash." },
+    { "n": "The Fraying Mind", "d": "The horrors witnessed are keeping a ledger. (The Minds/sanity rules adjudicate this one natively.)" },
+    { "n": "The Debt", "d": "Someone once saved this hero's life. The bill arrives mid-plot, payable immediately, in kind." },
+    { "n": "The Rival", "d": "A peer who measures everything against this hero — helping, competing, and keeping score toward some final reckoning." },
+    { "n": "The Homefront", "d": "Something left behind — a farm, a family, a post — deteriorates a little with every week spent adventuring." },
+    { "n": "The Secret", "d": "A hidden past the main plot keeps threatening to drag into the light." },
+    { "n": "The Redemption", "d": "The present plot rhymes with an old failure. This time the hero is strong enough — probably." }
+  ],
+  "genres": [
+    { "n": "Classic Medieval Fantasy", "sc": "AS 5 · DS 5 · HS 0-1 · MS 0-1 · PS 0 · TS 2", "skin": "crowns, crypts, and cold iron" },
+    { "n": "Expanded Medieval Fantasy", "sc": "AS 5 · DS 5 · HS 0-1 · MS 0-1 · PS 5 · TS 2", "skin": "the classic realm, with the mind unlocked" },
+    { "n": "Bronze-Age Siege Epic", "sc": "AS 0 · DS 1 · HS 1-9 · MS 0-1 · PS 0 · TS 1", "skin": "heroes, hubris, and the walls of a doomed city" },
+    { "n": "Grimdark Dark Ages", "sc": "AS 1 · DS 1 · HS 0 · MS 0-1 · PS 0 · TS 2", "skin": "mud, plague, and miracles priced accordingly" },
+    { "n": "Golden-Age Piracy", "sc": "AS 1 · DS 1 · HS 5-9 · MS 0-1 · PS 0 · TS 3", "skin": "powder, parley, and the account books of empire" },
+    { "n": "Gaslight Detection", "sc": "AS 0 · DS 0 · HS 0-9 · MS 0-1 · PS 0 · TS 4", "skin": "fog, deduction, and the criminal classes" },
+    { "n": "Victorian Adventurers' League", "sc": "AS 1 · DS 1 · HS 1-9 · MS 1-5 · PS 1 · TS 4-5", "skin": "extraordinary persons on Her Majesty's irregular business" },
+    { "n": "Modern Superheroes", "sc": "AS 0 · DS 0 · HS 1-9 · MS 5-9 · PS 0 · TS 5-6", "skin": "capes, consequences, and the city below" },
+    { "n": "Modern Supernatural Horror", "sc": "AS 0-1 · DS 0-1 · HS 0-1 · MS 0-1 · PS 0-1 · TS 4-6", "skin": "the thin places behind ordinary streets" },
+    { "n": "Hi-Tech Superspies", "sc": "AS 0 · DS 0 · HS 1-9 · MS 0-4 · PS 0 · TS 5-6", "skin": "tuxedos, gadgets, and deniability" },
+    { "n": "Genetic Manipulations", "sc": "AS 0 · DS 0 · HS 0-9 · MS 1-9 · PS 1-9 · TS 6-7", "skin": "the body as frontier, the lab as battleground" },
+    { "n": "Mecha & Starship Warfare", "sc": "AS 0 · DS 0 · HS 0-9 · MS 0-1 · PS 0 · TS 6-8", "skin": "steel giants and the silence between stars" },
+    { "n": "Cyberpunk Post-Apocalypse", "sc": "AS 0 · DS 0 · HS 0-9 · MS 1-5 · PS 1-5 · TS 4-6", "skin": "chrome grafted onto the ruins" },
+    { "n": "Wizarding Academy Modern", "sc": "AS 5 · DS 0 · HS 1-9 · MS 0-1 · PS 0 · TS 4-5", "skin": "term-time magic behind a mundane veil" },
+    { "n": "Monster-Hunter Medieval", "sc": "AS 5 · DS 0 · HS 0-9 · MS 1-4 · PS 0 · TS 2-3", "skin": "silver for the beast, contempt for the hunter" },
+    { "n": "Grimdark Far-Future Warfare", "sc": "AS 5 · DS 5 · HS 0-9 · MS 0-1 · PS 5 · TS 5-8", "skin": "ten thousand years of war and no armistice in sight" },
+    { "n": "Space Opera / Desert Epic", "sc": "AS 0 · DS 0 · HS 1-9 · MS 0-9 · PS 5 · TS 7-8", "skin": "dynasties, deserts, and destiny at lightspeed" },
+    { "n": "Universe City", "sc": "AS 9 · DS 9 · HS 9 · MS 9 · PS 9 · TS 4-9", "skin": "everything, everywhere, licensed and lethal — the house setting" }
+  ],
+  "registers": {
+    "drama": "Played straight (GMG p.15): consequences are real and the tension is the engine — let the quiet moments breathe.",
+    "comedy": "Played for laughs (GMG p.15): outrageous moments are expected, reactions run extreme, and hijinks are a legitimate tactic — escalate boldly."
+  },
+  "acts": [
+    { "t": "Act One — the Hook", "d": "Introduce the premise through an NPC with a face and a want; secure the buy-in before the first door closes behind the party. (GMG pp.29-30)" },
+    { "t": "Plot Point One", "d": "The reveal that turns a job into a story — the first comfortable assumption breaks." },
+    { "t": "Act Two — the Confrontation", "d": "Pursue the objective into rising stakes; let subplots sprout from what the party does on the side. Usually the longest act." },
+    { "t": "Plot Point Two", "d": "The crisis — all seems lost, or the true antagonist finally shows their hand." },
+    { "t": "Act Three — the Resolution", "d": "The uphill final confrontation; by its end, answer every question Act One asked. Usually the shortest act." }
+  ],
+  "flip": "THE FLIP — run it from the far side: the party is not driving this plot but defending against it, swept up in it by accident, hired to enable it, or the very thing it is aimed at. Every skeleton above inverts.",
+  "credit": "Plot-structure prior art gratefully acknowledged: the GMG's five scenario archetypes and Three-Act method (pp.15-16, 29-30), and — as the GMG itself recommends — S. John Ross's Big List of RPG Plots, whose breadth this tool audited (and whose text it deliberately does not borrow)."
+}

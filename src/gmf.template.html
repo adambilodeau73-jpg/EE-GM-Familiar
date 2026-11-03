@@ -125,12 +125,26 @@ details.card[open]{border-left-color:var(--gold)}
 .fshare{color:var(--dim);font-size:12px}
 .pill{display:inline-block;font-size:10px;border:1px solid var(--line);border-radius:10px;padding:1px 8px;margin-right:4px;color:var(--dim)}
 @media(max-width:620px){main{padding:10px}nav{padding:8px 10px}}
+/* v0.9.0 THE LOOM — warp and weft */
+.lo-axis{display:flex;align-items:center;gap:8px;margin:5px 0;flex-wrap:wrap}
+.lo-axname{min-width:130px;color:var(--gold);font-weight:600;font-size:.9em}
+.lo-axis select{flex:0 1 320px}
+.lo-locked{color:var(--gold);border-color:var(--gold)}
+.lo-card{border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:0 3px 3px 0;background:var(--panel);padding:12px 14px;margin-top:12px}
+.lo-head{font-size:1.1em}
+.lo-engine{color:var(--dim);font-style:italic;margin-left:8px}
+.lo-chips{margin:6px 0;display:flex;gap:6px;flex-wrap:wrap}
+.lo-premise{font-size:1.08em;line-height:1.55;margin:10px 0;padding:10px 12px;border:1px solid var(--line);border-radius:3px;background:rgba(0,0,0,.18)}
+.lo-line{margin:7px 0;font-size:.95em}
+.lo-flip{color:var(--gold)}
+.lo-sub{margin:5px 0 0 14px;font-size:.92em}
+.lo-credit{color:var(--dim);font-size:.78em;margin-top:10px;border-top:1px solid var(--line);padding-top:6px}
 </style>
 </head>
 <body>
 <header>
   <h1>The Game Master's Familiar</h1>
-  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · __GMFVER__ — Bestiary · Forge · Table Ops · Stage · Library · Academy · Adjudicator</div>
+  <div class="subtitle">Rules, foes &amp; adjudication at your fingertips · Epics &amp; Epochs (E&amp;E) · __GMFVER__ — Bestiary · Forge · Table Ops · Stage · Library · Academy · Loom · Adjudicator</div>
 </header>
 <nav>
   <button id="tab-bestiary" class="on" onclick="show('bestiary')">🐾 Bestiary</button>
@@ -139,6 +153,7 @@ details.card[open]{border-left-color:var(--gold)}
   <button id="tab-stage" onclick="show('stage')">🎭 Stage</button>
   <button id="tab-library" onclick="show('library')">📚 Library</button>
   <button id="tab-academy" onclick="show('academy')">🎓 Academy</button>
+  <button id="tab-loom" onclick="show('loom')">🧵 Loom</button>
   <button id="tab-adjudicator" onclick="show('adjudicator')">⚖ Adjudicator</button>
   <button id="nav-display-btn" title="Display settings — theme and text size" style="margin-left:auto" onclick="openDisplaySettings()">⚙</button>
   <button id="nav-report-btn" title="Report a bug" onclick="openBugReport()">🐞</button>
@@ -312,6 +327,25 @@ details.card[open]{border-left-color:var(--gold)}
   </div>
   <div id="ac-list"></div>
 </section>
+<section id="pg-loom" style="display:none">
+  <!-- v0.9.0 THE LOOM (Adam's gavel, 2026-11-03): the plot generator — the
+       GMG's own apparatus made operational (five archetypes pp.15-16, the
+       Three-Act method pp.29-30, the p.56 Six-Scales genre table), factored
+       as SKELETON × AXES per the 2026-11-03 taxonomy audit. Warp and weft. -->
+  <div class="bar">
+    <select id="lo-sk" onchange="loPickSk(this.selectedIndex)" title="The skeleton — the plot's irreducible engine"></select>
+    <select id="lo-genre" onchange="loSet()" title="Genre skin — Six Scales presets after GMG p.56"></select>
+    <select id="lo-reg" onchange="loSet()" title="The register — drama or comedy (GMG p.15)">
+      <option value="drama">Drama</option><option value="comedy">Comedy</option>
+    </select>
+    <label style="display:flex;align-items:center;gap:5px;font-size:.85em;color:var(--dim);white-space:nowrap"><input type="checkbox" id="lo-flip" onchange="loSet()" style="width:auto"> the Flip</label>
+    <button class="qbtn qbtn-pri" onclick="loWeave()" title="Roll the skeleton's unlocked dials and draw a twist">🧵 Weave!</button>
+    <button class="qbtn" onclick="loCopy()" title="Copy the woven premise as text">⧉ Copy</button>
+    <span class="count" id="lo-status" role="status" aria-live="polite"></span>
+  </div>
+  <div id="lo-axes"></div>
+  <div id="lo-out"></div>
+</section>
 <section id="pg-adjudicator" style="display:none">
   <div class="bar">
     <input type="text" id="a-q" placeholder="Search rulings — massive damage, grapple, horror…" oninput="renderA()">
@@ -320,7 +354,7 @@ details.card[open]{border-left-color:var(--gold)}
   <div id="a-list"></div>
 </section>
 </main>
-<div class="foot">The Game Master's Familiar v0.8.0 · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
+<div class="foot">The Game Master's Familiar __GMFVER__ · an Epics &amp; Epochs tool by Gamer's Pair O' Dice · bestiary data derived from the E&amp;E Foe Folio (Open Game Content under OGL 1.0a) · page references cite the Foe Folio 2026-10-02 edition · the Familiar serves until you're familiar.</div>
 <script>
 const BESTIARY = /*__BESTIARY__*/[];
 const REFS = /*__REFS__*/{spells:[],feats:[],skills:[]};
@@ -330,6 +364,9 @@ const BENCH = /*__BENCH__*/{};
 // three curated-card tabs harvested from the GMG/FF/HH (tools/harvest_stage).
 const STAGE = /*__STAGE__*/{environs:[],library:[],academy:{classes:[],roles:[]}};
 const TREASURE = /*__TREASURE__*/{levels:{},values:{},avg:{},beyond:{}};
+// v0.9.0 THE LOOM — skeletons × axes, twist deck, subplot deck (the
+// being-vs-themself home), genre skins (GMG p.56), registers (p.15).
+const LOOM = /*__LOOM__*/{skeletons:[],twists:[],subplots:[],genres:[],registers:{},acts:[],flip:null,credit:null};
 // ⚖ THE ADJUDICATOR — seed cards. Every card carries its citation; cards grow
 // with the rulings ledger the same way the CG's oracle does.
 const ADJUDICATOR = [
@@ -358,7 +395,7 @@ const ADJUDICATOR = [
 {t:'Dragons: Read the CR with Respect', s:'bestiary · dragons · GM doctrine', cite:"Adam's Class A ruling, 2026-10-12", d:'The young rungs (Juvenile and down) carry honest re-rates (+2, shown as errata on their cards) so the at-a-glance CR tells the truth. The proviso stands at EVERY age: a dragon played properly — flying, strafing breath on its own cooldowns, refusing melee until the party is softened, opening from surprise — fights one to two bands above any number printed beside it. The CR prices the creature; the WINGS and the WITS are yours to add. Budget an encounter with a dragon as if it were the next band up, and let the party feel clever for surviving what the math said they should.'}
 ];
 function show(p){
-  for(const t of ['bestiary','forge','ops','stage','library','academy','adjudicator']){document.getElementById('pg-'+t).style.display=t===p?'':'none';document.getElementById('tab-'+t).classList.toggle('on',t===p);}
+  for(const t of ['bestiary','forge','ops','stage','library','academy','loom','adjudicator']){document.getElementById('pg-'+t).style.display=t===p?'':'none';document.getElementById('tab-'+t).classList.toggle('on',t===p);}
 }
 const fmtCR=n=>n==null?null:(n<1?(Math.round(n*2)/2||0.5):Math.round(n));
 const toTitle=s=>String(s??'').toLowerCase().replace(/(^|[\s\-(\/,''])([a-z])/g,(m,p,c)=>p+c.toUpperCase());
@@ -1229,7 +1266,90 @@ document.addEventListener('keydown',e=>{
   if(document.getElementById('bug-modal').classList.contains('open'))closeBugReport();
   else if(document.getElementById('display-modal').classList.contains('open'))closeDisplaySettings();
 });
-initFilters();renderB();renderA();renderF();renderS();renderL();renderAc();opsLoad();renderOps();
+// ===== v0.9.0 THE LOOM =====================================================
+// State: one skeleton on the frame; per-axis picks with locks; one twist;
+// dealt subplots; genre/register/flip. Weave! rolls every unlocked dial.
+const LO={sk:0,picks:{},locks:{},twist:-1,subs:[],genre:-1,reg:'drama',flip:false};
+const loRnd=n=>Math.floor(Math.random()*n);
+function loSkel(){return LOOM.skeletons[LO.sk]}
+function loInit(){
+  const sk=document.getElementById('lo-sk');
+  sk.innerHTML=LOOM.skeletons.map((s,i)=>`<option value="${i}">${s.icon} ${esc(s.name)}</option>`).join('');
+  const g=document.getElementById('lo-genre');
+  g.innerHTML='<option value="-1">— no genre skin —</option>'+LOOM.genres.map((x,i)=>`<option value="${i}">${esc(x.n)}</option>`).join('');
+  loPickSk(0,true);
+}
+function loPickSk(i,first){
+  LO.sk=i;LO.picks={};LO.locks={};LO.twist=-1;
+  for(const ax of loSkel().axes)LO.picks[ax.id]=0;
+  document.getElementById('lo-sk').selectedIndex=i;
+  if(!first)loStatus('');
+  loRender();
+}
+function loSet(){
+  LO.genre=+document.getElementById('lo-genre').value;
+  LO.reg=document.getElementById('lo-reg').value;
+  LO.flip=document.getElementById('lo-flip').checked;
+  loRender();
+}
+function loRoll(axId){const ax=loSkel().axes.find(a=>a.id===axId);LO.picks[axId]=loRnd(ax.opt.length);loRender()}
+function loLock(axId){LO.locks[axId]=!LO.locks[axId];loRender()}
+function loPick(axId,v){LO.picks[axId]=+v;loRender()}
+function loWeave(){
+  // the shuttle pass: every unlocked dial rolls, and a twist is drawn
+  for(const ax of loSkel().axes)if(!LO.locks[ax.id])LO.picks[ax.id]=loRnd(ax.opt.length);
+  LO.twist=loRnd(LOOM.twists.length);
+  loStatus('woven — lock the threads you like, weave again for the rest');
+  loRender();
+}
+function loDrawTwist(){LO.twist=loRnd(LOOM.twists.length);loRender()}
+function loClearTwist(){LO.twist=-1;loRender()}
+function loDealSub(){const left=LOOM.subplots.map((_,i)=>i).filter(i=>!LO.subs.includes(i));if(!left.length){loStatus('the subplot deck is fully dealt');return}LO.subs.push(left[loRnd(left.length)]);loRender()}
+function loClearSubs(){LO.subs=[];loRender()}
+function loStatus(t){document.getElementById('lo-status').textContent=t}
+function loPremise(){
+  const s=loSkel();
+  return s.tmpl.replace(/\{(\w+)\}/g,(m,id)=>{const ax=s.axes.find(a=>a.id===id);return ax?ax.opt[LO.picks[id]||0].f:m});
+}
+function loRender(){
+  const s=loSkel();
+  document.getElementById('lo-axes').innerHTML=s.axes.map(ax=>{
+    const opts=ax.opt.map((o,i)=>`<option value="${i}"${(LO.picks[ax.id]||0)===i?' selected':''}>${esc(o.l)}</option>`).join('');
+    return `<div class="lo-axis"><span class="lo-axname">${esc(ax.name)}</span><select onchange="loPick('${ax.id}',this.value)">${opts}</select><button class="qbtn" onclick="loRoll('${ax.id}')" title="Roll this thread alone">🎲</button><button class="qbtn${LO.locks[ax.id]?' lo-locked':''}" onclick="loLock('${ax.id}')" title="A locked thread survives the next Weave!">${LO.locks[ax.id]?'🔒':'🔓'}</button></div>`;
+  }).join('');
+  const g=LO.genre>=0?LOOM.genres[LO.genre]:null;
+  const chips=`<span class="chip">${esc(s.conflict)}</span>${s.arch.map(a=>`<span class="chip">GMG archetype: ${esc(a)}</span>`).join('')}${g?`<span class="chip" title="Six Scales after GMG p.56">${esc(g.sc)}</span>`:''}`;
+  document.getElementById('lo-out').innerHTML=
+    `<div class="lo-card">
+      <div class="lo-head">${s.icon} <b>${esc(s.name)}</b> <span class="lo-engine">${esc(s.engine)}</span></div>
+      <div class="lo-chips">${chips}</div>
+      ${g?`<div class="lo-line"><span class="sub-lead">The skin:</span> ${esc(g.n)} — ${esc(g.skin)}.</div>`:''}
+      <div class="lo-premise">${esc(loPremise())}</div>
+      <div class="lo-line"><span class="sub-lead">The register:</span> ${esc(LOOM.registers[LO.reg]||'')}</div>
+      ${LO.flip?`<div class="lo-line lo-flip">${esc(LOOM.flip)}</div>`:''}
+      <div class="lo-line"><span class="sub-lead">The twist:</span> ${LO.twist>=0?esc(LOOM.twists[LO.twist]):'<i>none drawn</i>'} <button class="qbtn" onclick="loDrawTwist()">🎲 draw</button>${LO.twist>=0?`<button class="qbtn" onclick="loClearTwist()">✕</button>`:''}</div>
+      <div class="lo-line"><span class="sub-lead">Subplots (one per hero, being-vs-themself lives here):</span> <button class="qbtn" onclick="loDealSub()">🂠 deal</button>${LO.subs.length?`<button class="qbtn" onclick="loClearSubs()">✕ clear</button>`:''}
+        ${LO.subs.map(i=>`<div class="lo-sub"><b>${esc(LOOM.subplots[i].n)}</b> — ${esc(LOOM.subplots[i].d)}</div>`).join('')}</div>
+      <details class="card" style="margin-top:8px"><summary><span class="nm">The Three-Act Scaffold</span><span class="cite">GMG pp.29-30</span></summary><div class="body">${LOOM.acts.map(a=>`<p><span class="sub-lead">${esc(a.t)}:</span> ${esc(a.d)}</p>`).join('')}</div></details>
+      <div class="lo-credit">${esc(LOOM.credit)}</div>
+    </div>`;
+}
+function loText(){
+  const s=loSkel(),g=LO.genre>=0?LOOM.genres[LO.genre]:null;
+  const L=[`THE LOOM — ${s.name} (${s.conflict}; GMG archetypes: ${s.arch.join(', ')})`];
+  if(g)L.push(`Genre: ${g.n} (${g.sc}) — ${g.skin}`);
+  L.push('',loPremise(),'',`Register: ${LOOM.registers[LO.reg]||LO.reg}`);
+  if(LO.flip)L.push(LOOM.flip);
+  if(LO.twist>=0)L.push(`Twist: ${LOOM.twists[LO.twist]}`);
+  for(const i of LO.subs)L.push(`Subplot: ${LOOM.subplots[i].n} — ${LOOM.subplots[i].d}`);
+  L.push('','— woven on the Loom · The Game Master\'s Familiar · gm.epicsandepochs.com');
+  return L.join('\n');
+}
+async function loCopy(){
+  try{await navigator.clipboard.writeText(loText());loStatus('premise copied')}
+  catch(e){loStatus('copy was blocked by the browser — select and copy by hand')}
+}
+initFilters();renderB();renderA();renderF();renderS();renderL();renderAc();opsLoad();renderOps();loInit();
 </script>
 </body>
 </html>

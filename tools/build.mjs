@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 // had said v0.8.0 since Table Ops): ONE source of truth, bumped here every
 // ship; the subtitle displays it, so "has it posted?" is answerable at a
 // glance. Ship ritual addendum: bump GMF_VERSION in the same commit you tag.
-const GMF_VERSION = 'v0.8.9';
+const GMF_VERSION = 'v0.9.0';
 const tpl = readFileSync('src/gmf.template.html', 'utf8');
 const data = JSON.parse(readFileSync('data/bestiary.json', 'utf8'));
 const refs = JSON.parse(readFileSync('data/refs.json', 'utf8'));
@@ -46,8 +46,11 @@ const benchPayload = JSON.stringify(curves);
 const stage = JSON.parse(readFileSync('data/stage.json', 'utf8'));
 const stagePayload = JSON.stringify({ environs: stage.environs, library: stage.library, academy: stage.academy });
 const treasure = JSON.parse(readFileSync('data/treasure.json', 'utf8'));
+// v0.9.0 THE LOOM (Adam's gavel 2026-11-03): skeleton-x-axes plot generator.
+const loom = JSON.parse(readFileSync('data/loom.json', 'utf8'));
+const loomPayload = JSON.stringify({ skeletons: loom.skeletons, twists: loom.twists, subplots: loom.subplots, genres: loom.genres, registers: loom.registers, acts: loom.acts, flip: loom.flip, credit: loom.credit });
 const treasurePayload = JSON.stringify({ levels: treasure.levels, values: treasure.values, avg: treasure.avg, beyond: treasure.beyond });
-const out = tpl.replace(/__GMFVER__/g, GMF_VERSION).replace('/*__BESTIARY__*/[]', payload).replace('/*__REFS__*/{spells:[],feats:[],skills:[]}', refPayload).replace('/*__CRCALC__*/{meta:{},calc:{}}', calcPayload).replace('/*__BENCH__*/{}', benchPayload).replace('/*__STAGE__*/{environs:[],library:[],academy:{classes:[],roles:[]}}', stagePayload).replace('/*__TREASURE__*/{levels:{},values:{},avg:{},beyond:{}}', treasurePayload);
+const out = tpl.replace(/__GMFVER__/g, GMF_VERSION).replace('/*__BESTIARY__*/[]', payload).replace('/*__REFS__*/{spells:[],feats:[],skills:[]}', refPayload).replace('/*__CRCALC__*/{meta:{},calc:{}}', calcPayload).replace('/*__BENCH__*/{}', benchPayload).replace('/*__STAGE__*/{environs:[],library:[],academy:{classes:[],roles:[]}}', stagePayload).replace('/*__TREASURE__*/{levels:{},values:{},avg:{},beyond:{}}', treasurePayload).replace('/*__LOOM__*/{skeletons:[],twists:[],subplots:[],genres:[],registers:{},acts:[],flip:null,credit:null}', loomPayload);
 writeFileSync('gmf.html', out);
 writeFileSync('index.html', out); // the bare domain serves the Familiar too (deploy nicety, 2026-10-12)
 console.log(`gmf.html built: ${(out.length/1024/1024).toFixed(2)} MB, ${data.entries.length} foes, ${refs.spells.length + refs.feats.length + refs.skills.length} refs embedded`);
