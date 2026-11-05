@@ -135,6 +135,9 @@ details.card[open]{border-left-color:var(--gold)}
 .lo-engine{color:var(--dim);font-style:italic;margin-left:8px}
 .lo-chips{margin:6px 0;display:flex;gap:6px;flex-wrap:wrap}
 .lo-premise{font-size:1.08em;line-height:1.55;margin:10px 0;padding:10px 12px;border:1px solid var(--line);border-radius:3px;background:rgba(0,0,0,.18)}
+.lo-fate{border:1px dashed var(--bronze);border-radius:3px;background:rgba(212,180,110,.07);padding:8px 10px;margin:8px 0}
+.lo-truth{margin-top:8px}
+.lo-truth>summary .nm{color:var(--gold)}
 .lo-line{margin:7px 0;font-size:.95em}
 .lo-flip{color:var(--gold)}
 .lo-sub{margin:5px 0 0 14px;font-size:.92em}
@@ -396,6 +399,7 @@ details.tut .body p{margin:.55em 0}
       <p><span class="sub-lead">The twist</span> is an optional complication drawn from a deck of sixteen — the employer's hidden agenda, the rival crew, the deadline that was never real. One twist is plenty; a premise with three twists is a GM with a headache.</p>
       <p><span class="sub-lead">Subplots</span> are personal threads, dealt one per hero — a temptation, a debt, an old vow. They run <i>alongside</i> the main plot across sessions, and they're where the inward story (what the GM's Guide calls being-vs-themself) lives in group play. Deal them at a campaign's start and let them simmer.</p>
       <p><span class="sub-lead">The genre skin</span> dresses the premise for your world and quotes the Six-Scales settings that world implies (after the GMG's p.56 table) — pick "Classic Medieval Fantasy" and the same skeleton wears crowns and crypts; pick "Mecha &amp; Starship Warfare" and it wears steel. <span class="sub-lead">The register</span> declares drama or comedy up front, which the GM's Guide (p.15) recommends telling your players before the dice come out. <span class="sub-lead">The Flip</span> turns any plot inside out: the party isn't running the heist, they're guarding against it.</p>
+      <p><span class="sub-lead">Fate's d20</span> hands the whole choice to the dice. A roll of 1–17 picks a skeleton and weaves it on the spot. On <b>18–19</b> the Loom deals a <i>Red Herring</i>: the premise you see is a façade, and the quest's true skeleton waits in the <i>Beneath the weave</i> box — GM's eyes only. Run the façade honestly through Act I and let the truth surface at the first big reveal. On a <b>natural 20</b> the tale lands <i>Close to Home</i>: the Loom names one of your imported heroes (or tells you to roll among the players) and the premise grows out of that hero's own history. Rarest of all, a 20 can deal a herring of its own — a quest wearing a face from a hero's past, and even the face is a mask.</p>
       <p><span class="sub-lead">From premise to session:</span> open the Three-Act Scaffold under the premise and sketch one line per act — the hook, the two reveals, the finale. Then ⧉ Copy carries the whole weave into your notes. That's it: a skeleton, a few threads, a twist, three acts — you have run a session before you knew these words for it.</p>
       <p><span class="sub-lead">Try it now:</span> press 🧵 Weave! once. Read what came out loud, in your best narrator voice. If any part of it makes you grin — lock it, and weave the rest until the grin spreads.</p>
     </div>
@@ -408,6 +412,7 @@ details.tut .body p{margin:.55em 0}
     </select>
     <label style="display:flex;align-items:center;gap:5px;font-size:.85em;color:var(--dim);white-space:nowrap"><input type="checkbox" id="lo-flip" onchange="loSet()" style="width:auto"> the Flip</label>
     <button class="qbtn qbtn-pri" onclick="loWeave()" title="Roll the skeleton's unlocked dials and draw a twist">🧵 Weave!</button>
+    <button class="qbtn" onclick="loFate()" title="Let the dice choose everything: 1–17 picks the skeleton, 18–19 deals a Red Herring, a natural 20 lands Close to Home">🎲 Fate's d20</button>
     <button class="qbtn" onclick="loCopy()" title="Copy the woven premise as text">⧉ Copy</button>
     <span class="count" id="lo-status" role="status" aria-live="polite"></span>
   </div>
@@ -441,7 +446,7 @@ const STAGE = /*__STAGE__*/{environs:[],library:[],academy:{classes:[],roles:[]}
 const TREASURE = /*__TREASURE__*/{levels:{},values:{},avg:{},beyond:{}};
 // v0.9.0 THE LOOM — skeletons × axes, twist deck, subplot deck (the
 // being-vs-themself home), genre skins (GMG p.56), registers (p.15).
-const LOOM = /*__LOOM__*/{skeletons:[],twists:[],subplots:[],genres:[],registers:{},acts:[],flip:null,credit:null};
+const LOOM = /*__LOOM__*/{skeletons:[],twists:[],subplots:[],genres:[],registers:{},acts:[],flip:null,credit:null,fate:null};
 // ⚖ THE ADJUDICATOR — seed cards. Every card carries its citation; cards grow
 // with the rulings ledger the same way the CG's oracle does.
 const ADJUDICATOR = [
@@ -1344,7 +1349,7 @@ document.addEventListener('keydown',e=>{
 // ===== v0.9.0 THE LOOM =====================================================
 // State: one skeleton on the frame; per-axis picks with locks; one twist;
 // dealt subplots; genre/register/flip. Weave! rolls every unlocked dial.
-const LO={sk:0,picks:{},locks:{},twist:-1,subs:[],genre:-1,reg:'drama',flip:false};
+const LO={sk:0,picks:{},locks:{},twist:-1,subs:[],genre:-1,reg:'drama',flip:false,fate:null};
 const loRnd=n=>Math.floor(Math.random()*n);
 function loSkel(){return LOOM.skeletons[LO.sk]}
 function loInit(){
@@ -1359,11 +1364,56 @@ function loInit(){
 function tutToggle(d){try{localStorage.setItem('gmf_ui_tut_'+d.id,d.open?'1':'0')}catch(e){}}
 function initTuts(){for(const d of document.querySelectorAll('details.tut')){try{d.open=localStorage.getItem('gmf_ui_tut_'+d.id)!=='0'}catch(e){d.open=true}}}
 function loPickSk(i,first){
-  LO.sk=i;LO.picks={};LO.locks={};LO.twist=-1;
+  LO.sk=i;LO.picks={};LO.locks={};LO.twist=-1;LO.fate=null; // a hand on the warp dissolves fate's claim
   for(const ax of loSkel().axes)LO.picks[ax.id]=0;
   document.getElementById('lo-sk').selectedIndex=i;
   if(!first)loStatus('');
   loRender();
+}
+// ===== v0.9.4 FATE'S D20 (Adam's gavel, 2026-11-05) ========================
+// The d20's dead space (17 skeletons) reclaimed as crit space: 18-19 deals a
+// RED HERRING (the visible weave is a façade; the true skeleton hides in the
+// GM-only box — its sub-rolls disregard 18-20, no turtles), and a natural 20
+// lands CLOSE TO HOME (a hero from the Forge roster owns this one; its re-roll
+// disregards only further 20s, so 18-19 can nest ONCE — the 0.5% unicorn: a
+// personally relevant red herring). The truth holds through Weave! — refining
+// the façade never churns the secret. Injectable rng per house probe doctrine.
+function loFate(rnd){
+  rnd=rnd||Math.random;
+  const d=n=>Math.floor(rnd()*n);
+  const roll=d(20)+1;
+  if(roll<=17){
+    loFateFrame(roll-1,d);
+    LO.fate={d20:roll,kind:'straight'};
+    loStatus(`Fate's d20: ${roll} — the dice set the warp`);
+  }else if(roll<=19){
+    loFateFrame(d(17),d);
+    LO.fate={d20:roll,kind:'herring',truth:loFateTruth(d)};
+    loStatus(`Fate's d20: ${roll} — Red Herring`);
+  }else{
+    const pc=ROSTER.length?ROSTER[d(ROSTER.length)].name:null;
+    const sub=d(19)+1; // disregarding further results of 20 (Adam's letter)
+    if(sub<=17){
+      loFateFrame(sub-1,d);
+      LO.fate={d20:20,kind:'home',pc,nested:false};
+    }else{
+      loFateFrame(d(17),d);
+      LO.fate={d20:20,kind:'home',pc,nested:true,truth:loFateTruth(d)};
+    }
+    loStatus(`Fate's d20: 20 — Close to Home`);
+  }
+  loRender();
+}
+function loFateFrame(skIdx,d){ // set the visible skeleton and weave it fully
+  loPickSk(skIdx);
+  for(const ax of loSkel().axes)LO.picks[ax.id]=d(ax.opt.length);
+  LO.twist=d(LOOM.twists.length);
+}
+function loFateTruth(d){ // the hidden skeleton, never the façade's own
+  let sk=d(17);while(sk===LO.sk)sk=d(17);
+  const s=LOOM.skeletons[sk],picks={};
+  for(const ax of s.axes)picks[ax.id]=d(ax.opt.length);
+  return {sk,picks,twist:d(LOOM.twists.length)};
 }
 function loSet(){
   LO.genre=+document.getElementById('lo-genre').value;
@@ -1386,10 +1436,10 @@ function loClearTwist(){LO.twist=-1;loRender()}
 function loDealSub(){const left=LOOM.subplots.map((_,i)=>i).filter(i=>!LO.subs.includes(i));if(!left.length){loStatus('the subplot deck is fully dealt');return}LO.subs.push(left[loRnd(left.length)]);loRender()}
 function loClearSubs(){LO.subs=[];loRender()}
 function loStatus(t){document.getElementById('lo-status').textContent=t}
-function loPremise(){
-  const s=loSkel();
-  return s.tmpl.replace(/\{(\w+)\}/g,(m,id)=>{const ax=s.axes.find(a=>a.id===id);return ax?ax.opt[LO.picks[id]||0].f:m});
+function loPremiseOf(s,picks){
+  return s.tmpl.replace(/\{(\w+)\}/g,(m,id)=>{const ax=s.axes.find(a=>a.id===id);return ax?ax.opt[picks[id]||0].f:m});
 }
+function loPremise(){return loPremiseOf(loSkel(),LO.picks)}
 function loRender(){
   const s=loSkel();
   document.getElementById('lo-axes').innerHTML=s.axes.map(ax=>{
@@ -1398,16 +1448,35 @@ function loRender(){
   }).join('');
   const g=LO.genre>=0?LOOM.genres[LO.genre]:null;
   const chips=`<span class="chip">${esc(s.conflict)}</span>${s.arch.map(a=>`<span class="chip">GMG archetype: ${esc(a)}</span>`).join('')}${g?`<span class="chip" title="Six Scales after GMG p.56">${esc(g.sc)}</span>`:''}`;
+  // v0.9.4: fate's banner above the card, and the GM-only truth beneath it
+  const F=LO.fate,FD=LOOM.fate;
+  let fateHtml='';
+  if(F&&FD){
+    if(F.kind==='straight')fateHtml=`<div class="lo-line lo-fate">🎲 <b>Fate's d20: ${F.d20}</b> — the dice set the warp; weave from here.</div>`;
+    else{
+      if(F.kind==='home')fateHtml+=`<div class="lo-line lo-fate">🎯 <b>${esc(FD.home.n)}</b> (Fate's d20: 20) — ${F.pc?`this one belongs to <b>${esc(F.pc)}</b>: `:'no party is imported, so roll among the players at your table, then '}${esc(FD.home.d)}</div>`;
+      if(F.truth)fateHtml+=`<div class="lo-line lo-fate">🐟 <b>${esc(FD.herring.n)}</b>${F.kind==='herring'?` (Fate's d20: ${F.d20})`:''} — ${esc(FD.herring.d)}${F.nested?` <i>${esc(FD.homeHerring)}</i>`:''}</div>`;
+    }
+  }
+  const truthHtml=(F&&F.truth)?(()=>{const ts=LOOM.skeletons[F.truth.sk];return `<details class="card lo-truth"><summary><span class="nm">🐟 Beneath the weave</span><span class="cite">GM's eyes only — the quest's true skeleton</span></summary><div class="body">
+      <div class="lo-head">${ts.icon} <b>${esc(ts.name)}</b> <span class="lo-engine">${esc(ts.engine)}</span></div>
+      <div class="lo-premise">${esc(loPremiseOf(ts,F.truth.picks))}</div>
+      ${ts.gloss?`<div class="lo-line lo-gloss"><span class="sub-lead">At the table:</span> ${esc(ts.gloss)}</div>`:''}
+      <div class="lo-line"><span class="sub-lead">The true twist:</span> ${esc(LOOM.twists[F.truth.twist])}</div>
+      ${LO.flip?`<div class="lo-line lo-flip">${esc(LOOM.flip)} <i>(the Flip applies here, beneath — the façade stays upright)</i></div>`:''}
+    </div></details>`})():'';
   document.getElementById('lo-out').innerHTML=
     `<div class="lo-card">
+      ${fateHtml}
       <div class="lo-head">${s.icon} <b>${esc(s.name)}</b> <span class="lo-engine">${esc(s.engine)}</span></div>
       <div class="lo-chips">${chips}</div>
       ${g?`<div class="lo-line"><span class="sub-lead">The skin:</span> ${esc(g.n)} — ${esc(g.skin)}.</div>`:''}
       <div class="lo-premise">${esc(loPremise())}</div>
       ${s.gloss?`<div class="lo-line lo-gloss"><span class="sub-lead">At the table:</span> ${esc(s.gloss)}</div>`:''}
       <div class="lo-line"><span class="sub-lead">The register:</span> ${esc(LOOM.registers[LO.reg]||'')}</div>
-      ${LO.flip?`<div class="lo-line lo-flip">${esc(LOOM.flip)}</div>`:''}
+      ${LO.flip&&!(F&&F.truth)?`<div class="lo-line lo-flip">${esc(LOOM.flip)}</div>`:''}
       <div class="lo-line"><span class="sub-lead">The twist:</span> ${LO.twist>=0?esc(LOOM.twists[LO.twist]):'<i>none drawn</i>'} <button class="qbtn" onclick="loDrawTwist()">🎲 draw</button>${LO.twist>=0?`<button class="qbtn" onclick="loClearTwist()">✕</button>`:''}</div>
+      ${truthHtml}
       <div class="lo-line"><span class="sub-lead">Subplots (one per hero, being-vs-themself lives here):</span> <button class="qbtn" onclick="loDealSub()">🂠 deal</button>${LO.subs.length?`<button class="qbtn" onclick="loClearSubs()">✕ clear</button>`:''}
         ${LO.subs.map(i=>`<div class="lo-sub"><b>${esc(LOOM.subplots[i].n)}</b> — ${esc(LOOM.subplots[i].d)}</div>`).join('')}</div>
       <details class="card" style="margin-top:8px"><summary><span class="nm">The Three-Act Scaffold</span><span class="cite">GMG pp.29-30</span></summary><div class="body">${LOOM.acts.map(a=>`<p><span class="sub-lead">${esc(a.t)}:</span> ${esc(a.d)}</p>`).join('')}</div></details>
@@ -1415,15 +1484,26 @@ function loRender(){
     </div>`;
 }
 function loText(){
-  const s=loSkel(),g=LO.genre>=0?LOOM.genres[LO.genre]:null;
+  const s=loSkel(),g=LO.genre>=0?LOOM.genres[LO.genre]:null,F=LO.fate,FD=LOOM.fate;
+  const hidden=F&&F.truth; // when a truth hides beneath, the Flip moves down with it
   const L=[`THE LOOM — ${s.name} (${s.conflict}; GMG archetypes: ${s.arch.join(', ')})`];
+  if(F&&FD){
+    if(F.kind==='straight')L.push(`Fate's d20: ${F.d20} — the dice set the warp.`);
+    else if(F.kind==='herring')L.push(`Fate's d20: ${F.d20} — RED HERRING. The weave above is the façade; the truth is below, GM only.`);
+    else L.push(`Fate's d20: 20 — CLOSE TO HOME. ${F.pc?`This one belongs to ${F.pc}: `:'Roll among the players at your table, then '}${FD.home.d}${F.nested?` AND it is a Red Herring besides — ${FD.homeHerring}`:''}`);
+  }
   if(g)L.push(`Genre: ${g.n} (${g.sc}) — ${g.skin}`);
   L.push('',loPremise());
   if(s.gloss)L.push('',`At the table: ${s.gloss}`);
   L.push('',`Register: ${LOOM.registers[LO.reg]||LO.reg}`);
-  if(LO.flip)L.push(LOOM.flip);
+  if(LO.flip&&!hidden)L.push(LOOM.flip);
   if(LO.twist>=0)L.push(`Twist: ${LOOM.twists[LO.twist]}`);
   for(const i of LO.subs)L.push(`Subplot: ${LOOM.subplots[i].n} — ${LOOM.subplots[i].d}`);
+  if(hidden){
+    const ts=LOOM.skeletons[F.truth.sk];
+    L.push('','[GM ONLY — BENEATH THE WEAVE]',`True skeleton: ${ts.name} (${ts.conflict})`,loPremiseOf(ts,F.truth.picks),`True twist: ${LOOM.twists[F.truth.twist]}`);
+    if(LO.flip)L.push(`${LOOM.flip} (the Flip applies here, beneath — the façade stays upright)`);
+  }
   L.push('','— woven on the Loom · The Game Master\'s Familiar · gm.epicsandepochs.com');
   return L.join('\n');
 }

@@ -1436,5 +1436,16 @@
     }
   ],
   "flip": "THE FLIP — run it from the far side: the party is not driving this plot but defending against it, swept up in it by accident, hired to enable it, or the very thing it is aimed at. Every skeleton above inverts.",
-  "credit": "Acknowledgements — The Loom operationalizes the GM’s Guide’s own scenario-craft: the five scenario archetypes and the drama/comedy register (pp.15-16), the Three-Act method (pp.29-30), and the Six-Scales genre table (p.56). In measuring its breadth, the Loom’s designers gratefully studied S. John Ross’s The Big List of RPG Plots (Cumberland Games & Diversions, 1999) — a classic of the form that the GM’s Guide itself recommends, and so do we: find Mr. Ross’s work at ghalev.itch.io. All text in the Loom is original. Gamer’s Pair O’ Dice is not affiliated with Mr. Ross, and no endorsement is implied in either direction — only admiration."
+  "credit": "Acknowledgements — The Loom operationalizes the GM’s Guide’s own scenario-craft: the five scenario archetypes and the drama/comedy register (pp.15-16), the Three-Act method (pp.29-30), and the Six-Scales genre table (p.56). In measuring its breadth, the Loom’s designers gratefully studied S. John Ross’s The Big List of RPG Plots (Cumberland Games & Diversions, 1999) — a classic of the form that the GM’s Guide itself recommends, and so do we: find Mr. Ross’s work at ghalev.itch.io. All text in the Loom is original. Gamer’s Pair O’ Dice is not affiliated with Mr. Ross, and no endorsement is implied in either direction — only admiration.",
+  "fate": {
+    "herring": {
+      "n": "Red Herring",
+      "d": "the adventure the party was offered is not the adventure they are in. Run the façade honestly through Act I — its hook, its patron, its stakes are real enough to bleed for — and let the truth surface at the first big reveal. Seed two clues early; a twist no one could have caught is a trick, not a story."
+    },
+    "home": {
+      "n": "Close to Home",
+      "d": "weave the premise into that hero’s own history — their hometown, their mentor, their debt, the name they stopped using — and let the party discover mid-stride whose story this really is."
+    },
+    "homeHerring": "Rarest weave of all: a quest wearing a face from a hero’s own past — and the face is a mask."
+  }
 }
