@@ -396,7 +396,7 @@ details.tut .body p{margin:.55em 0}
       <p><span class="sub-lead">The skeleton</span> (the first dropdown) is the story's engine — the one sentence that survives when every detail is stripped away. "The party must obtain something someone doesn't want them to have" is a skeleton; a dragon's hoard, a kidnapped heir, and a rival company's prototype are all skins stretched over it. The Loom carries seventeen, from the classic five scenario shapes in the GM's Guide (pp.15-16) to courtroom dramas, cons, and revolutions. Each one notes which GMG archetype it belongs to, and offers a few sentences of table advice once it's on the frame.</p>
       <p><span class="sub-lead">The threads</span> (the labeled rows beneath) are that skeleton's moving parts — the prize, the opposition, the method, and so on. Each thread is a dropdown you can set by hand, a 🎲 that rolls just that one thread, and a lock. Changing a single thread re-skins the whole plot: the same Taking is a heist with one method and a siege with another.</p>
       <p><span class="sub-lead">The Weave! button</span> rolls every <i>unlocked</i> thread at once and draws a twist. This is the Loom's rhythm: weave, read the premise, 🔒 lock the threads you like, weave again for the rest. Three or four passes usually lands on something you want to run. (🔓 means the thread rerolls; 🔒 means it holds.)</p>
-      <p><span class="sub-lead">The twist</span> is an optional complication drawn from a deck of sixteen — the employer's hidden agenda, the rival crew, the deadline that was never real. One twist is plenty; a premise with three twists is a GM with a headache.</p>
+      <p><span class="sub-lead">The twist</span> is an optional complication drawn from a deck of sixteen — the employer's hidden agenda, the rival crew, the deadline that was never real. Each twist wears its family on a chip — <i>Misdirection</i>, <i>Complication</i>, <i>Nemesis</i>, or <i>Crisis of Conscience</i> — so you know at a glance whether it bends the truth, the odds, the enemies, or the heroes. One twist is plenty; a premise with three twists is a GM with a headache.</p>
       <p><span class="sub-lead">Subplots</span> are personal threads, dealt one per hero — a temptation, a debt, an old vow. They run <i>alongside</i> the main plot across sessions, and they're where the inward story (what the GM's Guide calls being-vs-themself) lives in group play. Deal them at a campaign's start and let them simmer.</p>
       <p><span class="sub-lead">The genre skin</span> dresses the premise for your world and quotes the Six-Scales settings that world implies (after the GMG's p.56 table) — pick "Classic Medieval Fantasy" and the same skeleton wears crowns and crypts; pick "Mecha &amp; Starship Warfare" and it wears steel. <span class="sub-lead">The register</span> declares drama or comedy up front, which the GM's Guide (p.15) recommends telling your players before the dice come out. <span class="sub-lead">The Flip</span> turns any plot inside out: the party isn't running the heist, they're guarding against it.</p>
       <p><span class="sub-lead">Fate's d20</span> hands the whole choice to the dice. A roll of 1–17 picks a skeleton and weaves it on the spot. On <b>18–19</b> the Loom deals a <i>Red Herring</i>: the premise you see is a façade, and the quest's true skeleton waits in the <i>Beneath the weave</i> box — GM's eyes only. Run the façade honestly through Act I and let the truth surface at the first big reveal. On a <b>natural 20</b> the tale lands <i>Close to Home</i>: the Loom names one of your imported heroes (or tells you to roll among the players) and the premise grows out of that hero's own history. Rarest of all, a 20 can deal a herring of its own — a quest wearing a face from a hero's past, and even the face is a mask.</p>
@@ -1462,7 +1462,7 @@ function loRender(){
       <div class="lo-head">${ts.icon} <b>${esc(ts.name)}</b> <span class="lo-engine">${esc(ts.engine)}</span></div>
       <div class="lo-premise">${esc(loPremiseOf(ts,F.truth.picks))}</div>
       ${ts.gloss?`<div class="lo-line lo-gloss"><span class="sub-lead">At the table:</span> ${esc(ts.gloss)}</div>`:''}
-      <div class="lo-line"><span class="sub-lead">The true twist:</span> ${esc(LOOM.twists[F.truth.twist])}</div>
+      <div class="lo-line"><span class="sub-lead">The true twist:</span> ${esc(LOOM.twists[F.truth.twist].t)} <span class="chip">${esc(LOOM.twists[F.truth.twist].cat)}</span></div>
       ${LO.flip?`<div class="lo-line lo-flip">${esc(LOOM.flip)} <i>(the Flip applies here, beneath — the façade stays upright)</i></div>`:''}
     </div></details>`})():'';
   document.getElementById('lo-out').innerHTML=
@@ -1475,7 +1475,7 @@ function loRender(){
       ${s.gloss?`<div class="lo-line lo-gloss"><span class="sub-lead">At the table:</span> ${esc(s.gloss)}</div>`:''}
       <div class="lo-line"><span class="sub-lead">The register:</span> ${esc(LOOM.registers[LO.reg]||'')}</div>
       ${LO.flip&&!(F&&F.truth)?`<div class="lo-line lo-flip">${esc(LOOM.flip)}</div>`:''}
-      <div class="lo-line"><span class="sub-lead">The twist:</span> ${LO.twist>=0?esc(LOOM.twists[LO.twist]):'<i>none drawn</i>'} <button class="qbtn" onclick="loDrawTwist()">🎲 draw</button>${LO.twist>=0?`<button class="qbtn" onclick="loClearTwist()">✕</button>`:''}</div>
+      <div class="lo-line"><span class="sub-lead">The twist:</span> ${LO.twist>=0?`${esc(LOOM.twists[LO.twist].t)} <span class="chip" title="The twist's family — Misdirection, Complication, Nemesis, or Crisis of Conscience (Adam's taxonomy, 2026-11-05)">${esc(LOOM.twists[LO.twist].cat)}</span>`:'<i>none drawn</i>'} <button class="qbtn" onclick="loDrawTwist()">🎲 draw</button>${LO.twist>=0?`<button class="qbtn" onclick="loClearTwist()">✕</button>`:''}</div>
       ${truthHtml}
       <div class="lo-line"><span class="sub-lead">Subplots (one per hero, being-vs-themself lives here):</span> <button class="qbtn" onclick="loDealSub()">🂠 deal</button>${LO.subs.length?`<button class="qbtn" onclick="loClearSubs()">✕ clear</button>`:''}
         ${LO.subs.map(i=>`<div class="lo-sub"><b>${esc(LOOM.subplots[i].n)}</b> — ${esc(LOOM.subplots[i].d)}</div>`).join('')}</div>
@@ -1497,11 +1497,11 @@ function loText(){
   if(s.gloss)L.push('',`At the table: ${s.gloss}`);
   L.push('',`Register: ${LOOM.registers[LO.reg]||LO.reg}`);
   if(LO.flip&&!hidden)L.push(LOOM.flip);
-  if(LO.twist>=0)L.push(`Twist: ${LOOM.twists[LO.twist]}`);
+  if(LO.twist>=0)L.push(`Twist (${LOOM.twists[LO.twist].cat}): ${LOOM.twists[LO.twist].t}`);
   for(const i of LO.subs)L.push(`Subplot: ${LOOM.subplots[i].n} — ${LOOM.subplots[i].d}`);
   if(hidden){
     const ts=LOOM.skeletons[F.truth.sk];
-    L.push('','[GM ONLY — BENEATH THE WEAVE]',`True skeleton: ${ts.name} (${ts.conflict})`,loPremiseOf(ts,F.truth.picks),`True twist: ${LOOM.twists[F.truth.twist]}`);
+    L.push('','[GM ONLY — BENEATH THE WEAVE]',`True skeleton: ${ts.name} (${ts.conflict})`,loPremiseOf(ts,F.truth.picks),`True twist (${LOOM.twists[F.truth.twist].cat}): ${LOOM.twists[F.truth.twist].t}`);
     if(LO.flip)L.push(`${LOOM.flip} (the Flip applies here, beneath — the façade stays upright)`);
   }
   L.push('','— woven on the Loom · The Game Master\'s Familiar · gm.epicsandepochs.com');

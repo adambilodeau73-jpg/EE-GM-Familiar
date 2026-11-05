@@ -154,8 +154,8 @@
               "f": "alive, whatever it costs"
             },
             {
-              "l": "stopped",
-              "f": "stopped, by any means the law will afterward forgive"
+              "l": "stopped/neutralized",
+              "f": "stopped, either by restricted means or by any means"
             },
             {
               "l": "found, not spooked",
@@ -176,7 +176,7 @@
         "Rescue",
         "Assault"
       ],
-      "tmpl": "The party keeps {charge} — {posture}. The flaw in the watch: {flaw}.",
+      "tmpl": "The party keeps {charge} — {posture}. The catch in the watch: {flaw}.",
       "axes": [
         {
           "id": "charge",
@@ -192,11 +192,11 @@
             },
             {
               "l": "a border",
-              "f": "a line on the map that must not be crossed in either direction"
+              "f": "a line on the map that must not be crossed in one or either direction"
             },
             {
               "l": "a secret",
-              "f": "a secret that must outlive the week"
+              "f": "a secret that must outlive its usefulness"
             }
           ]
         },
@@ -214,7 +214,7 @@
             },
             {
               "l": "the unseen eye",
-              "f": "from the shadows, guarding a charge who must never know"
+              "f": "from the shadows, guarding a charge who mustn't know"
             }
           ]
         },
@@ -286,7 +286,7 @@
             },
             {
               "l": "the party's own past",
-              "f": "something the party themselves did — and cannot remember"
+              "f": "something the party themselves did — and cannot / don't remember"
             }
           ]
         },
@@ -303,25 +303,25 @@
               "f": "witnesses who fear the answer more than the crime"
             },
             {
-              "l": "lying evidence",
-              "f": "evidence that lies on purpose"
+              "l": "planted evidence",
+              "f": "planted evidence that lies on purpose"
             }
           ]
         }
       ],
-      "gloss": "Build the truth FIRST — what actually happened, who knows what — then lay clues backward from it. Kindness rule for new GMs: every fact the party must learn should have at least three different clues pointing at it; players will miss one, mangle the second, and triumph over the third."
+      "gloss": "Build the truth FIRST — what actually happened, who knows what — then lay clues backward from it. Kindness rule for new GMs: every fact the party must learn should have at least three different clues pointing at it; players will miss one, mangle the second, and triumph over the third, generally speaking. This type of scenario can become almost exclusively skill checks, with an unmasking that may or may not entail a climactic final scene."
     },
     {
       "id": "purge",
       "name": "The Purge",
       "icon": "🔥",
-      "engine": "A place has been claimed by something that must be unclaimed.",
+      "engine": "A place has been claimed by something that must be reclaimed.",
       "conflict": "being-vs-being",
       "arch": [
         "Horror",
         "Assault"
       ],
-      "tmpl": "The party must cleanse {infestation}. The catch: {key}. The pressure: {stake}.",
+      "tmpl": "The party must cleanse {infestation}. The catch: {key}. The difficulty: {stake}.",
       "axes": [
         {
           "id": "infestation",
@@ -329,19 +329,19 @@
           "opt": [
             {
               "l": "a bold haunting",
-              "f": "a haunting grown bold enough to collect rent"
+              "f": "a haunting grown bold enough to collect rent and require eviction"
             },
             {
               "l": "a leaking breach",
-              "f": "a breach that leaks horrors on its own schedule"
+              "f": "a breach that leaks horrors into the characters' world"
             },
             {
               "l": "a nest in the deeps",
-              "f": "a nest dug deep, where the maps go white"
+              "f": "a nest dug deep, where the maps go blank"
             },
             {
               "l": "a rooted cult",
-              "f": "a cult whose roots run under respectable doors"
+              "f": "a cult whose roots secrete corruption under a respectable facade"
             }
           ]
         },
@@ -359,7 +359,7 @@
             },
             {
               "l": "starve it",
-              "f": "it must be starved of what feeds it — and what feeds it is loved"
+              "f": "it must be starved of what feeds it — and what feeds it is precious to both sides"
             }
           ]
         },
@@ -377,12 +377,12 @@
             },
             {
               "l": "innocents inside",
-              "f": "innocents still live inside it — collateral is failure"
+              "f": "innocents still live inside it — collateral damage entails degrees of failure"
             }
           ]
         }
       ],
-      "gloss": "A site-based scenario: map the place, seed it with signs, and let the dread accumulate room by room. The Key thread is doing quiet work for you — it forces an investigation beat before the violence, which is exactly the pacing a one-shot wants."
+      "gloss": "A site-based scenario: map the place, seed it with signs, and let the dread accumulate room by room. The Key thread is doing quiet work for you — it forces an investigation beat before the violence, which is exactly the pacing a versatile scenario wants."
     },
     {
       "id": "crossing",
@@ -394,7 +394,7 @@
         "Exploration",
         "Horror"
       ],
-      "tmpl": "The trap: {trap}. The way out: {exit}. Carried along the way: {burden}.",
+      "tmpl": "The obstacle: {trap}. The way out: {exit}. Carried along the way: {burden}.",
       "axes": [
         {
           "id": "trap",
@@ -414,7 +414,7 @@
             },
             {
               "l": "the gauntlet",
-              "f": "facing a gauntlet that must be run because around it is worse"
+              "f": "facing a gauntlet that must be run because going around it is either worse or impossible"
             }
           ]
         },
@@ -432,7 +432,7 @@
             },
             {
               "l": "outlast",
-              "f": "outlast — rescue is coming, if they can still be found"
+              "f": "outlast — rescue is coming, if they can still be found and survive the interim"
             },
             {
               "l": "the far side",
@@ -459,18 +459,18 @@
           ]
         }
       ],
-      "gloss": "Here the map itself is the antagonist, so prepare terrain, weather, and distances the way you’d stat a villain. Track supplies and rest honestly — resource pressure is the plot. This is the skeleton where being-vs-nature gets to shine."
+      "gloss": "Here the map itself is the antagonist, so prepare terrain, weather, and distances the way you’d stat a villain. Track supplies and rest honestly — resource pressure is the plot. This is the base plotline where being(s)-vs-nature gets to shine."
     },
     {
       "id": "battleline",
       "name": "The Battle Line",
       "icon": "⚔",
-      "engine": "Two forces, one piece of ground, and the party where the lines meet.",
+      "engine": "Two forces, one piece of ground, and the party is where the lines meet.",
       "conflict": "being-vs-being",
       "arch": [
         "Assault"
       ],
-      "tmpl": "The party's part: {side} — {ground}. What the plan does not know: {wrinkle}.",
+      "tmpl": "The party's part: {side}. The point of contention: {ground}. What the plan does not know: {wrinkle}.",
       "axes": [
         {
           "id": "side",
@@ -482,7 +482,7 @@
             },
             {
               "l": "hold it",
-              "f": "hold it, until relief or the last order"
+              "f": "hold it, until relief or new orders"
             }
           ]
         },
@@ -496,15 +496,15 @@
             },
             {
               "l": "a prepared compound",
-              "f": "a compound built by someone who expected this day"
+              "f": "a compound built by someone who expected this day would come"
             },
             {
               "l": "open country, innocents near",
-              "f": "open country, with innocents between the lines"
+              "f": "open country à la “no man’s land”, with innocents between the lines"
             },
             {
               "l": "a vessel underway",
-              "f": "a vessel underway, where retreat means the water"
+              "f": "a vessel underway, where retreat means the water / void"
             }
           ]
         },
@@ -527,13 +527,13 @@
           ]
         }
       ],
-      "gloss": "The set-piece skeleton: stat the ground as carefully as the forces, because cover, chokepoints, and fallback lines are what the players will actually play with. Spring the Wrinkle mid-fight, not before — it exists to break a plan that was working."
+      "gloss": "The set-piece skeleton: stat the ground as carefully as the forces, because cover, chokepoints, and fallback lines are what the players will actually play with. For maximum pressure, spring the Wrinkle mid-fight, not before — it exists to break a plan that was working."
     },
     {
       "id": "game",
       "name": "The Game",
       "icon": "🏆",
-      "engine": "The party enters a contest with rules — and discovers what the rules are actually protecting.",
+      "engine": "The party enters a contest with rules — and discovers that the rules are skewed.",
       "conflict": "being-vs-being",
       "arch": [
         "Mystery"
@@ -564,7 +564,7 @@
         },
         {
           "id": "corruption",
-          "name": "The Rot",
+          "name": "The Skew",
           "opt": [
             {
               "l": "a cheat",
@@ -599,7 +599,7 @@
           ]
         }
       ],
-      "gloss": "Run the arena as rounds with visible standings between them, and make sure every hero’s talents get an event — the bard belongs at this tournament as much as the fighter. The Rot thread turns a montage into a plot the moment someone notices it."
+      "gloss": "Run the arena as rounds with visible standings between them, and make sure every hero’s talents get an event — the bard and aristocrat can belong at this tournament as much as the fighter and tactician do. The Skew thread turns a rule into a plot the moment someone notices it."
     },
     {
       "id": "squeeze",
@@ -610,7 +610,7 @@
       "arch": [
         "Mystery"
       ],
-      "tmpl": "The leverage: {leverage}. The demand: {demand}. The way out: {out}.",
+      "tmpl": "The compromising detail: {leverage}. The other party's ultimatum: {demand}. The way out: {out}.",
       "axes": [
         {
           "id": "leverage",
@@ -648,13 +648,13 @@
             },
             {
               "l": "silence",
-              "f": "silence — merely watch it happen, and say nothing"
+              "f": "silence — merely watch it happen and say nothing"
             }
           ]
         },
         {
           "id": "out",
-          "name": "The Way Out",
+          "name": "The Response",
           "opt": [
             {
               "l": "break the hold",
@@ -665,13 +665,13 @@
               "f": "find the squeezer's own master, and trade up"
             },
             {
-              "l": "rig the compliance",
-              "f": "comply to the letter — and rig what compliance delivers"
+              "l": "malicious compliance",
+              "f": "comply to the letter — and find out what/if compliance delivers"
             }
           ]
         }
       ],
-      "gloss": "A pressure plot — talk tone with your table first, because coercion aimed at the heroes lands harder than a sword ever does. The payoff that makes it worthwhile: the turn, the session where the squeezed become the squeezers. Build toward that reversal from the first scene."
+      "gloss": "A pressure plot — talk tone with your table first, because coercion (what might erroneously be termed “railroading”) aimed at the heroes lands harder than a sword ever does. The payoff that makes it worthwhile: the turn, the session where the squeezed become the squeezers. The best squeeze scenarios build toward that potential for reversal from the first scene."
     },
     {
       "id": "serpent",
@@ -682,7 +682,7 @@
       "arch": [
         "Mystery"
       ],
-      "tmpl": "The nest: {nest}. The serpent: {serpent}. The bind: {bind}.",
+      "tmpl": "The compromised territory: {nest}. The spy or assassin: {serpent}. The political twist: {bind}.",
       "axes": [
         {
           "id": "nest",
@@ -702,7 +702,7 @@
             },
             {
               "l": "a holy order",
-              "f": "an order whose faith forbids the very suspicion"
+              "f": "a dogmatic order whose faith forbids the very suspicion"
             }
           ]
         },
@@ -720,7 +720,7 @@
             },
             {
               "l": "an impostor",
-              "f": "an impostor, word-perfect in a borrowed life"
+              "f": "an impostor, almost word-perfect in a borrowed life"
             }
           ]
         },
@@ -749,7 +749,7 @@
       "id": "table",
       "name": "The Table",
       "icon": "🕊",
-      "engine": "The war is optional; somebody has to prove it.",
+      "engine": "The war is optional; prudent diplomacy may yet prevail.",
       "conflict": "being-vs-being",
       "arch": [
         "Mystery"
@@ -780,7 +780,7 @@
         },
         {
           "id": "leverage",
-          "name": "The Leverage",
+          "name": "The Angle",
           "opt": [
             {
               "l": "a fetchable want",
@@ -791,8 +791,8 @@
               "f": "a secret that would collapse one side's case, held in trust"
             },
             {
-              "l": "the true deadline",
-              "f": "the true deadline, which only the party knows"
+              "l": "the true deadline / stakes",
+              "f": "the true deadline / stakes, which only the party knows"
             }
           ]
         },
@@ -810,12 +810,12 @@
             },
             {
               "l": "the party's own flag",
-              "f": "the party's own flag, which one side cannot forgive"
+              "f": "the party's own flag: one side cannot trust it, and so cannot hear the warning it carries"
             }
           ]
         }
       ],
-      "gloss": "Stat the delegations as interests, not hit points: what each party needs, wants, and will walk away over. Let the players discover those three layers through play. The Spoiler thread is your action valve — when the talking needs a jolt, the peace’s enemies provide one."
+      "gloss": "Stat the delegations as interests, not hit points: what each party needs, wants, and will walk away over. Let the players discover those three layers through play. The Spoiler thread is your action valve — when the talking needs a jolt, the peace’s enemies can happily provide one."
     },
     {
       "id": "sting",
@@ -826,7 +826,7 @@
       "arch": [
         "Mystery"
       ],
-      "tmpl": "The mark: {mark}. The con: {con}. The thread that may unravel it: {unravel}.",
+      "tmpl": "The target of the operation: {mark}. The nature of the deception: {con}. The thread that may unravel it: {unravel}.",
       "axes": [
         {
           "id": "mark",
@@ -891,19 +891,19 @@
           ]
         }
       ],
-      "gloss": "Plan the con in phases — the hook, the build, the shut-out, the take — and then expect your players to improvise sideways out of all of them; the plan existing is what makes the improvisation feel brilliant. The friendliest skeleton to a comedy register in the whole Loom."
+      "gloss": "Plan the con in phases — the hook, the build, the shut-out, the take — and then expect your players to improvise sideways out of all of them; the plan existing is what makes the improvisation feel brilliant. The friendliest scenario to a comedy register in the whole Loom."
     },
     {
       "id": "seven",
       "name": "The Seven",
       "icon": "🛖",
-      "engine": "The storm is coming; the village cannot stop it; the party must make it able to.",
+      "engine": "The storm is coming, and the village cannot stop it; the party is their only hope.",
       "conflict": "being-vs-being",
       "arch": [
         "Assault",
         "Rescue"
       ],
-      "tmpl": "The ward: {ward}. The storm: {storm}. The means at hand: {means}.",
+      "tmpl": "The one(s) in need of protection: {ward}. The one(s) coming to get them: {storm}. The means at hand: {means}.",
       "axes": [
         {
           "id": "ward",
@@ -943,7 +943,7 @@
         },
         {
           "id": "means",
-          "name": "The Means",
+          "name": "The Showdown",
           "opt": [
             {
               "l": "train the unwilling",
@@ -960,19 +960,19 @@
           ]
         }
       ],
-      "gloss": "The preparation IS the adventure: training montages, fortification projects, and the ward’s people becoming names the party cares about. Spend two-thirds of your table time before the storm arrives — the battle only matters because of who’s standing in it."
+      "gloss": "The preparation IS the adventure: training montages, fortification projects, and the ward’s people becoming names the party cares about. Spend two-thirds of your table time before the storm arrives — the showdown only matters because of who’s standing in it."
     },
     {
       "id": "deluge",
       "name": "The Deluge",
       "icon": "🌊",
-      "engine": "The catastrophe is not a threat; it is in progress.",
+      "engine": "The catastrophe has gone beyond threat; it is in progress.",
       "conflict": "being-vs-nature",
       "arch": [
         "Rescue",
         "Exploration"
       ],
-      "tmpl": "The catastrophe: {catastrophe}. The party's part: {role}. The truth underneath: {truth}.",
+      "tmpl": "The element(s) to be faced: {catastrophe}. The party's part: {role}. The truth underneath: {truth}.",
       "axes": [
         {
           "id": "catastrophe",
@@ -998,7 +998,7 @@
         },
         {
           "id": "role",
-          "name": "The Part",
+          "name": "The Tribulation",
           "opt": [
             {
               "l": "the evacuation",
@@ -1016,7 +1016,7 @@
         },
         {
           "id": "truth",
-          "name": "The Truth Underneath",
+          "name": "The Realization",
           "opt": [
             {
               "l": "no accident",
@@ -1027,24 +1027,24 @@
               "f": "the rescue is somebody's cover for a harvest"
             },
             {
-              "l": "the rehearsal",
-              "f": "this was the rehearsal — the real one is aimed"
+              "l": "the dress rehearsal",
+              "f": "this was the dress rehearsal — and the real one is yet forthcoming"
             }
           ]
         }
       ],
-      "gloss": "Run it on clocks: the fire spreads at noon, the bridge goes at dusk. Offer more emergencies than the party can answer and let triage be the drama — who they couldn’t save is the scene they’ll remember. The Truth thread turns a disaster one-shot into a campaign hook."
+      "gloss": "Run it on clocks: the fire spreads at noon, the bridge goes at dusk. Offer more emergencies than the party can answer and let triage be the drama — who they couldn’t save is the scene they’ll remember. The Realization thread can turn a disaster one-shot into a campaign hook."
     },
     {
       "id": "longnight",
       "name": "The Long Night",
       "icon": "🕯",
-      "engine": "It is stronger; the night is long; survival is the victory condition.",
+      "engine": "The night is long, and for some it may be their last; survival is the victory condition.",
       "conflict": "being-vs-nature",
       "arch": [
         "Horror"
       ],
-      "tmpl": "The horror: {horror}. The ground: {ground}. The hope: {hope}.",
+      "tmpl": "The unknown threat: {horror}. The hunting ground: {ground}. The chance for survival: {hope}.",
       "axes": [
         {
           "id": "horror",
@@ -1052,15 +1052,15 @@
           "opt": [
             {
               "l": "unknown rules",
-              "f": "it hunts by rules nobody has survived learning"
+              "f": "it hunts by rules nobody has survived long enough to learn"
             },
             {
               "l": "borrowed faces",
               "f": "it wears the faces of the already-taken"
             },
             {
-              "l": "unkillable tonight",
-              "f": "it cannot be killed tonight — only outlasted"
+              "l": "seemingly unkillable",
+              "f": "it seemingly cannot be killed outright — only outlasted"
             }
           ]
         },
@@ -1095,24 +1095,24 @@
               "f": "one door, one window, one hour — out"
             },
             {
-              "l": "its one rule",
-              "f": "its one rule, learnable at a terrible price"
+              "l": "its one rule / weakness",
+              "f": "its one rule or weakness, learnable at a terrible price"
             }
           ]
         }
       ],
-      "gloss": "Horror asks for consent before it asks for dice: agree with your table on lines and limits first (the GMG’s horror tools, and the Minds rules, are built for exactly this register). Then ration everything — light, ammunition, safe corners — and remember the monster’s rule is the real treasure of the night."
+      "gloss": "Horror asks for consent before it asks for dice: agree with your table on lines and limits first (the GMG’s horror tools, and the Minds rules, are built for exactly this register). Then ration everything — light, ammunition, safe corners — and remember the monster’s rule / weakness is the real treasure of the night."
     },
     {
       "id": "reckoning",
       "name": "The Reckoning",
       "icon": "⚖",
-      "engine": "The verdict is coming; the truth and the verdict are not yet the same thing.",
+      "engine": "The verdict is coming; yet the truth and the verdict are not the same thing.",
       "conflict": "being-vs-being",
       "arch": [
         "Mystery"
       ],
-      "tmpl": "In the dock: {accused}. The court: {court}. The crooked timber: {truth}.",
+      "tmpl": "In the dock: {accused}. The source of the accusation: {court}. The crooked timber: {truth}.",
       "axes": [
         {
           "id": "accused",
@@ -1142,15 +1142,15 @@
           "opt": [
             {
               "l": "the law",
-              "f": "the law — rigid, slow, and mostly honest"
+              "f": "the law — rigid, slow, and mostly-but-not-necessarily honest"
             },
             {
               "l": "a noble's whim",
               "f": "a noble's whim wearing a robe"
             },
             {
-              "l": "ordeal or combat",
-              "f": "ordeal or combat, as the old ways demand"
+              "l": "ordeal or trial by combat",
+              "f": "ordeal or trial by combat, as the old ways demand"
             },
             {
               "l": "the mob",
@@ -1160,7 +1160,7 @@
         },
         {
           "id": "truth",
-          "name": "The Crooked Timber",
+          "name": "The Travesty",
           "opt": [
             {
               "l": "a bought verdict",
@@ -1177,19 +1177,19 @@
           ]
         }
       ],
-      "gloss": "Half the fun is procedure: let the players gather evidence, brief witnesses, and then ARGUE — as advocates, as the accused, as character witnesses with checkered pasts. Decide early what the court will actually weigh, so the verdict feels earned rather than assigned."
+      "gloss": "Half the fun is procedure: let the players gather evidence, brief witnesses, and then ARGUE — as advocates, as the accused, as character witnesses with checkered pasts (keeping in mind Knowledge (Civics) is the typical skill for lawyering / litigation). Decide early what the court will actually weigh, so the verdict feels earned rather than assigned."
     },
     {
       "id": "throne",
       "name": "The Throne",
       "icon": "👑",
-      "engine": "The order of things is the antagonist — or the patient.",
+      "engine": "The order of things is in flux for the leadership — or the party.",
       "conflict": "being-vs-being",
       "arch": [
         "Assault",
         "Mystery"
       ],
-      "tmpl": "The regime: {regime}. The lever: {lever}. The price already written: {price}.",
+      "tmpl": "The leadership in question: {regime}. The pain point: {lever}. The consequences of regime change: {price}.",
       "axes": [
         {
           "id": "regime",
@@ -1241,7 +1241,7 @@
           "opt": [
             {
               "l": "revolutions eat their own",
-              "f": "revolutions eat their firstborn — plan the after"
+              "f": "revolutions eat their firstborn — plan the aftermath"
             },
             {
               "l": "the worse successor",
@@ -1258,31 +1258,79 @@
     }
   ],
   "twists": [
-    "The clock is wrong — the deadline everyone planned around is sooner than believed, or was never real.",
-    "The patron's true goal is not the stated commission; the party is the errand inside someone else's plot.",
-    "Two of the opposing forces are at war with each other — exploit the seam, or be crushed in it.",
-    "The objective is already gone when the party arrives; someone was faster, and left a message.",
-    "Success springs the real trap: what the party accomplishes is exactly what a hidden power needed done.",
-    "An enemy from a past adventure holds the one key — and knows precisely what it is worth.",
-    "The party's reputation has arrived ahead of them, and it is wrong in a dangerous direction.",
-    "The weather — or the world — turns mid-adventure, and the board is suddenly a different game.",
-    "A rival party is on the same job for a different employer, and they are not incompetent.",
-    "One of the supposed victims is a quiet beneficiary of the villainy.",
-    "The lawful authority is the obstacle: what must be stopped is, technically, perfectly legal.",
-    "What the party learns must be kept from their own side, at least until the worst possible moment.",
-    "An innocent attaches to the party at the worst time, and cannot be parked anywhere safe.",
-    "The supernatural turns out mundane — or the mundane explanation is itself the cover for the real haunting.",
-    "Mid-adventure, the employer dies, vanishes, or recants — the commission is suddenly an orphan.",
-    "The only road to success runs through a place one of the party swore never to enter again."
+    {
+      "t": "The clock is wrong — the deadline everyone planned around is sooner than believed, or it was never real.",
+      "cat": "Misdirection"
+    },
+    {
+      "t": "The patron's true goal is not the stated commission; the party is the errand inside someone else's plot.",
+      "cat": "Misdirection"
+    },
+    {
+      "t": "Two of the opposing forces are at war with each other — exploit the seam, or be crushed in it.",
+      "cat": "Complication"
+    },
+    {
+      "t": "The objective is already gone when the party arrives; someone was faster, and they left a message.",
+      "cat": "Misdirection"
+    },
+    {
+      "t": "Success springs the real trap: what the party accomplishes is exactly what a hidden power needed done.",
+      "cat": "Misdirection"
+    },
+    {
+      "t": "An enemy from a past adventure holds the one key — and knows precisely what it is worth.",
+      "cat": "Nemesis"
+    },
+    {
+      "t": "The party's reputation has arrived ahead of them, and it is problematic in a dangerous direction.",
+      "cat": "Complication"
+    },
+    {
+      "t": "The weather — or the world — turns mid-adventure, and the board is suddenly a different game.",
+      "cat": "Complication"
+    },
+    {
+      "t": "A rival party is on the same job for a different employer, and they are not incompetent.",
+      "cat": "Nemesis"
+    },
+    {
+      "t": "One of the supposed victims is a quiet beneficiary of the villainy.",
+      "cat": "Nemesis"
+    },
+    {
+      "t": "The lawful authority is the obstacle: what must be stopped is, technically, perfectly legal.",
+      "cat": "Crisis of Conscience"
+    },
+    {
+      "t": "What the party learns must be kept from their own side, at least until the worst possible moment.",
+      "cat": "Crisis of Conscience"
+    },
+    {
+      "t": "An innocent attaches to the party at the worst time, and they cannot be parked anywhere safe.",
+      "cat": "Complication"
+    },
+    {
+      "t": "The supernatural turns out mundane — or the mundane explanation is itself the cover for the real haunting.",
+      "cat": "Misdirection"
+    },
+    {
+      "t": "Mid-adventure, the employer dies, vanishes, or recants — the commission is suddenly an orphan.",
+      "cat": "Complication"
+    },
+    {
+      "t": "The only road to success runs through a place one of the party swore never to enter again.",
+      "cat": "Crisis of Conscience"
+    }
   ],
   "subplots": [
     {
       "n": "The Temptation",
-      "d": "A power or prize within easy reach, costing a little more of the hero each time it is used. (The Mutation Scale's drawbacks give this teeth in E&E.)"
+      "d": "A power or prize within easy reach, costing a little more of the hero each time it is used. (The Mutation Scale's drawbacks can give this one real teeth in E&E.)"
     },
     {
       "n": "The Divided Loyalty",
-      "d": "An allegiance pulls against the party's course — quietly at first, then on a day when both call at once."
+      "d": "An allegiance pulls against the party's course — quietly at first, then on a day when both masters call at once."
     },
     {
       "n": "The Vow",
@@ -1290,7 +1338,7 @@
     },
     {
       "n": "The Monster Within",
-      "d": "A curse, mutation, or appetite that grows with every use; the hero's strength and the hero's doom on one leash."
+      "d": "A curse, mutation, or appetite that grows with every use; the hero's strength and their doom minted on two sides of the same coin."
     },
     {
       "n": "The Fraying Mind",
@@ -1302,7 +1350,7 @@
     },
     {
       "n": "The Rival",
-      "d": "A peer who measures everything against this hero — helping, competing, and keeping score toward some final reckoning."
+      "d": "A peer, possibly even a nemesis, who measures everything against this hero — helping, competing, and keeping score toward some final reckoning."
     },
     {
       "n": "The Homefront",
@@ -1314,7 +1362,7 @@
     },
     {
       "n": "The Redemption",
-      "d": "The present plot rhymes with an old failure. This time the hero is strong enough — probably."
+      "d": "The present plot rhymes with an old failure. Does the hero have the experience and intestinal fortitude to rise to the challenge this time?"
     }
   ],
   "genres": [
